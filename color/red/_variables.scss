@@ -1,0 +1,49 @@
+///
+/// Red variables
+///
+
+@use 'sass:color';
+
+$css-color--red: #ff0000;
+
+$css-color--red-l-5: #{color.adjust( $css-color--red, $whiteness: 5% )};
+$css-color--red-l-10: #{color.adjust( $css-color--red, $whiteness: 10% )};
+$css-color--red-l-15: #{color.adjust( $css-color--red, $whiteness: 15% )};
+$css-color--red-l-20: #{color.adjust( $css-color--red, $whiteness: 20% )};
+$css-color--red-l-25: #{color.adjust( $css-color--red, $whiteness: 25% )};
+$css-color--red-l-30: #{color.adjust( $css-color--red, $whiteness: 30% )};
+$css-color--red-l-35: #{color.adjust( $css-color--red, $whiteness: 35% )};
+$css-color--red-l-40: #{color.adjust( $css-color--red, $whiteness: 40% )};
+$css-color--red-l-45: #{color.adjust( $css-color--red, $whiteness: 45% )};
+$css-color--red-l-50: #{color.adjust( $css-color--red, $whiteness: 50% )};
+$css-color--red-l-55: #{color.adjust( $css-color--red, $whiteness: 55% )};
+$css-color--red-l-60: #{color.adjust( $css-color--red, $whiteness: 60% )};
+$css-color--red-l-65: #{color.adjust( $css-color--red, $whiteness: 65% )};
+$css-color--red-l-70: #{color.adjust( $css-color--red, $whiteness: 70% )};
+$css-color--red-l-75: #{color.adjust( $css-color--red, $whiteness: 75% )};
+$css-color--red-l-80: #{color.adjust( $css-color--red, $whiteness: 80% )};
+$css-color--red-l-85: #{color.adjust( $css-color--red, $whiteness: 85% )};
+$css-color--red-l-90: #{color.adjust( $css-color--red, $whiteness: 90% )};
+$css-color--red-l-95: #{color.adjust( $css-color--red, $whiteness: 95% )};
+$css-color--red-l-100: #{color.adjust( $css-color--red, $whiteness: 100% )};
+
+$css-color--red-d-5: #{color.adjust( $css-color--red, $blackness: 5% )};
+$css-color--red-d-10: #{color.adjust( $css-color--red, $blackness: 10% )};
+$css-color--red-d-15: #{color.adjust( $css-color--red, $blackness: 15% )};
+$css-color--red-d-20: #{color.adjust( $css-color--red, $blackness: 20% )};
+$css-color--red-d-25: #{color.adjust( $css-color--red, $blackness: 25% )};
+$css-color--red-d-30: #{color.adjust( $css-color--red, $blackness: 30% )};
+$css-color--red-d-35: #{color.adjust( $css-color--red, $blackness: 35% )};
+$css-color--red-d-40: #{color.adjust( $css-color--red, $blackness: 40% )};
+$css-color--red-d-45: #{color.adjust( $css-color--red, $blackness: 45% )};
+$css-color--red-d-50: #{color.adjust( $css-color--red, $blackness: 50% )};
+$css-color--red-d-55: #{color.adjust( $css-color--red, $blackness: 55% )};
+$css-color--red-d-60: #{color.adjust( $css-color--red, $blackness: 60% )};
+$css-color--red-d-65: #{color.adjust( $css-color--red, $blackness: 65% )};
+$css-color--red-d-70: #{color.adjust( $css-color--red, $blackness: 70% )};
+$css-color--red-d-75: #{color.adjust( $css-color--red, $blackness: 75% )};
+$css-color--red-d-80: #{color.adjust( $css-color--red, $blackness: 80% )};
+$css-color--red-d-85: #{color.adjust( $css-color--red, $blackness: 85% )};
+$css-color--red-d-90: #{color.adjust( $css-color--red, $blackness: 90% )};
+$css-color--red-d-95: #{color.adjust( $css-color--red, $blackness: 95% )};
+$css-color--red-d-100: #{color.adjust( $css-color--red, $blackness: 100% )};

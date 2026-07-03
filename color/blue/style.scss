@@ -12,129 +12,253 @@
 
 // Lighten color by percentage.
 .css-color--blue-l-5 {
-	color: $css-color--blue-l-5;
+	color: var( --css-color--blue-l-5, $css-color--blue-l-5 );
 }
 .css-color--blue-l-10 {
-	color: $css-color--blue-l-10;
+	color: var( --css-color--blue-l-10, $css-color--blue-l-10 );
 }
 .css-color--blue-l-15 {
-	color: $css-color--blue-l-15;
+	color: var( --css-color--blue-l-15, $css-color--blue-l-15 );
 }
 .css-color--blue-l-20 {
-	color: $css-color--blue-l-20;
+	color: var( --css-color--blue-l-20, $css-color--blue-l-20 );
 }
 .css-color--blue-l-25 {
-	color: $css-color--blue-l-25;
+	color: var( --css-color--blue-l-25, $css-color--blue-l-25 );
 }
 .css-color--blue-l-30 {
-	color: $css-color--blue-l-30;
+	color: var( --css-color--blue-l-30, $css-color--blue-l-30 );
 }
 .css-color--blue-l-35 {
-	color: $css-color--blue-l-35;
+	color: var( --css-color--blue-l-35, $css-color--blue-l-35 );
 }
 .css-color--blue-l-40 {
-	color: $css-color--blue-l-40;
+	color: var( --css-color--blue-l-40, $css-color--blue-l-40 );
 }
 .css-color--blue-l-45 {
-	color: $css-color--blue-l-45;
+	color: var( --css-color--blue-l-45, $css-color--blue-l-45 );
 }
 .css-color--blue-l-50 {
-	color: $css-color--blue-l-50;
+	color: var( --css-color--blue-l-50, $css-color--blue-l-50 );
 }
 .css-color--blue-l-55 {
-	color: $css-color--blue-l-55;
+	color: var( --css-color--blue-l-55, $css-color--blue-l-55 );
 }
 .css-color--blue-l-60 {
-	color: $css-color--blue-l-60;
+	color: var( --css-color--blue-l-60, $css-color--blue-l-60 );
 }
 .css-color--blue-l-65 {
-	color: $css-color--blue-l-65;
+	color: var( --css-color--blue-l-65, $css-color--blue-l-65 );
 }
 .css-color--blue-l-70 {
-	color: $css-color--blue-l-70;
+	color: var( --css-color--blue-l-70, $css-color--blue-l-70 );
 }
 .css-color--blue-l-75 {
-	color: $css-color--blue-l-75;
+	color: var( --css-color--blue-l-75, $css-color--blue-l-75 );
 }
 .css-color--blue-l-80 {
-	color: $css-color--blue-l-80;
+	color: var( --css-color--blue-l-80, $css-color--blue-l-80 );
 }
 .css-color--blue-l-85 {
-	color: $css-color--blue-l-85;
+	color: var( --css-color--blue-l-85, $css-color--blue-l-85 );
 }
 .css-color--blue-l-90 {
-	color: $css-color--blue-l-90;
+	color: var( --css-color--blue-l-90, $css-color--blue-l-90 );
 }
 .css-color--blue-l-95 {
-	color: $css-color--blue-l-95;
+	color: var( --css-color--blue-l-95, $css-color--blue-l-95 );
 }
 .css-color--blue-l-100 {
-	color: $css-color--blue-l-100;
+	color: var( --css-color--blue-l-100, $css-color--blue-l-100 );
 }
 
 // Darken color by percentage.
 .css-color--blue-d-5 {
-	color: $css-color--blue-d-5;
+	color: var( --css-color--blue-d-5, $css-color--blue-d-5 );
 }
 .css-color--blue-d-10 {
-	color: $css-color--blue-d-10;
+	color: var( --css-color--blue-d-10, $css-color--blue-d-10 );
 }
 .css-color--blue-d-15 {
-	color: $css-color--blue-d-15;
+	color: var( --css-color--blue-d-15, $css-color--blue-d-15 );
 }
 .css-color--blue-d-20 {
-	color: $css-color--blue-d-20;
+	color: var( --css-color--blue-d-20, $css-color--blue-d-20 );
 }
 .css-color--blue-d-25 {
-	color: $css-color--blue-d-25;
+	color: var( --css-color--blue-d-25, $css-color--blue-d-25 );
 }
 .css-color--blue-d-30 {
-	color: $css-color--blue-d-30;
+	color: var( --css-color--blue-d-30, $css-color--blue-d-30 );
 }
 .css-color--blue-d-35 {
-	color: $css-color--blue-d-35;
+	color: var( --css-color--blue-d-35, $css-color--blue-d-35 );
 }
 .css-color--blue-d-40 {
-	color: $css-color--blue-d-40;
+	color: var( --css-color--blue-d-40, $css-color--blue-d-40 );
 }
 .css-color--blue-d-45 {
-	color: $css-color--blue-d-45;
+	color: var( --css-color--blue-d-45, $css-color--blue-d-45 );
 }
 .css-color--blue-d-50 {
-	color: $css-color--blue-d-50;
+	color: var( --css-color--blue-d-50, $css-color--blue-d-50 );
 }
 .css-color--blue-d-55 {
-	color: $css-color--blue-d-55;
+	color: var( --css-color--blue-d-55, $css-color--blue-d-55 );
 }
 .css-color--blue-d-60 {
-	color: $css-color--blue-d-60;
+	color: var( --css-color--blue-d-60, $css-color--blue-d-60 );
 }
 .css-color--blue-d-65 {
-	color: $css-color--blue-d-65;
+	color: var( --css-color--blue-d-65, $css-color--blue-d-65 );
 }
 .css-color--blue-d-70 {
-	color: $css-color--blue-d-70;
+	color: var( --css-color--blue-d-70, $css-color--blue-d-70 );
 }
 .css-color--blue-d-75 {
-	color: $css-color--blue-d-75;
+	color: var( --css-color--blue-d-75, $css-color--blue-d-75 );
 }
 .css-color--blue-d-80 {
-	color: $css-color--blue-d-80;
+	color: var( --css-color--blue-d-80, $css-color--blue-d-80 );
 }
 .css-color--blue-d-85 {
-	color: $css-color--blue-d-85;
+	color: var( --css-color--blue-d-85, $css-color--blue-d-85 );
 }
 .css-color--blue-d-90 {
-	color: $css-color--blue-d-90;
+	color: var( --css-color--blue-d-90, $css-color--blue-d-90 );
 }
 .css-color--blue-d-95 {
-	color: $css-color--blue-d-95;
+	color: var( --css-color--blue-d-95, $css-color--blue-d-95 );
 }
 .css-color--blue-d-100 {
-	color: $css-color--blue-d-100;
+	color: var( --css-color--blue-d-100, $css-color--blue-d-100 );
 }
 
 // Original background color.
 .css-bg-color--blue {
 	background-color: var( --css-color--blue, $css-color--blue );
+}
+
+// Lighten background color by percentage.
+.css-bg-color--blue-l-5 {
+	background-color: var( --css-bg-color--blue-l-5, $css-color--blue-l-5 );
+}
+.css-bg-color--blue-l-10 {
+	background-color: var( --css-bg-color--blue-l-10, $css-color--blue-l-10 );
+}
+.css-bg-color--blue-l-15 {
+	background-color: var( --css-bg-color--blue-l-15, $css-color--blue-l-15 );
+}
+.css-bg-color--blue-l-20 {
+	background-color: var( --css-bg-color--blue-l-20, $css-color--blue-l-20 );
+}
+.css-bg-color--blue-l-25 {
+	background-color: var( --css-bg-color--blue-l-25, $css-color--blue-l-25 );
+}
+.css-bg-color--blue-l-30 {
+	background-color: var( --css-bg-color--blue-l-30, $css-color--blue-l-30 );
+}
+.css-bg-color--blue-l-35 {
+	background-color: var( --css-bg-color--blue-l-35, $css-color--blue-l-35 );
+}
+.css-bg-color--blue-l-40 {
+	background-color: var( --css-bg-color--blue-l-40, $css-color--blue-l-40 );
+}
+.css-bg-color--blue-l-45 {
+	background-color: var( --css-bg-color--blue-l-45, $css-color--blue-l-45 );
+}
+.css-bg-color--blue-l-50 {
+	background-color: var( --css-bg-color--blue-l-50, $css-color--blue-l-50 );
+}
+.css-bg-color--blue-l-55 {
+	background-color: var( --css-bg-color--blue-l-55, $css-color--blue-l-55 );
+}
+.css-bg-color--blue-l-60 {
+	background-color: var( --css-bg-color--blue-l-60, $css-color--blue-l-60 );
+}
+.css-bg-color--blue-l-65 {
+	background-color: var( --css-bg-color--blue-l-65, $css-color--blue-l-65 );
+}
+.css-bg-color--blue-l-70 {
+	background-color: var( --css-bg-color--blue-l-70, $css-color--blue-l-70 );
+}
+.css-bg-color--blue-l-75 {
+	background-color: var( --css-bg-color--blue-l-75, $css-color--blue-l-75 );
+}
+.css-bg-color--blue-l-80 {
+	background-color: var( --css-bg-color--blue-l-80, $css-color--blue-l-80 );
+}
+.css-bg-color--blue-l-85 {
+	background-color: var( --css-bg-color--blue-l-85, $css-color--blue-l-85 );
+}
+.css-bg-color--blue-l-90 {
+	background-color: var( --css-bg-color--blue-l-90, $css-color--blue-l-90 );
+}
+.css-bg-color--blue-l-95 {
+	background-color: var( --css-bg-color--blue-l-95, $css-color--blue-l-95 );
+}
+.css-bg-color--blue-l-100 {
+	background-color: var( --css-bg-color--blue-l-100, $css-color--blue-l-100 );
+}
+
+// Darken background color by percentage.
+.css-bg-color--blue-d-5 {
+	background-color: var( --css-bg-color--blue-d-5, $css-color--blue-d-5 );
+}
+.css-bg-color--blue-d-10 {
+	background-color: var( --css-bg-color--blue-d-10, $css-color--blue-d-10 );
+}
+.css-bg-color--blue-d-15 {
+	background-color: var( --css-bg-color--blue-d-15, $css-color--blue-d-15 );
+}
+.css-bg-color--blue-d-20 {
+	background-color: var( --css-bg-color--blue-d-20, $css-color--blue-d-20 );
+}
+.css-bg-color--blue-d-25 {
+	background-color: var( --css-bg-color--blue-d-25, $css-color--blue-d-25 );
+}
+.css-bg-color--blue-d-30 {
+	background-color: var( --css-bg-color--blue-d-30, $css-color--blue-d-30 );
+}
+.css-bg-color--blue-d-35 {
+	background-color: var( --css-bg-color--blue-d-35, $css-color--blue-d-35 );
+}
+.css-bg-color--blue-d-40 {
+	background-color: var( --css-bg-color--blue-d-40, $css-color--blue-d-40 );
+}
+.css-bg-color--blue-d-45 {
+	background-color: var( --css-bg-color--blue-d-45, $css-color--blue-d-45 );
+}
+.css-bg-color--blue-d-50 {
+	background-color: var( --css-bg-color--blue-d-50, $css-color--blue-d-50 );
+}
+.css-bg-color--blue-d-55 {
+	background-color: var( --css-bg-color--blue-d-55, $css-color--blue-d-55 );
+}
+.css-bg-color--blue-d-60 {
+	background-color: var( --css-bg-color--blue-d-60, $css-color--blue-d-60 );
+}
+.css-bg-color--blue-d-65 {
+	background-color: var( --css-bg-color--blue-d-65, $css-color--blue-d-65 );
+}
+.css-bg-color--blue-d-70 {
+	background-color: var( --css-bg-color--blue-d-70, $css-color--blue-d-70 );
+}
+.css-bg-color--blue-d-75 {
+	background-color: var( --css-bg-color--blue-d-75, $css-color--blue-d-75 );
+}
+.css-bg-color--blue-d-80 {
+	background-color: var( --css-bg-color--blue-d-80, $css-color--blue-d-80 );
+}
+.css-bg-color--blue-d-85 {
+	background-color: var( --css-bg-color--blue-d-85, $css-color--blue-d-85 );
+}
+.css-bg-color--blue-d-90 {
+	background-color: var( --css-bg-color--blue-d-90, $css-color--blue-d-90 );
+}
+.css-bg-color--blue-d-95 {
+	background-color: var( --css-bg-color--blue-d-95, $css-color--blue-d-95 );
+}
+.css-bg-color--blue-d-100 {
+	background-color: var( --css-bg-color--blue-d-100, $css-color--blue-d-100 );
 }

@@ -1,0 +1,412 @@
+:root {
+  --css-color--orange: #ff6600;
+  --css-color--orange-l-5: rgb(255, 109.65, 12.75);
+  --css-color--orange-l-10: rgb(255, 117.3, 25.5);
+  --css-color--orange-l-15: rgb(255, 124.95, 38.25);
+  --css-color--orange-l-20: rgb(255, 132.6, 51);
+  --css-color--orange-l-25: rgb(255, 140.25, 63.75);
+  --css-color--orange-l-30: rgb(255, 147.9, 76.5);
+  --css-color--orange-l-35: rgb(255, 155.55, 89.25);
+  --css-color--orange-l-40: rgb(255, 163.2, 102);
+  --css-color--orange-l-45: rgb(255, 170.85, 114.75);
+  --css-color--orange-l-50: rgb(255, 178.5, 127.5);
+  --css-color--orange-l-55: rgb(255, 186.15, 140.25);
+  --css-color--orange-l-60: rgb(255, 193.8, 153);
+  --css-color--orange-l-65: rgb(255, 201.45, 165.75);
+  --css-color--orange-l-70: rgb(255, 209.1, 178.5);
+  --css-color--orange-l-75: rgb(255, 216.75, 191.25);
+  --css-color--orange-l-80: rgb(255, 224.4, 204);
+  --css-color--orange-l-85: rgb(255, 232.05, 216.75);
+  --css-color--orange-l-90: rgb(255, 239.7, 229.5);
+  --css-color--orange-l-95: rgb(255, 247.35, 242.25);
+  --css-color--orange-l-100: white;
+  --css-color--orange-d-5: rgb(242.25, 96.9, 0);
+  --css-color--orange-d-10: rgb(229.5, 91.8, 0);
+  --css-color--orange-d-15: rgb(216.75, 86.7, 0);
+  --css-color--orange-d-20: rgb(204, 81.6, 0);
+  --css-color--orange-d-25: rgb(191.25, 76.5, 0);
+  --css-color--orange-d-30: rgb(178.5, 71.4, 0);
+  --css-color--orange-d-35: rgb(165.75, 66.3, 0);
+  --css-color--orange-d-40: rgb(153, 61.2, 0);
+  --css-color--orange-d-45: rgb(140.25, 56.1, 0);
+  --css-color--orange-d-50: rgb(127.5, 51, 0);
+  --css-color--orange-d-55: rgb(114.75, 45.9, 0);
+  --css-color--orange-d-60: rgb(102, 40.8, 0);
+  --css-color--orange-d-65: rgb(89.25, 35.7, 0);
+  --css-color--orange-d-70: rgb(76.5, 30.6, 0);
+  --css-color--orange-d-75: rgb(63.75, 25.5, 0);
+  --css-color--orange-d-80: rgb(51, 20.4, 0);
+  --css-color--orange-d-85: rgb(38.25, 15.3, 0);
+  --css-color--orange-d-90: rgb(25.5, 10.2, 0);
+  --css-color--orange-d-95: rgb(12.75, 5.1, 0);
+  --css-color--orange-d-100: black;
+  --css-bg-color--orange: #ff6600;
+  --css-bg-color--orange-l-5: rgb(255, 109.65, 12.75);
+  --css-bg-color--orange-l-10: rgb(255, 117.3, 25.5);
+  --css-bg-color--orange-l-15: rgb(255, 124.95, 38.25);
+  --css-bg-color--orange-l-20: rgb(255, 132.6, 51);
+  --css-bg-color--orange-l-25: rgb(255, 140.25, 63.75);
+  --css-bg-color--orange-l-30: rgb(255, 147.9, 76.5);
+  --css-bg-color--orange-l-35: rgb(255, 155.55, 89.25);
+  --css-bg-color--orange-l-40: rgb(255, 163.2, 102);
+  --css-bg-color--orange-l-45: rgb(255, 170.85, 114.75);
+  --css-bg-color--orange-l-50: rgb(255, 178.5, 127.5);
+  --css-bg-color--orange-l-55: rgb(255, 186.15, 140.25);
+  --css-bg-color--orange-l-60: rgb(255, 193.8, 153);
+  --css-bg-color--orange-l-65: rgb(255, 201.45, 165.75);
+  --css-bg-color--orange-l-70: rgb(255, 209.1, 178.5);
+  --css-bg-color--orange-l-75: rgb(255, 216.75, 191.25);
+  --css-bg-color--orange-l-80: rgb(255, 224.4, 204);
+  --css-bg-color--orange-l-85: rgb(255, 232.05, 216.75);
+  --css-bg-color--orange-l-90: rgb(255, 239.7, 229.5);
+  --css-bg-color--orange-l-95: rgb(255, 247.35, 242.25);
+  --css-bg-color--orange-l-100: white;
+  --css-bg-color--orange-d-5: rgb(242.25, 96.9, 0);
+  --css-bg-color--orange-d-10: rgb(229.5, 91.8, 0);
+  --css-bg-color--orange-d-15: rgb(216.75, 86.7, 0);
+  --css-bg-color--orange-d-20: rgb(204, 81.6, 0);
+  --css-bg-color--orange-d-25: rgb(191.25, 76.5, 0);
+  --css-bg-color--orange-d-30: rgb(178.5, 71.4, 0);
+  --css-bg-color--orange-d-35: rgb(165.75, 66.3, 0);
+  --css-bg-color--orange-d-40: rgb(153, 61.2, 0);
+  --css-bg-color--orange-d-45: rgb(140.25, 56.1, 0);
+  --css-bg-color--orange-d-50: rgb(127.5, 51, 0);
+  --css-bg-color--orange-d-55: rgb(114.75, 45.9, 0);
+  --css-bg-color--orange-d-60: rgb(102, 40.8, 0);
+  --css-bg-color--orange-d-65: rgb(89.25, 35.7, 0);
+  --css-bg-color--orange-d-70: rgb(76.5, 30.6, 0);
+  --css-bg-color--orange-d-75: rgb(63.75, 25.5, 0);
+  --css-bg-color--orange-d-80: rgb(51, 20.4, 0);
+  --css-bg-color--orange-d-85: rgb(38.25, 15.3, 0);
+  --css-bg-color--orange-d-90: rgb(25.5, 10.2, 0);
+  --css-bg-color--orange-d-95: rgb(12.75, 5.1, 0);
+  --css-bg-color--orange-d-100: black;
+}
+
+.css-color--orange {
+  color: var(--css-color--orange, #ff6600);
+}
+
+.css-color--orange-l-5 {
+  color: var(--css-color--orange-l-5, rgb(255, 109.65, 12.75));
+}
+
+.css-color--orange-l-10 {
+  color: var(--css-color--orange-l-10, rgb(255, 117.3, 25.5));
+}
+
+.css-color--orange-l-15 {
+  color: var(--css-color--orange-l-15, rgb(255, 124.95, 38.25));
+}
+
+.css-color--orange-l-20 {
+  color: var(--css-color--orange-l-20, rgb(255, 132.6, 51));
+}
+
+.css-color--orange-l-25 {
+  color: var(--css-color--orange-l-25, rgb(255, 140.25, 63.75));
+}
+
+.css-color--orange-l-30 {
+  color: var(--css-color--orange-l-30, rgb(255, 147.9, 76.5));
+}
+
+.css-color--orange-l-35 {
+  color: var(--css-color--orange-l-35, rgb(255, 155.55, 89.25));
+}
+
+.css-color--orange-l-40 {
+  color: var(--css-color--orange-l-40, rgb(255, 163.2, 102));
+}
+
+.css-color--orange-l-45 {
+  color: var(--css-color--orange-l-45, rgb(255, 170.85, 114.75));
+}
+
+.css-color--orange-l-50 {
+  color: var(--css-color--orange-l-50, rgb(255, 178.5, 127.5));
+}
+
+.css-color--orange-l-55 {
+  color: var(--css-color--orange-l-55, rgb(255, 186.15, 140.25));
+}
+
+.css-color--orange-l-60 {
+  color: var(--css-color--orange-l-60, rgb(255, 193.8, 153));
+}
+
+.css-color--orange-l-65 {
+  color: var(--css-color--orange-l-65, rgb(255, 201.45, 165.75));
+}
+
+.css-color--orange-l-70 {
+  color: var(--css-color--orange-l-70, rgb(255, 209.1, 178.5));
+}
+
+.css-color--orange-l-75 {
+  color: var(--css-color--orange-l-75, rgb(255, 216.75, 191.25));
+}
+
+.css-color--orange-l-80 {
+  color: var(--css-color--orange-l-80, rgb(255, 224.4, 204));
+}
+
+.css-color--orange-l-85 {
+  color: var(--css-color--orange-l-85, rgb(255, 232.05, 216.75));
+}
+
+.css-color--orange-l-90 {
+  color: var(--css-color--orange-l-90, rgb(255, 239.7, 229.5));
+}
+
+.css-color--orange-l-95 {
+  color: var(--css-color--orange-l-95, rgb(255, 247.35, 242.25));
+}
+
+.css-color--orange-l-100 {
+  color: var(--css-color--orange-l-100, white);
+}
+
+.css-color--orange-d-5 {
+  color: var(--css-color--orange-d-5, rgb(242.25, 96.9, 0));
+}
+
+.css-color--orange-d-10 {
+  color: var(--css-color--orange-d-10, rgb(229.5, 91.8, 0));
+}
+
+.css-color--orange-d-15 {
+  color: var(--css-color--orange-d-15, rgb(216.75, 86.7, 0));
+}
+
+.css-color--orange-d-20 {
+  color: var(--css-color--orange-d-20, rgb(204, 81.6, 0));
+}
+
+.css-color--orange-d-25 {
+  color: var(--css-color--orange-d-25, rgb(191.25, 76.5, 0));
+}
+
+.css-color--orange-d-30 {
+  color: var(--css-color--orange-d-30, rgb(178.5, 71.4, 0));
+}
+
+.css-color--orange-d-35 {
+  color: var(--css-color--orange-d-35, rgb(165.75, 66.3, 0));
+}
+
+.css-color--orange-d-40 {
+  color: var(--css-color--orange-d-40, rgb(153, 61.2, 0));
+}
+
+.css-color--orange-d-45 {
+  color: var(--css-color--orange-d-45, rgb(140.25, 56.1, 0));
+}
+
+.css-color--orange-d-50 {
+  color: var(--css-color--orange-d-50, rgb(127.5, 51, 0));
+}
+
+.css-color--orange-d-55 {
+  color: var(--css-color--orange-d-55, rgb(114.75, 45.9, 0));
+}
+
+.css-color--orange-d-60 {
+  color: var(--css-color--orange-d-60, rgb(102, 40.8, 0));
+}
+
+.css-color--orange-d-65 {
+  color: var(--css-color--orange-d-65, rgb(89.25, 35.7, 0));
+}
+
+.css-color--orange-d-70 {
+  color: var(--css-color--orange-d-70, rgb(76.5, 30.6, 0));
+}
+
+.css-color--orange-d-75 {
+  color: var(--css-color--orange-d-75, rgb(63.75, 25.5, 0));
+}
+
+.css-color--orange-d-80 {
+  color: var(--css-color--orange-d-80, rgb(51, 20.4, 0));
+}
+
+.css-color--orange-d-85 {
+  color: var(--css-color--orange-d-85, rgb(38.25, 15.3, 0));
+}
+
+.css-color--orange-d-90 {
+  color: var(--css-color--orange-d-90, rgb(25.5, 10.2, 0));
+}
+
+.css-color--orange-d-95 {
+  color: var(--css-color--orange-d-95, rgb(12.75, 5.1, 0));
+}
+
+.css-color--orange-d-100 {
+  color: var(--css-color--orange-d-100, black);
+}
+
+.css-bg-color--orange {
+  background-color: var(--css-color--orange, #ff6600);
+}
+
+.css-bg-color--orange-l-5 {
+  background-color: var(--css-bg-color--orange-l-5, rgb(255, 109.65, 12.75));
+}
+
+.css-bg-color--orange-l-10 {
+  background-color: var(--css-bg-color--orange-l-10, rgb(255, 117.3, 25.5));
+}
+
+.css-bg-color--orange-l-15 {
+  background-color: var(--css-bg-color--orange-l-15, rgb(255, 124.95, 38.25));
+}
+
+.css-bg-color--orange-l-20 {
+  background-color: var(--css-bg-color--orange-l-20, rgb(255, 132.6, 51));
+}
+
+.css-bg-color--orange-l-25 {
+  background-color: var(--css-bg-color--orange-l-25, rgb(255, 140.25, 63.75));
+}
+
+.css-bg-color--orange-l-30 {
+  background-color: var(--css-bg-color--orange-l-30, rgb(255, 147.9, 76.5));
+}
+
+.css-bg-color--orange-l-35 {
+  background-color: var(--css-bg-color--orange-l-35, rgb(255, 155.55, 89.25));
+}
+
+.css-bg-color--orange-l-40 {
+  background-color: var(--css-bg-color--orange-l-40, rgb(255, 163.2, 102));
+}
+
+.css-bg-color--orange-l-45 {
+  background-color: var(--css-bg-color--orange-l-45, rgb(255, 170.85, 114.75));
+}
+
+.css-bg-color--orange-l-50 {
+  background-color: var(--css-bg-color--orange-l-50, rgb(255, 178.5, 127.5));
+}
+
+.css-bg-color--orange-l-55 {
+  background-color: var(--css-bg-color--orange-l-55, rgb(255, 186.15, 140.25));
+}
+
+.css-bg-color--orange-l-60 {
+  background-color: var(--css-bg-color--orange-l-60, rgb(255, 193.8, 153));
+}
+
+.css-bg-color--orange-l-65 {
+  background-color: var(--css-bg-color--orange-l-65, rgb(255, 201.45, 165.75));
+}
+
+.css-bg-color--orange-l-70 {
+  background-color: var(--css-bg-color--orange-l-70, rgb(255, 209.1, 178.5));
+}
+
+.css-bg-color--orange-l-75 {
+  background-color: var(--css-bg-color--orange-l-75, rgb(255, 216.75, 191.25));
+}
+
+.css-bg-color--orange-l-80 {
+  background-color: var(--css-bg-color--orange-l-80, rgb(255, 224.4, 204));
+}
+
+.css-bg-color--orange-l-85 {
+  background-color: var(--css-bg-color--orange-l-85, rgb(255, 232.05, 216.75));
+}
+
+.css-bg-color--orange-l-90 {
+  background-color: var(--css-bg-color--orange-l-90, rgb(255, 239.7, 229.5));
+}
+
+.css-bg-color--orange-l-95 {
+  background-color: var(--css-bg-color--orange-l-95, rgb(255, 247.35, 242.25));
+}
+
+.css-bg-color--orange-l-100 {
+  background-color: var(--css-bg-color--orange-l-100, white);
+}
+
+.css-bg-color--orange-d-5 {
+  background-color: var(--css-bg-color--orange-d-5, rgb(242.25, 96.9, 0));
+}
+
+.css-bg-color--orange-d-10 {
+  background-color: var(--css-bg-color--orange-d-10, rgb(229.5, 91.8, 0));
+}
+
+.css-bg-color--orange-d-15 {
+  background-color: var(--css-bg-color--orange-d-15, rgb(216.75, 86.7, 0));
+}
+
+.css-bg-color--orange-d-20 {
+  background-color: var(--css-bg-color--orange-d-20, rgb(204, 81.6, 0));
+}
+
+.css-bg-color--orange-d-25 {
+  background-color: var(--css-bg-color--orange-d-25, rgb(191.25, 76.5, 0));
+}
+
+.css-bg-color--orange-d-30 {
+  background-color: var(--css-bg-color--orange-d-30, rgb(178.5, 71.4, 0));
+}
+
+.css-bg-color--orange-d-35 {
+  background-color: var(--css-bg-color--orange-d-35, rgb(165.75, 66.3, 0));
+}
+
+.css-bg-color--orange-d-40 {
+  background-color: var(--css-bg-color--orange-d-40, rgb(153, 61.2, 0));
+}
+
+.css-bg-color--orange-d-45 {
+  background-color: var(--css-bg-color--orange-d-45, rgb(140.25, 56.1, 0));
+}
+
+.css-bg-color--orange-d-50 {
+  background-color: var(--css-bg-color--orange-d-50, rgb(127.5, 51, 0));
+}
+
+.css-bg-color--orange-d-55 {
+  background-color: var(--css-bg-color--orange-d-55, rgb(114.75, 45.9, 0));
+}
+
+.css-bg-color--orange-d-60 {
+  background-color: var(--css-bg-color--orange-d-60, rgb(102, 40.8, 0));
+}
+
+.css-bg-color--orange-d-65 {
+  background-color: var(--css-bg-color--orange-d-65, rgb(89.25, 35.7, 0));
+}
+
+.css-bg-color--orange-d-70 {
+  background-color: var(--css-bg-color--orange-d-70, rgb(76.5, 30.6, 0));
+}
+
+.css-bg-color--orange-d-75 {
+  background-color: var(--css-bg-color--orange-d-75, rgb(63.75, 25.5, 0));
+}
+
+.css-bg-color--orange-d-80 {
+  background-color: var(--css-bg-color--orange-d-80, rgb(51, 20.4, 0));
+}
+
+.css-bg-color--orange-d-85 {
+  background-color: var(--css-bg-color--orange-d-85, rgb(38.25, 15.3, 0));
+}
+
+.css-bg-color--orange-d-90 {
+  background-color: var(--css-bg-color--orange-d-90, rgb(25.5, 10.2, 0));
+}
+
+.css-bg-color--orange-d-95 {
+  background-color: var(--css-bg-color--orange-d-95, rgb(12.75, 5.1, 0));
+}
+
+.css-bg-color--orange-d-100 {
+  background-color: var(--css-bg-color--orange-d-100, black);
+}

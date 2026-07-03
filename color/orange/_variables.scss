@@ -1,0 +1,95 @@
+///
+/// Orange variables
+///
+
+@use 'sass:color';
+
+$css-color--orange: #ff6600;
+
+// Lighten color by percentage.
+$css-color--orange-l-5: #{color.adjust( $css-color--orange, $whiteness: 5% )};
+$css-color--orange-l-10: #{color.adjust( $css-color--orange, $whiteness: 10% )};
+$css-color--orange-l-15: #{color.adjust( $css-color--orange, $whiteness: 15% )};
+$css-color--orange-l-20: #{color.adjust( $css-color--orange, $whiteness: 20% )};
+$css-color--orange-l-25: #{color.adjust( $css-color--orange, $whiteness: 25% )};
+$css-color--orange-l-30: #{color.adjust( $css-color--orange, $whiteness: 30% )};
+$css-color--orange-l-35: #{color.adjust( $css-color--orange, $whiteness: 35% )};
+$css-color--orange-l-40: #{color.adjust( $css-color--orange, $whiteness: 40% )};
+$css-color--orange-l-45: #{color.adjust( $css-color--orange, $whiteness: 45% )};
+$css-color--orange-l-50: #{color.adjust( $css-color--orange, $whiteness: 50% )};
+$css-color--orange-l-55: #{color.adjust( $css-color--orange, $whiteness: 55% )};
+$css-color--orange-l-60: #{color.adjust( $css-color--orange, $whiteness: 60% )};
+$css-color--orange-l-65: #{color.adjust( $css-color--orange, $whiteness: 65% )};
+$css-color--orange-l-70: #{color.adjust( $css-color--orange, $whiteness: 70% )};
+$css-color--orange-l-75: #{color.adjust( $css-color--orange, $whiteness: 75% )};
+$css-color--orange-l-80: #{color.adjust( $css-color--orange, $whiteness: 80% )};
+$css-color--orange-l-85: #{color.adjust( $css-color--orange, $whiteness: 85% )};
+$css-color--orange-l-90: #{color.adjust( $css-color--orange, $whiteness: 90% )};
+$css-color--orange-l-95: #{color.adjust( $css-color--orange, $whiteness: 95% )};
+$css-color--orange-l-100: #{color.adjust( $css-color--orange, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--orange-d-5: #{color.adjust( $css-color--orange, $blackness: 5% )};
+$css-color--orange-d-10: #{color.adjust( $css-color--orange, $blackness: 10% )};
+$css-color--orange-d-15: #{color.adjust( $css-color--orange, $blackness: 15% )};
+$css-color--orange-d-20: #{color.adjust( $css-color--orange, $blackness: 20% )};
+$css-color--orange-d-25: #{color.adjust( $css-color--orange, $blackness: 25% )};
+$css-color--orange-d-30: #{color.adjust( $css-color--orange, $blackness: 30% )};
+$css-color--orange-d-35: #{color.adjust( $css-color--orange, $blackness: 35% )};
+$css-color--orange-d-40: #{color.adjust( $css-color--orange, $blackness: 40% )};
+$css-color--orange-d-45: #{color.adjust( $css-color--orange, $blackness: 45% )};
+$css-color--orange-d-50: #{color.adjust( $css-color--orange, $blackness: 50% )};
+$css-color--orange-d-55: #{color.adjust( $css-color--orange, $blackness: 55% )};
+$css-color--orange-d-60: #{color.adjust( $css-color--orange, $blackness: 60% )};
+$css-color--orange-d-65: #{color.adjust( $css-color--orange, $blackness: 65% )};
+$css-color--orange-d-70: #{color.adjust( $css-color--orange, $blackness: 70% )};
+$css-color--orange-d-75: #{color.adjust( $css-color--orange, $blackness: 75% )};
+$css-color--orange-d-80: #{color.adjust( $css-color--orange, $blackness: 80% )};
+$css-color--orange-d-85: #{color.adjust( $css-color--orange, $blackness: 85% )};
+$css-color--orange-d-90: #{color.adjust( $css-color--orange, $blackness: 90% )};
+$css-color--orange-d-95: #{color.adjust( $css-color--orange, $blackness: 95% )};
+$css-color--orange-d-100: #{color.adjust( $css-color--orange, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--orange-l-5: #{color.adjust( $css-color--orange, $whiteness: 5% )};
+$css-bg-color--orange-l-10: #{color.adjust( $css-color--orange, $whiteness: 10% )};
+$css-bg-color--orange-l-15: #{color.adjust( $css-color--orange, $whiteness: 15% )};
+$css-bg-color--orange-l-20: #{color.adjust( $css-color--orange, $whiteness: 20% )};
+$css-bg-color--orange-l-25: #{color.adjust( $css-color--orange, $whiteness: 25% )};
+$css-bg-color--orange-l-30: #{color.adjust( $css-color--orange, $whiteness: 30% )};
+$css-bg-color--orange-l-35: #{color.adjust( $css-color--orange, $whiteness: 35% )};
+$css-bg-color--orange-l-40: #{color.adjust( $css-color--orange, $whiteness: 40% )};
+$css-bg-color--orange-l-45: #{color.adjust( $css-color--orange, $whiteness: 45% )};
+$css-bg-color--orange-l-50: #{color.adjust( $css-color--orange, $whiteness: 50% )};
+$css-bg-color--orange-l-55: #{color.adjust( $css-color--orange, $whiteness: 55% )};
+$css-bg-color--orange-l-60: #{color.adjust( $css-color--orange, $whiteness: 60% )};
+$css-bg-color--orange-l-65: #{color.adjust( $css-color--orange, $whiteness: 65% )};
+$css-bg-color--orange-l-70: #{color.adjust( $css-color--orange, $whiteness: 70% )};
+$css-bg-color--orange-l-75: #{color.adjust( $css-color--orange, $whiteness: 75% )};
+$css-bg-color--orange-l-80: #{color.adjust( $css-color--orange, $whiteness: 80% )};
+$css-bg-color--orange-l-85: #{color.adjust( $css-color--orange, $whiteness: 85% )};
+$css-bg-color--orange-l-90: #{color.adjust( $css-color--orange, $whiteness: 90% )};
+$css-bg-color--orange-l-95: #{color.adjust( $css-color--orange, $whiteness: 95% )};
+$css-bg-color--orange-l-100: #{color.adjust( $css-color--orange, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--orange-d-5: #{color.adjust( $css-color--orange, $blackness: 5% )};
+$css-bg-color--orange-d-10: #{color.adjust( $css-color--orange, $blackness: 10% )};
+$css-bg-color--orange-d-15: #{color.adjust( $css-color--orange, $blackness: 15% )};
+$css-bg-color--orange-d-20: #{color.adjust( $css-color--orange, $blackness: 20% )};
+$css-bg-color--orange-d-25: #{color.adjust( $css-color--orange, $blackness: 25% )};
+$css-bg-color--orange-d-30: #{color.adjust( $css-color--orange, $blackness: 30% )};
+$css-bg-color--orange-d-35: #{color.adjust( $css-color--orange, $blackness: 35% )};
+$css-bg-color--orange-d-40: #{color.adjust( $css-color--orange, $blackness: 40% )};
+$css-bg-color--orange-d-45: #{color.adjust( $css-color--orange, $blackness: 45% )};
+$css-bg-color--orange-d-50: #{color.adjust( $css-color--orange, $blackness: 50% )};
+$css-bg-color--orange-d-55: #{color.adjust( $css-color--orange, $blackness: 55% )};
+$css-bg-color--orange-d-60: #{color.adjust( $css-color--orange, $blackness: 60% )};
+$css-bg-color--orange-d-65: #{color.adjust( $css-color--orange, $blackness: 65% )};
+$css-bg-color--orange-d-70: #{color.adjust( $css-color--orange, $blackness: 70% )};
+$css-bg-color--orange-d-75: #{color.adjust( $css-color--orange, $blackness: 75% )};
+$css-bg-color--orange-d-80: #{color.adjust( $css-color--orange, $blackness: 80% )};
+$css-bg-color--orange-d-85: #{color.adjust( $css-color--orange, $blackness: 85% )};
+$css-bg-color--orange-d-90: #{color.adjust( $css-color--orange, $blackness: 90% )};
+$css-bg-color--orange-d-95: #{color.adjust( $css-color--orange, $blackness: 95% )};
+$css-bg-color--orange-d-100: #{color.adjust( $css-color--orange, $blackness: 100% )};

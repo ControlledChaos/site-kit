@@ -1,0 +1,95 @@
+///
+/// Magenta variables
+///
+
+@use 'sass:color';
+
+$css-color--magenta: #ff00ff;
+
+// Lighten color by percentage.
+$css-color--magenta-l-5: #{color.adjust( $css-color--magenta, $whiteness: 5% )};
+$css-color--magenta-l-10: #{color.adjust( $css-color--magenta, $whiteness: 10% )};
+$css-color--magenta-l-15: #{color.adjust( $css-color--magenta, $whiteness: 15% )};
+$css-color--magenta-l-20: #{color.adjust( $css-color--magenta, $whiteness: 20% )};
+$css-color--magenta-l-25: #{color.adjust( $css-color--magenta, $whiteness: 25% )};
+$css-color--magenta-l-30: #{color.adjust( $css-color--magenta, $whiteness: 30% )};
+$css-color--magenta-l-35: #{color.adjust( $css-color--magenta, $whiteness: 35% )};
+$css-color--magenta-l-40: #{color.adjust( $css-color--magenta, $whiteness: 40% )};
+$css-color--magenta-l-45: #{color.adjust( $css-color--magenta, $whiteness: 45% )};
+$css-color--magenta-l-50: #{color.adjust( $css-color--magenta, $whiteness: 50% )};
+$css-color--magenta-l-55: #{color.adjust( $css-color--magenta, $whiteness: 55% )};
+$css-color--magenta-l-60: #{color.adjust( $css-color--magenta, $whiteness: 60% )};
+$css-color--magenta-l-65: #{color.adjust( $css-color--magenta, $whiteness: 65% )};
+$css-color--magenta-l-70: #{color.adjust( $css-color--magenta, $whiteness: 70% )};
+$css-color--magenta-l-75: #{color.adjust( $css-color--magenta, $whiteness: 75% )};
+$css-color--magenta-l-80: #{color.adjust( $css-color--magenta, $whiteness: 80% )};
+$css-color--magenta-l-85: #{color.adjust( $css-color--magenta, $whiteness: 85% )};
+$css-color--magenta-l-90: #{color.adjust( $css-color--magenta, $whiteness: 90% )};
+$css-color--magenta-l-95: #{color.adjust( $css-color--magenta, $whiteness: 95% )};
+$css-color--magenta-l-100: #{color.adjust( $css-color--magenta, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--magenta-d-5: #{color.adjust( $css-color--magenta, $blackness: 5% )};
+$css-color--magenta-d-10: #{color.adjust( $css-color--magenta, $blackness: 10% )};
+$css-color--magenta-d-15: #{color.adjust( $css-color--magenta, $blackness: 15% )};
+$css-color--magenta-d-20: #{color.adjust( $css-color--magenta, $blackness: 20% )};
+$css-color--magenta-d-25: #{color.adjust( $css-color--magenta, $blackness: 25% )};
+$css-color--magenta-d-30: #{color.adjust( $css-color--magenta, $blackness: 30% )};
+$css-color--magenta-d-35: #{color.adjust( $css-color--magenta, $blackness: 35% )};
+$css-color--magenta-d-40: #{color.adjust( $css-color--magenta, $blackness: 40% )};
+$css-color--magenta-d-45: #{color.adjust( $css-color--magenta, $blackness: 45% )};
+$css-color--magenta-d-50: #{color.adjust( $css-color--magenta, $blackness: 50% )};
+$css-color--magenta-d-55: #{color.adjust( $css-color--magenta, $blackness: 55% )};
+$css-color--magenta-d-60: #{color.adjust( $css-color--magenta, $blackness: 60% )};
+$css-color--magenta-d-65: #{color.adjust( $css-color--magenta, $blackness: 65% )};
+$css-color--magenta-d-70: #{color.adjust( $css-color--magenta, $blackness: 70% )};
+$css-color--magenta-d-75: #{color.adjust( $css-color--magenta, $blackness: 75% )};
+$css-color--magenta-d-80: #{color.adjust( $css-color--magenta, $blackness: 80% )};
+$css-color--magenta-d-85: #{color.adjust( $css-color--magenta, $blackness: 85% )};
+$css-color--magenta-d-90: #{color.adjust( $css-color--magenta, $blackness: 90% )};
+$css-color--magenta-d-95: #{color.adjust( $css-color--magenta, $blackness: 95% )};
+$css-color--magenta-d-100: #{color.adjust( $css-color--magenta, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--magenta-l-5: #{color.adjust( $css-color--magenta, $whiteness: 5% )};
+$css-bg-color--magenta-l-10: #{color.adjust( $css-color--magenta, $whiteness: 10% )};
+$css-bg-color--magenta-l-15: #{color.adjust( $css-color--magenta, $whiteness: 15% )};
+$css-bg-color--magenta-l-20: #{color.adjust( $css-color--magenta, $whiteness: 20% )};
+$css-bg-color--magenta-l-25: #{color.adjust( $css-color--magenta, $whiteness: 25% )};
+$css-bg-color--magenta-l-30: #{color.adjust( $css-color--magenta, $whiteness: 30% )};
+$css-bg-color--magenta-l-35: #{color.adjust( $css-color--magenta, $whiteness: 35% )};
+$css-bg-color--magenta-l-40: #{color.adjust( $css-color--magenta, $whiteness: 40% )};
+$css-bg-color--magenta-l-45: #{color.adjust( $css-color--magenta, $whiteness: 45% )};
+$css-bg-color--magenta-l-50: #{color.adjust( $css-color--magenta, $whiteness: 50% )};
+$css-bg-color--magenta-l-55: #{color.adjust( $css-color--magenta, $whiteness: 55% )};
+$css-bg-color--magenta-l-60: #{color.adjust( $css-color--magenta, $whiteness: 60% )};
+$css-bg-color--magenta-l-65: #{color.adjust( $css-color--magenta, $whiteness: 65% )};
+$css-bg-color--magenta-l-70: #{color.adjust( $css-color--magenta, $whiteness: 70% )};
+$css-bg-color--magenta-l-75: #{color.adjust( $css-color--magenta, $whiteness: 75% )};
+$css-bg-color--magenta-l-80: #{color.adjust( $css-color--magenta, $whiteness: 80% )};
+$css-bg-color--magenta-l-85: #{color.adjust( $css-color--magenta, $whiteness: 85% )};
+$css-bg-color--magenta-l-90: #{color.adjust( $css-color--magenta, $whiteness: 90% )};
+$css-bg-color--magenta-l-95: #{color.adjust( $css-color--magenta, $whiteness: 95% )};
+$css-bg-color--magenta-l-100: #{color.adjust( $css-color--magenta, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--magenta-d-5: #{color.adjust( $css-color--magenta, $blackness: 5% )};
+$css-bg-color--magenta-d-10: #{color.adjust( $css-color--magenta, $blackness: 10% )};
+$css-bg-color--magenta-d-15: #{color.adjust( $css-color--magenta, $blackness: 15% )};
+$css-bg-color--magenta-d-20: #{color.adjust( $css-color--magenta, $blackness: 20% )};
+$css-bg-color--magenta-d-25: #{color.adjust( $css-color--magenta, $blackness: 25% )};
+$css-bg-color--magenta-d-30: #{color.adjust( $css-color--magenta, $blackness: 30% )};
+$css-bg-color--magenta-d-35: #{color.adjust( $css-color--magenta, $blackness: 35% )};
+$css-bg-color--magenta-d-40: #{color.adjust( $css-color--magenta, $blackness: 40% )};
+$css-bg-color--magenta-d-45: #{color.adjust( $css-color--magenta, $blackness: 45% )};
+$css-bg-color--magenta-d-50: #{color.adjust( $css-color--magenta, $blackness: 50% )};
+$css-bg-color--magenta-d-55: #{color.adjust( $css-color--magenta, $blackness: 55% )};
+$css-bg-color--magenta-d-60: #{color.adjust( $css-color--magenta, $blackness: 60% )};
+$css-bg-color--magenta-d-65: #{color.adjust( $css-color--magenta, $blackness: 65% )};
+$css-bg-color--magenta-d-70: #{color.adjust( $css-color--magenta, $blackness: 70% )};
+$css-bg-color--magenta-d-75: #{color.adjust( $css-color--magenta, $blackness: 75% )};
+$css-bg-color--magenta-d-80: #{color.adjust( $css-color--magenta, $blackness: 80% )};
+$css-bg-color--magenta-d-85: #{color.adjust( $css-color--magenta, $blackness: 85% )};
+$css-bg-color--magenta-d-90: #{color.adjust( $css-color--magenta, $blackness: 90% )};
+$css-bg-color--magenta-d-95: #{color.adjust( $css-color--magenta, $blackness: 95% )};
+$css-bg-color--magenta-d-100: #{color.adjust( $css-color--magenta, $blackness: 100% )};

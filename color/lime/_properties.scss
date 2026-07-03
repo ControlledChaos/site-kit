@@ -1,0 +1,102 @@
+///
+/// Lime properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--lime: #{$css-color--lime};
+
+	// Lighten color by percentage.
+	--css-color--lime-l-5: #{$css-color--lime-l-5};
+	--css-color--lime-l-10: #{$css-color--lime-l-10};
+	--css-color--lime-l-15: #{$css-color--lime-l-15};
+	--css-color--lime-l-20: #{$css-color--lime-l-20};
+	--css-color--lime-l-25: #{$css-color--lime-l-25};
+	--css-color--lime-l-30: #{$css-color--lime-l-30};
+	--css-color--lime-l-35: #{$css-color--lime-l-35};
+	--css-color--lime-l-40: #{$css-color--lime-l-40};
+	--css-color--lime-l-45: #{$css-color--lime-l-45};
+	--css-color--lime-l-50: #{$css-color--lime-l-50};
+	--css-color--lime-l-55: #{$css-color--lime-l-55};
+	--css-color--lime-l-60: #{$css-color--lime-l-60};
+	--css-color--lime-l-65: #{$css-color--lime-l-65};
+	--css-color--lime-l-70: #{$css-color--lime-l-70};
+	--css-color--lime-l-75: #{$css-color--lime-l-75};
+	--css-color--lime-l-80: #{$css-color--lime-l-80};
+	--css-color--lime-l-85: #{$css-color--lime-l-85};
+	--css-color--lime-l-90: #{$css-color--lime-l-90};
+	--css-color--lime-l-95: #{$css-color--lime-l-95};
+	--css-color--lime-l-100: #{$css-color--lime-l-100};
+
+	// Darken color by percentage.
+	--css-color--lime-d-5: #{$css-color--lime-d-5};
+	--css-color--lime-d-10: #{$css-color--lime-d-10};
+	--css-color--lime-d-15: #{$css-color--lime-d-15};
+	--css-color--lime-d-20: #{$css-color--lime-d-20};
+	--css-color--lime-d-25: #{$css-color--lime-d-25};
+	--css-color--lime-d-30: #{$css-color--lime-d-30};
+	--css-color--lime-d-35: #{$css-color--lime-d-35};
+	--css-color--lime-d-40: #{$css-color--lime-d-40};
+	--css-color--lime-d-45: #{$css-color--lime-d-45};
+	--css-color--lime-d-50: #{$css-color--lime-d-50};
+	--css-color--lime-d-55: #{$css-color--lime-d-55};
+	--css-color--lime-d-60: #{$css-color--lime-d-60};
+	--css-color--lime-d-65: #{$css-color--lime-d-65};
+	--css-color--lime-d-70: #{$css-color--lime-d-70};
+	--css-color--lime-d-75: #{$css-color--lime-d-75};
+	--css-color--lime-d-80: #{$css-color--lime-d-80};
+	--css-color--lime-d-85: #{$css-color--lime-d-85};
+	--css-color--lime-d-90: #{$css-color--lime-d-90};
+	--css-color--lime-d-95: #{$css-color--lime-d-95};
+	--css-color--lime-d-100: #{$css-color--lime-d-100};
+
+	// Original background color.
+	--css-bg-color--lime: #{$css-color--lime};
+
+	// Lighten background color by percentage.
+	--css-bg-color--lime-l-5: #{$css-color--lime-l-5};
+	--css-bg-color--lime-l-10: #{$css-color--lime-l-10};
+	--css-bg-color--lime-l-15: #{$css-color--lime-l-15};
+	--css-bg-color--lime-l-20: #{$css-color--lime-l-20};
+	--css-bg-color--lime-l-25: #{$css-color--lime-l-25};
+	--css-bg-color--lime-l-30: #{$css-color--lime-l-30};
+	--css-bg-color--lime-l-35: #{$css-color--lime-l-35};
+	--css-bg-color--lime-l-40: #{$css-color--lime-l-40};
+	--css-bg-color--lime-l-45: #{$css-color--lime-l-45};
+	--css-bg-color--lime-l-50: #{$css-color--lime-l-50};
+	--css-bg-color--lime-l-55: #{$css-color--lime-l-55};
+	--css-bg-color--lime-l-60: #{$css-color--lime-l-60};
+	--css-bg-color--lime-l-65: #{$css-color--lime-l-65};
+	--css-bg-color--lime-l-70: #{$css-color--lime-l-70};
+	--css-bg-color--lime-l-75: #{$css-color--lime-l-75};
+	--css-bg-color--lime-l-80: #{$css-color--lime-l-80};
+	--css-bg-color--lime-l-85: #{$css-color--lime-l-85};
+	--css-bg-color--lime-l-90: #{$css-color--lime-l-90};
+	--css-bg-color--lime-l-95: #{$css-color--lime-l-95};
+	--css-bg-color--lime-l-100: #{$css-color--lime-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--lime-d-5: #{$css-color--lime-d-5};
+	--css-bg-color--lime-d-10: #{$css-color--lime-d-10};
+	--css-bg-color--lime-d-15: #{$css-color--lime-d-15};
+	--css-bg-color--lime-d-20: #{$css-color--lime-d-20};
+	--css-bg-color--lime-d-25: #{$css-color--lime-d-25};
+	--css-bg-color--lime-d-30: #{$css-color--lime-d-30};
+	--css-bg-color--lime-d-35: #{$css-color--lime-d-35};
+	--css-bg-color--lime-d-40: #{$css-color--lime-d-40};
+	--css-bg-color--lime-d-45: #{$css-color--lime-d-45};
+	--css-bg-color--lime-d-50: #{$css-color--lime-d-50};
+	--css-bg-color--lime-d-55: #{$css-color--lime-d-55};
+	--css-bg-color--lime-d-60: #{$css-color--lime-d-60};
+	--css-bg-color--lime-d-65: #{$css-color--lime-d-65};
+	--css-bg-color--lime-d-70: #{$css-color--lime-d-70};
+	--css-bg-color--lime-d-75: #{$css-color--lime-d-75};
+	--css-bg-color--lime-d-80: #{$css-color--lime-d-80};
+	--css-bg-color--lime-d-85: #{$css-color--lime-d-85};
+	--css-bg-color--lime-d-90: #{$css-color--lime-d-90};
+	--css-bg-color--lime-d-95: #{$css-color--lime-d-95};
+	--css-bg-color--lime-d-100: #{$css-color--lime-d-100};
+}

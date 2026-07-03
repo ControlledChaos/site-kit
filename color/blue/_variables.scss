@@ -1,0 +1,27 @@
+///
+/// Blue variables
+///
+
+@use 'sass:color';
+
+$css-color--blue: #0000ff;
+
+$css-color--blue-l-5: #{color.adjust( $css-color--blue, $whiteness: 5% )};
+$css-color--blue-l-10: #{color.adjust( $css-color--blue, $whiteness: 10% )};
+$css-color--blue-l-15: #{color.adjust( $css-color--blue, $whiteness: 15% )};
+$css-color--blue-l-20: #{color.adjust( $css-color--blue, $whiteness: 20% )};
+$css-color--blue-l-25: #{color.adjust( $css-color--blue, $whiteness: 25% )};
+$css-color--blue-l-30: #{color.adjust( $css-color--blue, $whiteness: 30% )};
+$css-color--blue-l-35: #{color.adjust( $css-color--blue, $whiteness: 35% )};
+$css-color--blue-l-40: #{color.adjust( $css-color--blue, $whiteness: 40% )};
+$css-color--blue-l-45: #{color.adjust( $css-color--blue, $whiteness: 45% )};
+
+$css-color--blue-d-5: #{color.adjust( $css-color--blue, $blackness: 5% )};
+$css-color--blue-d-10: #{color.adjust( $css-color--blue, $blackness: 10% )};
+$css-color--blue-d-15: #{color.adjust( $css-color--blue, $blackness: 15% )};
+$css-color--blue-d-20: #{color.adjust( $css-color--blue, $blackness: 20% )};
+$css-color--blue-d-25: #{color.adjust( $css-color--blue, $blackness: 25% )};
+$css-color--blue-d-30: #{color.adjust( $css-color--blue, $blackness: 30% )};
+$css-color--blue-d-35: #{color.adjust( $css-color--blue, $blackness: 35% )};
+$css-color--blue-d-40: #{color.adjust( $css-color--blue, $blackness: 40% )};
+$css-color--blue-d-45: #{color.adjust( $css-color--blue, $blackness: 45% )};

@@ -5,12 +5,12 @@
 @import '_variables';
 @import '_properties';
 
-// Original.
+// Original color.
 .css-color--blue {
-	color: $css-color--blue;
+	color: var( --css-color--blue, $css-color--blue );
 }
 
-// Lighten by percentage.
+// Lighten color by percentage.
 .css-color--blue-l-5 {
 	color: $css-color--blue-l-5;
 }
@@ -72,7 +72,7 @@
 	color: $css-color--blue-l-100;
 }
 
-// Darken by percentage.
+// Darken color by percentage.
 .css-color--blue-d-5 {
 	color: $css-color--blue-d-5;
 }
@@ -132,4 +132,9 @@
 }
 .css-color--blue-d-100 {
 	color: $css-color--blue-d-100;
+}
+
+// Original background color.
+.css-bg-color--blue {
+	background-color: var( --css-color--blue, $css-color--blue );
 }

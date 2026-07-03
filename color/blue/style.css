@@ -33,7 +33,7 @@
 }
 
 .css-color--blue {
-  color: #0000ff;
+  color: var(--css-color--blue, #0000ff);
 }
 
 .css-color--blue-l-5 {
@@ -194,4 +194,8 @@
 
 .css-color--blue-d-100 {
   color: black;
+}
+
+.css-bg-color--blue {
+  background-color: var(--css-color--blue, #0000ff);
 }

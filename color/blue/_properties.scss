@@ -5,6 +5,8 @@
 @import '_variables';
 
 :root {
+
+	// Original color.
 	--css-color--blue: #{$css-color--blue};
 
 	--css-color--blue-l-5: #{$css-color--blue-l-5};
@@ -38,4 +40,7 @@
 	--css-color--blue-d-40: #{$css-color--blue-d-40};
 	--css-color--blue-d-45: #{$css-color--blue-d-45};
 	--css-color--blue-d-50: #{$css-color--blue-d-50};
+
+	// Original background color.
+	--css-bg-color--blue: #{$css-color--blue};
 }

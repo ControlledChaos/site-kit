@@ -4,26 +4,37 @@
 
 @use 'sass:color';
 
+// Variables by named color.
 $css-color--white: #ffffff;
+$css-color--silver: #cccccc;
+$css-color--medium-gray: #999999;
+$css-color--dark-gray: #666666;
+$css-color--very-dark-gray: #333333;
+$css-color--black: #000000;
+
+/// Variables by percentage of darkness.
+///
+/// The number in the variable is the remainder of
+/// black after black has been lightened by the
+/// given percentage (e.g. 100 - 85 = 15).
 $css-color--gray--0: $css-color--white;
 $css-color--gray--5: #{color.scale( #000000, $lightness: 95% )};
 $css-color--gray--10: #{color.scale( #000000, $lightness: 90% )};
 $css-color--gray--15: #{color.scale( #000000, $lightness: 85% )};
-$css-color--gray--20: #{color.scale( #000000, $lightness: 80% )};
+$css-color--gray--20: $css-color--silver;
 $css-color--gray--25: #{color.scale( #000000, $lightness: 75% )};
 $css-color--gray--30: #{color.scale( #000000, $lightness: 70% )};
 $css-color--gray--35: #{color.scale( #000000, $lightness: 65% )};
-$css-color--gray--40: #{color.scale( #000000, $lightness: 60% )};
+$css-color--gray--40: $css-color--medium-gray;
 $css-color--gray--45: #{color.scale( #000000, $lightness: 55% )};
 $css-color--gray--50: #{color.scale( #000000, $lightness: 50% )};
 $css-color--gray--55: #{color.scale( #000000, $lightness: 45% )};
-$css-color--gray--60: #{color.scale( #000000, $lightness: 40% )};
+$css-color--gray--60: $css-color--dark-gray;
 $css-color--gray--65: #{color.scale( #000000, $lightness: 35% )};
 $css-color--gray--70: #{color.scale( #000000, $lightness: 30% )};
 $css-color--gray--75: #{color.scale( #000000, $lightness: 25% )};
-$css-color--gray--80: #{color.scale( #000000, $lightness: 20% )};
+$css-color--gray--80: $css-color--very-dark-gray;
 $css-color--gray--85: #{color.scale( #000000, $lightness: 15% )};
 $css-color--gray--90: #{color.scale( #000000, $lightness: 10% )};
 $css-color--gray--95: #{color.scale( #000000, $lightness: 5% )};
-$css-color--black: #000000;
 $css-color--gray--100: $css-color--black;

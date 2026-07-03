@@ -5,7 +5,16 @@
 @import '_variables';
 
 :root {
+
+	// Properties by named color.
 	--css-color--white: #{$css-color--white};
+	--css-color--silver: #{$css-color--silver};
+	--css-color--medium-gray: #{$css-color--medium-gray};
+	--css-color--dark-gray: #{$css-color--dark-gray};
+	--css-color--very-dark-gray: #{$css-color--very-dark-gray};
+	--css-color--black: #{$css-color--black};
+
+	// Properties by percentage of darkness.
 	--css-color--gray--0: #{$css-color--white};
 	--css-color--gray--5: #{$css-color--gray--5};
 	--css-color--gray--10: #{$css-color--gray--10};
@@ -27,5 +36,4 @@
 	--css-color--gray--90: #{$css-color--gray--90};
 	--css-color--gray--95: #{$css-color--gray--95};
 	--css-color--gray--100: #{$css-color--black};
-	--css-color--black: #{$css-color--black};
 }

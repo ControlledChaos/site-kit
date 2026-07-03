@@ -5,10 +5,27 @@
 @import '_variables';
 @import '_properties';
 
+// Classes by named color.
 .css-color--white {
 	color: $css-color--white;
 }
+.css-color--silver {
+	color: $css-color--silver;
+}
+.css-color--medium-gray {
+	color: $css-color--medium-gray;
+}
+.css-color--dark-gray {
+	color: $css-color--dark-gray;
+}
+.css-color--very-dark-gray {
+	color: $css-color--very-dark-gray;
+}
+.css-color--black {
+	color: $css-color--black;
+}
 
+// Classes by percentage of darkness.
 .css-color--gray--0 {
 	color: $css-color--white;
 }
@@ -70,9 +87,5 @@
 	color: $css-color--gray--95;
 }
 .css-color--gray--100 {
-	color: $css-color--black;
-}
-
-.css-color--black {
 	color: $css-color--black;
 }

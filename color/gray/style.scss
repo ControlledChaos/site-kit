@@ -1,8 +1,9 @@
 ///
-/// Grayscale classes
+/// Grayscale stylesheet
 ///
 
 @import '_variables';
+@import '_properties';
 
 .css-color--white {
 	color: $css-color--white;

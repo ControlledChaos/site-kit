@@ -1,0 +1,264 @@
+///
+/// Outrageous Orange stylesheet
+///
+
+@import '_variables';
+@import '_properties';
+
+// Original color.
+.css-color--outrageous-orange {
+	color: var( --css-color--outrageous-orange, $css-color--outrageous-orange );
+}
+
+// Lighten color by percentage.
+.css-color--outrageous-orange-l-5 {
+	color: var( --css-color--outrageous-orange-l-5, $css-color--outrageous-orange-l-5 );
+}
+.css-color--outrageous-orange-l-10 {
+	color: var( --css-color--outrageous-orange-l-10, $css-color--outrageous-orange-l-10 );
+}
+.css-color--outrageous-orange-l-15 {
+	color: var( --css-color--outrageous-orange-l-15, $css-color--outrageous-orange-l-15 );
+}
+.css-color--outrageous-orange-l-20 {
+	color: var( --css-color--outrageous-orange-l-20, $css-color--outrageous-orange-l-20 );
+}
+.css-color--outrageous-orange-l-25 {
+	color: var( --css-color--outrageous-orange-l-25, $css-color--outrageous-orange-l-25 );
+}
+.css-color--outrageous-orange-l-30 {
+	color: var( --css-color--outrageous-orange-l-30, $css-color--outrageous-orange-l-30 );
+}
+.css-color--outrageous-orange-l-35 {
+	color: var( --css-color--outrageous-orange-l-35, $css-color--outrageous-orange-l-35 );
+}
+.css-color--outrageous-orange-l-40 {
+	color: var( --css-color--outrageous-orange-l-40, $css-color--outrageous-orange-l-40 );
+}
+.css-color--outrageous-orange-l-45 {
+	color: var( --css-color--outrageous-orange-l-45, $css-color--outrageous-orange-l-45 );
+}
+.css-color--outrageous-orange-l-50 {
+	color: var( --css-color--outrageous-orange-l-50, $css-color--outrageous-orange-l-50 );
+}
+.css-color--outrageous-orange-l-55 {
+	color: var( --css-color--outrageous-orange-l-55, $css-color--outrageous-orange-l-55 );
+}
+.css-color--outrageous-orange-l-60 {
+	color: var( --css-color--outrageous-orange-l-60, $css-color--outrageous-orange-l-60 );
+}
+.css-color--outrageous-orange-l-65 {
+	color: var( --css-color--outrageous-orange-l-65, $css-color--outrageous-orange-l-65 );
+}
+.css-color--outrageous-orange-l-70 {
+	color: var( --css-color--outrageous-orange-l-70, $css-color--outrageous-orange-l-70 );
+}
+.css-color--outrageous-orange-l-75 {
+	color: var( --css-color--outrageous-orange-l-75, $css-color--outrageous-orange-l-75 );
+}
+.css-color--outrageous-orange-l-80 {
+	color: var( --css-color--outrageous-orange-l-80, $css-color--outrageous-orange-l-80 );
+}
+.css-color--outrageous-orange-l-85 {
+	color: var( --css-color--outrageous-orange-l-85, $css-color--outrageous-orange-l-85 );
+}
+.css-color--outrageous-orange-l-90 {
+	color: var( --css-color--outrageous-orange-l-90, $css-color--outrageous-orange-l-90 );
+}
+.css-color--outrageous-orange-l-95 {
+	color: var( --css-color--outrageous-orange-l-95, $css-color--outrageous-orange-l-95 );
+}
+.css-color--outrageous-orange-l-100 {
+	color: var( --css-color--outrageous-orange-l-100, $css-color--outrageous-orange-l-100 );
+}
+
+// Darken color by percentage.
+.css-color--outrageous-orange-d-5 {
+	color: var( --css-color--outrageous-orange-d-5, $css-color--outrageous-orange-d-5 );
+}
+.css-color--outrageous-orange-d-10 {
+	color: var( --css-color--outrageous-orange-d-10, $css-color--outrageous-orange-d-10 );
+}
+.css-color--outrageous-orange-d-15 {
+	color: var( --css-color--outrageous-orange-d-15, $css-color--outrageous-orange-d-15 );
+}
+.css-color--outrageous-orange-d-20 {
+	color: var( --css-color--outrageous-orange-d-20, $css-color--outrageous-orange-d-20 );
+}
+.css-color--outrageous-orange-d-25 {
+	color: var( --css-color--outrageous-orange-d-25, $css-color--outrageous-orange-d-25 );
+}
+.css-color--outrageous-orange-d-30 {
+	color: var( --css-color--outrageous-orange-d-30, $css-color--outrageous-orange-d-30 );
+}
+.css-color--outrageous-orange-d-35 {
+	color: var( --css-color--outrageous-orange-d-35, $css-color--outrageous-orange-d-35 );
+}
+.css-color--outrageous-orange-d-40 {
+	color: var( --css-color--outrageous-orange-d-40, $css-color--outrageous-orange-d-40 );
+}
+.css-color--outrageous-orange-d-45 {
+	color: var( --css-color--outrageous-orange-d-45, $css-color--outrageous-orange-d-45 );
+}
+.css-color--outrageous-orange-d-50 {
+	color: var( --css-color--outrageous-orange-d-50, $css-color--outrageous-orange-d-50 );
+}
+.css-color--outrageous-orange-d-55 {
+	color: var( --css-color--outrageous-orange-d-55, $css-color--outrageous-orange-d-55 );
+}
+.css-color--outrageous-orange-d-60 {
+	color: var( --css-color--outrageous-orange-d-60, $css-color--outrageous-orange-d-60 );
+}
+.css-color--outrageous-orange-d-65 {
+	color: var( --css-color--outrageous-orange-d-65, $css-color--outrageous-orange-d-65 );
+}
+.css-color--outrageous-orange-d-70 {
+	color: var( --css-color--outrageous-orange-d-70, $css-color--outrageous-orange-d-70 );
+}
+.css-color--outrageous-orange-d-75 {
+	color: var( --css-color--outrageous-orange-d-75, $css-color--outrageous-orange-d-75 );
+}
+.css-color--outrageous-orange-d-80 {
+	color: var( --css-color--outrageous-orange-d-80, $css-color--outrageous-orange-d-80 );
+}
+.css-color--outrageous-orange-d-85 {
+	color: var( --css-color--outrageous-orange-d-85, $css-color--outrageous-orange-d-85 );
+}
+.css-color--outrageous-orange-d-90 {
+	color: var( --css-color--outrageous-orange-d-90, $css-color--outrageous-orange-d-90 );
+}
+.css-color--outrageous-orange-d-95 {
+	color: var( --css-color--outrageous-orange-d-95, $css-color--outrageous-orange-d-95 );
+}
+.css-color--outrageous-orange-d-100 {
+	color: var( --css-color--outrageous-orange-d-100, $css-color--outrageous-orange-d-100 );
+}
+
+// Original background color.
+.css-bg-color--outrageous-orange {
+	background-color: var( --css-color--outrageous-orange, $css-color--outrageous-orange );
+}
+
+// Lighten background color by percentage.
+.css-bg-color--outrageous-orange-l-5 {
+	background-color: var( --css-bg-color--outrageous-orange-l-5, $css-color--outrageous-orange-l-5 );
+}
+.css-bg-color--outrageous-orange-l-10 {
+	background-color: var( --css-bg-color--outrageous-orange-l-10, $css-color--outrageous-orange-l-10 );
+}
+.css-bg-color--outrageous-orange-l-15 {
+	background-color: var( --css-bg-color--outrageous-orange-l-15, $css-color--outrageous-orange-l-15 );
+}
+.css-bg-color--outrageous-orange-l-20 {
+	background-color: var( --css-bg-color--outrageous-orange-l-20, $css-color--outrageous-orange-l-20 );
+}
+.css-bg-color--outrageous-orange-l-25 {
+	background-color: var( --css-bg-color--outrageous-orange-l-25, $css-color--outrageous-orange-l-25 );
+}
+.css-bg-color--outrageous-orange-l-30 {
+	background-color: var( --css-bg-color--outrageous-orange-l-30, $css-color--outrageous-orange-l-30 );
+}
+.css-bg-color--outrageous-orange-l-35 {
+	background-color: var( --css-bg-color--outrageous-orange-l-35, $css-color--outrageous-orange-l-35 );
+}
+.css-bg-color--outrageous-orange-l-40 {
+	background-color: var( --css-bg-color--outrageous-orange-l-40, $css-color--outrageous-orange-l-40 );
+}
+.css-bg-color--outrageous-orange-l-45 {
+	background-color: var( --css-bg-color--outrageous-orange-l-45, $css-color--outrageous-orange-l-45 );
+}
+.css-bg-color--outrageous-orange-l-50 {
+	background-color: var( --css-bg-color--outrageous-orange-l-50, $css-color--outrageous-orange-l-50 );
+}
+.css-bg-color--outrageous-orange-l-55 {
+	background-color: var( --css-bg-color--outrageous-orange-l-55, $css-color--outrageous-orange-l-55 );
+}
+.css-bg-color--outrageous-orange-l-60 {
+	background-color: var( --css-bg-color--outrageous-orange-l-60, $css-color--outrageous-orange-l-60 );
+}
+.css-bg-color--outrageous-orange-l-65 {
+	background-color: var( --css-bg-color--outrageous-orange-l-65, $css-color--outrageous-orange-l-65 );
+}
+.css-bg-color--outrageous-orange-l-70 {
+	background-color: var( --css-bg-color--outrageous-orange-l-70, $css-color--outrageous-orange-l-70 );
+}
+.css-bg-color--outrageous-orange-l-75 {
+	background-color: var( --css-bg-color--outrageous-orange-l-75, $css-color--outrageous-orange-l-75 );
+}
+.css-bg-color--outrageous-orange-l-80 {
+	background-color: var( --css-bg-color--outrageous-orange-l-80, $css-color--outrageous-orange-l-80 );
+}
+.css-bg-color--outrageous-orange-l-85 {
+	background-color: var( --css-bg-color--outrageous-orange-l-85, $css-color--outrageous-orange-l-85 );
+}
+.css-bg-color--outrageous-orange-l-90 {
+	background-color: var( --css-bg-color--outrageous-orange-l-90, $css-color--outrageous-orange-l-90 );
+}
+.css-bg-color--outrageous-orange-l-95 {
+	background-color: var( --css-bg-color--outrageous-orange-l-95, $css-color--outrageous-orange-l-95 );
+}
+.css-bg-color--outrageous-orange-l-100 {
+	background-color: var( --css-bg-color--outrageous-orange-l-100, $css-color--outrageous-orange-l-100 );
+}
+
+// Darken background color by percentage.
+.css-bg-color--outrageous-orange-d-5 {
+	background-color: var( --css-bg-color--outrageous-orange-d-5, $css-color--outrageous-orange-d-5 );
+}
+.css-bg-color--outrageous-orange-d-10 {
+	background-color: var( --css-bg-color--outrageous-orange-d-10, $css-color--outrageous-orange-d-10 );
+}
+.css-bg-color--outrageous-orange-d-15 {
+	background-color: var( --css-bg-color--outrageous-orange-d-15, $css-color--outrageous-orange-d-15 );
+}
+.css-bg-color--outrageous-orange-d-20 {
+	background-color: var( --css-bg-color--outrageous-orange-d-20, $css-color--outrageous-orange-d-20 );
+}
+.css-bg-color--outrageous-orange-d-25 {
+	background-color: var( --css-bg-color--outrageous-orange-d-25, $css-color--outrageous-orange-d-25 );
+}
+.css-bg-color--outrageous-orange-d-30 {
+	background-color: var( --css-bg-color--outrageous-orange-d-30, $css-color--outrageous-orange-d-30 );
+}
+.css-bg-color--outrageous-orange-d-35 {
+	background-color: var( --css-bg-color--outrageous-orange-d-35, $css-color--outrageous-orange-d-35 );
+}
+.css-bg-color--outrageous-orange-d-40 {
+	background-color: var( --css-bg-color--outrageous-orange-d-40, $css-color--outrageous-orange-d-40 );
+}
+.css-bg-color--outrageous-orange-d-45 {
+	background-color: var( --css-bg-color--outrageous-orange-d-45, $css-color--outrageous-orange-d-45 );
+}
+.css-bg-color--outrageous-orange-d-50 {
+	background-color: var( --css-bg-color--outrageous-orange-d-50, $css-color--outrageous-orange-d-50 );
+}
+.css-bg-color--outrageous-orange-d-55 {
+	background-color: var( --css-bg-color--outrageous-orange-d-55, $css-color--outrageous-orange-d-55 );
+}
+.css-bg-color--outrageous-orange-d-60 {
+	background-color: var( --css-bg-color--outrageous-orange-d-60, $css-color--outrageous-orange-d-60 );
+}
+.css-bg-color--outrageous-orange-d-65 {
+	background-color: var( --css-bg-color--outrageous-orange-d-65, $css-color--outrageous-orange-d-65 );
+}
+.css-bg-color--outrageous-orange-d-70 {
+	background-color: var( --css-bg-color--outrageous-orange-d-70, $css-color--outrageous-orange-d-70 );
+}
+.css-bg-color--outrageous-orange-d-75 {
+	background-color: var( --css-bg-color--outrageous-orange-d-75, $css-color--outrageous-orange-d-75 );
+}
+.css-bg-color--outrageous-orange-d-80 {
+	background-color: var( --css-bg-color--outrageous-orange-d-80, $css-color--outrageous-orange-d-80 );
+}
+.css-bg-color--outrageous-orange-d-85 {
+	background-color: var( --css-bg-color--outrageous-orange-d-85, $css-color--outrageous-orange-d-85 );
+}
+.css-bg-color--outrageous-orange-d-90 {
+	background-color: var( --css-bg-color--outrageous-orange-d-90, $css-color--outrageous-orange-d-90 );
+}
+.css-bg-color--outrageous-orange-d-95 {
+	background-color: var( --css-bg-color--outrageous-orange-d-95, $css-color--outrageous-orange-d-95 );
+}
+.css-bg-color--outrageous-orange-d-100 {
+	background-color: var( --css-bg-color--outrageous-orange-d-100, $css-color--outrageous-orange-d-100 );
+}

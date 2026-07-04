@@ -1,0 +1,412 @@
+:root {
+  --css-color--outrageous-orange: #ff6633;
+  --css-color--outrageous-orange-l-5: rgb(255, 111.5625, 63.75);
+  --css-color--outrageous-orange-l-10: rgb(255, 121.125, 76.5);
+  --css-color--outrageous-orange-l-15: rgb(255, 130.6875, 89.25);
+  --css-color--outrageous-orange-l-20: rgb(255, 140.25, 102);
+  --css-color--outrageous-orange-l-25: rgb(255, 149.8125, 114.75);
+  --css-color--outrageous-orange-l-30: rgb(255, 159.375, 127.5);
+  --css-color--outrageous-orange-l-35: rgb(255, 168.9375, 140.25);
+  --css-color--outrageous-orange-l-40: rgb(255, 178.5, 153);
+  --css-color--outrageous-orange-l-45: rgb(255, 188.0625, 165.75);
+  --css-color--outrageous-orange-l-50: rgb(255, 197.625, 178.5);
+  --css-color--outrageous-orange-l-55: rgb(255, 207.1875, 191.25);
+  --css-color--outrageous-orange-l-60: rgb(255, 216.75, 204);
+  --css-color--outrageous-orange-l-65: rgb(255, 226.3125, 216.75);
+  --css-color--outrageous-orange-l-70: rgb(255, 235.875, 229.5);
+  --css-color--outrageous-orange-l-75: rgb(255, 245.4375, 242.25);
+  --css-color--outrageous-orange-l-80: white;
+  --css-color--outrageous-orange-l-85: white;
+  --css-color--outrageous-orange-l-90: white;
+  --css-color--outrageous-orange-l-95: white;
+  --css-color--outrageous-orange-l-100: white;
+  --css-color--outrageous-orange-d-5: rgb(242.25, 98.8125, 51);
+  --css-color--outrageous-orange-d-10: rgb(229.5, 95.625, 51);
+  --css-color--outrageous-orange-d-15: rgb(216.75, 92.4375, 51);
+  --css-color--outrageous-orange-d-20: rgb(204, 89.25, 51);
+  --css-color--outrageous-orange-d-25: rgb(191.25, 86.0625, 51);
+  --css-color--outrageous-orange-d-30: rgb(178.5, 82.875, 51);
+  --css-color--outrageous-orange-d-35: rgb(165.75, 79.6875, 51);
+  --css-color--outrageous-orange-d-40: rgb(153, 76.5, 51);
+  --css-color--outrageous-orange-d-45: rgb(140.25, 73.3125, 51);
+  --css-color--outrageous-orange-d-50: rgb(127.5, 70.125, 51);
+  --css-color--outrageous-orange-d-55: rgb(114.75, 66.9375, 51);
+  --css-color--outrageous-orange-d-60: rgb(102, 63.75, 51);
+  --css-color--outrageous-orange-d-65: rgb(89.25, 60.5625, 51);
+  --css-color--outrageous-orange-d-70: rgb(76.5, 57.375, 51);
+  --css-color--outrageous-orange-d-75: rgb(63.75, 54.1875, 51);
+  --css-color--outrageous-orange-d-80: #333333;
+  --css-color--outrageous-orange-d-85: rgb(48.5714285714, 48.5714285714, 48.5714285714);
+  --css-color--outrageous-orange-d-90: rgb(46.3636363636, 46.3636363636, 46.3636363636);
+  --css-color--outrageous-orange-d-95: rgb(44.347826087, 44.347826087, 44.347826087);
+  --css-color--outrageous-orange-d-100: rgb(42.5, 42.5, 42.5);
+  --css-bg-color--outrageous-orange: #ff6633;
+  --css-bg-color--outrageous-orange-l-5: rgb(255, 111.5625, 63.75);
+  --css-bg-color--outrageous-orange-l-10: rgb(255, 121.125, 76.5);
+  --css-bg-color--outrageous-orange-l-15: rgb(255, 130.6875, 89.25);
+  --css-bg-color--outrageous-orange-l-20: rgb(255, 140.25, 102);
+  --css-bg-color--outrageous-orange-l-25: rgb(255, 149.8125, 114.75);
+  --css-bg-color--outrageous-orange-l-30: rgb(255, 159.375, 127.5);
+  --css-bg-color--outrageous-orange-l-35: rgb(255, 168.9375, 140.25);
+  --css-bg-color--outrageous-orange-l-40: rgb(255, 178.5, 153);
+  --css-bg-color--outrageous-orange-l-45: rgb(255, 188.0625, 165.75);
+  --css-bg-color--outrageous-orange-l-50: rgb(255, 197.625, 178.5);
+  --css-bg-color--outrageous-orange-l-55: rgb(255, 207.1875, 191.25);
+  --css-bg-color--outrageous-orange-l-60: rgb(255, 216.75, 204);
+  --css-bg-color--outrageous-orange-l-65: rgb(255, 226.3125, 216.75);
+  --css-bg-color--outrageous-orange-l-70: rgb(255, 235.875, 229.5);
+  --css-bg-color--outrageous-orange-l-75: rgb(255, 245.4375, 242.25);
+  --css-bg-color--outrageous-orange-l-80: white;
+  --css-bg-color--outrageous-orange-l-85: white;
+  --css-bg-color--outrageous-orange-l-90: white;
+  --css-bg-color--outrageous-orange-l-95: white;
+  --css-bg-color--outrageous-orange-l-100: white;
+  --css-bg-color--outrageous-orange-d-5: rgb(242.25, 98.8125, 51);
+  --css-bg-color--outrageous-orange-d-10: rgb(229.5, 95.625, 51);
+  --css-bg-color--outrageous-orange-d-15: rgb(216.75, 92.4375, 51);
+  --css-bg-color--outrageous-orange-d-20: rgb(204, 89.25, 51);
+  --css-bg-color--outrageous-orange-d-25: rgb(191.25, 86.0625, 51);
+  --css-bg-color--outrageous-orange-d-30: rgb(178.5, 82.875, 51);
+  --css-bg-color--outrageous-orange-d-35: rgb(165.75, 79.6875, 51);
+  --css-bg-color--outrageous-orange-d-40: rgb(153, 76.5, 51);
+  --css-bg-color--outrageous-orange-d-45: rgb(140.25, 73.3125, 51);
+  --css-bg-color--outrageous-orange-d-50: rgb(127.5, 70.125, 51);
+  --css-bg-color--outrageous-orange-d-55: rgb(114.75, 66.9375, 51);
+  --css-bg-color--outrageous-orange-d-60: rgb(102, 63.75, 51);
+  --css-bg-color--outrageous-orange-d-65: rgb(89.25, 60.5625, 51);
+  --css-bg-color--outrageous-orange-d-70: rgb(76.5, 57.375, 51);
+  --css-bg-color--outrageous-orange-d-75: rgb(63.75, 54.1875, 51);
+  --css-bg-color--outrageous-orange-d-80: #333333;
+  --css-bg-color--outrageous-orange-d-85: rgb(48.5714285714, 48.5714285714, 48.5714285714);
+  --css-bg-color--outrageous-orange-d-90: rgb(46.3636363636, 46.3636363636, 46.3636363636);
+  --css-bg-color--outrageous-orange-d-95: rgb(44.347826087, 44.347826087, 44.347826087);
+  --css-bg-color--outrageous-orange-d-100: rgb(42.5, 42.5, 42.5);
+}
+
+.css-color--outrageous-orange {
+  color: var(--css-color--outrageous-orange, #ff6633);
+}
+
+.css-color--outrageous-orange-l-5 {
+  color: var(--css-color--outrageous-orange-l-5, rgb(255, 111.5625, 63.75));
+}
+
+.css-color--outrageous-orange-l-10 {
+  color: var(--css-color--outrageous-orange-l-10, rgb(255, 121.125, 76.5));
+}
+
+.css-color--outrageous-orange-l-15 {
+  color: var(--css-color--outrageous-orange-l-15, rgb(255, 130.6875, 89.25));
+}
+
+.css-color--outrageous-orange-l-20 {
+  color: var(--css-color--outrageous-orange-l-20, rgb(255, 140.25, 102));
+}
+
+.css-color--outrageous-orange-l-25 {
+  color: var(--css-color--outrageous-orange-l-25, rgb(255, 149.8125, 114.75));
+}
+
+.css-color--outrageous-orange-l-30 {
+  color: var(--css-color--outrageous-orange-l-30, rgb(255, 159.375, 127.5));
+}
+
+.css-color--outrageous-orange-l-35 {
+  color: var(--css-color--outrageous-orange-l-35, rgb(255, 168.9375, 140.25));
+}
+
+.css-color--outrageous-orange-l-40 {
+  color: var(--css-color--outrageous-orange-l-40, rgb(255, 178.5, 153));
+}
+
+.css-color--outrageous-orange-l-45 {
+  color: var(--css-color--outrageous-orange-l-45, rgb(255, 188.0625, 165.75));
+}
+
+.css-color--outrageous-orange-l-50 {
+  color: var(--css-color--outrageous-orange-l-50, rgb(255, 197.625, 178.5));
+}
+
+.css-color--outrageous-orange-l-55 {
+  color: var(--css-color--outrageous-orange-l-55, rgb(255, 207.1875, 191.25));
+}
+
+.css-color--outrageous-orange-l-60 {
+  color: var(--css-color--outrageous-orange-l-60, rgb(255, 216.75, 204));
+}
+
+.css-color--outrageous-orange-l-65 {
+  color: var(--css-color--outrageous-orange-l-65, rgb(255, 226.3125, 216.75));
+}
+
+.css-color--outrageous-orange-l-70 {
+  color: var(--css-color--outrageous-orange-l-70, rgb(255, 235.875, 229.5));
+}
+
+.css-color--outrageous-orange-l-75 {
+  color: var(--css-color--outrageous-orange-l-75, rgb(255, 245.4375, 242.25));
+}
+
+.css-color--outrageous-orange-l-80 {
+  color: var(--css-color--outrageous-orange-l-80, white);
+}
+
+.css-color--outrageous-orange-l-85 {
+  color: var(--css-color--outrageous-orange-l-85, white);
+}
+
+.css-color--outrageous-orange-l-90 {
+  color: var(--css-color--outrageous-orange-l-90, white);
+}
+
+.css-color--outrageous-orange-l-95 {
+  color: var(--css-color--outrageous-orange-l-95, white);
+}
+
+.css-color--outrageous-orange-l-100 {
+  color: var(--css-color--outrageous-orange-l-100, white);
+}
+
+.css-color--outrageous-orange-d-5 {
+  color: var(--css-color--outrageous-orange-d-5, rgb(242.25, 98.8125, 51));
+}
+
+.css-color--outrageous-orange-d-10 {
+  color: var(--css-color--outrageous-orange-d-10, rgb(229.5, 95.625, 51));
+}
+
+.css-color--outrageous-orange-d-15 {
+  color: var(--css-color--outrageous-orange-d-15, rgb(216.75, 92.4375, 51));
+}
+
+.css-color--outrageous-orange-d-20 {
+  color: var(--css-color--outrageous-orange-d-20, rgb(204, 89.25, 51));
+}
+
+.css-color--outrageous-orange-d-25 {
+  color: var(--css-color--outrageous-orange-d-25, rgb(191.25, 86.0625, 51));
+}
+
+.css-color--outrageous-orange-d-30 {
+  color: var(--css-color--outrageous-orange-d-30, rgb(178.5, 82.875, 51));
+}
+
+.css-color--outrageous-orange-d-35 {
+  color: var(--css-color--outrageous-orange-d-35, rgb(165.75, 79.6875, 51));
+}
+
+.css-color--outrageous-orange-d-40 {
+  color: var(--css-color--outrageous-orange-d-40, rgb(153, 76.5, 51));
+}
+
+.css-color--outrageous-orange-d-45 {
+  color: var(--css-color--outrageous-orange-d-45, rgb(140.25, 73.3125, 51));
+}
+
+.css-color--outrageous-orange-d-50 {
+  color: var(--css-color--outrageous-orange-d-50, rgb(127.5, 70.125, 51));
+}
+
+.css-color--outrageous-orange-d-55 {
+  color: var(--css-color--outrageous-orange-d-55, rgb(114.75, 66.9375, 51));
+}
+
+.css-color--outrageous-orange-d-60 {
+  color: var(--css-color--outrageous-orange-d-60, rgb(102, 63.75, 51));
+}
+
+.css-color--outrageous-orange-d-65 {
+  color: var(--css-color--outrageous-orange-d-65, rgb(89.25, 60.5625, 51));
+}
+
+.css-color--outrageous-orange-d-70 {
+  color: var(--css-color--outrageous-orange-d-70, rgb(76.5, 57.375, 51));
+}
+
+.css-color--outrageous-orange-d-75 {
+  color: var(--css-color--outrageous-orange-d-75, rgb(63.75, 54.1875, 51));
+}
+
+.css-color--outrageous-orange-d-80 {
+  color: var(--css-color--outrageous-orange-d-80, #333333);
+}
+
+.css-color--outrageous-orange-d-85 {
+  color: var(--css-color--outrageous-orange-d-85, rgb(48.5714285714, 48.5714285714, 48.5714285714));
+}
+
+.css-color--outrageous-orange-d-90 {
+  color: var(--css-color--outrageous-orange-d-90, rgb(46.3636363636, 46.3636363636, 46.3636363636));
+}
+
+.css-color--outrageous-orange-d-95 {
+  color: var(--css-color--outrageous-orange-d-95, rgb(44.347826087, 44.347826087, 44.347826087));
+}
+
+.css-color--outrageous-orange-d-100 {
+  color: var(--css-color--outrageous-orange-d-100, rgb(42.5, 42.5, 42.5));
+}
+
+.css-bg-color--outrageous-orange {
+  background-color: var(--css-color--outrageous-orange, #ff6633);
+}
+
+.css-bg-color--outrageous-orange-l-5 {
+  background-color: var(--css-bg-color--outrageous-orange-l-5, rgb(255, 111.5625, 63.75));
+}
+
+.css-bg-color--outrageous-orange-l-10 {
+  background-color: var(--css-bg-color--outrageous-orange-l-10, rgb(255, 121.125, 76.5));
+}
+
+.css-bg-color--outrageous-orange-l-15 {
+  background-color: var(--css-bg-color--outrageous-orange-l-15, rgb(255, 130.6875, 89.25));
+}
+
+.css-bg-color--outrageous-orange-l-20 {
+  background-color: var(--css-bg-color--outrageous-orange-l-20, rgb(255, 140.25, 102));
+}
+
+.css-bg-color--outrageous-orange-l-25 {
+  background-color: var(--css-bg-color--outrageous-orange-l-25, rgb(255, 149.8125, 114.75));
+}
+
+.css-bg-color--outrageous-orange-l-30 {
+  background-color: var(--css-bg-color--outrageous-orange-l-30, rgb(255, 159.375, 127.5));
+}
+
+.css-bg-color--outrageous-orange-l-35 {
+  background-color: var(--css-bg-color--outrageous-orange-l-35, rgb(255, 168.9375, 140.25));
+}
+
+.css-bg-color--outrageous-orange-l-40 {
+  background-color: var(--css-bg-color--outrageous-orange-l-40, rgb(255, 178.5, 153));
+}
+
+.css-bg-color--outrageous-orange-l-45 {
+  background-color: var(--css-bg-color--outrageous-orange-l-45, rgb(255, 188.0625, 165.75));
+}
+
+.css-bg-color--outrageous-orange-l-50 {
+  background-color: var(--css-bg-color--outrageous-orange-l-50, rgb(255, 197.625, 178.5));
+}
+
+.css-bg-color--outrageous-orange-l-55 {
+  background-color: var(--css-bg-color--outrageous-orange-l-55, rgb(255, 207.1875, 191.25));
+}
+
+.css-bg-color--outrageous-orange-l-60 {
+  background-color: var(--css-bg-color--outrageous-orange-l-60, rgb(255, 216.75, 204));
+}
+
+.css-bg-color--outrageous-orange-l-65 {
+  background-color: var(--css-bg-color--outrageous-orange-l-65, rgb(255, 226.3125, 216.75));
+}
+
+.css-bg-color--outrageous-orange-l-70 {
+  background-color: var(--css-bg-color--outrageous-orange-l-70, rgb(255, 235.875, 229.5));
+}
+
+.css-bg-color--outrageous-orange-l-75 {
+  background-color: var(--css-bg-color--outrageous-orange-l-75, rgb(255, 245.4375, 242.25));
+}
+
+.css-bg-color--outrageous-orange-l-80 {
+  background-color: var(--css-bg-color--outrageous-orange-l-80, white);
+}
+
+.css-bg-color--outrageous-orange-l-85 {
+  background-color: var(--css-bg-color--outrageous-orange-l-85, white);
+}
+
+.css-bg-color--outrageous-orange-l-90 {
+  background-color: var(--css-bg-color--outrageous-orange-l-90, white);
+}
+
+.css-bg-color--outrageous-orange-l-95 {
+  background-color: var(--css-bg-color--outrageous-orange-l-95, white);
+}
+
+.css-bg-color--outrageous-orange-l-100 {
+  background-color: var(--css-bg-color--outrageous-orange-l-100, white);
+}
+
+.css-bg-color--outrageous-orange-d-5 {
+  background-color: var(--css-bg-color--outrageous-orange-d-5, rgb(242.25, 98.8125, 51));
+}
+
+.css-bg-color--outrageous-orange-d-10 {
+  background-color: var(--css-bg-color--outrageous-orange-d-10, rgb(229.5, 95.625, 51));
+}
+
+.css-bg-color--outrageous-orange-d-15 {
+  background-color: var(--css-bg-color--outrageous-orange-d-15, rgb(216.75, 92.4375, 51));
+}
+
+.css-bg-color--outrageous-orange-d-20 {
+  background-color: var(--css-bg-color--outrageous-orange-d-20, rgb(204, 89.25, 51));
+}
+
+.css-bg-color--outrageous-orange-d-25 {
+  background-color: var(--css-bg-color--outrageous-orange-d-25, rgb(191.25, 86.0625, 51));
+}
+
+.css-bg-color--outrageous-orange-d-30 {
+  background-color: var(--css-bg-color--outrageous-orange-d-30, rgb(178.5, 82.875, 51));
+}
+
+.css-bg-color--outrageous-orange-d-35 {
+  background-color: var(--css-bg-color--outrageous-orange-d-35, rgb(165.75, 79.6875, 51));
+}
+
+.css-bg-color--outrageous-orange-d-40 {
+  background-color: var(--css-bg-color--outrageous-orange-d-40, rgb(153, 76.5, 51));
+}
+
+.css-bg-color--outrageous-orange-d-45 {
+  background-color: var(--css-bg-color--outrageous-orange-d-45, rgb(140.25, 73.3125, 51));
+}
+
+.css-bg-color--outrageous-orange-d-50 {
+  background-color: var(--css-bg-color--outrageous-orange-d-50, rgb(127.5, 70.125, 51));
+}
+
+.css-bg-color--outrageous-orange-d-55 {
+  background-color: var(--css-bg-color--outrageous-orange-d-55, rgb(114.75, 66.9375, 51));
+}
+
+.css-bg-color--outrageous-orange-d-60 {
+  background-color: var(--css-bg-color--outrageous-orange-d-60, rgb(102, 63.75, 51));
+}
+
+.css-bg-color--outrageous-orange-d-65 {
+  background-color: var(--css-bg-color--outrageous-orange-d-65, rgb(89.25, 60.5625, 51));
+}
+
+.css-bg-color--outrageous-orange-d-70 {
+  background-color: var(--css-bg-color--outrageous-orange-d-70, rgb(76.5, 57.375, 51));
+}
+
+.css-bg-color--outrageous-orange-d-75 {
+  background-color: var(--css-bg-color--outrageous-orange-d-75, rgb(63.75, 54.1875, 51));
+}
+
+.css-bg-color--outrageous-orange-d-80 {
+  background-color: var(--css-bg-color--outrageous-orange-d-80, #333333);
+}
+
+.css-bg-color--outrageous-orange-d-85 {
+  background-color: var(--css-bg-color--outrageous-orange-d-85, rgb(48.5714285714, 48.5714285714, 48.5714285714));
+}
+
+.css-bg-color--outrageous-orange-d-90 {
+  background-color: var(--css-bg-color--outrageous-orange-d-90, rgb(46.3636363636, 46.3636363636, 46.3636363636));
+}
+
+.css-bg-color--outrageous-orange-d-95 {
+  background-color: var(--css-bg-color--outrageous-orange-d-95, rgb(44.347826087, 44.347826087, 44.347826087));
+}
+
+.css-bg-color--outrageous-orange-d-100 {
+  background-color: var(--css-bg-color--outrageous-orange-d-100, rgb(42.5, 42.5, 42.5));
+}

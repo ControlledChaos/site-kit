@@ -1,412 +1,412 @@
 :root {
-  --css-color--copper: #993333;
-  --css-color--copper-l-5: rgb(153, 63.75, 63.75);
-  --css-color--copper-l-10: rgb(153, 76.5, 76.5);
-  --css-color--copper-l-15: rgb(153, 89.25, 89.25);
-  --css-color--copper-l-20: #996666;
-  --css-color--copper-l-25: rgb(153, 114.75, 114.75);
-  --css-color--copper-l-30: rgb(153, 127.5, 127.5);
-  --css-color--copper-l-35: rgb(153, 140.25, 140.25);
-  --css-color--copper-l-40: #999999;
-  --css-color--copper-l-45: rgb(157.8571428571, 157.8571428571, 157.8571428571);
-  --css-color--copper-l-50: rgb(162.2727272727, 162.2727272727, 162.2727272727);
-  --css-color--copper-l-55: rgb(166.3043478261, 166.3043478261, 166.3043478261);
-  --css-color--copper-l-60: #aaaaaa;
-  --css-color--copper-l-65: rgb(173.4, 173.4, 173.4);
-  --css-color--copper-l-70: rgb(176.5384615385, 176.5384615385, 176.5384615385);
-  --css-color--copper-l-75: rgb(179.4444444444, 179.4444444444, 179.4444444444);
-  --css-color--copper-l-80: rgb(182.1428571429, 182.1428571429, 182.1428571429);
-  --css-color--copper-l-85: rgb(184.6551724138, 184.6551724138, 184.6551724138);
-  --css-color--copper-l-90: #bbbbbb;
-  --css-color--copper-l-95: rgb(189.1935483871, 189.1935483871, 189.1935483871);
-  --css-color--copper-l-100: rgb(191.25, 191.25, 191.25);
-  --css-color--copper-d-5: rgb(140.25, 51, 51);
-  --css-color--copper-d-10: rgb(127.5, 51, 51);
-  --css-color--copper-d-15: rgb(114.75, 51, 51);
-  --css-color--copper-d-20: #663333;
-  --css-color--copper-d-25: rgb(89.25, 51, 51);
-  --css-color--copper-d-30: rgb(76.5, 51, 51);
-  --css-color--copper-d-35: rgb(63.75, 51, 51);
-  --css-color--copper-d-40: #333333;
-  --css-color--copper-d-45: rgb(48.5714285714, 48.5714285714, 48.5714285714);
-  --css-color--copper-d-50: rgb(46.3636363636, 46.3636363636, 46.3636363636);
-  --css-color--copper-d-55: rgb(44.347826087, 44.347826087, 44.347826087);
-  --css-color--copper-d-60: rgb(42.5, 42.5, 42.5);
-  --css-color--copper-d-65: rgb(40.8, 40.8, 40.8);
-  --css-color--copper-d-70: rgb(39.2307692308, 39.2307692308, 39.2307692308);
-  --css-color--copper-d-75: rgb(37.7777777778, 37.7777777778, 37.7777777778);
-  --css-color--copper-d-80: rgb(36.4285714286, 36.4285714286, 36.4285714286);
-  --css-color--copper-d-85: rgb(35.1724137931, 35.1724137931, 35.1724137931);
-  --css-color--copper-d-90: #222222;
-  --css-color--copper-d-95: rgb(32.9032258065, 32.9032258065, 32.9032258065);
-  --css-color--copper-d-100: rgb(31.875, 31.875, 31.875);
-  --css-bg-color--copper: #993333;
-  --css-bg-color--copper-l-5: rgb(153, 63.75, 63.75);
-  --css-bg-color--copper-l-10: rgb(153, 76.5, 76.5);
-  --css-bg-color--copper-l-15: rgb(153, 89.25, 89.25);
-  --css-bg-color--copper-l-20: #996666;
-  --css-bg-color--copper-l-25: rgb(153, 114.75, 114.75);
-  --css-bg-color--copper-l-30: rgb(153, 127.5, 127.5);
-  --css-bg-color--copper-l-35: rgb(153, 140.25, 140.25);
-  --css-bg-color--copper-l-40: #999999;
-  --css-bg-color--copper-l-45: rgb(157.8571428571, 157.8571428571, 157.8571428571);
-  --css-bg-color--copper-l-50: rgb(162.2727272727, 162.2727272727, 162.2727272727);
-  --css-bg-color--copper-l-55: rgb(166.3043478261, 166.3043478261, 166.3043478261);
-  --css-bg-color--copper-l-60: #aaaaaa;
-  --css-bg-color--copper-l-65: rgb(173.4, 173.4, 173.4);
-  --css-bg-color--copper-l-70: rgb(176.5384615385, 176.5384615385, 176.5384615385);
-  --css-bg-color--copper-l-75: rgb(179.4444444444, 179.4444444444, 179.4444444444);
-  --css-bg-color--copper-l-80: rgb(182.1428571429, 182.1428571429, 182.1428571429);
-  --css-bg-color--copper-l-85: rgb(184.6551724138, 184.6551724138, 184.6551724138);
-  --css-bg-color--copper-l-90: #bbbbbb;
-  --css-bg-color--copper-l-95: rgb(189.1935483871, 189.1935483871, 189.1935483871);
-  --css-bg-color--copper-l-100: rgb(191.25, 191.25, 191.25);
-  --css-bg-color--copper-d-5: rgb(140.25, 51, 51);
-  --css-bg-color--copper-d-10: rgb(127.5, 51, 51);
-  --css-bg-color--copper-d-15: rgb(114.75, 51, 51);
-  --css-bg-color--copper-d-20: #663333;
-  --css-bg-color--copper-d-25: rgb(89.25, 51, 51);
-  --css-bg-color--copper-d-30: rgb(76.5, 51, 51);
-  --css-bg-color--copper-d-35: rgb(63.75, 51, 51);
-  --css-bg-color--copper-d-40: #333333;
-  --css-bg-color--copper-d-45: rgb(48.5714285714, 48.5714285714, 48.5714285714);
-  --css-bg-color--copper-d-50: rgb(46.3636363636, 46.3636363636, 46.3636363636);
-  --css-bg-color--copper-d-55: rgb(44.347826087, 44.347826087, 44.347826087);
-  --css-bg-color--copper-d-60: rgb(42.5, 42.5, 42.5);
-  --css-bg-color--copper-d-65: rgb(40.8, 40.8, 40.8);
-  --css-bg-color--copper-d-70: rgb(39.2307692308, 39.2307692308, 39.2307692308);
-  --css-bg-color--copper-d-75: rgb(37.7777777778, 37.7777777778, 37.7777777778);
-  --css-bg-color--copper-d-80: rgb(36.4285714286, 36.4285714286, 36.4285714286);
-  --css-bg-color--copper-d-85: rgb(35.1724137931, 35.1724137931, 35.1724137931);
-  --css-bg-color--copper-d-90: #222222;
-  --css-bg-color--copper-d-95: rgb(32.9032258065, 32.9032258065, 32.9032258065);
-  --css-bg-color--copper-d-100: rgb(31.875, 31.875, 31.875);
+  --css-color--atomic-tangerine: #ff9966;
+  --css-color--atomic-tangerine-l-5: rgb(255, 161.5, 114.75);
+  --css-color--atomic-tangerine-l-10: rgb(255, 170, 127.5);
+  --css-color--atomic-tangerine-l-15: rgb(255, 178.5, 140.25);
+  --css-color--atomic-tangerine-l-20: #ffbb99;
+  --css-color--atomic-tangerine-l-25: rgb(255, 195.5, 165.75);
+  --css-color--atomic-tangerine-l-30: rgb(255, 204, 178.5);
+  --css-color--atomic-tangerine-l-35: rgb(255, 212.5, 191.25);
+  --css-color--atomic-tangerine-l-40: #ffddcc;
+  --css-color--atomic-tangerine-l-45: rgb(255, 229.5, 216.75);
+  --css-color--atomic-tangerine-l-50: rgb(255, 238, 229.5);
+  --css-color--atomic-tangerine-l-55: rgb(255, 246.5, 242.25);
+  --css-color--atomic-tangerine-l-60: white;
+  --css-color--atomic-tangerine-l-65: white;
+  --css-color--atomic-tangerine-l-70: white;
+  --css-color--atomic-tangerine-l-75: white;
+  --css-color--atomic-tangerine-l-80: white;
+  --css-color--atomic-tangerine-l-85: white;
+  --css-color--atomic-tangerine-l-90: white;
+  --css-color--atomic-tangerine-l-95: white;
+  --css-color--atomic-tangerine-l-100: white;
+  --css-color--atomic-tangerine-d-5: rgb(242.25, 148.75, 102);
+  --css-color--atomic-tangerine-d-10: rgb(229.5, 144.5, 102);
+  --css-color--atomic-tangerine-d-15: rgb(216.75, 140.25, 102);
+  --css-color--atomic-tangerine-d-20: #cc8866;
+  --css-color--atomic-tangerine-d-25: rgb(191.25, 131.75, 102);
+  --css-color--atomic-tangerine-d-30: rgb(178.5, 127.5, 102);
+  --css-color--atomic-tangerine-d-35: rgb(165.75, 123.25, 102);
+  --css-color--atomic-tangerine-d-40: #997766;
+  --css-color--atomic-tangerine-d-45: rgb(140.25, 114.75, 102);
+  --css-color--atomic-tangerine-d-50: rgb(127.5, 110.5, 102);
+  --css-color--atomic-tangerine-d-55: rgb(114.75, 106.25, 102);
+  --css-color--atomic-tangerine-d-60: #666666;
+  --css-color--atomic-tangerine-d-65: rgb(97.1428571429, 97.1428571429, 97.1428571429);
+  --css-color--atomic-tangerine-d-70: rgb(92.7272727273, 92.7272727273, 92.7272727273);
+  --css-color--atomic-tangerine-d-75: rgb(88.6956521739, 88.6956521739, 88.6956521739);
+  --css-color--atomic-tangerine-d-80: #555555;
+  --css-color--atomic-tangerine-d-85: rgb(81.6, 81.6, 81.6);
+  --css-color--atomic-tangerine-d-90: rgb(78.4615384615, 78.4615384615, 78.4615384615);
+  --css-color--atomic-tangerine-d-95: rgb(75.5555555556, 75.5555555556, 75.5555555556);
+  --css-color--atomic-tangerine-d-100: rgb(72.8571428571, 72.8571428571, 72.8571428571);
+  --css-bg-color--atomic-tangerine: #ff9966;
+  --css-bg-color--atomic-tangerine-l-5: rgb(255, 161.5, 114.75);
+  --css-bg-color--atomic-tangerine-l-10: rgb(255, 170, 127.5);
+  --css-bg-color--atomic-tangerine-l-15: rgb(255, 178.5, 140.25);
+  --css-bg-color--atomic-tangerine-l-20: #ffbb99;
+  --css-bg-color--atomic-tangerine-l-25: rgb(255, 195.5, 165.75);
+  --css-bg-color--atomic-tangerine-l-30: rgb(255, 204, 178.5);
+  --css-bg-color--atomic-tangerine-l-35: rgb(255, 212.5, 191.25);
+  --css-bg-color--atomic-tangerine-l-40: #ffddcc;
+  --css-bg-color--atomic-tangerine-l-45: rgb(255, 229.5, 216.75);
+  --css-bg-color--atomic-tangerine-l-50: rgb(255, 238, 229.5);
+  --css-bg-color--atomic-tangerine-l-55: rgb(255, 246.5, 242.25);
+  --css-bg-color--atomic-tangerine-l-60: white;
+  --css-bg-color--atomic-tangerine-l-65: white;
+  --css-bg-color--atomic-tangerine-l-70: white;
+  --css-bg-color--atomic-tangerine-l-75: white;
+  --css-bg-color--atomic-tangerine-l-80: white;
+  --css-bg-color--atomic-tangerine-l-85: white;
+  --css-bg-color--atomic-tangerine-l-90: white;
+  --css-bg-color--atomic-tangerine-l-95: white;
+  --css-bg-color--atomic-tangerine-l-100: white;
+  --css-bg-color--atomic-tangerine-d-5: rgb(242.25, 148.75, 102);
+  --css-bg-color--atomic-tangerine-d-10: rgb(229.5, 144.5, 102);
+  --css-bg-color--atomic-tangerine-d-15: rgb(216.75, 140.25, 102);
+  --css-bg-color--atomic-tangerine-d-20: #cc8866;
+  --css-bg-color--atomic-tangerine-d-25: rgb(191.25, 131.75, 102);
+  --css-bg-color--atomic-tangerine-d-30: rgb(178.5, 127.5, 102);
+  --css-bg-color--atomic-tangerine-d-35: rgb(165.75, 123.25, 102);
+  --css-bg-color--atomic-tangerine-d-40: #997766;
+  --css-bg-color--atomic-tangerine-d-45: rgb(140.25, 114.75, 102);
+  --css-bg-color--atomic-tangerine-d-50: rgb(127.5, 110.5, 102);
+  --css-bg-color--atomic-tangerine-d-55: rgb(114.75, 106.25, 102);
+  --css-bg-color--atomic-tangerine-d-60: #666666;
+  --css-bg-color--atomic-tangerine-d-65: rgb(97.1428571429, 97.1428571429, 97.1428571429);
+  --css-bg-color--atomic-tangerine-d-70: rgb(92.7272727273, 92.7272727273, 92.7272727273);
+  --css-bg-color--atomic-tangerine-d-75: rgb(88.6956521739, 88.6956521739, 88.6956521739);
+  --css-bg-color--atomic-tangerine-d-80: #555555;
+  --css-bg-color--atomic-tangerine-d-85: rgb(81.6, 81.6, 81.6);
+  --css-bg-color--atomic-tangerine-d-90: rgb(78.4615384615, 78.4615384615, 78.4615384615);
+  --css-bg-color--atomic-tangerine-d-95: rgb(75.5555555556, 75.5555555556, 75.5555555556);
+  --css-bg-color--atomic-tangerine-d-100: rgb(72.8571428571, 72.8571428571, 72.8571428571);
 }
 
-.css-color--copper {
-  color: var(--css-color--copper, #993333);
+.css-color--atomic-tangerine {
+  color: var(--css-color--atomic-tangerine, #ff9966);
 }
 
-.css-color--copper-l-5 {
-  color: var(--css-color--copper-l-5, rgb(153, 63.75, 63.75));
+.css-color--atomic-tangerine-l-5 {
+  color: var(--css-color--atomic-tangerine-l-5, rgb(255, 161.5, 114.75));
 }
 
-.css-color--copper-l-10 {
-  color: var(--css-color--copper-l-10, rgb(153, 76.5, 76.5));
+.css-color--atomic-tangerine-l-10 {
+  color: var(--css-color--atomic-tangerine-l-10, rgb(255, 170, 127.5));
 }
 
-.css-color--copper-l-15 {
-  color: var(--css-color--copper-l-15, rgb(153, 89.25, 89.25));
+.css-color--atomic-tangerine-l-15 {
+  color: var(--css-color--atomic-tangerine-l-15, rgb(255, 178.5, 140.25));
 }
 
-.css-color--copper-l-20 {
-  color: var(--css-color--copper-l-20, #996666);
+.css-color--atomic-tangerine-l-20 {
+  color: var(--css-color--atomic-tangerine-l-20, #ffbb99);
 }
 
-.css-color--copper-l-25 {
-  color: var(--css-color--copper-l-25, rgb(153, 114.75, 114.75));
+.css-color--atomic-tangerine-l-25 {
+  color: var(--css-color--atomic-tangerine-l-25, rgb(255, 195.5, 165.75));
 }
 
-.css-color--copper-l-30 {
-  color: var(--css-color--copper-l-30, rgb(153, 127.5, 127.5));
+.css-color--atomic-tangerine-l-30 {
+  color: var(--css-color--atomic-tangerine-l-30, rgb(255, 204, 178.5));
 }
 
-.css-color--copper-l-35 {
-  color: var(--css-color--copper-l-35, rgb(153, 140.25, 140.25));
+.css-color--atomic-tangerine-l-35 {
+  color: var(--css-color--atomic-tangerine-l-35, rgb(255, 212.5, 191.25));
 }
 
-.css-color--copper-l-40 {
-  color: var(--css-color--copper-l-40, #999999);
+.css-color--atomic-tangerine-l-40 {
+  color: var(--css-color--atomic-tangerine-l-40, #ffddcc);
 }
 
-.css-color--copper-l-45 {
-  color: var(--css-color--copper-l-45, rgb(157.8571428571, 157.8571428571, 157.8571428571));
+.css-color--atomic-tangerine-l-45 {
+  color: var(--css-color--atomic-tangerine-l-45, rgb(255, 229.5, 216.75));
 }
 
-.css-color--copper-l-50 {
-  color: var(--css-color--copper-l-50, rgb(162.2727272727, 162.2727272727, 162.2727272727));
+.css-color--atomic-tangerine-l-50 {
+  color: var(--css-color--atomic-tangerine-l-50, rgb(255, 238, 229.5));
 }
 
-.css-color--copper-l-55 {
-  color: var(--css-color--copper-l-55, rgb(166.3043478261, 166.3043478261, 166.3043478261));
+.css-color--atomic-tangerine-l-55 {
+  color: var(--css-color--atomic-tangerine-l-55, rgb(255, 246.5, 242.25));
 }
 
-.css-color--copper-l-60 {
-  color: var(--css-color--copper-l-60, #aaaaaa);
+.css-color--atomic-tangerine-l-60 {
+  color: var(--css-color--atomic-tangerine-l-60, white);
 }
 
-.css-color--copper-l-65 {
-  color: var(--css-color--copper-l-65, rgb(173.4, 173.4, 173.4));
+.css-color--atomic-tangerine-l-65 {
+  color: var(--css-color--atomic-tangerine-l-65, white);
 }
 
-.css-color--copper-l-70 {
-  color: var(--css-color--copper-l-70, rgb(176.5384615385, 176.5384615385, 176.5384615385));
+.css-color--atomic-tangerine-l-70 {
+  color: var(--css-color--atomic-tangerine-l-70, white);
 }
 
-.css-color--copper-l-75 {
-  color: var(--css-color--copper-l-75, rgb(179.4444444444, 179.4444444444, 179.4444444444));
+.css-color--atomic-tangerine-l-75 {
+  color: var(--css-color--atomic-tangerine-l-75, white);
 }
 
-.css-color--copper-l-80 {
-  color: var(--css-color--copper-l-80, rgb(182.1428571429, 182.1428571429, 182.1428571429));
+.css-color--atomic-tangerine-l-80 {
+  color: var(--css-color--atomic-tangerine-l-80, white);
 }
 
-.css-color--copper-l-85 {
-  color: var(--css-color--copper-l-85, rgb(184.6551724138, 184.6551724138, 184.6551724138));
+.css-color--atomic-tangerine-l-85 {
+  color: var(--css-color--atomic-tangerine-l-85, white);
 }
 
-.css-color--copper-l-90 {
-  color: var(--css-color--copper-l-90, #bbbbbb);
+.css-color--atomic-tangerine-l-90 {
+  color: var(--css-color--atomic-tangerine-l-90, white);
 }
 
-.css-color--copper-l-95 {
-  color: var(--css-color--copper-l-95, rgb(189.1935483871, 189.1935483871, 189.1935483871));
+.css-color--atomic-tangerine-l-95 {
+  color: var(--css-color--atomic-tangerine-l-95, white);
 }
 
-.css-color--copper-l-100 {
-  color: var(--css-color--copper-l-100, rgb(191.25, 191.25, 191.25));
+.css-color--atomic-tangerine-l-100 {
+  color: var(--css-color--atomic-tangerine-l-100, white);
 }
 
-.css-color--copper-d-5 {
-  color: var(--css-color--copper-d-5, rgb(140.25, 51, 51));
+.css-color--atomic-tangerine-d-5 {
+  color: var(--css-color--atomic-tangerine-d-5, rgb(242.25, 148.75, 102));
 }
 
-.css-color--copper-d-10 {
-  color: var(--css-color--copper-d-10, rgb(127.5, 51, 51));
+.css-color--atomic-tangerine-d-10 {
+  color: var(--css-color--atomic-tangerine-d-10, rgb(229.5, 144.5, 102));
 }
 
-.css-color--copper-d-15 {
-  color: var(--css-color--copper-d-15, rgb(114.75, 51, 51));
+.css-color--atomic-tangerine-d-15 {
+  color: var(--css-color--atomic-tangerine-d-15, rgb(216.75, 140.25, 102));
 }
 
-.css-color--copper-d-20 {
-  color: var(--css-color--copper-d-20, #663333);
+.css-color--atomic-tangerine-d-20 {
+  color: var(--css-color--atomic-tangerine-d-20, #cc8866);
 }
 
-.css-color--copper-d-25 {
-  color: var(--css-color--copper-d-25, rgb(89.25, 51, 51));
+.css-color--atomic-tangerine-d-25 {
+  color: var(--css-color--atomic-tangerine-d-25, rgb(191.25, 131.75, 102));
 }
 
-.css-color--copper-d-30 {
-  color: var(--css-color--copper-d-30, rgb(76.5, 51, 51));
+.css-color--atomic-tangerine-d-30 {
+  color: var(--css-color--atomic-tangerine-d-30, rgb(178.5, 127.5, 102));
 }
 
-.css-color--copper-d-35 {
-  color: var(--css-color--copper-d-35, rgb(63.75, 51, 51));
+.css-color--atomic-tangerine-d-35 {
+  color: var(--css-color--atomic-tangerine-d-35, rgb(165.75, 123.25, 102));
 }
 
-.css-color--copper-d-40 {
-  color: var(--css-color--copper-d-40, #333333);
+.css-color--atomic-tangerine-d-40 {
+  color: var(--css-color--atomic-tangerine-d-40, #997766);
 }
 
-.css-color--copper-d-45 {
-  color: var(--css-color--copper-d-45, rgb(48.5714285714, 48.5714285714, 48.5714285714));
+.css-color--atomic-tangerine-d-45 {
+  color: var(--css-color--atomic-tangerine-d-45, rgb(140.25, 114.75, 102));
 }
 
-.css-color--copper-d-50 {
-  color: var(--css-color--copper-d-50, rgb(46.3636363636, 46.3636363636, 46.3636363636));
+.css-color--atomic-tangerine-d-50 {
+  color: var(--css-color--atomic-tangerine-d-50, rgb(127.5, 110.5, 102));
 }
 
-.css-color--copper-d-55 {
-  color: var(--css-color--copper-d-55, rgb(44.347826087, 44.347826087, 44.347826087));
+.css-color--atomic-tangerine-d-55 {
+  color: var(--css-color--atomic-tangerine-d-55, rgb(114.75, 106.25, 102));
 }
 
-.css-color--copper-d-60 {
-  color: var(--css-color--copper-d-60, rgb(42.5, 42.5, 42.5));
+.css-color--atomic-tangerine-d-60 {
+  color: var(--css-color--atomic-tangerine-d-60, #666666);
 }
 
-.css-color--copper-d-65 {
-  color: var(--css-color--copper-d-65, rgb(40.8, 40.8, 40.8));
+.css-color--atomic-tangerine-d-65 {
+  color: var(--css-color--atomic-tangerine-d-65, rgb(97.1428571429, 97.1428571429, 97.1428571429));
 }
 
-.css-color--copper-d-70 {
-  color: var(--css-color--copper-d-70, rgb(39.2307692308, 39.2307692308, 39.2307692308));
+.css-color--atomic-tangerine-d-70 {
+  color: var(--css-color--atomic-tangerine-d-70, rgb(92.7272727273, 92.7272727273, 92.7272727273));
 }
 
-.css-color--copper-d-75 {
-  color: var(--css-color--copper-d-75, rgb(37.7777777778, 37.7777777778, 37.7777777778));
+.css-color--atomic-tangerine-d-75 {
+  color: var(--css-color--atomic-tangerine-d-75, rgb(88.6956521739, 88.6956521739, 88.6956521739));
 }
 
-.css-color--copper-d-80 {
-  color: var(--css-color--copper-d-80, rgb(36.4285714286, 36.4285714286, 36.4285714286));
+.css-color--atomic-tangerine-d-80 {
+  color: var(--css-color--atomic-tangerine-d-80, #555555);
 }
 
-.css-color--copper-d-85 {
-  color: var(--css-color--copper-d-85, rgb(35.1724137931, 35.1724137931, 35.1724137931));
+.css-color--atomic-tangerine-d-85 {
+  color: var(--css-color--atomic-tangerine-d-85, rgb(81.6, 81.6, 81.6));
 }
 
-.css-color--copper-d-90 {
-  color: var(--css-color--copper-d-90, #222222);
+.css-color--atomic-tangerine-d-90 {
+  color: var(--css-color--atomic-tangerine-d-90, rgb(78.4615384615, 78.4615384615, 78.4615384615));
 }
 
-.css-color--copper-d-95 {
-  color: var(--css-color--copper-d-95, rgb(32.9032258065, 32.9032258065, 32.9032258065));
+.css-color--atomic-tangerine-d-95 {
+  color: var(--css-color--atomic-tangerine-d-95, rgb(75.5555555556, 75.5555555556, 75.5555555556));
 }
 
-.css-color--copper-d-100 {
-  color: var(--css-color--copper-d-100, rgb(31.875, 31.875, 31.875));
+.css-color--atomic-tangerine-d-100 {
+  color: var(--css-color--atomic-tangerine-d-100, rgb(72.8571428571, 72.8571428571, 72.8571428571));
 }
 
-.css-bg-color--copper {
-  background-color: var(--css-color--copper, #993333);
+.css-bg-color--atomic-tangerine {
+  background-color: var(--css-color--atomic-tangerine, #ff9966);
 }
 
-.css-bg-color--copper-l-5 {
-  background-color: var(--css-bg-color--copper-l-5, rgb(153, 63.75, 63.75));
+.css-bg-color--atomic-tangerine-l-5 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-5, rgb(255, 161.5, 114.75));
 }
 
-.css-bg-color--copper-l-10 {
-  background-color: var(--css-bg-color--copper-l-10, rgb(153, 76.5, 76.5));
+.css-bg-color--atomic-tangerine-l-10 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-10, rgb(255, 170, 127.5));
 }
 
-.css-bg-color--copper-l-15 {
-  background-color: var(--css-bg-color--copper-l-15, rgb(153, 89.25, 89.25));
+.css-bg-color--atomic-tangerine-l-15 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-15, rgb(255, 178.5, 140.25));
 }
 
-.css-bg-color--copper-l-20 {
-  background-color: var(--css-bg-color--copper-l-20, #996666);
+.css-bg-color--atomic-tangerine-l-20 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-20, #ffbb99);
 }
 
-.css-bg-color--copper-l-25 {
-  background-color: var(--css-bg-color--copper-l-25, rgb(153, 114.75, 114.75));
+.css-bg-color--atomic-tangerine-l-25 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-25, rgb(255, 195.5, 165.75));
 }
 
-.css-bg-color--copper-l-30 {
-  background-color: var(--css-bg-color--copper-l-30, rgb(153, 127.5, 127.5));
+.css-bg-color--atomic-tangerine-l-30 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-30, rgb(255, 204, 178.5));
 }
 
-.css-bg-color--copper-l-35 {
-  background-color: var(--css-bg-color--copper-l-35, rgb(153, 140.25, 140.25));
+.css-bg-color--atomic-tangerine-l-35 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-35, rgb(255, 212.5, 191.25));
 }
 
-.css-bg-color--copper-l-40 {
-  background-color: var(--css-bg-color--copper-l-40, #999999);
+.css-bg-color--atomic-tangerine-l-40 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-40, #ffddcc);
 }
 
-.css-bg-color--copper-l-45 {
-  background-color: var(--css-bg-color--copper-l-45, rgb(157.8571428571, 157.8571428571, 157.8571428571));
+.css-bg-color--atomic-tangerine-l-45 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-45, rgb(255, 229.5, 216.75));
 }
 
-.css-bg-color--copper-l-50 {
-  background-color: var(--css-bg-color--copper-l-50, rgb(162.2727272727, 162.2727272727, 162.2727272727));
+.css-bg-color--atomic-tangerine-l-50 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-50, rgb(255, 238, 229.5));
 }
 
-.css-bg-color--copper-l-55 {
-  background-color: var(--css-bg-color--copper-l-55, rgb(166.3043478261, 166.3043478261, 166.3043478261));
+.css-bg-color--atomic-tangerine-l-55 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-55, rgb(255, 246.5, 242.25));
 }
 
-.css-bg-color--copper-l-60 {
-  background-color: var(--css-bg-color--copper-l-60, #aaaaaa);
+.css-bg-color--atomic-tangerine-l-60 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-60, white);
 }
 
-.css-bg-color--copper-l-65 {
-  background-color: var(--css-bg-color--copper-l-65, rgb(173.4, 173.4, 173.4));
+.css-bg-color--atomic-tangerine-l-65 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-65, white);
 }
 
-.css-bg-color--copper-l-70 {
-  background-color: var(--css-bg-color--copper-l-70, rgb(176.5384615385, 176.5384615385, 176.5384615385));
+.css-bg-color--atomic-tangerine-l-70 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-70, white);
 }
 
-.css-bg-color--copper-l-75 {
-  background-color: var(--css-bg-color--copper-l-75, rgb(179.4444444444, 179.4444444444, 179.4444444444));
+.css-bg-color--atomic-tangerine-l-75 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-75, white);
 }
 
-.css-bg-color--copper-l-80 {
-  background-color: var(--css-bg-color--copper-l-80, rgb(182.1428571429, 182.1428571429, 182.1428571429));
+.css-bg-color--atomic-tangerine-l-80 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-80, white);
 }
 
-.css-bg-color--copper-l-85 {
-  background-color: var(--css-bg-color--copper-l-85, rgb(184.6551724138, 184.6551724138, 184.6551724138));
+.css-bg-color--atomic-tangerine-l-85 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-85, white);
 }
 
-.css-bg-color--copper-l-90 {
-  background-color: var(--css-bg-color--copper-l-90, #bbbbbb);
+.css-bg-color--atomic-tangerine-l-90 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-90, white);
 }
 
-.css-bg-color--copper-l-95 {
-  background-color: var(--css-bg-color--copper-l-95, rgb(189.1935483871, 189.1935483871, 189.1935483871));
+.css-bg-color--atomic-tangerine-l-95 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-95, white);
 }
 
-.css-bg-color--copper-l-100 {
-  background-color: var(--css-bg-color--copper-l-100, rgb(191.25, 191.25, 191.25));
+.css-bg-color--atomic-tangerine-l-100 {
+  background-color: var(--css-bg-color--atomic-tangerine-l-100, white);
 }
 
-.css-bg-color--copper-d-5 {
-  background-color: var(--css-bg-color--copper-d-5, rgb(140.25, 51, 51));
+.css-bg-color--atomic-tangerine-d-5 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-5, rgb(242.25, 148.75, 102));
 }
 
-.css-bg-color--copper-d-10 {
-  background-color: var(--css-bg-color--copper-d-10, rgb(127.5, 51, 51));
+.css-bg-color--atomic-tangerine-d-10 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-10, rgb(229.5, 144.5, 102));
 }
 
-.css-bg-color--copper-d-15 {
-  background-color: var(--css-bg-color--copper-d-15, rgb(114.75, 51, 51));
+.css-bg-color--atomic-tangerine-d-15 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-15, rgb(216.75, 140.25, 102));
 }
 
-.css-bg-color--copper-d-20 {
-  background-color: var(--css-bg-color--copper-d-20, #663333);
+.css-bg-color--atomic-tangerine-d-20 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-20, #cc8866);
 }
 
-.css-bg-color--copper-d-25 {
-  background-color: var(--css-bg-color--copper-d-25, rgb(89.25, 51, 51));
+.css-bg-color--atomic-tangerine-d-25 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-25, rgb(191.25, 131.75, 102));
 }
 
-.css-bg-color--copper-d-30 {
-  background-color: var(--css-bg-color--copper-d-30, rgb(76.5, 51, 51));
+.css-bg-color--atomic-tangerine-d-30 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-30, rgb(178.5, 127.5, 102));
 }
 
-.css-bg-color--copper-d-35 {
-  background-color: var(--css-bg-color--copper-d-35, rgb(63.75, 51, 51));
+.css-bg-color--atomic-tangerine-d-35 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-35, rgb(165.75, 123.25, 102));
 }
 
-.css-bg-color--copper-d-40 {
-  background-color: var(--css-bg-color--copper-d-40, #333333);
+.css-bg-color--atomic-tangerine-d-40 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-40, #997766);
 }
 
-.css-bg-color--copper-d-45 {
-  background-color: var(--css-bg-color--copper-d-45, rgb(48.5714285714, 48.5714285714, 48.5714285714));
+.css-bg-color--atomic-tangerine-d-45 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-45, rgb(140.25, 114.75, 102));
 }
 
-.css-bg-color--copper-d-50 {
-  background-color: var(--css-bg-color--copper-d-50, rgb(46.3636363636, 46.3636363636, 46.3636363636));
+.css-bg-color--atomic-tangerine-d-50 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-50, rgb(127.5, 110.5, 102));
 }
 
-.css-bg-color--copper-d-55 {
-  background-color: var(--css-bg-color--copper-d-55, rgb(44.347826087, 44.347826087, 44.347826087));
+.css-bg-color--atomic-tangerine-d-55 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-55, rgb(114.75, 106.25, 102));
 }
 
-.css-bg-color--copper-d-60 {
-  background-color: var(--css-bg-color--copper-d-60, rgb(42.5, 42.5, 42.5));
+.css-bg-color--atomic-tangerine-d-60 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-60, #666666);
 }
 
-.css-bg-color--copper-d-65 {
-  background-color: var(--css-bg-color--copper-d-65, rgb(40.8, 40.8, 40.8));
+.css-bg-color--atomic-tangerine-d-65 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-65, rgb(97.1428571429, 97.1428571429, 97.1428571429));
 }
 
-.css-bg-color--copper-d-70 {
-  background-color: var(--css-bg-color--copper-d-70, rgb(39.2307692308, 39.2307692308, 39.2307692308));
+.css-bg-color--atomic-tangerine-d-70 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-70, rgb(92.7272727273, 92.7272727273, 92.7272727273));
 }
 
-.css-bg-color--copper-d-75 {
-  background-color: var(--css-bg-color--copper-d-75, rgb(37.7777777778, 37.7777777778, 37.7777777778));
+.css-bg-color--atomic-tangerine-d-75 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-75, rgb(88.6956521739, 88.6956521739, 88.6956521739));
 }
 
-.css-bg-color--copper-d-80 {
-  background-color: var(--css-bg-color--copper-d-80, rgb(36.4285714286, 36.4285714286, 36.4285714286));
+.css-bg-color--atomic-tangerine-d-80 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-80, #555555);
 }
 
-.css-bg-color--copper-d-85 {
-  background-color: var(--css-bg-color--copper-d-85, rgb(35.1724137931, 35.1724137931, 35.1724137931));
+.css-bg-color--atomic-tangerine-d-85 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-85, rgb(81.6, 81.6, 81.6));
 }
 
-.css-bg-color--copper-d-90 {
-  background-color: var(--css-bg-color--copper-d-90, #222222);
+.css-bg-color--atomic-tangerine-d-90 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-90, rgb(78.4615384615, 78.4615384615, 78.4615384615));
 }
 
-.css-bg-color--copper-d-95 {
-  background-color: var(--css-bg-color--copper-d-95, rgb(32.9032258065, 32.9032258065, 32.9032258065));
+.css-bg-color--atomic-tangerine-d-95 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-95, rgb(75.5555555556, 75.5555555556, 75.5555555556));
 }
 
-.css-bg-color--copper-d-100 {
-  background-color: var(--css-bg-color--copper-d-100, rgb(31.875, 31.875, 31.875));
+.css-bg-color--atomic-tangerine-d-100 {
+  background-color: var(--css-bg-color--atomic-tangerine-d-100, rgb(72.8571428571, 72.8571428571, 72.8571428571));
 }

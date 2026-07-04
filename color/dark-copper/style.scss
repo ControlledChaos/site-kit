@@ -1,0 +1,264 @@
+///
+/// Dark Copper stylesheet
+///
+
+@import '_variables';
+@import '_properties';
+
+// Original color.
+.css-color--dark-copper {
+	color: var( --css-color--dark-copper, $css-color--dark-copper );
+}
+
+// Lighten color by percentage.
+.css-color--dark-copper-l-5 {
+	color: var( --css-color--dark-copper-l-5, $css-color--dark-copper-l-5 );
+}
+.css-color--dark-copper-l-10 {
+	color: var( --css-color--dark-copper-l-10, $css-color--dark-copper-l-10 );
+}
+.css-color--dark-copper-l-15 {
+	color: var( --css-color--dark-copper-l-15, $css-color--dark-copper-l-15 );
+}
+.css-color--dark-copper-l-20 {
+	color: var( --css-color--dark-copper-l-20, $css-color--dark-copper-l-20 );
+}
+.css-color--dark-copper-l-25 {
+	color: var( --css-color--dark-copper-l-25, $css-color--dark-copper-l-25 );
+}
+.css-color--dark-copper-l-30 {
+	color: var( --css-color--dark-copper-l-30, $css-color--dark-copper-l-30 );
+}
+.css-color--dark-copper-l-35 {
+	color: var( --css-color--dark-copper-l-35, $css-color--dark-copper-l-35 );
+}
+.css-color--dark-copper-l-40 {
+	color: var( --css-color--dark-copper-l-40, $css-color--dark-copper-l-40 );
+}
+.css-color--dark-copper-l-45 {
+	color: var( --css-color--dark-copper-l-45, $css-color--dark-copper-l-45 );
+}
+.css-color--dark-copper-l-50 {
+	color: var( --css-color--dark-copper-l-50, $css-color--dark-copper-l-50 );
+}
+.css-color--dark-copper-l-55 {
+	color: var( --css-color--dark-copper-l-55, $css-color--dark-copper-l-55 );
+}
+.css-color--dark-copper-l-60 {
+	color: var( --css-color--dark-copper-l-60, $css-color--dark-copper-l-60 );
+}
+.css-color--dark-copper-l-65 {
+	color: var( --css-color--dark-copper-l-65, $css-color--dark-copper-l-65 );
+}
+.css-color--dark-copper-l-70 {
+	color: var( --css-color--dark-copper-l-70, $css-color--dark-copper-l-70 );
+}
+.css-color--dark-copper-l-75 {
+	color: var( --css-color--dark-copper-l-75, $css-color--dark-copper-l-75 );
+}
+.css-color--dark-copper-l-80 {
+	color: var( --css-color--dark-copper-l-80, $css-color--dark-copper-l-80 );
+}
+.css-color--dark-copper-l-85 {
+	color: var( --css-color--dark-copper-l-85, $css-color--dark-copper-l-85 );
+}
+.css-color--dark-copper-l-90 {
+	color: var( --css-color--dark-copper-l-90, $css-color--dark-copper-l-90 );
+}
+.css-color--dark-copper-l-95 {
+	color: var( --css-color--dark-copper-l-95, $css-color--dark-copper-l-95 );
+}
+.css-color--dark-copper-l-100 {
+	color: var( --css-color--dark-copper-l-100, $css-color--dark-copper-l-100 );
+}
+
+// Darken color by percentage.
+.css-color--dark-copper-d-5 {
+	color: var( --css-color--dark-copper-d-5, $css-color--dark-copper-d-5 );
+}
+.css-color--dark-copper-d-10 {
+	color: var( --css-color--dark-copper-d-10, $css-color--dark-copper-d-10 );
+}
+.css-color--dark-copper-d-15 {
+	color: var( --css-color--dark-copper-d-15, $css-color--dark-copper-d-15 );
+}
+.css-color--dark-copper-d-20 {
+	color: var( --css-color--dark-copper-d-20, $css-color--dark-copper-d-20 );
+}
+.css-color--dark-copper-d-25 {
+	color: var( --css-color--dark-copper-d-25, $css-color--dark-copper-d-25 );
+}
+.css-color--dark-copper-d-30 {
+	color: var( --css-color--dark-copper-d-30, $css-color--dark-copper-d-30 );
+}
+.css-color--dark-copper-d-35 {
+	color: var( --css-color--dark-copper-d-35, $css-color--dark-copper-d-35 );
+}
+.css-color--dark-copper-d-40 {
+	color: var( --css-color--dark-copper-d-40, $css-color--dark-copper-d-40 );
+}
+.css-color--dark-copper-d-45 {
+	color: var( --css-color--dark-copper-d-45, $css-color--dark-copper-d-45 );
+}
+.css-color--dark-copper-d-50 {
+	color: var( --css-color--dark-copper-d-50, $css-color--dark-copper-d-50 );
+}
+.css-color--dark-copper-d-55 {
+	color: var( --css-color--dark-copper-d-55, $css-color--dark-copper-d-55 );
+}
+.css-color--dark-copper-d-60 {
+	color: var( --css-color--dark-copper-d-60, $css-color--dark-copper-d-60 );
+}
+.css-color--dark-copper-d-65 {
+	color: var( --css-color--dark-copper-d-65, $css-color--dark-copper-d-65 );
+}
+.css-color--dark-copper-d-70 {
+	color: var( --css-color--dark-copper-d-70, $css-color--dark-copper-d-70 );
+}
+.css-color--dark-copper-d-75 {
+	color: var( --css-color--dark-copper-d-75, $css-color--dark-copper-d-75 );
+}
+.css-color--dark-copper-d-80 {
+	color: var( --css-color--dark-copper-d-80, $css-color--dark-copper-d-80 );
+}
+.css-color--dark-copper-d-85 {
+	color: var( --css-color--dark-copper-d-85, $css-color--dark-copper-d-85 );
+}
+.css-color--dark-copper-d-90 {
+	color: var( --css-color--dark-copper-d-90, $css-color--dark-copper-d-90 );
+}
+.css-color--dark-copper-d-95 {
+	color: var( --css-color--dark-copper-d-95, $css-color--dark-copper-d-95 );
+}
+.css-color--dark-copper-d-100 {
+	color: var( --css-color--dark-copper-d-100, $css-color--dark-copper-d-100 );
+}
+
+// Original background color.
+.css-bg-color--dark-copper {
+	background-color: var( --css-color--dark-copper, $css-color--dark-copper );
+}
+
+// Lighten background color by percentage.
+.css-bg-color--dark-copper-l-5 {
+	background-color: var( --css-bg-color--dark-copper-l-5, $css-color--dark-copper-l-5 );
+}
+.css-bg-color--dark-copper-l-10 {
+	background-color: var( --css-bg-color--dark-copper-l-10, $css-color--dark-copper-l-10 );
+}
+.css-bg-color--dark-copper-l-15 {
+	background-color: var( --css-bg-color--dark-copper-l-15, $css-color--dark-copper-l-15 );
+}
+.css-bg-color--dark-copper-l-20 {
+	background-color: var( --css-bg-color--dark-copper-l-20, $css-color--dark-copper-l-20 );
+}
+.css-bg-color--dark-copper-l-25 {
+	background-color: var( --css-bg-color--dark-copper-l-25, $css-color--dark-copper-l-25 );
+}
+.css-bg-color--dark-copper-l-30 {
+	background-color: var( --css-bg-color--dark-copper-l-30, $css-color--dark-copper-l-30 );
+}
+.css-bg-color--dark-copper-l-35 {
+	background-color: var( --css-bg-color--dark-copper-l-35, $css-color--dark-copper-l-35 );
+}
+.css-bg-color--dark-copper-l-40 {
+	background-color: var( --css-bg-color--dark-copper-l-40, $css-color--dark-copper-l-40 );
+}
+.css-bg-color--dark-copper-l-45 {
+	background-color: var( --css-bg-color--dark-copper-l-45, $css-color--dark-copper-l-45 );
+}
+.css-bg-color--dark-copper-l-50 {
+	background-color: var( --css-bg-color--dark-copper-l-50, $css-color--dark-copper-l-50 );
+}
+.css-bg-color--dark-copper-l-55 {
+	background-color: var( --css-bg-color--dark-copper-l-55, $css-color--dark-copper-l-55 );
+}
+.css-bg-color--dark-copper-l-60 {
+	background-color: var( --css-bg-color--dark-copper-l-60, $css-color--dark-copper-l-60 );
+}
+.css-bg-color--dark-copper-l-65 {
+	background-color: var( --css-bg-color--dark-copper-l-65, $css-color--dark-copper-l-65 );
+}
+.css-bg-color--dark-copper-l-70 {
+	background-color: var( --css-bg-color--dark-copper-l-70, $css-color--dark-copper-l-70 );
+}
+.css-bg-color--dark-copper-l-75 {
+	background-color: var( --css-bg-color--dark-copper-l-75, $css-color--dark-copper-l-75 );
+}
+.css-bg-color--dark-copper-l-80 {
+	background-color: var( --css-bg-color--dark-copper-l-80, $css-color--dark-copper-l-80 );
+}
+.css-bg-color--dark-copper-l-85 {
+	background-color: var( --css-bg-color--dark-copper-l-85, $css-color--dark-copper-l-85 );
+}
+.css-bg-color--dark-copper-l-90 {
+	background-color: var( --css-bg-color--dark-copper-l-90, $css-color--dark-copper-l-90 );
+}
+.css-bg-color--dark-copper-l-95 {
+	background-color: var( --css-bg-color--dark-copper-l-95, $css-color--dark-copper-l-95 );
+}
+.css-bg-color--dark-copper-l-100 {
+	background-color: var( --css-bg-color--dark-copper-l-100, $css-color--dark-copper-l-100 );
+}
+
+// Darken background color by percentage.
+.css-bg-color--dark-copper-d-5 {
+	background-color: var( --css-bg-color--dark-copper-d-5, $css-color--dark-copper-d-5 );
+}
+.css-bg-color--dark-copper-d-10 {
+	background-color: var( --css-bg-color--dark-copper-d-10, $css-color--dark-copper-d-10 );
+}
+.css-bg-color--dark-copper-d-15 {
+	background-color: var( --css-bg-color--dark-copper-d-15, $css-color--dark-copper-d-15 );
+}
+.css-bg-color--dark-copper-d-20 {
+	background-color: var( --css-bg-color--dark-copper-d-20, $css-color--dark-copper-d-20 );
+}
+.css-bg-color--dark-copper-d-25 {
+	background-color: var( --css-bg-color--dark-copper-d-25, $css-color--dark-copper-d-25 );
+}
+.css-bg-color--dark-copper-d-30 {
+	background-color: var( --css-bg-color--dark-copper-d-30, $css-color--dark-copper-d-30 );
+}
+.css-bg-color--dark-copper-d-35 {
+	background-color: var( --css-bg-color--dark-copper-d-35, $css-color--dark-copper-d-35 );
+}
+.css-bg-color--dark-copper-d-40 {
+	background-color: var( --css-bg-color--dark-copper-d-40, $css-color--dark-copper-d-40 );
+}
+.css-bg-color--dark-copper-d-45 {
+	background-color: var( --css-bg-color--dark-copper-d-45, $css-color--dark-copper-d-45 );
+}
+.css-bg-color--dark-copper-d-50 {
+	background-color: var( --css-bg-color--dark-copper-d-50, $css-color--dark-copper-d-50 );
+}
+.css-bg-color--dark-copper-d-55 {
+	background-color: var( --css-bg-color--dark-copper-d-55, $css-color--dark-copper-d-55 );
+}
+.css-bg-color--dark-copper-d-60 {
+	background-color: var( --css-bg-color--dark-copper-d-60, $css-color--dark-copper-d-60 );
+}
+.css-bg-color--dark-copper-d-65 {
+	background-color: var( --css-bg-color--dark-copper-d-65, $css-color--dark-copper-d-65 );
+}
+.css-bg-color--dark-copper-d-70 {
+	background-color: var( --css-bg-color--dark-copper-d-70, $css-color--dark-copper-d-70 );
+}
+.css-bg-color--dark-copper-d-75 {
+	background-color: var( --css-bg-color--dark-copper-d-75, $css-color--dark-copper-d-75 );
+}
+.css-bg-color--dark-copper-d-80 {
+	background-color: var( --css-bg-color--dark-copper-d-80, $css-color--dark-copper-d-80 );
+}
+.css-bg-color--dark-copper-d-85 {
+	background-color: var( --css-bg-color--dark-copper-d-85, $css-color--dark-copper-d-85 );
+}
+.css-bg-color--dark-copper-d-90 {
+	background-color: var( --css-bg-color--dark-copper-d-90, $css-color--dark-copper-d-90 );
+}
+.css-bg-color--dark-copper-d-95 {
+	background-color: var( --css-bg-color--dark-copper-d-95, $css-color--dark-copper-d-95 );
+}
+.css-bg-color--dark-copper-d-100 {
+	background-color: var( --css-bg-color--dark-copper-d-100, $css-color--dark-copper-d-100 );
+}

@@ -1,0 +1,95 @@
+///
+/// Light Coral variables
+///
+
+@use 'sass:color';
+
+$css-color--pale-rose: #ff9999;
+
+// Lighten color by percentage.
+$css-color--pale-rose-l-5: #{color.adjust( $css-color--pale-rose, $lightness: 5% )};
+$css-color--pale-rose-l-10: #{color.adjust( $css-color--pale-rose, $lightness: 10% )};
+$css-color--pale-rose-l-15: #{color.adjust( $css-color--pale-rose, $lightness: 15% )};
+$css-color--pale-rose-l-20: #{color.adjust( $css-color--pale-rose, $lightness: 20% )};
+$css-color--pale-rose-l-25: #{color.adjust( $css-color--pale-rose, $lightness: 25% )};
+$css-color--pale-rose-l-30: #{color.adjust( $css-color--pale-rose, $lightness: 30% )};
+$css-color--pale-rose-l-35: #{color.adjust( $css-color--pale-rose, $lightness: 35% )};
+$css-color--pale-rose-l-40: #{color.adjust( $css-color--pale-rose, $lightness: 40% )};
+$css-color--pale-rose-l-45: #{color.adjust( $css-color--pale-rose, $lightness: 45% )};
+$css-color--pale-rose-l-50: #{color.adjust( $css-color--pale-rose, $lightness: 50% )};
+$css-color--pale-rose-l-55: #{color.adjust( $css-color--pale-rose, $lightness: 55% )};
+$css-color--pale-rose-l-60: #{color.adjust( $css-color--pale-rose, $lightness: 60% )};
+$css-color--pale-rose-l-65: #{color.adjust( $css-color--pale-rose, $lightness: 65% )};
+$css-color--pale-rose-l-70: #{color.adjust( $css-color--pale-rose, $lightness: 70% )};
+$css-color--pale-rose-l-75: #{color.adjust( $css-color--pale-rose, $lightness: 75% )};
+$css-color--pale-rose-l-80: #{color.adjust( $css-color--pale-rose, $lightness: 80% )};
+$css-color--pale-rose-l-85: #{color.adjust( $css-color--pale-rose, $lightness: 85% )};
+$css-color--pale-rose-l-90: #{color.adjust( $css-color--pale-rose, $lightness: 90% )};
+$css-color--pale-rose-l-95: #{color.adjust( $css-color--pale-rose, $lightness: 95% )};
+$css-color--pale-rose-l-100: #{color.adjust( $css-color--pale-rose, $lightness: 100% )};
+
+// Darken color by percentage.
+$css-color--pale-rose-d-5: #{color.adjust( $css-color--pale-rose, $lightness: -5% )};
+$css-color--pale-rose-d-10: #{color.adjust( $css-color--pale-rose, $lightness: -10% )};
+$css-color--pale-rose-d-15: #{color.adjust( $css-color--pale-rose, $lightness: -15% )};
+$css-color--pale-rose-d-20: #{color.adjust( $css-color--pale-rose, $lightness: -20% )};
+$css-color--pale-rose-d-25: #{color.adjust( $css-color--pale-rose, $lightness: -25% )};
+$css-color--pale-rose-d-30: #{color.adjust( $css-color--pale-rose, $lightness: -30% )};
+$css-color--pale-rose-d-35: #{color.adjust( $css-color--pale-rose, $lightness: -35% )};
+$css-color--pale-rose-d-40: #{color.adjust( $css-color--pale-rose, $lightness: -40% )};
+$css-color--pale-rose-d-45: #{color.adjust( $css-color--pale-rose, $lightness: -45% )};
+$css-color--pale-rose-d-50: #{color.adjust( $css-color--pale-rose, $lightness: -50% )};
+$css-color--pale-rose-d-55: #{color.adjust( $css-color--pale-rose, $lightness: -55% )};
+$css-color--pale-rose-d-60: #{color.adjust( $css-color--pale-rose, $lightness: -60% )};
+$css-color--pale-rose-d-65: #{color.adjust( $css-color--pale-rose, $lightness: -65% )};
+$css-color--pale-rose-d-70: #{color.adjust( $css-color--pale-rose, $lightness: -70% )};
+$css-color--pale-rose-d-75: #{color.adjust( $css-color--pale-rose, $lightness: -75% )};
+$css-color--pale-rose-d-80: #{color.adjust( $css-color--pale-rose, $lightness: -80% )};
+$css-color--pale-rose-d-85: #{color.adjust( $css-color--pale-rose, $lightness: -85% )};
+$css-color--pale-rose-d-90: #{color.adjust( $css-color--pale-rose, $lightness: -90% )};
+$css-color--pale-rose-d-95: #{color.adjust( $css-color--pale-rose, $lightness: -95% )};
+$css-color--pale-rose-d-100: #{color.adjust( $css-color--pale-rose, $lightness: -100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--pale-rose-l-5: #{color.adjust( $css-color--pale-rose, $lightness: 5% )};
+$css-bg-color--pale-rose-l-10: #{color.adjust( $css-color--pale-rose, $lightness: 10% )};
+$css-bg-color--pale-rose-l-15: #{color.adjust( $css-color--pale-rose, $lightness: 15% )};
+$css-bg-color--pale-rose-l-20: #{color.adjust( $css-color--pale-rose, $lightness: 20% )};
+$css-bg-color--pale-rose-l-25: #{color.adjust( $css-color--pale-rose, $lightness: 25% )};
+$css-bg-color--pale-rose-l-30: #{color.adjust( $css-color--pale-rose, $lightness: 30% )};
+$css-bg-color--pale-rose-l-35: #{color.adjust( $css-color--pale-rose, $lightness: 35% )};
+$css-bg-color--pale-rose-l-40: #{color.adjust( $css-color--pale-rose, $lightness: 40% )};
+$css-bg-color--pale-rose-l-45: #{color.adjust( $css-color--pale-rose, $lightness: 45% )};
+$css-bg-color--pale-rose-l-50: #{color.adjust( $css-color--pale-rose, $lightness: 50% )};
+$css-bg-color--pale-rose-l-55: #{color.adjust( $css-color--pale-rose, $lightness: 55% )};
+$css-bg-color--pale-rose-l-60: #{color.adjust( $css-color--pale-rose, $lightness: 60% )};
+$css-bg-color--pale-rose-l-65: #{color.adjust( $css-color--pale-rose, $lightness: 65% )};
+$css-bg-color--pale-rose-l-70: #{color.adjust( $css-color--pale-rose, $lightness: 70% )};
+$css-bg-color--pale-rose-l-75: #{color.adjust( $css-color--pale-rose, $lightness: 75% )};
+$css-bg-color--pale-rose-l-80: #{color.adjust( $css-color--pale-rose, $lightness: 80% )};
+$css-bg-color--pale-rose-l-85: #{color.adjust( $css-color--pale-rose, $lightness: 85% )};
+$css-bg-color--pale-rose-l-90: #{color.adjust( $css-color--pale-rose, $lightness: 90% )};
+$css-bg-color--pale-rose-l-95: #{color.adjust( $css-color--pale-rose, $lightness: 95% )};
+$css-bg-color--pale-rose-l-100: #{color.adjust( $css-color--pale-rose, $lightness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--pale-rose-d-5: #{color.adjust( $css-color--pale-rose, $lightness: -5% )};
+$css-bg-color--pale-rose-d-10: #{color.adjust( $css-color--pale-rose, $lightness: -10% )};
+$css-bg-color--pale-rose-d-15: #{color.adjust( $css-color--pale-rose, $lightness: -15% )};
+$css-bg-color--pale-rose-d-20: #{color.adjust( $css-color--pale-rose, $lightness: -20% )};
+$css-bg-color--pale-rose-d-25: #{color.adjust( $css-color--pale-rose, $lightness: -25% )};
+$css-bg-color--pale-rose-d-30: #{color.adjust( $css-color--pale-rose, $lightness: -30% )};
+$css-bg-color--pale-rose-d-35: #{color.adjust( $css-color--pale-rose, $lightness: -35% )};
+$css-bg-color--pale-rose-d-40: #{color.adjust( $css-color--pale-rose, $lightness: -40% )};
+$css-bg-color--pale-rose-d-45: #{color.adjust( $css-color--pale-rose, $lightness: -45% )};
+$css-bg-color--pale-rose-d-50: #{color.adjust( $css-color--pale-rose, $lightness: -50% )};
+$css-bg-color--pale-rose-d-55: #{color.adjust( $css-color--pale-rose, $lightness: -55% )};
+$css-bg-color--pale-rose-d-60: #{color.adjust( $css-color--pale-rose, $lightness: -60% )};
+$css-bg-color--pale-rose-d-65: #{color.adjust( $css-color--pale-rose, $lightness: -65% )};
+$css-bg-color--pale-rose-d-70: #{color.adjust( $css-color--pale-rose, $lightness: -70% )};
+$css-bg-color--pale-rose-d-75: #{color.adjust( $css-color--pale-rose, $lightness: -75% )};
+$css-bg-color--pale-rose-d-80: #{color.adjust( $css-color--pale-rose, $lightness: -80% )};
+$css-bg-color--pale-rose-d-85: #{color.adjust( $css-color--pale-rose, $lightness: -85% )};
+$css-bg-color--pale-rose-d-90: #{color.adjust( $css-color--pale-rose, $lightness: -90% )};
+$css-bg-color--pale-rose-d-95: #{color.adjust( $css-color--pale-rose, $lightness: -95% )};
+$css-bg-color--pale-rose-d-100: #{color.adjust( $css-color--pale-rose, $lightness: -100% )};

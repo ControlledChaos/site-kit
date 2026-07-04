@@ -1,0 +1,264 @@
+///
+/// Light Coral stylesheet
+///
+
+@import '_variables';
+@import '_properties';
+
+// Original color.
+.css-color--pale-rose {
+	color: var( --css-color--pale-rose, $css-color--pale-rose );
+}
+
+// Lighten color by percentage.
+.css-color--pale-rose-l-5 {
+	color: var( --css-color--pale-rose-l-5, $css-color--pale-rose-l-5 );
+}
+.css-color--pale-rose-l-10 {
+	color: var( --css-color--pale-rose-l-10, $css-color--pale-rose-l-10 );
+}
+.css-color--pale-rose-l-15 {
+	color: var( --css-color--pale-rose-l-15, $css-color--pale-rose-l-15 );
+}
+.css-color--pale-rose-l-20 {
+	color: var( --css-color--pale-rose-l-20, $css-color--pale-rose-l-20 );
+}
+.css-color--pale-rose-l-25 {
+	color: var( --css-color--pale-rose-l-25, $css-color--pale-rose-l-25 );
+}
+.css-color--pale-rose-l-30 {
+	color: var( --css-color--pale-rose-l-30, $css-color--pale-rose-l-30 );
+}
+.css-color--pale-rose-l-35 {
+	color: var( --css-color--pale-rose-l-35, $css-color--pale-rose-l-35 );
+}
+.css-color--pale-rose-l-40 {
+	color: var( --css-color--pale-rose-l-40, $css-color--pale-rose-l-40 );
+}
+.css-color--pale-rose-l-45 {
+	color: var( --css-color--pale-rose-l-45, $css-color--pale-rose-l-45 );
+}
+.css-color--pale-rose-l-50 {
+	color: var( --css-color--pale-rose-l-50, $css-color--pale-rose-l-50 );
+}
+.css-color--pale-rose-l-55 {
+	color: var( --css-color--pale-rose-l-55, $css-color--pale-rose-l-55 );
+}
+.css-color--pale-rose-l-60 {
+	color: var( --css-color--pale-rose-l-60, $css-color--pale-rose-l-60 );
+}
+.css-color--pale-rose-l-65 {
+	color: var( --css-color--pale-rose-l-65, $css-color--pale-rose-l-65 );
+}
+.css-color--pale-rose-l-70 {
+	color: var( --css-color--pale-rose-l-70, $css-color--pale-rose-l-70 );
+}
+.css-color--pale-rose-l-75 {
+	color: var( --css-color--pale-rose-l-75, $css-color--pale-rose-l-75 );
+}
+.css-color--pale-rose-l-80 {
+	color: var( --css-color--pale-rose-l-80, $css-color--pale-rose-l-80 );
+}
+.css-color--pale-rose-l-85 {
+	color: var( --css-color--pale-rose-l-85, $css-color--pale-rose-l-85 );
+}
+.css-color--pale-rose-l-90 {
+	color: var( --css-color--pale-rose-l-90, $css-color--pale-rose-l-90 );
+}
+.css-color--pale-rose-l-95 {
+	color: var( --css-color--pale-rose-l-95, $css-color--pale-rose-l-95 );
+}
+.css-color--pale-rose-l-100 {
+	color: var( --css-color--pale-rose-l-100, $css-color--pale-rose-l-100 );
+}
+
+// Darken color by percentage.
+.css-color--pale-rose-d-5 {
+	color: var( --css-color--pale-rose-d-5, $css-color--pale-rose-d-5 );
+}
+.css-color--pale-rose-d-10 {
+	color: var( --css-color--pale-rose-d-10, $css-color--pale-rose-d-10 );
+}
+.css-color--pale-rose-d-15 {
+	color: var( --css-color--pale-rose-d-15, $css-color--pale-rose-d-15 );
+}
+.css-color--pale-rose-d-20 {
+	color: var( --css-color--pale-rose-d-20, $css-color--pale-rose-d-20 );
+}
+.css-color--pale-rose-d-25 {
+	color: var( --css-color--pale-rose-d-25, $css-color--pale-rose-d-25 );
+}
+.css-color--pale-rose-d-30 {
+	color: var( --css-color--pale-rose-d-30, $css-color--pale-rose-d-30 );
+}
+.css-color--pale-rose-d-35 {
+	color: var( --css-color--pale-rose-d-35, $css-color--pale-rose-d-35 );
+}
+.css-color--pale-rose-d-40 {
+	color: var( --css-color--pale-rose-d-40, $css-color--pale-rose-d-40 );
+}
+.css-color--pale-rose-d-45 {
+	color: var( --css-color--pale-rose-d-45, $css-color--pale-rose-d-45 );
+}
+.css-color--pale-rose-d-50 {
+	color: var( --css-color--pale-rose-d-50, $css-color--pale-rose-d-50 );
+}
+.css-color--pale-rose-d-55 {
+	color: var( --css-color--pale-rose-d-55, $css-color--pale-rose-d-55 );
+}
+.css-color--pale-rose-d-60 {
+	color: var( --css-color--pale-rose-d-60, $css-color--pale-rose-d-60 );
+}
+.css-color--pale-rose-d-65 {
+	color: var( --css-color--pale-rose-d-65, $css-color--pale-rose-d-65 );
+}
+.css-color--pale-rose-d-70 {
+	color: var( --css-color--pale-rose-d-70, $css-color--pale-rose-d-70 );
+}
+.css-color--pale-rose-d-75 {
+	color: var( --css-color--pale-rose-d-75, $css-color--pale-rose-d-75 );
+}
+.css-color--pale-rose-d-80 {
+	color: var( --css-color--pale-rose-d-80, $css-color--pale-rose-d-80 );
+}
+.css-color--pale-rose-d-85 {
+	color: var( --css-color--pale-rose-d-85, $css-color--pale-rose-d-85 );
+}
+.css-color--pale-rose-d-90 {
+	color: var( --css-color--pale-rose-d-90, $css-color--pale-rose-d-90 );
+}
+.css-color--pale-rose-d-95 {
+	color: var( --css-color--pale-rose-d-95, $css-color--pale-rose-d-95 );
+}
+.css-color--pale-rose-d-100 {
+	color: var( --css-color--pale-rose-d-100, $css-color--pale-rose-d-100 );
+}
+
+// Original background color.
+.css-bg-color--pale-rose {
+	background-color: var( --css-color--pale-rose, $css-color--pale-rose );
+}
+
+// Lighten background color by percentage.
+.css-bg-color--pale-rose-l-5 {
+	background-color: var( --css-bg-color--pale-rose-l-5, $css-color--pale-rose-l-5 );
+}
+.css-bg-color--pale-rose-l-10 {
+	background-color: var( --css-bg-color--pale-rose-l-10, $css-color--pale-rose-l-10 );
+}
+.css-bg-color--pale-rose-l-15 {
+	background-color: var( --css-bg-color--pale-rose-l-15, $css-color--pale-rose-l-15 );
+}
+.css-bg-color--pale-rose-l-20 {
+	background-color: var( --css-bg-color--pale-rose-l-20, $css-color--pale-rose-l-20 );
+}
+.css-bg-color--pale-rose-l-25 {
+	background-color: var( --css-bg-color--pale-rose-l-25, $css-color--pale-rose-l-25 );
+}
+.css-bg-color--pale-rose-l-30 {
+	background-color: var( --css-bg-color--pale-rose-l-30, $css-color--pale-rose-l-30 );
+}
+.css-bg-color--pale-rose-l-35 {
+	background-color: var( --css-bg-color--pale-rose-l-35, $css-color--pale-rose-l-35 );
+}
+.css-bg-color--pale-rose-l-40 {
+	background-color: var( --css-bg-color--pale-rose-l-40, $css-color--pale-rose-l-40 );
+}
+.css-bg-color--pale-rose-l-45 {
+	background-color: var( --css-bg-color--pale-rose-l-45, $css-color--pale-rose-l-45 );
+}
+.css-bg-color--pale-rose-l-50 {
+	background-color: var( --css-bg-color--pale-rose-l-50, $css-color--pale-rose-l-50 );
+}
+.css-bg-color--pale-rose-l-55 {
+	background-color: var( --css-bg-color--pale-rose-l-55, $css-color--pale-rose-l-55 );
+}
+.css-bg-color--pale-rose-l-60 {
+	background-color: var( --css-bg-color--pale-rose-l-60, $css-color--pale-rose-l-60 );
+}
+.css-bg-color--pale-rose-l-65 {
+	background-color: var( --css-bg-color--pale-rose-l-65, $css-color--pale-rose-l-65 );
+}
+.css-bg-color--pale-rose-l-70 {
+	background-color: var( --css-bg-color--pale-rose-l-70, $css-color--pale-rose-l-70 );
+}
+.css-bg-color--pale-rose-l-75 {
+	background-color: var( --css-bg-color--pale-rose-l-75, $css-color--pale-rose-l-75 );
+}
+.css-bg-color--pale-rose-l-80 {
+	background-color: var( --css-bg-color--pale-rose-l-80, $css-color--pale-rose-l-80 );
+}
+.css-bg-color--pale-rose-l-85 {
+	background-color: var( --css-bg-color--pale-rose-l-85, $css-color--pale-rose-l-85 );
+}
+.css-bg-color--pale-rose-l-90 {
+	background-color: var( --css-bg-color--pale-rose-l-90, $css-color--pale-rose-l-90 );
+}
+.css-bg-color--pale-rose-l-95 {
+	background-color: var( --css-bg-color--pale-rose-l-95, $css-color--pale-rose-l-95 );
+}
+.css-bg-color--pale-rose-l-100 {
+	background-color: var( --css-bg-color--pale-rose-l-100, $css-color--pale-rose-l-100 );
+}
+
+// Darken background color by percentage.
+.css-bg-color--pale-rose-d-5 {
+	background-color: var( --css-bg-color--pale-rose-d-5, $css-color--pale-rose-d-5 );
+}
+.css-bg-color--pale-rose-d-10 {
+	background-color: var( --css-bg-color--pale-rose-d-10, $css-color--pale-rose-d-10 );
+}
+.css-bg-color--pale-rose-d-15 {
+	background-color: var( --css-bg-color--pale-rose-d-15, $css-color--pale-rose-d-15 );
+}
+.css-bg-color--pale-rose-d-20 {
+	background-color: var( --css-bg-color--pale-rose-d-20, $css-color--pale-rose-d-20 );
+}
+.css-bg-color--pale-rose-d-25 {
+	background-color: var( --css-bg-color--pale-rose-d-25, $css-color--pale-rose-d-25 );
+}
+.css-bg-color--pale-rose-d-30 {
+	background-color: var( --css-bg-color--pale-rose-d-30, $css-color--pale-rose-d-30 );
+}
+.css-bg-color--pale-rose-d-35 {
+	background-color: var( --css-bg-color--pale-rose-d-35, $css-color--pale-rose-d-35 );
+}
+.css-bg-color--pale-rose-d-40 {
+	background-color: var( --css-bg-color--pale-rose-d-40, $css-color--pale-rose-d-40 );
+}
+.css-bg-color--pale-rose-d-45 {
+	background-color: var( --css-bg-color--pale-rose-d-45, $css-color--pale-rose-d-45 );
+}
+.css-bg-color--pale-rose-d-50 {
+	background-color: var( --css-bg-color--pale-rose-d-50, $css-color--pale-rose-d-50 );
+}
+.css-bg-color--pale-rose-d-55 {
+	background-color: var( --css-bg-color--pale-rose-d-55, $css-color--pale-rose-d-55 );
+}
+.css-bg-color--pale-rose-d-60 {
+	background-color: var( --css-bg-color--pale-rose-d-60, $css-color--pale-rose-d-60 );
+}
+.css-bg-color--pale-rose-d-65 {
+	background-color: var( --css-bg-color--pale-rose-d-65, $css-color--pale-rose-d-65 );
+}
+.css-bg-color--pale-rose-d-70 {
+	background-color: var( --css-bg-color--pale-rose-d-70, $css-color--pale-rose-d-70 );
+}
+.css-bg-color--pale-rose-d-75 {
+	background-color: var( --css-bg-color--pale-rose-d-75, $css-color--pale-rose-d-75 );
+}
+.css-bg-color--pale-rose-d-80 {
+	background-color: var( --css-bg-color--pale-rose-d-80, $css-color--pale-rose-d-80 );
+}
+.css-bg-color--pale-rose-d-85 {
+	background-color: var( --css-bg-color--pale-rose-d-85, $css-color--pale-rose-d-85 );
+}
+.css-bg-color--pale-rose-d-90 {
+	background-color: var( --css-bg-color--pale-rose-d-90, $css-color--pale-rose-d-90 );
+}
+.css-bg-color--pale-rose-d-95 {
+	background-color: var( --css-bg-color--pale-rose-d-95, $css-color--pale-rose-d-95 );
+}
+.css-bg-color--pale-rose-d-100 {
+	background-color: var( --css-bg-color--pale-rose-d-100, $css-color--pale-rose-d-100 );
+}

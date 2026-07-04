@@ -1,0 +1,95 @@
+///
+/// Dark Khaki variables
+///
+
+@use 'sass:color';
+
+$css-color--dark-khaki: #cccc66;
+
+// Lighten color by percentage.
+$css-color--dark-khaki-l-5: #{color.adjust( $css-color--dark-khaki, $lightness: 5% )};
+$css-color--dark-khaki-l-10: #{color.adjust( $css-color--dark-khaki, $lightness: 10% )};
+$css-color--dark-khaki-l-15: #{color.adjust( $css-color--dark-khaki, $lightness: 15% )};
+$css-color--dark-khaki-l-20: #{color.adjust( $css-color--dark-khaki, $lightness: 20% )};
+$css-color--dark-khaki-l-25: #{color.adjust( $css-color--dark-khaki, $lightness: 25% )};
+$css-color--dark-khaki-l-30: #{color.adjust( $css-color--dark-khaki, $lightness: 30% )};
+$css-color--dark-khaki-l-35: #{color.adjust( $css-color--dark-khaki, $lightness: 35% )};
+$css-color--dark-khaki-l-40: #{color.adjust( $css-color--dark-khaki, $lightness: 40% )};
+$css-color--dark-khaki-l-45: #{color.adjust( $css-color--dark-khaki, $lightness: 45% )};
+$css-color--dark-khaki-l-50: #{color.adjust( $css-color--dark-khaki, $lightness: 50% )};
+$css-color--dark-khaki-l-55: #{color.adjust( $css-color--dark-khaki, $lightness: 55% )};
+$css-color--dark-khaki-l-60: #{color.adjust( $css-color--dark-khaki, $lightness: 60% )};
+$css-color--dark-khaki-l-65: #{color.adjust( $css-color--dark-khaki, $lightness: 65% )};
+$css-color--dark-khaki-l-70: #{color.adjust( $css-color--dark-khaki, $lightness: 70% )};
+$css-color--dark-khaki-l-75: #{color.adjust( $css-color--dark-khaki, $lightness: 75% )};
+$css-color--dark-khaki-l-80: #{color.adjust( $css-color--dark-khaki, $lightness: 80% )};
+$css-color--dark-khaki-l-85: #{color.adjust( $css-color--dark-khaki, $lightness: 85% )};
+$css-color--dark-khaki-l-90: #{color.adjust( $css-color--dark-khaki, $lightness: 90% )};
+$css-color--dark-khaki-l-95: #{color.adjust( $css-color--dark-khaki, $lightness: 95% )};
+$css-color--dark-khaki-l-100: #{color.adjust( $css-color--dark-khaki, $lightness: 100% )};
+
+// Darken color by percentage.
+$css-color--dark-khaki-d-5: #{color.adjust( $css-color--dark-khaki, $lightness: -5% )};
+$css-color--dark-khaki-d-10: #{color.adjust( $css-color--dark-khaki, $lightness: -10% )};
+$css-color--dark-khaki-d-15: #{color.adjust( $css-color--dark-khaki, $lightness: -15% )};
+$css-color--dark-khaki-d-20: #{color.adjust( $css-color--dark-khaki, $lightness: -20% )};
+$css-color--dark-khaki-d-25: #{color.adjust( $css-color--dark-khaki, $lightness: -25% )};
+$css-color--dark-khaki-d-30: #{color.adjust( $css-color--dark-khaki, $lightness: -30% )};
+$css-color--dark-khaki-d-35: #{color.adjust( $css-color--dark-khaki, $lightness: -35% )};
+$css-color--dark-khaki-d-40: #{color.adjust( $css-color--dark-khaki, $lightness: -40% )};
+$css-color--dark-khaki-d-45: #{color.adjust( $css-color--dark-khaki, $lightness: -45% )};
+$css-color--dark-khaki-d-50: #{color.adjust( $css-color--dark-khaki, $lightness: -50% )};
+$css-color--dark-khaki-d-55: #{color.adjust( $css-color--dark-khaki, $lightness: -55% )};
+$css-color--dark-khaki-d-60: #{color.adjust( $css-color--dark-khaki, $lightness: -60% )};
+$css-color--dark-khaki-d-65: #{color.adjust( $css-color--dark-khaki, $lightness: -65% )};
+$css-color--dark-khaki-d-70: #{color.adjust( $css-color--dark-khaki, $lightness: -70% )};
+$css-color--dark-khaki-d-75: #{color.adjust( $css-color--dark-khaki, $lightness: -75% )};
+$css-color--dark-khaki-d-80: #{color.adjust( $css-color--dark-khaki, $lightness: -80% )};
+$css-color--dark-khaki-d-85: #{color.adjust( $css-color--dark-khaki, $lightness: -85% )};
+$css-color--dark-khaki-d-90: #{color.adjust( $css-color--dark-khaki, $lightness: -90% )};
+$css-color--dark-khaki-d-95: #{color.adjust( $css-color--dark-khaki, $lightness: -95% )};
+$css-color--dark-khaki-d-100: #{color.adjust( $css-color--dark-khaki, $lightness: -100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--dark-khaki-l-5: #{color.adjust( $css-color--dark-khaki, $lightness: 5% )};
+$css-bg-color--dark-khaki-l-10: #{color.adjust( $css-color--dark-khaki, $lightness: 10% )};
+$css-bg-color--dark-khaki-l-15: #{color.adjust( $css-color--dark-khaki, $lightness: 15% )};
+$css-bg-color--dark-khaki-l-20: #{color.adjust( $css-color--dark-khaki, $lightness: 20% )};
+$css-bg-color--dark-khaki-l-25: #{color.adjust( $css-color--dark-khaki, $lightness: 25% )};
+$css-bg-color--dark-khaki-l-30: #{color.adjust( $css-color--dark-khaki, $lightness: 30% )};
+$css-bg-color--dark-khaki-l-35: #{color.adjust( $css-color--dark-khaki, $lightness: 35% )};
+$css-bg-color--dark-khaki-l-40: #{color.adjust( $css-color--dark-khaki, $lightness: 40% )};
+$css-bg-color--dark-khaki-l-45: #{color.adjust( $css-color--dark-khaki, $lightness: 45% )};
+$css-bg-color--dark-khaki-l-50: #{color.adjust( $css-color--dark-khaki, $lightness: 50% )};
+$css-bg-color--dark-khaki-l-55: #{color.adjust( $css-color--dark-khaki, $lightness: 55% )};
+$css-bg-color--dark-khaki-l-60: #{color.adjust( $css-color--dark-khaki, $lightness: 60% )};
+$css-bg-color--dark-khaki-l-65: #{color.adjust( $css-color--dark-khaki, $lightness: 65% )};
+$css-bg-color--dark-khaki-l-70: #{color.adjust( $css-color--dark-khaki, $lightness: 70% )};
+$css-bg-color--dark-khaki-l-75: #{color.adjust( $css-color--dark-khaki, $lightness: 75% )};
+$css-bg-color--dark-khaki-l-80: #{color.adjust( $css-color--dark-khaki, $lightness: 80% )};
+$css-bg-color--dark-khaki-l-85: #{color.adjust( $css-color--dark-khaki, $lightness: 85% )};
+$css-bg-color--dark-khaki-l-90: #{color.adjust( $css-color--dark-khaki, $lightness: 90% )};
+$css-bg-color--dark-khaki-l-95: #{color.adjust( $css-color--dark-khaki, $lightness: 95% )};
+$css-bg-color--dark-khaki-l-100: #{color.adjust( $css-color--dark-khaki, $lightness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--dark-khaki-d-5: #{color.adjust( $css-color--dark-khaki, $lightness: -5% )};
+$css-bg-color--dark-khaki-d-10: #{color.adjust( $css-color--dark-khaki, $lightness: -10% )};
+$css-bg-color--dark-khaki-d-15: #{color.adjust( $css-color--dark-khaki, $lightness: -15% )};
+$css-bg-color--dark-khaki-d-20: #{color.adjust( $css-color--dark-khaki, $lightness: -20% )};
+$css-bg-color--dark-khaki-d-25: #{color.adjust( $css-color--dark-khaki, $lightness: -25% )};
+$css-bg-color--dark-khaki-d-30: #{color.adjust( $css-color--dark-khaki, $lightness: -30% )};
+$css-bg-color--dark-khaki-d-35: #{color.adjust( $css-color--dark-khaki, $lightness: -35% )};
+$css-bg-color--dark-khaki-d-40: #{color.adjust( $css-color--dark-khaki, $lightness: -40% )};
+$css-bg-color--dark-khaki-d-45: #{color.adjust( $css-color--dark-khaki, $lightness: -45% )};
+$css-bg-color--dark-khaki-d-50: #{color.adjust( $css-color--dark-khaki, $lightness: -50% )};
+$css-bg-color--dark-khaki-d-55: #{color.adjust( $css-color--dark-khaki, $lightness: -55% )};
+$css-bg-color--dark-khaki-d-60: #{color.adjust( $css-color--dark-khaki, $lightness: -60% )};
+$css-bg-color--dark-khaki-d-65: #{color.adjust( $css-color--dark-khaki, $lightness: -65% )};
+$css-bg-color--dark-khaki-d-70: #{color.adjust( $css-color--dark-khaki, $lightness: -70% )};
+$css-bg-color--dark-khaki-d-75: #{color.adjust( $css-color--dark-khaki, $lightness: -75% )};
+$css-bg-color--dark-khaki-d-80: #{color.adjust( $css-color--dark-khaki, $lightness: -80% )};
+$css-bg-color--dark-khaki-d-85: #{color.adjust( $css-color--dark-khaki, $lightness: -85% )};
+$css-bg-color--dark-khaki-d-90: #{color.adjust( $css-color--dark-khaki, $lightness: -90% )};
+$css-bg-color--dark-khaki-d-95: #{color.adjust( $css-color--dark-khaki, $lightness: -95% )};
+$css-bg-color--dark-khaki-d-100: #{color.adjust( $css-color--dark-khaki, $lightness: -100% )};

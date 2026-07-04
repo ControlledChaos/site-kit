@@ -1,0 +1,102 @@
+///
+/// Laurel Gray properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--laurel-gray: #{$css-color--laurel-gray};
+
+	// Lighten color by percentage.
+	--css-color--laurel-gray-l-5: #{$css-color--laurel-gray-l-5};
+	--css-color--laurel-gray-l-10: #{$css-color--laurel-gray-l-10};
+	--css-color--laurel-gray-l-15: #{$css-color--laurel-gray-l-15};
+	--css-color--laurel-gray-l-20: #{$css-color--laurel-gray-l-20};
+	--css-color--laurel-gray-l-25: #{$css-color--laurel-gray-l-25};
+	--css-color--laurel-gray-l-30: #{$css-color--laurel-gray-l-30};
+	--css-color--laurel-gray-l-35: #{$css-color--laurel-gray-l-35};
+	--css-color--laurel-gray-l-40: #{$css-color--laurel-gray-l-40};
+	--css-color--laurel-gray-l-45: #{$css-color--laurel-gray-l-45};
+	--css-color--laurel-gray-l-50: #{$css-color--laurel-gray-l-50};
+	--css-color--laurel-gray-l-55: #{$css-color--laurel-gray-l-55};
+	--css-color--laurel-gray-l-60: #{$css-color--laurel-gray-l-60};
+	--css-color--laurel-gray-l-65: #{$css-color--laurel-gray-l-65};
+	--css-color--laurel-gray-l-70: #{$css-color--laurel-gray-l-70};
+	--css-color--laurel-gray-l-75: #{$css-color--laurel-gray-l-75};
+	--css-color--laurel-gray-l-80: #{$css-color--laurel-gray-l-80};
+	--css-color--laurel-gray-l-85: #{$css-color--laurel-gray-l-85};
+	--css-color--laurel-gray-l-90: #{$css-color--laurel-gray-l-90};
+	--css-color--laurel-gray-l-95: #{$css-color--laurel-gray-l-95};
+	--css-color--laurel-gray-l-100: #{$css-color--laurel-gray-l-100};
+
+	// Darken color by percentage.
+	--css-color--laurel-gray-d-5: #{$css-color--laurel-gray-d-5};
+	--css-color--laurel-gray-d-10: #{$css-color--laurel-gray-d-10};
+	--css-color--laurel-gray-d-15: #{$css-color--laurel-gray-d-15};
+	--css-color--laurel-gray-d-20: #{$css-color--laurel-gray-d-20};
+	--css-color--laurel-gray-d-25: #{$css-color--laurel-gray-d-25};
+	--css-color--laurel-gray-d-30: #{$css-color--laurel-gray-d-30};
+	--css-color--laurel-gray-d-35: #{$css-color--laurel-gray-d-35};
+	--css-color--laurel-gray-d-40: #{$css-color--laurel-gray-d-40};
+	--css-color--laurel-gray-d-45: #{$css-color--laurel-gray-d-45};
+	--css-color--laurel-gray-d-50: #{$css-color--laurel-gray-d-50};
+	--css-color--laurel-gray-d-55: #{$css-color--laurel-gray-d-55};
+	--css-color--laurel-gray-d-60: #{$css-color--laurel-gray-d-60};
+	--css-color--laurel-gray-d-65: #{$css-color--laurel-gray-d-65};
+	--css-color--laurel-gray-d-70: #{$css-color--laurel-gray-d-70};
+	--css-color--laurel-gray-d-75: #{$css-color--laurel-gray-d-75};
+	--css-color--laurel-gray-d-80: #{$css-color--laurel-gray-d-80};
+	--css-color--laurel-gray-d-85: #{$css-color--laurel-gray-d-85};
+	--css-color--laurel-gray-d-90: #{$css-color--laurel-gray-d-90};
+	--css-color--laurel-gray-d-95: #{$css-color--laurel-gray-d-95};
+	--css-color--laurel-gray-d-100: #{$css-color--laurel-gray-d-100};
+
+	// Original background color.
+	--css-bg-color--laurel-gray: #{$css-color--laurel-gray};
+
+	// Lighten background color by percentage.
+	--css-bg-color--laurel-gray-l-5: #{$css-color--laurel-gray-l-5};
+	--css-bg-color--laurel-gray-l-10: #{$css-color--laurel-gray-l-10};
+	--css-bg-color--laurel-gray-l-15: #{$css-color--laurel-gray-l-15};
+	--css-bg-color--laurel-gray-l-20: #{$css-color--laurel-gray-l-20};
+	--css-bg-color--laurel-gray-l-25: #{$css-color--laurel-gray-l-25};
+	--css-bg-color--laurel-gray-l-30: #{$css-color--laurel-gray-l-30};
+	--css-bg-color--laurel-gray-l-35: #{$css-color--laurel-gray-l-35};
+	--css-bg-color--laurel-gray-l-40: #{$css-color--laurel-gray-l-40};
+	--css-bg-color--laurel-gray-l-45: #{$css-color--laurel-gray-l-45};
+	--css-bg-color--laurel-gray-l-50: #{$css-color--laurel-gray-l-50};
+	--css-bg-color--laurel-gray-l-55: #{$css-color--laurel-gray-l-55};
+	--css-bg-color--laurel-gray-l-60: #{$css-color--laurel-gray-l-60};
+	--css-bg-color--laurel-gray-l-65: #{$css-color--laurel-gray-l-65};
+	--css-bg-color--laurel-gray-l-70: #{$css-color--laurel-gray-l-70};
+	--css-bg-color--laurel-gray-l-75: #{$css-color--laurel-gray-l-75};
+	--css-bg-color--laurel-gray-l-80: #{$css-color--laurel-gray-l-80};
+	--css-bg-color--laurel-gray-l-85: #{$css-color--laurel-gray-l-85};
+	--css-bg-color--laurel-gray-l-90: #{$css-color--laurel-gray-l-90};
+	--css-bg-color--laurel-gray-l-95: #{$css-color--laurel-gray-l-95};
+	--css-bg-color--laurel-gray-l-100: #{$css-color--laurel-gray-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--laurel-gray-d-5: #{$css-color--laurel-gray-d-5};
+	--css-bg-color--laurel-gray-d-10: #{$css-color--laurel-gray-d-10};
+	--css-bg-color--laurel-gray-d-15: #{$css-color--laurel-gray-d-15};
+	--css-bg-color--laurel-gray-d-20: #{$css-color--laurel-gray-d-20};
+	--css-bg-color--laurel-gray-d-25: #{$css-color--laurel-gray-d-25};
+	--css-bg-color--laurel-gray-d-30: #{$css-color--laurel-gray-d-30};
+	--css-bg-color--laurel-gray-d-35: #{$css-color--laurel-gray-d-35};
+	--css-bg-color--laurel-gray-d-40: #{$css-color--laurel-gray-d-40};
+	--css-bg-color--laurel-gray-d-45: #{$css-color--laurel-gray-d-45};
+	--css-bg-color--laurel-gray-d-50: #{$css-color--laurel-gray-d-50};
+	--css-bg-color--laurel-gray-d-55: #{$css-color--laurel-gray-d-55};
+	--css-bg-color--laurel-gray-d-60: #{$css-color--laurel-gray-d-60};
+	--css-bg-color--laurel-gray-d-65: #{$css-color--laurel-gray-d-65};
+	--css-bg-color--laurel-gray-d-70: #{$css-color--laurel-gray-d-70};
+	--css-bg-color--laurel-gray-d-75: #{$css-color--laurel-gray-d-75};
+	--css-bg-color--laurel-gray-d-80: #{$css-color--laurel-gray-d-80};
+	--css-bg-color--laurel-gray-d-85: #{$css-color--laurel-gray-d-85};
+	--css-bg-color--laurel-gray-d-90: #{$css-color--laurel-gray-d-90};
+	--css-bg-color--laurel-gray-d-95: #{$css-color--laurel-gray-d-95};
+	--css-bg-color--laurel-gray-d-100: #{$css-color--laurel-gray-d-100};
+}

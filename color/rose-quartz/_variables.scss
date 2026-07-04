@@ -1,0 +1,95 @@
+///
+/// Rose Quartz variables
+///
+
+@use 'sass:color';
+
+$css-color--rose-quartz: #cc9999;
+
+// Lighten color by percentage.
+$css-color--rose-quartz-l-5: #{color.adjust( $css-color--rose-quartz, $lightness: 5% )};
+$css-color--rose-quartz-l-10: #{color.adjust( $css-color--rose-quartz, $lightness: 10% )};
+$css-color--rose-quartz-l-15: #{color.adjust( $css-color--rose-quartz, $lightness: 15% )};
+$css-color--rose-quartz-l-20: #{color.adjust( $css-color--rose-quartz, $lightness: 20% )};
+$css-color--rose-quartz-l-25: #{color.adjust( $css-color--rose-quartz, $lightness: 25% )};
+$css-color--rose-quartz-l-30: #{color.adjust( $css-color--rose-quartz, $lightness: 30% )};
+$css-color--rose-quartz-l-35: #{color.adjust( $css-color--rose-quartz, $lightness: 35% )};
+$css-color--rose-quartz-l-40: #{color.adjust( $css-color--rose-quartz, $lightness: 40% )};
+$css-color--rose-quartz-l-45: #{color.adjust( $css-color--rose-quartz, $lightness: 45% )};
+$css-color--rose-quartz-l-50: #{color.adjust( $css-color--rose-quartz, $lightness: 50% )};
+$css-color--rose-quartz-l-55: #{color.adjust( $css-color--rose-quartz, $lightness: 55% )};
+$css-color--rose-quartz-l-60: #{color.adjust( $css-color--rose-quartz, $lightness: 60% )};
+$css-color--rose-quartz-l-65: #{color.adjust( $css-color--rose-quartz, $lightness: 65% )};
+$css-color--rose-quartz-l-70: #{color.adjust( $css-color--rose-quartz, $lightness: 70% )};
+$css-color--rose-quartz-l-75: #{color.adjust( $css-color--rose-quartz, $lightness: 75% )};
+$css-color--rose-quartz-l-80: #{color.adjust( $css-color--rose-quartz, $lightness: 80% )};
+$css-color--rose-quartz-l-85: #{color.adjust( $css-color--rose-quartz, $lightness: 85% )};
+$css-color--rose-quartz-l-90: #{color.adjust( $css-color--rose-quartz, $lightness: 90% )};
+$css-color--rose-quartz-l-95: #{color.adjust( $css-color--rose-quartz, $lightness: 95% )};
+$css-color--rose-quartz-l-100: #{color.adjust( $css-color--rose-quartz, $lightness: 100% )};
+
+// Darken color by percentage.
+$css-color--rose-quartz-d-5: #{color.adjust( $css-color--rose-quartz, $lightness: -5% )};
+$css-color--rose-quartz-d-10: #{color.adjust( $css-color--rose-quartz, $lightness: -10% )};
+$css-color--rose-quartz-d-15: #{color.adjust( $css-color--rose-quartz, $lightness: -15% )};
+$css-color--rose-quartz-d-20: #{color.adjust( $css-color--rose-quartz, $lightness: -20% )};
+$css-color--rose-quartz-d-25: #{color.adjust( $css-color--rose-quartz, $lightness: -25% )};
+$css-color--rose-quartz-d-30: #{color.adjust( $css-color--rose-quartz, $lightness: -30% )};
+$css-color--rose-quartz-d-35: #{color.adjust( $css-color--rose-quartz, $lightness: -35% )};
+$css-color--rose-quartz-d-40: #{color.adjust( $css-color--rose-quartz, $lightness: -40% )};
+$css-color--rose-quartz-d-45: #{color.adjust( $css-color--rose-quartz, $lightness: -45% )};
+$css-color--rose-quartz-d-50: #{color.adjust( $css-color--rose-quartz, $lightness: -50% )};
+$css-color--rose-quartz-d-55: #{color.adjust( $css-color--rose-quartz, $lightness: -55% )};
+$css-color--rose-quartz-d-60: #{color.adjust( $css-color--rose-quartz, $lightness: -60% )};
+$css-color--rose-quartz-d-65: #{color.adjust( $css-color--rose-quartz, $lightness: -65% )};
+$css-color--rose-quartz-d-70: #{color.adjust( $css-color--rose-quartz, $lightness: -70% )};
+$css-color--rose-quartz-d-75: #{color.adjust( $css-color--rose-quartz, $lightness: -75% )};
+$css-color--rose-quartz-d-80: #{color.adjust( $css-color--rose-quartz, $lightness: -80% )};
+$css-color--rose-quartz-d-85: #{color.adjust( $css-color--rose-quartz, $lightness: -85% )};
+$css-color--rose-quartz-d-90: #{color.adjust( $css-color--rose-quartz, $lightness: -90% )};
+$css-color--rose-quartz-d-95: #{color.adjust( $css-color--rose-quartz, $lightness: -95% )};
+$css-color--rose-quartz-d-100: #{color.adjust( $css-color--rose-quartz, $lightness: -100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--rose-quartz-l-5: #{color.adjust( $css-color--rose-quartz, $lightness: 5% )};
+$css-bg-color--rose-quartz-l-10: #{color.adjust( $css-color--rose-quartz, $lightness: 10% )};
+$css-bg-color--rose-quartz-l-15: #{color.adjust( $css-color--rose-quartz, $lightness: 15% )};
+$css-bg-color--rose-quartz-l-20: #{color.adjust( $css-color--rose-quartz, $lightness: 20% )};
+$css-bg-color--rose-quartz-l-25: #{color.adjust( $css-color--rose-quartz, $lightness: 25% )};
+$css-bg-color--rose-quartz-l-30: #{color.adjust( $css-color--rose-quartz, $lightness: 30% )};
+$css-bg-color--rose-quartz-l-35: #{color.adjust( $css-color--rose-quartz, $lightness: 35% )};
+$css-bg-color--rose-quartz-l-40: #{color.adjust( $css-color--rose-quartz, $lightness: 40% )};
+$css-bg-color--rose-quartz-l-45: #{color.adjust( $css-color--rose-quartz, $lightness: 45% )};
+$css-bg-color--rose-quartz-l-50: #{color.adjust( $css-color--rose-quartz, $lightness: 50% )};
+$css-bg-color--rose-quartz-l-55: #{color.adjust( $css-color--rose-quartz, $lightness: 55% )};
+$css-bg-color--rose-quartz-l-60: #{color.adjust( $css-color--rose-quartz, $lightness: 60% )};
+$css-bg-color--rose-quartz-l-65: #{color.adjust( $css-color--rose-quartz, $lightness: 65% )};
+$css-bg-color--rose-quartz-l-70: #{color.adjust( $css-color--rose-quartz, $lightness: 70% )};
+$css-bg-color--rose-quartz-l-75: #{color.adjust( $css-color--rose-quartz, $lightness: 75% )};
+$css-bg-color--rose-quartz-l-80: #{color.adjust( $css-color--rose-quartz, $lightness: 80% )};
+$css-bg-color--rose-quartz-l-85: #{color.adjust( $css-color--rose-quartz, $lightness: 85% )};
+$css-bg-color--rose-quartz-l-90: #{color.adjust( $css-color--rose-quartz, $lightness: 90% )};
+$css-bg-color--rose-quartz-l-95: #{color.adjust( $css-color--rose-quartz, $lightness: 95% )};
+$css-bg-color--rose-quartz-l-100: #{color.adjust( $css-color--rose-quartz, $lightness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--rose-quartz-d-5: #{color.adjust( $css-color--rose-quartz, $lightness: -5% )};
+$css-bg-color--rose-quartz-d-10: #{color.adjust( $css-color--rose-quartz, $lightness: -10% )};
+$css-bg-color--rose-quartz-d-15: #{color.adjust( $css-color--rose-quartz, $lightness: -15% )};
+$css-bg-color--rose-quartz-d-20: #{color.adjust( $css-color--rose-quartz, $lightness: -20% )};
+$css-bg-color--rose-quartz-d-25: #{color.adjust( $css-color--rose-quartz, $lightness: -25% )};
+$css-bg-color--rose-quartz-d-30: #{color.adjust( $css-color--rose-quartz, $lightness: -30% )};
+$css-bg-color--rose-quartz-d-35: #{color.adjust( $css-color--rose-quartz, $lightness: -35% )};
+$css-bg-color--rose-quartz-d-40: #{color.adjust( $css-color--rose-quartz, $lightness: -40% )};
+$css-bg-color--rose-quartz-d-45: #{color.adjust( $css-color--rose-quartz, $lightness: -45% )};
+$css-bg-color--rose-quartz-d-50: #{color.adjust( $css-color--rose-quartz, $lightness: -50% )};
+$css-bg-color--rose-quartz-d-55: #{color.adjust( $css-color--rose-quartz, $lightness: -55% )};
+$css-bg-color--rose-quartz-d-60: #{color.adjust( $css-color--rose-quartz, $lightness: -60% )};
+$css-bg-color--rose-quartz-d-65: #{color.adjust( $css-color--rose-quartz, $lightness: -65% )};
+$css-bg-color--rose-quartz-d-70: #{color.adjust( $css-color--rose-quartz, $lightness: -70% )};
+$css-bg-color--rose-quartz-d-75: #{color.adjust( $css-color--rose-quartz, $lightness: -75% )};
+$css-bg-color--rose-quartz-d-80: #{color.adjust( $css-color--rose-quartz, $lightness: -80% )};
+$css-bg-color--rose-quartz-d-85: #{color.adjust( $css-color--rose-quartz, $lightness: -85% )};
+$css-bg-color--rose-quartz-d-90: #{color.adjust( $css-color--rose-quartz, $lightness: -90% )};
+$css-bg-color--rose-quartz-d-95: #{color.adjust( $css-color--rose-quartz, $lightness: -95% )};
+$css-bg-color--rose-quartz-d-100: #{color.adjust( $css-color--rose-quartz, $lightness: -100% )};

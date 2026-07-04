@@ -1,0 +1,95 @@
+///
+/// Sinopia variables
+///
+
+@use 'sass:color';
+
+$css-color--sinopia: #cc3300;
+
+// Lighten color by percentage.
+$css-color--sinopia-l-5: #{color.adjust( $css-color--sinopia, $whiteness: 5% )};
+$css-color--sinopia-l-10: #{color.adjust( $css-color--sinopia, $whiteness: 10% )};
+$css-color--sinopia-l-15: #{color.adjust( $css-color--sinopia, $whiteness: 15% )};
+$css-color--sinopia-l-20: #{color.adjust( $css-color--sinopia, $whiteness: 20% )};
+$css-color--sinopia-l-25: #{color.adjust( $css-color--sinopia, $whiteness: 25% )};
+$css-color--sinopia-l-30: #{color.adjust( $css-color--sinopia, $whiteness: 30% )};
+$css-color--sinopia-l-35: #{color.adjust( $css-color--sinopia, $whiteness: 35% )};
+$css-color--sinopia-l-40: #{color.adjust( $css-color--sinopia, $whiteness: 40% )};
+$css-color--sinopia-l-45: #{color.adjust( $css-color--sinopia, $whiteness: 45% )};
+$css-color--sinopia-l-50: #{color.adjust( $css-color--sinopia, $whiteness: 50% )};
+$css-color--sinopia-l-55: #{color.adjust( $css-color--sinopia, $whiteness: 55% )};
+$css-color--sinopia-l-60: #{color.adjust( $css-color--sinopia, $whiteness: 60% )};
+$css-color--sinopia-l-65: #{color.adjust( $css-color--sinopia, $whiteness: 65% )};
+$css-color--sinopia-l-70: #{color.adjust( $css-color--sinopia, $whiteness: 70% )};
+$css-color--sinopia-l-75: #{color.adjust( $css-color--sinopia, $whiteness: 75% )};
+$css-color--sinopia-l-80: #{color.adjust( $css-color--sinopia, $whiteness: 80% )};
+$css-color--sinopia-l-85: #{color.adjust( $css-color--sinopia, $whiteness: 85% )};
+$css-color--sinopia-l-90: #{color.adjust( $css-color--sinopia, $whiteness: 90% )};
+$css-color--sinopia-l-95: #{color.adjust( $css-color--sinopia, $whiteness: 95% )};
+$css-color--sinopia-l-100: #{color.adjust( $css-color--sinopia, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--sinopia-d-5: #{color.adjust( $css-color--sinopia, $blackness: 5% )};
+$css-color--sinopia-d-10: #{color.adjust( $css-color--sinopia, $blackness: 10% )};
+$css-color--sinopia-d-15: #{color.adjust( $css-color--sinopia, $blackness: 15% )};
+$css-color--sinopia-d-20: #{color.adjust( $css-color--sinopia, $blackness: 20% )};
+$css-color--sinopia-d-25: #{color.adjust( $css-color--sinopia, $blackness: 25% )};
+$css-color--sinopia-d-30: #{color.adjust( $css-color--sinopia, $blackness: 30% )};
+$css-color--sinopia-d-35: #{color.adjust( $css-color--sinopia, $blackness: 35% )};
+$css-color--sinopia-d-40: #{color.adjust( $css-color--sinopia, $blackness: 40% )};
+$css-color--sinopia-d-45: #{color.adjust( $css-color--sinopia, $blackness: 45% )};
+$css-color--sinopia-d-50: #{color.adjust( $css-color--sinopia, $blackness: 50% )};
+$css-color--sinopia-d-55: #{color.adjust( $css-color--sinopia, $blackness: 55% )};
+$css-color--sinopia-d-60: #{color.adjust( $css-color--sinopia, $blackness: 60% )};
+$css-color--sinopia-d-65: #{color.adjust( $css-color--sinopia, $blackness: 65% )};
+$css-color--sinopia-d-70: #{color.adjust( $css-color--sinopia, $blackness: 70% )};
+$css-color--sinopia-d-75: #{color.adjust( $css-color--sinopia, $blackness: 75% )};
+$css-color--sinopia-d-80: #{color.adjust( $css-color--sinopia, $blackness: 80% )};
+$css-color--sinopia-d-85: #{color.adjust( $css-color--sinopia, $blackness: 85% )};
+$css-color--sinopia-d-90: #{color.adjust( $css-color--sinopia, $blackness: 90% )};
+$css-color--sinopia-d-95: #{color.adjust( $css-color--sinopia, $blackness: 95% )};
+$css-color--sinopia-d-100: #{color.adjust( $css-color--sinopia, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--sinopia-l-5: #{color.adjust( $css-color--sinopia, $whiteness: 5% )};
+$css-bg-color--sinopia-l-10: #{color.adjust( $css-color--sinopia, $whiteness: 10% )};
+$css-bg-color--sinopia-l-15: #{color.adjust( $css-color--sinopia, $whiteness: 15% )};
+$css-bg-color--sinopia-l-20: #{color.adjust( $css-color--sinopia, $whiteness: 20% )};
+$css-bg-color--sinopia-l-25: #{color.adjust( $css-color--sinopia, $whiteness: 25% )};
+$css-bg-color--sinopia-l-30: #{color.adjust( $css-color--sinopia, $whiteness: 30% )};
+$css-bg-color--sinopia-l-35: #{color.adjust( $css-color--sinopia, $whiteness: 35% )};
+$css-bg-color--sinopia-l-40: #{color.adjust( $css-color--sinopia, $whiteness: 40% )};
+$css-bg-color--sinopia-l-45: #{color.adjust( $css-color--sinopia, $whiteness: 45% )};
+$css-bg-color--sinopia-l-50: #{color.adjust( $css-color--sinopia, $whiteness: 50% )};
+$css-bg-color--sinopia-l-55: #{color.adjust( $css-color--sinopia, $whiteness: 55% )};
+$css-bg-color--sinopia-l-60: #{color.adjust( $css-color--sinopia, $whiteness: 60% )};
+$css-bg-color--sinopia-l-65: #{color.adjust( $css-color--sinopia, $whiteness: 65% )};
+$css-bg-color--sinopia-l-70: #{color.adjust( $css-color--sinopia, $whiteness: 70% )};
+$css-bg-color--sinopia-l-75: #{color.adjust( $css-color--sinopia, $whiteness: 75% )};
+$css-bg-color--sinopia-l-80: #{color.adjust( $css-color--sinopia, $whiteness: 80% )};
+$css-bg-color--sinopia-l-85: #{color.adjust( $css-color--sinopia, $whiteness: 85% )};
+$css-bg-color--sinopia-l-90: #{color.adjust( $css-color--sinopia, $whiteness: 90% )};
+$css-bg-color--sinopia-l-95: #{color.adjust( $css-color--sinopia, $whiteness: 95% )};
+$css-bg-color--sinopia-l-100: #{color.adjust( $css-color--sinopia, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--sinopia-d-5: #{color.adjust( $css-color--sinopia, $blackness: 5% )};
+$css-bg-color--sinopia-d-10: #{color.adjust( $css-color--sinopia, $blackness: 10% )};
+$css-bg-color--sinopia-d-15: #{color.adjust( $css-color--sinopia, $blackness: 15% )};
+$css-bg-color--sinopia-d-20: #{color.adjust( $css-color--sinopia, $blackness: 20% )};
+$css-bg-color--sinopia-d-25: #{color.adjust( $css-color--sinopia, $blackness: 25% )};
+$css-bg-color--sinopia-d-30: #{color.adjust( $css-color--sinopia, $blackness: 30% )};
+$css-bg-color--sinopia-d-35: #{color.adjust( $css-color--sinopia, $blackness: 35% )};
+$css-bg-color--sinopia-d-40: #{color.adjust( $css-color--sinopia, $blackness: 40% )};
+$css-bg-color--sinopia-d-45: #{color.adjust( $css-color--sinopia, $blackness: 45% )};
+$css-bg-color--sinopia-d-50: #{color.adjust( $css-color--sinopia, $blackness: 50% )};
+$css-bg-color--sinopia-d-55: #{color.adjust( $css-color--sinopia, $blackness: 55% )};
+$css-bg-color--sinopia-d-60: #{color.adjust( $css-color--sinopia, $blackness: 60% )};
+$css-bg-color--sinopia-d-65: #{color.adjust( $css-color--sinopia, $blackness: 65% )};
+$css-bg-color--sinopia-d-70: #{color.adjust( $css-color--sinopia, $blackness: 70% )};
+$css-bg-color--sinopia-d-75: #{color.adjust( $css-color--sinopia, $blackness: 75% )};
+$css-bg-color--sinopia-d-80: #{color.adjust( $css-color--sinopia, $blackness: 80% )};
+$css-bg-color--sinopia-d-85: #{color.adjust( $css-color--sinopia, $blackness: 85% )};
+$css-bg-color--sinopia-d-90: #{color.adjust( $css-color--sinopia, $blackness: 90% )};
+$css-bg-color--sinopia-d-95: #{color.adjust( $css-color--sinopia, $blackness: 95% )};
+$css-bg-color--sinopia-d-100: #{color.adjust( $css-color--sinopia, $blackness: 100% )};

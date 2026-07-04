@@ -1,0 +1,412 @@
+:root {
+  --css-color--amber: #ff9900;
+  --css-color--amber-l-5: rgb(255, 158.1, 12.75);
+  --css-color--amber-l-10: rgb(255, 163.2, 25.5);
+  --css-color--amber-l-15: rgb(255, 168.3, 38.25);
+  --css-color--amber-l-20: rgb(255, 173.4, 51);
+  --css-color--amber-l-25: rgb(255, 178.5, 63.75);
+  --css-color--amber-l-30: rgb(255, 183.6, 76.5);
+  --css-color--amber-l-35: rgb(255, 188.7, 89.25);
+  --css-color--amber-l-40: rgb(255, 193.8, 102);
+  --css-color--amber-l-45: rgb(255, 198.9, 114.75);
+  --css-color--amber-l-50: rgb(255, 204, 127.5);
+  --css-color--amber-l-55: rgb(255, 209.1, 140.25);
+  --css-color--amber-l-60: rgb(255, 214.2, 153);
+  --css-color--amber-l-65: rgb(255, 219.3, 165.75);
+  --css-color--amber-l-70: rgb(255, 224.4, 178.5);
+  --css-color--amber-l-75: rgb(255, 229.5, 191.25);
+  --css-color--amber-l-80: rgb(255, 234.6, 204);
+  --css-color--amber-l-85: rgb(255, 239.7, 216.75);
+  --css-color--amber-l-90: rgb(255, 244.8, 229.5);
+  --css-color--amber-l-95: rgb(255, 249.9, 242.25);
+  --css-color--amber-l-100: white;
+  --css-color--amber-d-5: rgb(242.25, 145.35, 0);
+  --css-color--amber-d-10: rgb(229.5, 137.7, 0);
+  --css-color--amber-d-15: rgb(216.75, 130.05, 0);
+  --css-color--amber-d-20: rgb(204, 122.4, 0);
+  --css-color--amber-d-25: rgb(191.25, 114.75, 0);
+  --css-color--amber-d-30: rgb(178.5, 107.1, 0);
+  --css-color--amber-d-35: rgb(165.75, 99.45, 0);
+  --css-color--amber-d-40: rgb(153, 91.8, 0);
+  --css-color--amber-d-45: rgb(140.25, 84.15, 0);
+  --css-color--amber-d-50: rgb(127.5, 76.5, 0);
+  --css-color--amber-d-55: rgb(114.75, 68.85, 0);
+  --css-color--amber-d-60: rgb(102, 61.2, 0);
+  --css-color--amber-d-65: rgb(89.25, 53.55, 0);
+  --css-color--amber-d-70: rgb(76.5, 45.9, 0);
+  --css-color--amber-d-75: rgb(63.75, 38.25, 0);
+  --css-color--amber-d-80: rgb(51, 30.6, 0);
+  --css-color--amber-d-85: rgb(38.25, 22.95, 0);
+  --css-color--amber-d-90: rgb(25.5, 15.3, 0);
+  --css-color--amber-d-95: rgb(12.75, 7.65, 0);
+  --css-color--amber-d-100: black;
+  --css-bg-color--amber: #ff9900;
+  --css-bg-color--amber-l-5: rgb(255, 158.1, 12.75);
+  --css-bg-color--amber-l-10: rgb(255, 163.2, 25.5);
+  --css-bg-color--amber-l-15: rgb(255, 168.3, 38.25);
+  --css-bg-color--amber-l-20: rgb(255, 173.4, 51);
+  --css-bg-color--amber-l-25: rgb(255, 178.5, 63.75);
+  --css-bg-color--amber-l-30: rgb(255, 183.6, 76.5);
+  --css-bg-color--amber-l-35: rgb(255, 188.7, 89.25);
+  --css-bg-color--amber-l-40: rgb(255, 193.8, 102);
+  --css-bg-color--amber-l-45: rgb(255, 198.9, 114.75);
+  --css-bg-color--amber-l-50: rgb(255, 204, 127.5);
+  --css-bg-color--amber-l-55: rgb(255, 209.1, 140.25);
+  --css-bg-color--amber-l-60: rgb(255, 214.2, 153);
+  --css-bg-color--amber-l-65: rgb(255, 219.3, 165.75);
+  --css-bg-color--amber-l-70: rgb(255, 224.4, 178.5);
+  --css-bg-color--amber-l-75: rgb(255, 229.5, 191.25);
+  --css-bg-color--amber-l-80: rgb(255, 234.6, 204);
+  --css-bg-color--amber-l-85: rgb(255, 239.7, 216.75);
+  --css-bg-color--amber-l-90: rgb(255, 244.8, 229.5);
+  --css-bg-color--amber-l-95: rgb(255, 249.9, 242.25);
+  --css-bg-color--amber-l-100: white;
+  --css-bg-color--amber-d-5: rgb(242.25, 145.35, 0);
+  --css-bg-color--amber-d-10: rgb(229.5, 137.7, 0);
+  --css-bg-color--amber-d-15: rgb(216.75, 130.05, 0);
+  --css-bg-color--amber-d-20: rgb(204, 122.4, 0);
+  --css-bg-color--amber-d-25: rgb(191.25, 114.75, 0);
+  --css-bg-color--amber-d-30: rgb(178.5, 107.1, 0);
+  --css-bg-color--amber-d-35: rgb(165.75, 99.45, 0);
+  --css-bg-color--amber-d-40: rgb(153, 91.8, 0);
+  --css-bg-color--amber-d-45: rgb(140.25, 84.15, 0);
+  --css-bg-color--amber-d-50: rgb(127.5, 76.5, 0);
+  --css-bg-color--amber-d-55: rgb(114.75, 68.85, 0);
+  --css-bg-color--amber-d-60: rgb(102, 61.2, 0);
+  --css-bg-color--amber-d-65: rgb(89.25, 53.55, 0);
+  --css-bg-color--amber-d-70: rgb(76.5, 45.9, 0);
+  --css-bg-color--amber-d-75: rgb(63.75, 38.25, 0);
+  --css-bg-color--amber-d-80: rgb(51, 30.6, 0);
+  --css-bg-color--amber-d-85: rgb(38.25, 22.95, 0);
+  --css-bg-color--amber-d-90: rgb(25.5, 15.3, 0);
+  --css-bg-color--amber-d-95: rgb(12.75, 7.65, 0);
+  --css-bg-color--amber-d-100: black;
+}
+
+.css-color--amber {
+  color: var(--css-color--amber, #ff9900);
+}
+
+.css-color--amber-l-5 {
+  color: var(--css-color--amber-l-5, rgb(255, 158.1, 12.75));
+}
+
+.css-color--amber-l-10 {
+  color: var(--css-color--amber-l-10, rgb(255, 163.2, 25.5));
+}
+
+.css-color--amber-l-15 {
+  color: var(--css-color--amber-l-15, rgb(255, 168.3, 38.25));
+}
+
+.css-color--amber-l-20 {
+  color: var(--css-color--amber-l-20, rgb(255, 173.4, 51));
+}
+
+.css-color--amber-l-25 {
+  color: var(--css-color--amber-l-25, rgb(255, 178.5, 63.75));
+}
+
+.css-color--amber-l-30 {
+  color: var(--css-color--amber-l-30, rgb(255, 183.6, 76.5));
+}
+
+.css-color--amber-l-35 {
+  color: var(--css-color--amber-l-35, rgb(255, 188.7, 89.25));
+}
+
+.css-color--amber-l-40 {
+  color: var(--css-color--amber-l-40, rgb(255, 193.8, 102));
+}
+
+.css-color--amber-l-45 {
+  color: var(--css-color--amber-l-45, rgb(255, 198.9, 114.75));
+}
+
+.css-color--amber-l-50 {
+  color: var(--css-color--amber-l-50, rgb(255, 204, 127.5));
+}
+
+.css-color--amber-l-55 {
+  color: var(--css-color--amber-l-55, rgb(255, 209.1, 140.25));
+}
+
+.css-color--amber-l-60 {
+  color: var(--css-color--amber-l-60, rgb(255, 214.2, 153));
+}
+
+.css-color--amber-l-65 {
+  color: var(--css-color--amber-l-65, rgb(255, 219.3, 165.75));
+}
+
+.css-color--amber-l-70 {
+  color: var(--css-color--amber-l-70, rgb(255, 224.4, 178.5));
+}
+
+.css-color--amber-l-75 {
+  color: var(--css-color--amber-l-75, rgb(255, 229.5, 191.25));
+}
+
+.css-color--amber-l-80 {
+  color: var(--css-color--amber-l-80, rgb(255, 234.6, 204));
+}
+
+.css-color--amber-l-85 {
+  color: var(--css-color--amber-l-85, rgb(255, 239.7, 216.75));
+}
+
+.css-color--amber-l-90 {
+  color: var(--css-color--amber-l-90, rgb(255, 244.8, 229.5));
+}
+
+.css-color--amber-l-95 {
+  color: var(--css-color--amber-l-95, rgb(255, 249.9, 242.25));
+}
+
+.css-color--amber-l-100 {
+  color: var(--css-color--amber-l-100, white);
+}
+
+.css-color--amber-d-5 {
+  color: var(--css-color--amber-d-5, rgb(242.25, 145.35, 0));
+}
+
+.css-color--amber-d-10 {
+  color: var(--css-color--amber-d-10, rgb(229.5, 137.7, 0));
+}
+
+.css-color--amber-d-15 {
+  color: var(--css-color--amber-d-15, rgb(216.75, 130.05, 0));
+}
+
+.css-color--amber-d-20 {
+  color: var(--css-color--amber-d-20, rgb(204, 122.4, 0));
+}
+
+.css-color--amber-d-25 {
+  color: var(--css-color--amber-d-25, rgb(191.25, 114.75, 0));
+}
+
+.css-color--amber-d-30 {
+  color: var(--css-color--amber-d-30, rgb(178.5, 107.1, 0));
+}
+
+.css-color--amber-d-35 {
+  color: var(--css-color--amber-d-35, rgb(165.75, 99.45, 0));
+}
+
+.css-color--amber-d-40 {
+  color: var(--css-color--amber-d-40, rgb(153, 91.8, 0));
+}
+
+.css-color--amber-d-45 {
+  color: var(--css-color--amber-d-45, rgb(140.25, 84.15, 0));
+}
+
+.css-color--amber-d-50 {
+  color: var(--css-color--amber-d-50, rgb(127.5, 76.5, 0));
+}
+
+.css-color--amber-d-55 {
+  color: var(--css-color--amber-d-55, rgb(114.75, 68.85, 0));
+}
+
+.css-color--amber-d-60 {
+  color: var(--css-color--amber-d-60, rgb(102, 61.2, 0));
+}
+
+.css-color--amber-d-65 {
+  color: var(--css-color--amber-d-65, rgb(89.25, 53.55, 0));
+}
+
+.css-color--amber-d-70 {
+  color: var(--css-color--amber-d-70, rgb(76.5, 45.9, 0));
+}
+
+.css-color--amber-d-75 {
+  color: var(--css-color--amber-d-75, rgb(63.75, 38.25, 0));
+}
+
+.css-color--amber-d-80 {
+  color: var(--css-color--amber-d-80, rgb(51, 30.6, 0));
+}
+
+.css-color--amber-d-85 {
+  color: var(--css-color--amber-d-85, rgb(38.25, 22.95, 0));
+}
+
+.css-color--amber-d-90 {
+  color: var(--css-color--amber-d-90, rgb(25.5, 15.3, 0));
+}
+
+.css-color--amber-d-95 {
+  color: var(--css-color--amber-d-95, rgb(12.75, 7.65, 0));
+}
+
+.css-color--amber-d-100 {
+  color: var(--css-color--amber-d-100, black);
+}
+
+.css-bg-color--amber {
+  background-color: var(--css-color--amber, #ff9900);
+}
+
+.css-bg-color--amber-l-5 {
+  background-color: var(--css-bg-color--amber-l-5, rgb(255, 158.1, 12.75));
+}
+
+.css-bg-color--amber-l-10 {
+  background-color: var(--css-bg-color--amber-l-10, rgb(255, 163.2, 25.5));
+}
+
+.css-bg-color--amber-l-15 {
+  background-color: var(--css-bg-color--amber-l-15, rgb(255, 168.3, 38.25));
+}
+
+.css-bg-color--amber-l-20 {
+  background-color: var(--css-bg-color--amber-l-20, rgb(255, 173.4, 51));
+}
+
+.css-bg-color--amber-l-25 {
+  background-color: var(--css-bg-color--amber-l-25, rgb(255, 178.5, 63.75));
+}
+
+.css-bg-color--amber-l-30 {
+  background-color: var(--css-bg-color--amber-l-30, rgb(255, 183.6, 76.5));
+}
+
+.css-bg-color--amber-l-35 {
+  background-color: var(--css-bg-color--amber-l-35, rgb(255, 188.7, 89.25));
+}
+
+.css-bg-color--amber-l-40 {
+  background-color: var(--css-bg-color--amber-l-40, rgb(255, 193.8, 102));
+}
+
+.css-bg-color--amber-l-45 {
+  background-color: var(--css-bg-color--amber-l-45, rgb(255, 198.9, 114.75));
+}
+
+.css-bg-color--amber-l-50 {
+  background-color: var(--css-bg-color--amber-l-50, rgb(255, 204, 127.5));
+}
+
+.css-bg-color--amber-l-55 {
+  background-color: var(--css-bg-color--amber-l-55, rgb(255, 209.1, 140.25));
+}
+
+.css-bg-color--amber-l-60 {
+  background-color: var(--css-bg-color--amber-l-60, rgb(255, 214.2, 153));
+}
+
+.css-bg-color--amber-l-65 {
+  background-color: var(--css-bg-color--amber-l-65, rgb(255, 219.3, 165.75));
+}
+
+.css-bg-color--amber-l-70 {
+  background-color: var(--css-bg-color--amber-l-70, rgb(255, 224.4, 178.5));
+}
+
+.css-bg-color--amber-l-75 {
+  background-color: var(--css-bg-color--amber-l-75, rgb(255, 229.5, 191.25));
+}
+
+.css-bg-color--amber-l-80 {
+  background-color: var(--css-bg-color--amber-l-80, rgb(255, 234.6, 204));
+}
+
+.css-bg-color--amber-l-85 {
+  background-color: var(--css-bg-color--amber-l-85, rgb(255, 239.7, 216.75));
+}
+
+.css-bg-color--amber-l-90 {
+  background-color: var(--css-bg-color--amber-l-90, rgb(255, 244.8, 229.5));
+}
+
+.css-bg-color--amber-l-95 {
+  background-color: var(--css-bg-color--amber-l-95, rgb(255, 249.9, 242.25));
+}
+
+.css-bg-color--amber-l-100 {
+  background-color: var(--css-bg-color--amber-l-100, white);
+}
+
+.css-bg-color--amber-d-5 {
+  background-color: var(--css-bg-color--amber-d-5, rgb(242.25, 145.35, 0));
+}
+
+.css-bg-color--amber-d-10 {
+  background-color: var(--css-bg-color--amber-d-10, rgb(229.5, 137.7, 0));
+}
+
+.css-bg-color--amber-d-15 {
+  background-color: var(--css-bg-color--amber-d-15, rgb(216.75, 130.05, 0));
+}
+
+.css-bg-color--amber-d-20 {
+  background-color: var(--css-bg-color--amber-d-20, rgb(204, 122.4, 0));
+}
+
+.css-bg-color--amber-d-25 {
+  background-color: var(--css-bg-color--amber-d-25, rgb(191.25, 114.75, 0));
+}
+
+.css-bg-color--amber-d-30 {
+  background-color: var(--css-bg-color--amber-d-30, rgb(178.5, 107.1, 0));
+}
+
+.css-bg-color--amber-d-35 {
+  background-color: var(--css-bg-color--amber-d-35, rgb(165.75, 99.45, 0));
+}
+
+.css-bg-color--amber-d-40 {
+  background-color: var(--css-bg-color--amber-d-40, rgb(153, 91.8, 0));
+}
+
+.css-bg-color--amber-d-45 {
+  background-color: var(--css-bg-color--amber-d-45, rgb(140.25, 84.15, 0));
+}
+
+.css-bg-color--amber-d-50 {
+  background-color: var(--css-bg-color--amber-d-50, rgb(127.5, 76.5, 0));
+}
+
+.css-bg-color--amber-d-55 {
+  background-color: var(--css-bg-color--amber-d-55, rgb(114.75, 68.85, 0));
+}
+
+.css-bg-color--amber-d-60 {
+  background-color: var(--css-bg-color--amber-d-60, rgb(102, 61.2, 0));
+}
+
+.css-bg-color--amber-d-65 {
+  background-color: var(--css-bg-color--amber-d-65, rgb(89.25, 53.55, 0));
+}
+
+.css-bg-color--amber-d-70 {
+  background-color: var(--css-bg-color--amber-d-70, rgb(76.5, 45.9, 0));
+}
+
+.css-bg-color--amber-d-75 {
+  background-color: var(--css-bg-color--amber-d-75, rgb(63.75, 38.25, 0));
+}
+
+.css-bg-color--amber-d-80 {
+  background-color: var(--css-bg-color--amber-d-80, rgb(51, 30.6, 0));
+}
+
+.css-bg-color--amber-d-85 {
+  background-color: var(--css-bg-color--amber-d-85, rgb(38.25, 22.95, 0));
+}
+
+.css-bg-color--amber-d-90 {
+  background-color: var(--css-bg-color--amber-d-90, rgb(25.5, 15.3, 0));
+}
+
+.css-bg-color--amber-d-95 {
+  background-color: var(--css-bg-color--amber-d-95, rgb(12.75, 7.65, 0));
+}
+
+.css-bg-color--amber-d-100 {
+  background-color: var(--css-bg-color--amber-d-100, black);
+}

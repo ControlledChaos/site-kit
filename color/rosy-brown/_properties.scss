@@ -1,0 +1,102 @@
+///
+/// Rosy Brown properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--rosy-brown: #{$css-color--rosy-brown};
+
+	// Lighten color by percentage.
+	--css-color--rosy-brown-l-5: #{$css-color--rosy-brown-l-5};
+	--css-color--rosy-brown-l-10: #{$css-color--rosy-brown-l-10};
+	--css-color--rosy-brown-l-15: #{$css-color--rosy-brown-l-15};
+	--css-color--rosy-brown-l-20: #{$css-color--rosy-brown-l-20};
+	--css-color--rosy-brown-l-25: #{$css-color--rosy-brown-l-25};
+	--css-color--rosy-brown-l-30: #{$css-color--rosy-brown-l-30};
+	--css-color--rosy-brown-l-35: #{$css-color--rosy-brown-l-35};
+	--css-color--rosy-brown-l-40: #{$css-color--rosy-brown-l-40};
+	--css-color--rosy-brown-l-45: #{$css-color--rosy-brown-l-45};
+	--css-color--rosy-brown-l-50: #{$css-color--rosy-brown-l-50};
+	--css-color--rosy-brown-l-55: #{$css-color--rosy-brown-l-55};
+	--css-color--rosy-brown-l-60: #{$css-color--rosy-brown-l-60};
+	--css-color--rosy-brown-l-65: #{$css-color--rosy-brown-l-65};
+	--css-color--rosy-brown-l-70: #{$css-color--rosy-brown-l-70};
+	--css-color--rosy-brown-l-75: #{$css-color--rosy-brown-l-75};
+	--css-color--rosy-brown-l-80: #{$css-color--rosy-brown-l-80};
+	--css-color--rosy-brown-l-85: #{$css-color--rosy-brown-l-85};
+	--css-color--rosy-brown-l-90: #{$css-color--rosy-brown-l-90};
+	--css-color--rosy-brown-l-95: #{$css-color--rosy-brown-l-95};
+	--css-color--rosy-brown-l-100: #{$css-color--rosy-brown-l-100};
+
+	// Darken color by percentage.
+	--css-color--rosy-brown-d-5: #{$css-color--rosy-brown-d-5};
+	--css-color--rosy-brown-d-10: #{$css-color--rosy-brown-d-10};
+	--css-color--rosy-brown-d-15: #{$css-color--rosy-brown-d-15};
+	--css-color--rosy-brown-d-20: #{$css-color--rosy-brown-d-20};
+	--css-color--rosy-brown-d-25: #{$css-color--rosy-brown-d-25};
+	--css-color--rosy-brown-d-30: #{$css-color--rosy-brown-d-30};
+	--css-color--rosy-brown-d-35: #{$css-color--rosy-brown-d-35};
+	--css-color--rosy-brown-d-40: #{$css-color--rosy-brown-d-40};
+	--css-color--rosy-brown-d-45: #{$css-color--rosy-brown-d-45};
+	--css-color--rosy-brown-d-50: #{$css-color--rosy-brown-d-50};
+	--css-color--rosy-brown-d-55: #{$css-color--rosy-brown-d-55};
+	--css-color--rosy-brown-d-60: #{$css-color--rosy-brown-d-60};
+	--css-color--rosy-brown-d-65: #{$css-color--rosy-brown-d-65};
+	--css-color--rosy-brown-d-70: #{$css-color--rosy-brown-d-70};
+	--css-color--rosy-brown-d-75: #{$css-color--rosy-brown-d-75};
+	--css-color--rosy-brown-d-80: #{$css-color--rosy-brown-d-80};
+	--css-color--rosy-brown-d-85: #{$css-color--rosy-brown-d-85};
+	--css-color--rosy-brown-d-90: #{$css-color--rosy-brown-d-90};
+	--css-color--rosy-brown-d-95: #{$css-color--rosy-brown-d-95};
+	--css-color--rosy-brown-d-100: #{$css-color--rosy-brown-d-100};
+
+	// Original background color.
+	--css-bg-color--rosy-brown: #{$css-color--rosy-brown};
+
+	// Lighten background color by percentage.
+	--css-bg-color--rosy-brown-l-5: #{$css-color--rosy-brown-l-5};
+	--css-bg-color--rosy-brown-l-10: #{$css-color--rosy-brown-l-10};
+	--css-bg-color--rosy-brown-l-15: #{$css-color--rosy-brown-l-15};
+	--css-bg-color--rosy-brown-l-20: #{$css-color--rosy-brown-l-20};
+	--css-bg-color--rosy-brown-l-25: #{$css-color--rosy-brown-l-25};
+	--css-bg-color--rosy-brown-l-30: #{$css-color--rosy-brown-l-30};
+	--css-bg-color--rosy-brown-l-35: #{$css-color--rosy-brown-l-35};
+	--css-bg-color--rosy-brown-l-40: #{$css-color--rosy-brown-l-40};
+	--css-bg-color--rosy-brown-l-45: #{$css-color--rosy-brown-l-45};
+	--css-bg-color--rosy-brown-l-50: #{$css-color--rosy-brown-l-50};
+	--css-bg-color--rosy-brown-l-55: #{$css-color--rosy-brown-l-55};
+	--css-bg-color--rosy-brown-l-60: #{$css-color--rosy-brown-l-60};
+	--css-bg-color--rosy-brown-l-65: #{$css-color--rosy-brown-l-65};
+	--css-bg-color--rosy-brown-l-70: #{$css-color--rosy-brown-l-70};
+	--css-bg-color--rosy-brown-l-75: #{$css-color--rosy-brown-l-75};
+	--css-bg-color--rosy-brown-l-80: #{$css-color--rosy-brown-l-80};
+	--css-bg-color--rosy-brown-l-85: #{$css-color--rosy-brown-l-85};
+	--css-bg-color--rosy-brown-l-90: #{$css-color--rosy-brown-l-90};
+	--css-bg-color--rosy-brown-l-95: #{$css-color--rosy-brown-l-95};
+	--css-bg-color--rosy-brown-l-100: #{$css-color--rosy-brown-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--rosy-brown-d-5: #{$css-color--rosy-brown-d-5};
+	--css-bg-color--rosy-brown-d-10: #{$css-color--rosy-brown-d-10};
+	--css-bg-color--rosy-brown-d-15: #{$css-color--rosy-brown-d-15};
+	--css-bg-color--rosy-brown-d-20: #{$css-color--rosy-brown-d-20};
+	--css-bg-color--rosy-brown-d-25: #{$css-color--rosy-brown-d-25};
+	--css-bg-color--rosy-brown-d-30: #{$css-color--rosy-brown-d-30};
+	--css-bg-color--rosy-brown-d-35: #{$css-color--rosy-brown-d-35};
+	--css-bg-color--rosy-brown-d-40: #{$css-color--rosy-brown-d-40};
+	--css-bg-color--rosy-brown-d-45: #{$css-color--rosy-brown-d-45};
+	--css-bg-color--rosy-brown-d-50: #{$css-color--rosy-brown-d-50};
+	--css-bg-color--rosy-brown-d-55: #{$css-color--rosy-brown-d-55};
+	--css-bg-color--rosy-brown-d-60: #{$css-color--rosy-brown-d-60};
+	--css-bg-color--rosy-brown-d-65: #{$css-color--rosy-brown-d-65};
+	--css-bg-color--rosy-brown-d-70: #{$css-color--rosy-brown-d-70};
+	--css-bg-color--rosy-brown-d-75: #{$css-color--rosy-brown-d-75};
+	--css-bg-color--rosy-brown-d-80: #{$css-color--rosy-brown-d-80};
+	--css-bg-color--rosy-brown-d-85: #{$css-color--rosy-brown-d-85};
+	--css-bg-color--rosy-brown-d-90: #{$css-color--rosy-brown-d-90};
+	--css-bg-color--rosy-brown-d-95: #{$css-color--rosy-brown-d-95};
+	--css-bg-color--rosy-brown-d-100: #{$css-color--rosy-brown-d-100};
+}

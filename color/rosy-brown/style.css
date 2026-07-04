@@ -1,0 +1,412 @@
+:root {
+  --css-color--rosy-brown: #996666;
+  --css-color--rosy-brown-l-5: rgb(153, 114.75, 114.75);
+  --css-color--rosy-brown-l-10: rgb(153, 127.5, 127.5);
+  --css-color--rosy-brown-l-15: rgb(153, 140.25, 140.25);
+  --css-color--rosy-brown-l-20: #999999;
+  --css-color--rosy-brown-l-25: rgb(157.8571428571, 157.8571428571, 157.8571428571);
+  --css-color--rosy-brown-l-30: rgb(162.2727272727, 162.2727272727, 162.2727272727);
+  --css-color--rosy-brown-l-35: rgb(166.3043478261, 166.3043478261, 166.3043478261);
+  --css-color--rosy-brown-l-40: #aaaaaa;
+  --css-color--rosy-brown-l-45: rgb(173.4, 173.4, 173.4);
+  --css-color--rosy-brown-l-50: rgb(176.5384615385, 176.5384615385, 176.5384615385);
+  --css-color--rosy-brown-l-55: rgb(179.4444444444, 179.4444444444, 179.4444444444);
+  --css-color--rosy-brown-l-60: rgb(182.1428571429, 182.1428571429, 182.1428571429);
+  --css-color--rosy-brown-l-65: rgb(184.6551724138, 184.6551724138, 184.6551724138);
+  --css-color--rosy-brown-l-70: #bbbbbb;
+  --css-color--rosy-brown-l-75: rgb(189.1935483871, 189.1935483871, 189.1935483871);
+  --css-color--rosy-brown-l-80: rgb(191.25, 191.25, 191.25);
+  --css-color--rosy-brown-l-85: rgb(193.1818181818, 193.1818181818, 193.1818181818);
+  --css-color--rosy-brown-l-90: #c3c3c3;
+  --css-color--rosy-brown-l-95: rgb(196.7142857143, 196.7142857143, 196.7142857143);
+  --css-color--rosy-brown-l-100: rgb(198.3333333333, 198.3333333333, 198.3333333333);
+  --css-color--rosy-brown-d-5: rgb(140.25, 102, 102);
+  --css-color--rosy-brown-d-10: rgb(127.5, 102, 102);
+  --css-color--rosy-brown-d-15: rgb(114.75, 102, 102);
+  --css-color--rosy-brown-d-20: #666666;
+  --css-color--rosy-brown-d-25: rgb(97.1428571429, 97.1428571429, 97.1428571429);
+  --css-color--rosy-brown-d-30: rgb(92.7272727273, 92.7272727273, 92.7272727273);
+  --css-color--rosy-brown-d-35: rgb(88.6956521739, 88.6956521739, 88.6956521739);
+  --css-color--rosy-brown-d-40: #555555;
+  --css-color--rosy-brown-d-45: rgb(81.6, 81.6, 81.6);
+  --css-color--rosy-brown-d-50: rgb(78.4615384615, 78.4615384615, 78.4615384615);
+  --css-color--rosy-brown-d-55: rgb(75.5555555556, 75.5555555556, 75.5555555556);
+  --css-color--rosy-brown-d-60: rgb(72.8571428571, 72.8571428571, 72.8571428571);
+  --css-color--rosy-brown-d-65: rgb(70.3448275862, 70.3448275862, 70.3448275862);
+  --css-color--rosy-brown-d-70: #444444;
+  --css-color--rosy-brown-d-75: rgb(65.8064516129, 65.8064516129, 65.8064516129);
+  --css-color--rosy-brown-d-80: rgb(63.75, 63.75, 63.75);
+  --css-color--rosy-brown-d-85: rgb(61.8181818182, 61.8181818182, 61.8181818182);
+  --css-color--rosy-brown-d-90: #3c3c3c;
+  --css-color--rosy-brown-d-95: rgb(58.2857142857, 58.2857142857, 58.2857142857);
+  --css-color--rosy-brown-d-100: rgb(56.6666666667, 56.6666666667, 56.6666666667);
+  --css-bg-color--rosy-brown: #996666;
+  --css-bg-color--rosy-brown-l-5: rgb(153, 114.75, 114.75);
+  --css-bg-color--rosy-brown-l-10: rgb(153, 127.5, 127.5);
+  --css-bg-color--rosy-brown-l-15: rgb(153, 140.25, 140.25);
+  --css-bg-color--rosy-brown-l-20: #999999;
+  --css-bg-color--rosy-brown-l-25: rgb(157.8571428571, 157.8571428571, 157.8571428571);
+  --css-bg-color--rosy-brown-l-30: rgb(162.2727272727, 162.2727272727, 162.2727272727);
+  --css-bg-color--rosy-brown-l-35: rgb(166.3043478261, 166.3043478261, 166.3043478261);
+  --css-bg-color--rosy-brown-l-40: #aaaaaa;
+  --css-bg-color--rosy-brown-l-45: rgb(173.4, 173.4, 173.4);
+  --css-bg-color--rosy-brown-l-50: rgb(176.5384615385, 176.5384615385, 176.5384615385);
+  --css-bg-color--rosy-brown-l-55: rgb(179.4444444444, 179.4444444444, 179.4444444444);
+  --css-bg-color--rosy-brown-l-60: rgb(182.1428571429, 182.1428571429, 182.1428571429);
+  --css-bg-color--rosy-brown-l-65: rgb(184.6551724138, 184.6551724138, 184.6551724138);
+  --css-bg-color--rosy-brown-l-70: #bbbbbb;
+  --css-bg-color--rosy-brown-l-75: rgb(189.1935483871, 189.1935483871, 189.1935483871);
+  --css-bg-color--rosy-brown-l-80: rgb(191.25, 191.25, 191.25);
+  --css-bg-color--rosy-brown-l-85: rgb(193.1818181818, 193.1818181818, 193.1818181818);
+  --css-bg-color--rosy-brown-l-90: #c3c3c3;
+  --css-bg-color--rosy-brown-l-95: rgb(196.7142857143, 196.7142857143, 196.7142857143);
+  --css-bg-color--rosy-brown-l-100: rgb(198.3333333333, 198.3333333333, 198.3333333333);
+  --css-bg-color--rosy-brown-d-5: rgb(140.25, 102, 102);
+  --css-bg-color--rosy-brown-d-10: rgb(127.5, 102, 102);
+  --css-bg-color--rosy-brown-d-15: rgb(114.75, 102, 102);
+  --css-bg-color--rosy-brown-d-20: #666666;
+  --css-bg-color--rosy-brown-d-25: rgb(97.1428571429, 97.1428571429, 97.1428571429);
+  --css-bg-color--rosy-brown-d-30: rgb(92.7272727273, 92.7272727273, 92.7272727273);
+  --css-bg-color--rosy-brown-d-35: rgb(88.6956521739, 88.6956521739, 88.6956521739);
+  --css-bg-color--rosy-brown-d-40: #555555;
+  --css-bg-color--rosy-brown-d-45: rgb(81.6, 81.6, 81.6);
+  --css-bg-color--rosy-brown-d-50: rgb(78.4615384615, 78.4615384615, 78.4615384615);
+  --css-bg-color--rosy-brown-d-55: rgb(75.5555555556, 75.5555555556, 75.5555555556);
+  --css-bg-color--rosy-brown-d-60: rgb(72.8571428571, 72.8571428571, 72.8571428571);
+  --css-bg-color--rosy-brown-d-65: rgb(70.3448275862, 70.3448275862, 70.3448275862);
+  --css-bg-color--rosy-brown-d-70: #444444;
+  --css-bg-color--rosy-brown-d-75: rgb(65.8064516129, 65.8064516129, 65.8064516129);
+  --css-bg-color--rosy-brown-d-80: rgb(63.75, 63.75, 63.75);
+  --css-bg-color--rosy-brown-d-85: rgb(61.8181818182, 61.8181818182, 61.8181818182);
+  --css-bg-color--rosy-brown-d-90: #3c3c3c;
+  --css-bg-color--rosy-brown-d-95: rgb(58.2857142857, 58.2857142857, 58.2857142857);
+  --css-bg-color--rosy-brown-d-100: rgb(56.6666666667, 56.6666666667, 56.6666666667);
+}
+
+.css-color--rosy-brown {
+  color: var(--css-color--rosy-brown, #996666);
+}
+
+.css-color--rosy-brown-l-5 {
+  color: var(--css-color--rosy-brown-l-5, rgb(153, 114.75, 114.75));
+}
+
+.css-color--rosy-brown-l-10 {
+  color: var(--css-color--rosy-brown-l-10, rgb(153, 127.5, 127.5));
+}
+
+.css-color--rosy-brown-l-15 {
+  color: var(--css-color--rosy-brown-l-15, rgb(153, 140.25, 140.25));
+}
+
+.css-color--rosy-brown-l-20 {
+  color: var(--css-color--rosy-brown-l-20, #999999);
+}
+
+.css-color--rosy-brown-l-25 {
+  color: var(--css-color--rosy-brown-l-25, rgb(157.8571428571, 157.8571428571, 157.8571428571));
+}
+
+.css-color--rosy-brown-l-30 {
+  color: var(--css-color--rosy-brown-l-30, rgb(162.2727272727, 162.2727272727, 162.2727272727));
+}
+
+.css-color--rosy-brown-l-35 {
+  color: var(--css-color--rosy-brown-l-35, rgb(166.3043478261, 166.3043478261, 166.3043478261));
+}
+
+.css-color--rosy-brown-l-40 {
+  color: var(--css-color--rosy-brown-l-40, #aaaaaa);
+}
+
+.css-color--rosy-brown-l-45 {
+  color: var(--css-color--rosy-brown-l-45, rgb(173.4, 173.4, 173.4));
+}
+
+.css-color--rosy-brown-l-50 {
+  color: var(--css-color--rosy-brown-l-50, rgb(176.5384615385, 176.5384615385, 176.5384615385));
+}
+
+.css-color--rosy-brown-l-55 {
+  color: var(--css-color--rosy-brown-l-55, rgb(179.4444444444, 179.4444444444, 179.4444444444));
+}
+
+.css-color--rosy-brown-l-60 {
+  color: var(--css-color--rosy-brown-l-60, rgb(182.1428571429, 182.1428571429, 182.1428571429));
+}
+
+.css-color--rosy-brown-l-65 {
+  color: var(--css-color--rosy-brown-l-65, rgb(184.6551724138, 184.6551724138, 184.6551724138));
+}
+
+.css-color--rosy-brown-l-70 {
+  color: var(--css-color--rosy-brown-l-70, #bbbbbb);
+}
+
+.css-color--rosy-brown-l-75 {
+  color: var(--css-color--rosy-brown-l-75, rgb(189.1935483871, 189.1935483871, 189.1935483871));
+}
+
+.css-color--rosy-brown-l-80 {
+  color: var(--css-color--rosy-brown-l-80, rgb(191.25, 191.25, 191.25));
+}
+
+.css-color--rosy-brown-l-85 {
+  color: var(--css-color--rosy-brown-l-85, rgb(193.1818181818, 193.1818181818, 193.1818181818));
+}
+
+.css-color--rosy-brown-l-90 {
+  color: var(--css-color--rosy-brown-l-90, #c3c3c3);
+}
+
+.css-color--rosy-brown-l-95 {
+  color: var(--css-color--rosy-brown-l-95, rgb(196.7142857143, 196.7142857143, 196.7142857143));
+}
+
+.css-color--rosy-brown-l-100 {
+  color: var(--css-color--rosy-brown-l-100, rgb(198.3333333333, 198.3333333333, 198.3333333333));
+}
+
+.css-color--rosy-brown-d-5 {
+  color: var(--css-color--rosy-brown-d-5, rgb(140.25, 102, 102));
+}
+
+.css-color--rosy-brown-d-10 {
+  color: var(--css-color--rosy-brown-d-10, rgb(127.5, 102, 102));
+}
+
+.css-color--rosy-brown-d-15 {
+  color: var(--css-color--rosy-brown-d-15, rgb(114.75, 102, 102));
+}
+
+.css-color--rosy-brown-d-20 {
+  color: var(--css-color--rosy-brown-d-20, #666666);
+}
+
+.css-color--rosy-brown-d-25 {
+  color: var(--css-color--rosy-brown-d-25, rgb(97.1428571429, 97.1428571429, 97.1428571429));
+}
+
+.css-color--rosy-brown-d-30 {
+  color: var(--css-color--rosy-brown-d-30, rgb(92.7272727273, 92.7272727273, 92.7272727273));
+}
+
+.css-color--rosy-brown-d-35 {
+  color: var(--css-color--rosy-brown-d-35, rgb(88.6956521739, 88.6956521739, 88.6956521739));
+}
+
+.css-color--rosy-brown-d-40 {
+  color: var(--css-color--rosy-brown-d-40, #555555);
+}
+
+.css-color--rosy-brown-d-45 {
+  color: var(--css-color--rosy-brown-d-45, rgb(81.6, 81.6, 81.6));
+}
+
+.css-color--rosy-brown-d-50 {
+  color: var(--css-color--rosy-brown-d-50, rgb(78.4615384615, 78.4615384615, 78.4615384615));
+}
+
+.css-color--rosy-brown-d-55 {
+  color: var(--css-color--rosy-brown-d-55, rgb(75.5555555556, 75.5555555556, 75.5555555556));
+}
+
+.css-color--rosy-brown-d-60 {
+  color: var(--css-color--rosy-brown-d-60, rgb(72.8571428571, 72.8571428571, 72.8571428571));
+}
+
+.css-color--rosy-brown-d-65 {
+  color: var(--css-color--rosy-brown-d-65, rgb(70.3448275862, 70.3448275862, 70.3448275862));
+}
+
+.css-color--rosy-brown-d-70 {
+  color: var(--css-color--rosy-brown-d-70, #444444);
+}
+
+.css-color--rosy-brown-d-75 {
+  color: var(--css-color--rosy-brown-d-75, rgb(65.8064516129, 65.8064516129, 65.8064516129));
+}
+
+.css-color--rosy-brown-d-80 {
+  color: var(--css-color--rosy-brown-d-80, rgb(63.75, 63.75, 63.75));
+}
+
+.css-color--rosy-brown-d-85 {
+  color: var(--css-color--rosy-brown-d-85, rgb(61.8181818182, 61.8181818182, 61.8181818182));
+}
+
+.css-color--rosy-brown-d-90 {
+  color: var(--css-color--rosy-brown-d-90, #3c3c3c);
+}
+
+.css-color--rosy-brown-d-95 {
+  color: var(--css-color--rosy-brown-d-95, rgb(58.2857142857, 58.2857142857, 58.2857142857));
+}
+
+.css-color--rosy-brown-d-100 {
+  color: var(--css-color--rosy-brown-d-100, rgb(56.6666666667, 56.6666666667, 56.6666666667));
+}
+
+.css-bg-color--rosy-brown {
+  background-color: var(--css-color--rosy-brown, #996666);
+}
+
+.css-bg-color--rosy-brown-l-5 {
+  background-color: var(--css-bg-color--rosy-brown-l-5, rgb(153, 114.75, 114.75));
+}
+
+.css-bg-color--rosy-brown-l-10 {
+  background-color: var(--css-bg-color--rosy-brown-l-10, rgb(153, 127.5, 127.5));
+}
+
+.css-bg-color--rosy-brown-l-15 {
+  background-color: var(--css-bg-color--rosy-brown-l-15, rgb(153, 140.25, 140.25));
+}
+
+.css-bg-color--rosy-brown-l-20 {
+  background-color: var(--css-bg-color--rosy-brown-l-20, #999999);
+}
+
+.css-bg-color--rosy-brown-l-25 {
+  background-color: var(--css-bg-color--rosy-brown-l-25, rgb(157.8571428571, 157.8571428571, 157.8571428571));
+}
+
+.css-bg-color--rosy-brown-l-30 {
+  background-color: var(--css-bg-color--rosy-brown-l-30, rgb(162.2727272727, 162.2727272727, 162.2727272727));
+}
+
+.css-bg-color--rosy-brown-l-35 {
+  background-color: var(--css-bg-color--rosy-brown-l-35, rgb(166.3043478261, 166.3043478261, 166.3043478261));
+}
+
+.css-bg-color--rosy-brown-l-40 {
+  background-color: var(--css-bg-color--rosy-brown-l-40, #aaaaaa);
+}
+
+.css-bg-color--rosy-brown-l-45 {
+  background-color: var(--css-bg-color--rosy-brown-l-45, rgb(173.4, 173.4, 173.4));
+}
+
+.css-bg-color--rosy-brown-l-50 {
+  background-color: var(--css-bg-color--rosy-brown-l-50, rgb(176.5384615385, 176.5384615385, 176.5384615385));
+}
+
+.css-bg-color--rosy-brown-l-55 {
+  background-color: var(--css-bg-color--rosy-brown-l-55, rgb(179.4444444444, 179.4444444444, 179.4444444444));
+}
+
+.css-bg-color--rosy-brown-l-60 {
+  background-color: var(--css-bg-color--rosy-brown-l-60, rgb(182.1428571429, 182.1428571429, 182.1428571429));
+}
+
+.css-bg-color--rosy-brown-l-65 {
+  background-color: var(--css-bg-color--rosy-brown-l-65, rgb(184.6551724138, 184.6551724138, 184.6551724138));
+}
+
+.css-bg-color--rosy-brown-l-70 {
+  background-color: var(--css-bg-color--rosy-brown-l-70, #bbbbbb);
+}
+
+.css-bg-color--rosy-brown-l-75 {
+  background-color: var(--css-bg-color--rosy-brown-l-75, rgb(189.1935483871, 189.1935483871, 189.1935483871));
+}
+
+.css-bg-color--rosy-brown-l-80 {
+  background-color: var(--css-bg-color--rosy-brown-l-80, rgb(191.25, 191.25, 191.25));
+}
+
+.css-bg-color--rosy-brown-l-85 {
+  background-color: var(--css-bg-color--rosy-brown-l-85, rgb(193.1818181818, 193.1818181818, 193.1818181818));
+}
+
+.css-bg-color--rosy-brown-l-90 {
+  background-color: var(--css-bg-color--rosy-brown-l-90, #c3c3c3);
+}
+
+.css-bg-color--rosy-brown-l-95 {
+  background-color: var(--css-bg-color--rosy-brown-l-95, rgb(196.7142857143, 196.7142857143, 196.7142857143));
+}
+
+.css-bg-color--rosy-brown-l-100 {
+  background-color: var(--css-bg-color--rosy-brown-l-100, rgb(198.3333333333, 198.3333333333, 198.3333333333));
+}
+
+.css-bg-color--rosy-brown-d-5 {
+  background-color: var(--css-bg-color--rosy-brown-d-5, rgb(140.25, 102, 102));
+}
+
+.css-bg-color--rosy-brown-d-10 {
+  background-color: var(--css-bg-color--rosy-brown-d-10, rgb(127.5, 102, 102));
+}
+
+.css-bg-color--rosy-brown-d-15 {
+  background-color: var(--css-bg-color--rosy-brown-d-15, rgb(114.75, 102, 102));
+}
+
+.css-bg-color--rosy-brown-d-20 {
+  background-color: var(--css-bg-color--rosy-brown-d-20, #666666);
+}
+
+.css-bg-color--rosy-brown-d-25 {
+  background-color: var(--css-bg-color--rosy-brown-d-25, rgb(97.1428571429, 97.1428571429, 97.1428571429));
+}
+
+.css-bg-color--rosy-brown-d-30 {
+  background-color: var(--css-bg-color--rosy-brown-d-30, rgb(92.7272727273, 92.7272727273, 92.7272727273));
+}
+
+.css-bg-color--rosy-brown-d-35 {
+  background-color: var(--css-bg-color--rosy-brown-d-35, rgb(88.6956521739, 88.6956521739, 88.6956521739));
+}
+
+.css-bg-color--rosy-brown-d-40 {
+  background-color: var(--css-bg-color--rosy-brown-d-40, #555555);
+}
+
+.css-bg-color--rosy-brown-d-45 {
+  background-color: var(--css-bg-color--rosy-brown-d-45, rgb(81.6, 81.6, 81.6));
+}
+
+.css-bg-color--rosy-brown-d-50 {
+  background-color: var(--css-bg-color--rosy-brown-d-50, rgb(78.4615384615, 78.4615384615, 78.4615384615));
+}
+
+.css-bg-color--rosy-brown-d-55 {
+  background-color: var(--css-bg-color--rosy-brown-d-55, rgb(75.5555555556, 75.5555555556, 75.5555555556));
+}
+
+.css-bg-color--rosy-brown-d-60 {
+  background-color: var(--css-bg-color--rosy-brown-d-60, rgb(72.8571428571, 72.8571428571, 72.8571428571));
+}
+
+.css-bg-color--rosy-brown-d-65 {
+  background-color: var(--css-bg-color--rosy-brown-d-65, rgb(70.3448275862, 70.3448275862, 70.3448275862));
+}
+
+.css-bg-color--rosy-brown-d-70 {
+  background-color: var(--css-bg-color--rosy-brown-d-70, #444444);
+}
+
+.css-bg-color--rosy-brown-d-75 {
+  background-color: var(--css-bg-color--rosy-brown-d-75, rgb(65.8064516129, 65.8064516129, 65.8064516129));
+}
+
+.css-bg-color--rosy-brown-d-80 {
+  background-color: var(--css-bg-color--rosy-brown-d-80, rgb(63.75, 63.75, 63.75));
+}
+
+.css-bg-color--rosy-brown-d-85 {
+  background-color: var(--css-bg-color--rosy-brown-d-85, rgb(61.8181818182, 61.8181818182, 61.8181818182));
+}
+
+.css-bg-color--rosy-brown-d-90 {
+  background-color: var(--css-bg-color--rosy-brown-d-90, #3c3c3c);
+}
+
+.css-bg-color--rosy-brown-d-95 {
+  background-color: var(--css-bg-color--rosy-brown-d-95, rgb(58.2857142857, 58.2857142857, 58.2857142857));
+}
+
+.css-bg-color--rosy-brown-d-100 {
+  background-color: var(--css-bg-color--rosy-brown-d-100, rgb(56.6666666667, 56.6666666667, 56.6666666667));
+}

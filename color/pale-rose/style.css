@@ -1,86 +1,86 @@
 :root {
   --css-color--pale-rose: #ffcccc;
-  --css-color--pale-rose-l-5: rgb(255, 216.75, 216.75);
-  --css-color--pale-rose-l-10: rgb(255, 229.5, 229.5);
-  --css-color--pale-rose-l-15: rgb(255, 242.25, 242.25);
-  --css-color--pale-rose-l-20: white;
-  --css-color--pale-rose-l-25: white;
-  --css-color--pale-rose-l-30: white;
-  --css-color--pale-rose-l-35: white;
-  --css-color--pale-rose-l-40: white;
-  --css-color--pale-rose-l-45: white;
-  --css-color--pale-rose-l-50: white;
-  --css-color--pale-rose-l-55: white;
-  --css-color--pale-rose-l-60: white;
-  --css-color--pale-rose-l-65: white;
-  --css-color--pale-rose-l-70: white;
-  --css-color--pale-rose-l-75: white;
-  --css-color--pale-rose-l-80: white;
-  --css-color--pale-rose-l-85: white;
-  --css-color--pale-rose-l-90: white;
-  --css-color--pale-rose-l-95: white;
-  --css-color--pale-rose-l-100: white;
-  --css-color--pale-rose-d-5: rgb(242.25, 204, 204);
-  --css-color--pale-rose-d-10: rgb(229.5, 204, 204);
-  --css-color--pale-rose-d-15: rgb(216.75, 204, 204);
-  --css-color--pale-rose-d-20: #cccccc;
-  --css-color--pale-rose-d-25: rgb(194.2857142857, 194.2857142857, 194.2857142857);
-  --css-color--pale-rose-d-30: rgb(185.4545454545, 185.4545454545, 185.4545454545);
-  --css-color--pale-rose-d-35: rgb(177.3913043478, 177.3913043478, 177.3913043478);
-  --css-color--pale-rose-d-40: #aaaaaa;
-  --css-color--pale-rose-d-45: rgb(163.2, 163.2, 163.2);
-  --css-color--pale-rose-d-50: rgb(156.9230769231, 156.9230769231, 156.9230769231);
-  --css-color--pale-rose-d-55: rgb(151.1111111111, 151.1111111111, 151.1111111111);
-  --css-color--pale-rose-d-60: rgb(145.7142857143, 145.7142857143, 145.7142857143);
-  --css-color--pale-rose-d-65: rgb(140.6896551724, 140.6896551724, 140.6896551724);
-  --css-color--pale-rose-d-70: #888888;
-  --css-color--pale-rose-d-75: rgb(131.6129032258, 131.6129032258, 131.6129032258);
-  --css-color--pale-rose-d-80: rgb(127.5, 127.5, 127.5);
-  --css-color--pale-rose-d-85: rgb(123.6363636364, 123.6363636364, 123.6363636364);
-  --css-color--pale-rose-d-90: #787878;
-  --css-color--pale-rose-d-95: rgb(116.5714285714, 116.5714285714, 116.5714285714);
-  --css-color--pale-rose-d-100: rgb(113.3333333333, 113.3333333333, 113.3333333333);
+  --css-color--pale-rose-l-5: rgb(255, 229.5, 229.5);
+  --css-color--pale-rose-l-10: white;
+  --css-color--pale-rose-l-15: hsl(0, 100%, 105%);
+  --css-color--pale-rose-l-20: hsl(0, 100%, 110%);
+  --css-color--pale-rose-l-25: hsl(0, 100%, 115%);
+  --css-color--pale-rose-l-30: hsl(0, 100%, 120%);
+  --css-color--pale-rose-l-35: hsl(0, 100%, 125%);
+  --css-color--pale-rose-l-40: hsl(0, 100%, 130%);
+  --css-color--pale-rose-l-45: hsl(0, 100%, 135%);
+  --css-color--pale-rose-l-50: hsl(0, 100%, 140%);
+  --css-color--pale-rose-l-55: hsl(0, 100%, 145%);
+  --css-color--pale-rose-l-60: hsl(0, 100%, 150%);
+  --css-color--pale-rose-l-65: hsl(0, 100%, 155%);
+  --css-color--pale-rose-l-70: hsl(0, 100%, 160%);
+  --css-color--pale-rose-l-75: hsl(0, 100%, 165%);
+  --css-color--pale-rose-l-80: hsl(0, 100%, 170%);
+  --css-color--pale-rose-l-85: hsl(0, 100%, 175%);
+  --css-color--pale-rose-l-90: hsl(0, 100%, 180%);
+  --css-color--pale-rose-l-95: hsl(0, 100%, 185%);
+  --css-color--pale-rose-l-100: hsl(0, 100%, 190%);
+  --css-color--pale-rose-d-5: rgb(255, 178.5, 178.5);
+  --css-color--pale-rose-d-10: #ff9999;
+  --css-color--pale-rose-d-15: rgb(255, 127.5, 127.5);
+  --css-color--pale-rose-d-20: #ff6666;
+  --css-color--pale-rose-d-25: rgb(255, 76.5, 76.5);
+  --css-color--pale-rose-d-30: #ff3333;
+  --css-color--pale-rose-d-35: rgb(255, 25.5, 25.5);
+  --css-color--pale-rose-d-40: red;
+  --css-color--pale-rose-d-45: rgb(229.5, 0, 0);
+  --css-color--pale-rose-d-50: #cc0000;
+  --css-color--pale-rose-d-55: rgb(178.5, 0, 0);
+  --css-color--pale-rose-d-60: #990000;
+  --css-color--pale-rose-d-65: rgb(127.5, 0, 0);
+  --css-color--pale-rose-d-70: #660000;
+  --css-color--pale-rose-d-75: rgb(76.5, 0, 0);
+  --css-color--pale-rose-d-80: #330000;
+  --css-color--pale-rose-d-85: rgb(25.5, 0, 0);
+  --css-color--pale-rose-d-90: black;
+  --css-color--pale-rose-d-95: hsl(0, 100%, -5%);
+  --css-color--pale-rose-d-100: hsl(0, 100%, -10%);
   --css-bg-color--pale-rose: #ffcccc;
-  --css-bg-color--pale-rose-l-5: rgb(255, 216.75, 216.75);
-  --css-bg-color--pale-rose-l-10: rgb(255, 229.5, 229.5);
-  --css-bg-color--pale-rose-l-15: rgb(255, 242.25, 242.25);
-  --css-bg-color--pale-rose-l-20: white;
-  --css-bg-color--pale-rose-l-25: white;
-  --css-bg-color--pale-rose-l-30: white;
-  --css-bg-color--pale-rose-l-35: white;
-  --css-bg-color--pale-rose-l-40: white;
-  --css-bg-color--pale-rose-l-45: white;
-  --css-bg-color--pale-rose-l-50: white;
-  --css-bg-color--pale-rose-l-55: white;
-  --css-bg-color--pale-rose-l-60: white;
-  --css-bg-color--pale-rose-l-65: white;
-  --css-bg-color--pale-rose-l-70: white;
-  --css-bg-color--pale-rose-l-75: white;
-  --css-bg-color--pale-rose-l-80: white;
-  --css-bg-color--pale-rose-l-85: white;
-  --css-bg-color--pale-rose-l-90: white;
-  --css-bg-color--pale-rose-l-95: white;
-  --css-bg-color--pale-rose-l-100: white;
-  --css-bg-color--pale-rose-d-5: rgb(242.25, 204, 204);
-  --css-bg-color--pale-rose-d-10: rgb(229.5, 204, 204);
-  --css-bg-color--pale-rose-d-15: rgb(216.75, 204, 204);
-  --css-bg-color--pale-rose-d-20: #cccccc;
-  --css-bg-color--pale-rose-d-25: rgb(194.2857142857, 194.2857142857, 194.2857142857);
-  --css-bg-color--pale-rose-d-30: rgb(185.4545454545, 185.4545454545, 185.4545454545);
-  --css-bg-color--pale-rose-d-35: rgb(177.3913043478, 177.3913043478, 177.3913043478);
-  --css-bg-color--pale-rose-d-40: #aaaaaa;
-  --css-bg-color--pale-rose-d-45: rgb(163.2, 163.2, 163.2);
-  --css-bg-color--pale-rose-d-50: rgb(156.9230769231, 156.9230769231, 156.9230769231);
-  --css-bg-color--pale-rose-d-55: rgb(151.1111111111, 151.1111111111, 151.1111111111);
-  --css-bg-color--pale-rose-d-60: rgb(145.7142857143, 145.7142857143, 145.7142857143);
-  --css-bg-color--pale-rose-d-65: rgb(140.6896551724, 140.6896551724, 140.6896551724);
-  --css-bg-color--pale-rose-d-70: #888888;
-  --css-bg-color--pale-rose-d-75: rgb(131.6129032258, 131.6129032258, 131.6129032258);
-  --css-bg-color--pale-rose-d-80: rgb(127.5, 127.5, 127.5);
-  --css-bg-color--pale-rose-d-85: rgb(123.6363636364, 123.6363636364, 123.6363636364);
-  --css-bg-color--pale-rose-d-90: #787878;
-  --css-bg-color--pale-rose-d-95: rgb(116.5714285714, 116.5714285714, 116.5714285714);
-  --css-bg-color--pale-rose-d-100: rgb(113.3333333333, 113.3333333333, 113.3333333333);
+  --css-bg-color--pale-rose-l-5: rgb(255, 229.5, 229.5);
+  --css-bg-color--pale-rose-l-10: white;
+  --css-bg-color--pale-rose-l-15: hsl(0, 100%, 105%);
+  --css-bg-color--pale-rose-l-20: hsl(0, 100%, 110%);
+  --css-bg-color--pale-rose-l-25: hsl(0, 100%, 115%);
+  --css-bg-color--pale-rose-l-30: hsl(0, 100%, 120%);
+  --css-bg-color--pale-rose-l-35: hsl(0, 100%, 125%);
+  --css-bg-color--pale-rose-l-40: hsl(0, 100%, 130%);
+  --css-bg-color--pale-rose-l-45: hsl(0, 100%, 135%);
+  --css-bg-color--pale-rose-l-50: hsl(0, 100%, 140%);
+  --css-bg-color--pale-rose-l-55: hsl(0, 100%, 145%);
+  --css-bg-color--pale-rose-l-60: hsl(0, 100%, 150%);
+  --css-bg-color--pale-rose-l-65: hsl(0, 100%, 155%);
+  --css-bg-color--pale-rose-l-70: hsl(0, 100%, 160%);
+  --css-bg-color--pale-rose-l-75: hsl(0, 100%, 165%);
+  --css-bg-color--pale-rose-l-80: hsl(0, 100%, 170%);
+  --css-bg-color--pale-rose-l-85: hsl(0, 100%, 175%);
+  --css-bg-color--pale-rose-l-90: hsl(0, 100%, 180%);
+  --css-bg-color--pale-rose-l-95: hsl(0, 100%, 185%);
+  --css-bg-color--pale-rose-l-100: hsl(0, 100%, 190%);
+  --css-bg-color--pale-rose-d-5: rgb(255, 178.5, 178.5);
+  --css-bg-color--pale-rose-d-10: #ff9999;
+  --css-bg-color--pale-rose-d-15: rgb(255, 127.5, 127.5);
+  --css-bg-color--pale-rose-d-20: #ff6666;
+  --css-bg-color--pale-rose-d-25: rgb(255, 76.5, 76.5);
+  --css-bg-color--pale-rose-d-30: #ff3333;
+  --css-bg-color--pale-rose-d-35: rgb(255, 25.5, 25.5);
+  --css-bg-color--pale-rose-d-40: red;
+  --css-bg-color--pale-rose-d-45: rgb(229.5, 0, 0);
+  --css-bg-color--pale-rose-d-50: #cc0000;
+  --css-bg-color--pale-rose-d-55: rgb(178.5, 0, 0);
+  --css-bg-color--pale-rose-d-60: #990000;
+  --css-bg-color--pale-rose-d-65: rgb(127.5, 0, 0);
+  --css-bg-color--pale-rose-d-70: #660000;
+  --css-bg-color--pale-rose-d-75: rgb(76.5, 0, 0);
+  --css-bg-color--pale-rose-d-80: #330000;
+  --css-bg-color--pale-rose-d-85: rgb(25.5, 0, 0);
+  --css-bg-color--pale-rose-d-90: black;
+  --css-bg-color--pale-rose-d-95: hsl(0, 100%, -5%);
+  --css-bg-color--pale-rose-d-100: hsl(0, 100%, -10%);
 }
 
 .css-color--pale-rose {
@@ -88,163 +88,163 @@
 }
 
 .css-color--pale-rose-l-5 {
-  color: var(--css-color--pale-rose-l-5, rgb(255, 216.75, 216.75));
+  color: var(--css-color--pale-rose-l-5, rgb(255, 229.5, 229.5));
 }
 
 .css-color--pale-rose-l-10 {
-  color: var(--css-color--pale-rose-l-10, rgb(255, 229.5, 229.5));
+  color: var(--css-color--pale-rose-l-10, white);
 }
 
 .css-color--pale-rose-l-15 {
-  color: var(--css-color--pale-rose-l-15, rgb(255, 242.25, 242.25));
+  color: var(--css-color--pale-rose-l-15, hsl(0, 100%, 105%));
 }
 
 .css-color--pale-rose-l-20 {
-  color: var(--css-color--pale-rose-l-20, white);
+  color: var(--css-color--pale-rose-l-20, hsl(0, 100%, 110%));
 }
 
 .css-color--pale-rose-l-25 {
-  color: var(--css-color--pale-rose-l-25, white);
+  color: var(--css-color--pale-rose-l-25, hsl(0, 100%, 115%));
 }
 
 .css-color--pale-rose-l-30 {
-  color: var(--css-color--pale-rose-l-30, white);
+  color: var(--css-color--pale-rose-l-30, hsl(0, 100%, 120%));
 }
 
 .css-color--pale-rose-l-35 {
-  color: var(--css-color--pale-rose-l-35, white);
+  color: var(--css-color--pale-rose-l-35, hsl(0, 100%, 125%));
 }
 
 .css-color--pale-rose-l-40 {
-  color: var(--css-color--pale-rose-l-40, white);
+  color: var(--css-color--pale-rose-l-40, hsl(0, 100%, 130%));
 }
 
 .css-color--pale-rose-l-45 {
-  color: var(--css-color--pale-rose-l-45, white);
+  color: var(--css-color--pale-rose-l-45, hsl(0, 100%, 135%));
 }
 
 .css-color--pale-rose-l-50 {
-  color: var(--css-color--pale-rose-l-50, white);
+  color: var(--css-color--pale-rose-l-50, hsl(0, 100%, 140%));
 }
 
 .css-color--pale-rose-l-55 {
-  color: var(--css-color--pale-rose-l-55, white);
+  color: var(--css-color--pale-rose-l-55, hsl(0, 100%, 145%));
 }
 
 .css-color--pale-rose-l-60 {
-  color: var(--css-color--pale-rose-l-60, white);
+  color: var(--css-color--pale-rose-l-60, hsl(0, 100%, 150%));
 }
 
 .css-color--pale-rose-l-65 {
-  color: var(--css-color--pale-rose-l-65, white);
+  color: var(--css-color--pale-rose-l-65, hsl(0, 100%, 155%));
 }
 
 .css-color--pale-rose-l-70 {
-  color: var(--css-color--pale-rose-l-70, white);
+  color: var(--css-color--pale-rose-l-70, hsl(0, 100%, 160%));
 }
 
 .css-color--pale-rose-l-75 {
-  color: var(--css-color--pale-rose-l-75, white);
+  color: var(--css-color--pale-rose-l-75, hsl(0, 100%, 165%));
 }
 
 .css-color--pale-rose-l-80 {
-  color: var(--css-color--pale-rose-l-80, white);
+  color: var(--css-color--pale-rose-l-80, hsl(0, 100%, 170%));
 }
 
 .css-color--pale-rose-l-85 {
-  color: var(--css-color--pale-rose-l-85, white);
+  color: var(--css-color--pale-rose-l-85, hsl(0, 100%, 175%));
 }
 
 .css-color--pale-rose-l-90 {
-  color: var(--css-color--pale-rose-l-90, white);
+  color: var(--css-color--pale-rose-l-90, hsl(0, 100%, 180%));
 }
 
 .css-color--pale-rose-l-95 {
-  color: var(--css-color--pale-rose-l-95, white);
+  color: var(--css-color--pale-rose-l-95, hsl(0, 100%, 185%));
 }
 
 .css-color--pale-rose-l-100 {
-  color: var(--css-color--pale-rose-l-100, white);
+  color: var(--css-color--pale-rose-l-100, hsl(0, 100%, 190%));
 }
 
 .css-color--pale-rose-d-5 {
-  color: var(--css-color--pale-rose-d-5, rgb(242.25, 204, 204));
+  color: var(--css-color--pale-rose-d-5, rgb(255, 178.5, 178.5));
 }
 
 .css-color--pale-rose-d-10 {
-  color: var(--css-color--pale-rose-d-10, rgb(229.5, 204, 204));
+  color: var(--css-color--pale-rose-d-10, #ff9999);
 }
 
 .css-color--pale-rose-d-15 {
-  color: var(--css-color--pale-rose-d-15, rgb(216.75, 204, 204));
+  color: var(--css-color--pale-rose-d-15, rgb(255, 127.5, 127.5));
 }
 
 .css-color--pale-rose-d-20 {
-  color: var(--css-color--pale-rose-d-20, #cccccc);
+  color: var(--css-color--pale-rose-d-20, #ff6666);
 }
 
 .css-color--pale-rose-d-25 {
-  color: var(--css-color--pale-rose-d-25, rgb(194.2857142857, 194.2857142857, 194.2857142857));
+  color: var(--css-color--pale-rose-d-25, rgb(255, 76.5, 76.5));
 }
 
 .css-color--pale-rose-d-30 {
-  color: var(--css-color--pale-rose-d-30, rgb(185.4545454545, 185.4545454545, 185.4545454545));
+  color: var(--css-color--pale-rose-d-30, #ff3333);
 }
 
 .css-color--pale-rose-d-35 {
-  color: var(--css-color--pale-rose-d-35, rgb(177.3913043478, 177.3913043478, 177.3913043478));
+  color: var(--css-color--pale-rose-d-35, rgb(255, 25.5, 25.5));
 }
 
 .css-color--pale-rose-d-40 {
-  color: var(--css-color--pale-rose-d-40, #aaaaaa);
+  color: var(--css-color--pale-rose-d-40, red);
 }
 
 .css-color--pale-rose-d-45 {
-  color: var(--css-color--pale-rose-d-45, rgb(163.2, 163.2, 163.2));
+  color: var(--css-color--pale-rose-d-45, rgb(229.5, 0, 0));
 }
 
 .css-color--pale-rose-d-50 {
-  color: var(--css-color--pale-rose-d-50, rgb(156.9230769231, 156.9230769231, 156.9230769231));
+  color: var(--css-color--pale-rose-d-50, #cc0000);
 }
 
 .css-color--pale-rose-d-55 {
-  color: var(--css-color--pale-rose-d-55, rgb(151.1111111111, 151.1111111111, 151.1111111111));
+  color: var(--css-color--pale-rose-d-55, rgb(178.5, 0, 0));
 }
 
 .css-color--pale-rose-d-60 {
-  color: var(--css-color--pale-rose-d-60, rgb(145.7142857143, 145.7142857143, 145.7142857143));
+  color: var(--css-color--pale-rose-d-60, #990000);
 }
 
 .css-color--pale-rose-d-65 {
-  color: var(--css-color--pale-rose-d-65, rgb(140.6896551724, 140.6896551724, 140.6896551724));
+  color: var(--css-color--pale-rose-d-65, rgb(127.5, 0, 0));
 }
 
 .css-color--pale-rose-d-70 {
-  color: var(--css-color--pale-rose-d-70, #888888);
+  color: var(--css-color--pale-rose-d-70, #660000);
 }
 
 .css-color--pale-rose-d-75 {
-  color: var(--css-color--pale-rose-d-75, rgb(131.6129032258, 131.6129032258, 131.6129032258));
+  color: var(--css-color--pale-rose-d-75, rgb(76.5, 0, 0));
 }
 
 .css-color--pale-rose-d-80 {
-  color: var(--css-color--pale-rose-d-80, rgb(127.5, 127.5, 127.5));
+  color: var(--css-color--pale-rose-d-80, #330000);
 }
 
 .css-color--pale-rose-d-85 {
-  color: var(--css-color--pale-rose-d-85, rgb(123.6363636364, 123.6363636364, 123.6363636364));
+  color: var(--css-color--pale-rose-d-85, rgb(25.5, 0, 0));
 }
 
 .css-color--pale-rose-d-90 {
-  color: var(--css-color--pale-rose-d-90, #787878);
+  color: var(--css-color--pale-rose-d-90, black);
 }
 
 .css-color--pale-rose-d-95 {
-  color: var(--css-color--pale-rose-d-95, rgb(116.5714285714, 116.5714285714, 116.5714285714));
+  color: var(--css-color--pale-rose-d-95, hsl(0, 100%, -5%));
 }
 
 .css-color--pale-rose-d-100 {
-  color: var(--css-color--pale-rose-d-100, rgb(113.3333333333, 113.3333333333, 113.3333333333));
+  color: var(--css-color--pale-rose-d-100, hsl(0, 100%, -10%));
 }
 
 .css-bg-color--pale-rose {
@@ -252,161 +252,161 @@
 }
 
 .css-bg-color--pale-rose-l-5 {
-  background-color: var(--css-bg-color--pale-rose-l-5, rgb(255, 216.75, 216.75));
+  background-color: var(--css-bg-color--pale-rose-l-5, rgb(255, 229.5, 229.5));
 }
 
 .css-bg-color--pale-rose-l-10 {
-  background-color: var(--css-bg-color--pale-rose-l-10, rgb(255, 229.5, 229.5));
+  background-color: var(--css-bg-color--pale-rose-l-10, white);
 }
 
 .css-bg-color--pale-rose-l-15 {
-  background-color: var(--css-bg-color--pale-rose-l-15, rgb(255, 242.25, 242.25));
+  background-color: var(--css-bg-color--pale-rose-l-15, hsl(0, 100%, 105%));
 }
 
 .css-bg-color--pale-rose-l-20 {
-  background-color: var(--css-bg-color--pale-rose-l-20, white);
+  background-color: var(--css-bg-color--pale-rose-l-20, hsl(0, 100%, 110%));
 }
 
 .css-bg-color--pale-rose-l-25 {
-  background-color: var(--css-bg-color--pale-rose-l-25, white);
+  background-color: var(--css-bg-color--pale-rose-l-25, hsl(0, 100%, 115%));
 }
 
 .css-bg-color--pale-rose-l-30 {
-  background-color: var(--css-bg-color--pale-rose-l-30, white);
+  background-color: var(--css-bg-color--pale-rose-l-30, hsl(0, 100%, 120%));
 }
 
 .css-bg-color--pale-rose-l-35 {
-  background-color: var(--css-bg-color--pale-rose-l-35, white);
+  background-color: var(--css-bg-color--pale-rose-l-35, hsl(0, 100%, 125%));
 }
 
 .css-bg-color--pale-rose-l-40 {
-  background-color: var(--css-bg-color--pale-rose-l-40, white);
+  background-color: var(--css-bg-color--pale-rose-l-40, hsl(0, 100%, 130%));
 }
 
 .css-bg-color--pale-rose-l-45 {
-  background-color: var(--css-bg-color--pale-rose-l-45, white);
+  background-color: var(--css-bg-color--pale-rose-l-45, hsl(0, 100%, 135%));
 }
 
 .css-bg-color--pale-rose-l-50 {
-  background-color: var(--css-bg-color--pale-rose-l-50, white);
+  background-color: var(--css-bg-color--pale-rose-l-50, hsl(0, 100%, 140%));
 }
 
 .css-bg-color--pale-rose-l-55 {
-  background-color: var(--css-bg-color--pale-rose-l-55, white);
+  background-color: var(--css-bg-color--pale-rose-l-55, hsl(0, 100%, 145%));
 }
 
 .css-bg-color--pale-rose-l-60 {
-  background-color: var(--css-bg-color--pale-rose-l-60, white);
+  background-color: var(--css-bg-color--pale-rose-l-60, hsl(0, 100%, 150%));
 }
 
 .css-bg-color--pale-rose-l-65 {
-  background-color: var(--css-bg-color--pale-rose-l-65, white);
+  background-color: var(--css-bg-color--pale-rose-l-65, hsl(0, 100%, 155%));
 }
 
 .css-bg-color--pale-rose-l-70 {
-  background-color: var(--css-bg-color--pale-rose-l-70, white);
+  background-color: var(--css-bg-color--pale-rose-l-70, hsl(0, 100%, 160%));
 }
 
 .css-bg-color--pale-rose-l-75 {
-  background-color: var(--css-bg-color--pale-rose-l-75, white);
+  background-color: var(--css-bg-color--pale-rose-l-75, hsl(0, 100%, 165%));
 }
 
 .css-bg-color--pale-rose-l-80 {
-  background-color: var(--css-bg-color--pale-rose-l-80, white);
+  background-color: var(--css-bg-color--pale-rose-l-80, hsl(0, 100%, 170%));
 }
 
 .css-bg-color--pale-rose-l-85 {
-  background-color: var(--css-bg-color--pale-rose-l-85, white);
+  background-color: var(--css-bg-color--pale-rose-l-85, hsl(0, 100%, 175%));
 }
 
 .css-bg-color--pale-rose-l-90 {
-  background-color: var(--css-bg-color--pale-rose-l-90, white);
+  background-color: var(--css-bg-color--pale-rose-l-90, hsl(0, 100%, 180%));
 }
 
 .css-bg-color--pale-rose-l-95 {
-  background-color: var(--css-bg-color--pale-rose-l-95, white);
+  background-color: var(--css-bg-color--pale-rose-l-95, hsl(0, 100%, 185%));
 }
 
 .css-bg-color--pale-rose-l-100 {
-  background-color: var(--css-bg-color--pale-rose-l-100, white);
+  background-color: var(--css-bg-color--pale-rose-l-100, hsl(0, 100%, 190%));
 }
 
 .css-bg-color--pale-rose-d-5 {
-  background-color: var(--css-bg-color--pale-rose-d-5, rgb(242.25, 204, 204));
+  background-color: var(--css-bg-color--pale-rose-d-5, rgb(255, 178.5, 178.5));
 }
 
 .css-bg-color--pale-rose-d-10 {
-  background-color: var(--css-bg-color--pale-rose-d-10, rgb(229.5, 204, 204));
+  background-color: var(--css-bg-color--pale-rose-d-10, #ff9999);
 }
 
 .css-bg-color--pale-rose-d-15 {
-  background-color: var(--css-bg-color--pale-rose-d-15, rgb(216.75, 204, 204));
+  background-color: var(--css-bg-color--pale-rose-d-15, rgb(255, 127.5, 127.5));
 }
 
 .css-bg-color--pale-rose-d-20 {
-  background-color: var(--css-bg-color--pale-rose-d-20, #cccccc);
+  background-color: var(--css-bg-color--pale-rose-d-20, #ff6666);
 }
 
 .css-bg-color--pale-rose-d-25 {
-  background-color: var(--css-bg-color--pale-rose-d-25, rgb(194.2857142857, 194.2857142857, 194.2857142857));
+  background-color: var(--css-bg-color--pale-rose-d-25, rgb(255, 76.5, 76.5));
 }
 
 .css-bg-color--pale-rose-d-30 {
-  background-color: var(--css-bg-color--pale-rose-d-30, rgb(185.4545454545, 185.4545454545, 185.4545454545));
+  background-color: var(--css-bg-color--pale-rose-d-30, #ff3333);
 }
 
 .css-bg-color--pale-rose-d-35 {
-  background-color: var(--css-bg-color--pale-rose-d-35, rgb(177.3913043478, 177.3913043478, 177.3913043478));
+  background-color: var(--css-bg-color--pale-rose-d-35, rgb(255, 25.5, 25.5));
 }
 
 .css-bg-color--pale-rose-d-40 {
-  background-color: var(--css-bg-color--pale-rose-d-40, #aaaaaa);
+  background-color: var(--css-bg-color--pale-rose-d-40, red);
 }
 
 .css-bg-color--pale-rose-d-45 {
-  background-color: var(--css-bg-color--pale-rose-d-45, rgb(163.2, 163.2, 163.2));
+  background-color: var(--css-bg-color--pale-rose-d-45, rgb(229.5, 0, 0));
 }
 
 .css-bg-color--pale-rose-d-50 {
-  background-color: var(--css-bg-color--pale-rose-d-50, rgb(156.9230769231, 156.9230769231, 156.9230769231));
+  background-color: var(--css-bg-color--pale-rose-d-50, #cc0000);
 }
 
 .css-bg-color--pale-rose-d-55 {
-  background-color: var(--css-bg-color--pale-rose-d-55, rgb(151.1111111111, 151.1111111111, 151.1111111111));
+  background-color: var(--css-bg-color--pale-rose-d-55, rgb(178.5, 0, 0));
 }
 
 .css-bg-color--pale-rose-d-60 {
-  background-color: var(--css-bg-color--pale-rose-d-60, rgb(145.7142857143, 145.7142857143, 145.7142857143));
+  background-color: var(--css-bg-color--pale-rose-d-60, #990000);
 }
 
 .css-bg-color--pale-rose-d-65 {
-  background-color: var(--css-bg-color--pale-rose-d-65, rgb(140.6896551724, 140.6896551724, 140.6896551724));
+  background-color: var(--css-bg-color--pale-rose-d-65, rgb(127.5, 0, 0));
 }
 
 .css-bg-color--pale-rose-d-70 {
-  background-color: var(--css-bg-color--pale-rose-d-70, #888888);
+  background-color: var(--css-bg-color--pale-rose-d-70, #660000);
 }
 
 .css-bg-color--pale-rose-d-75 {
-  background-color: var(--css-bg-color--pale-rose-d-75, rgb(131.6129032258, 131.6129032258, 131.6129032258));
+  background-color: var(--css-bg-color--pale-rose-d-75, rgb(76.5, 0, 0));
 }
 
 .css-bg-color--pale-rose-d-80 {
-  background-color: var(--css-bg-color--pale-rose-d-80, rgb(127.5, 127.5, 127.5));
+  background-color: var(--css-bg-color--pale-rose-d-80, #330000);
 }
 
 .css-bg-color--pale-rose-d-85 {
-  background-color: var(--css-bg-color--pale-rose-d-85, rgb(123.6363636364, 123.6363636364, 123.6363636364));
+  background-color: var(--css-bg-color--pale-rose-d-85, rgb(25.5, 0, 0));
 }
 
 .css-bg-color--pale-rose-d-90 {
-  background-color: var(--css-bg-color--pale-rose-d-90, #787878);
+  background-color: var(--css-bg-color--pale-rose-d-90, black);
 }
 
 .css-bg-color--pale-rose-d-95 {
-  background-color: var(--css-bg-color--pale-rose-d-95, rgb(116.5714285714, 116.5714285714, 116.5714285714));
+  background-color: var(--css-bg-color--pale-rose-d-95, hsl(0, 100%, -5%));
 }
 
 .css-bg-color--pale-rose-d-100 {
-  background-color: var(--css-bg-color--pale-rose-d-100, rgb(113.3333333333, 113.3333333333, 113.3333333333));
+  background-color: var(--css-bg-color--pale-rose-d-100, hsl(0, 100%, -10%));
 }

@@ -1,0 +1,95 @@
+///
+/// Scarlet variables
+///
+
+@use 'sass:color';
+
+$css-color--scarlet: #ff3300;
+
+// Lighten color by percentage.
+$css-color--scarlet-l-5: #{color.adjust( $css-color--scarlet, $whiteness: 5% )};
+$css-color--scarlet-l-10: #{color.adjust( $css-color--scarlet, $whiteness: 10% )};
+$css-color--scarlet-l-15: #{color.adjust( $css-color--scarlet, $whiteness: 15% )};
+$css-color--scarlet-l-20: #{color.adjust( $css-color--scarlet, $whiteness: 20% )};
+$css-color--scarlet-l-25: #{color.adjust( $css-color--scarlet, $whiteness: 25% )};
+$css-color--scarlet-l-30: #{color.adjust( $css-color--scarlet, $whiteness: 30% )};
+$css-color--scarlet-l-35: #{color.adjust( $css-color--scarlet, $whiteness: 35% )};
+$css-color--scarlet-l-40: #{color.adjust( $css-color--scarlet, $whiteness: 40% )};
+$css-color--scarlet-l-45: #{color.adjust( $css-color--scarlet, $whiteness: 45% )};
+$css-color--scarlet-l-50: #{color.adjust( $css-color--scarlet, $whiteness: 50% )};
+$css-color--scarlet-l-55: #{color.adjust( $css-color--scarlet, $whiteness: 55% )};
+$css-color--scarlet-l-60: #{color.adjust( $css-color--scarlet, $whiteness: 60% )};
+$css-color--scarlet-l-65: #{color.adjust( $css-color--scarlet, $whiteness: 65% )};
+$css-color--scarlet-l-70: #{color.adjust( $css-color--scarlet, $whiteness: 70% )};
+$css-color--scarlet-l-75: #{color.adjust( $css-color--scarlet, $whiteness: 75% )};
+$css-color--scarlet-l-80: #{color.adjust( $css-color--scarlet, $whiteness: 80% )};
+$css-color--scarlet-l-85: #{color.adjust( $css-color--scarlet, $whiteness: 85% )};
+$css-color--scarlet-l-90: #{color.adjust( $css-color--scarlet, $whiteness: 90% )};
+$css-color--scarlet-l-95: #{color.adjust( $css-color--scarlet, $whiteness: 95% )};
+$css-color--scarlet-l-100: #{color.adjust( $css-color--scarlet, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--scarlet-d-5: #{color.adjust( $css-color--scarlet, $blackness: 5% )};
+$css-color--scarlet-d-10: #{color.adjust( $css-color--scarlet, $blackness: 10% )};
+$css-color--scarlet-d-15: #{color.adjust( $css-color--scarlet, $blackness: 15% )};
+$css-color--scarlet-d-20: #{color.adjust( $css-color--scarlet, $blackness: 20% )};
+$css-color--scarlet-d-25: #{color.adjust( $css-color--scarlet, $blackness: 25% )};
+$css-color--scarlet-d-30: #{color.adjust( $css-color--scarlet, $blackness: 30% )};
+$css-color--scarlet-d-35: #{color.adjust( $css-color--scarlet, $blackness: 35% )};
+$css-color--scarlet-d-40: #{color.adjust( $css-color--scarlet, $blackness: 40% )};
+$css-color--scarlet-d-45: #{color.adjust( $css-color--scarlet, $blackness: 45% )};
+$css-color--scarlet-d-50: #{color.adjust( $css-color--scarlet, $blackness: 50% )};
+$css-color--scarlet-d-55: #{color.adjust( $css-color--scarlet, $blackness: 55% )};
+$css-color--scarlet-d-60: #{color.adjust( $css-color--scarlet, $blackness: 60% )};
+$css-color--scarlet-d-65: #{color.adjust( $css-color--scarlet, $blackness: 65% )};
+$css-color--scarlet-d-70: #{color.adjust( $css-color--scarlet, $blackness: 70% )};
+$css-color--scarlet-d-75: #{color.adjust( $css-color--scarlet, $blackness: 75% )};
+$css-color--scarlet-d-80: #{color.adjust( $css-color--scarlet, $blackness: 80% )};
+$css-color--scarlet-d-85: #{color.adjust( $css-color--scarlet, $blackness: 85% )};
+$css-color--scarlet-d-90: #{color.adjust( $css-color--scarlet, $blackness: 90% )};
+$css-color--scarlet-d-95: #{color.adjust( $css-color--scarlet, $blackness: 95% )};
+$css-color--scarlet-d-100: #{color.adjust( $css-color--scarlet, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--scarlet-l-5: #{color.adjust( $css-color--scarlet, $whiteness: 5% )};
+$css-bg-color--scarlet-l-10: #{color.adjust( $css-color--scarlet, $whiteness: 10% )};
+$css-bg-color--scarlet-l-15: #{color.adjust( $css-color--scarlet, $whiteness: 15% )};
+$css-bg-color--scarlet-l-20: #{color.adjust( $css-color--scarlet, $whiteness: 20% )};
+$css-bg-color--scarlet-l-25: #{color.adjust( $css-color--scarlet, $whiteness: 25% )};
+$css-bg-color--scarlet-l-30: #{color.adjust( $css-color--scarlet, $whiteness: 30% )};
+$css-bg-color--scarlet-l-35: #{color.adjust( $css-color--scarlet, $whiteness: 35% )};
+$css-bg-color--scarlet-l-40: #{color.adjust( $css-color--scarlet, $whiteness: 40% )};
+$css-bg-color--scarlet-l-45: #{color.adjust( $css-color--scarlet, $whiteness: 45% )};
+$css-bg-color--scarlet-l-50: #{color.adjust( $css-color--scarlet, $whiteness: 50% )};
+$css-bg-color--scarlet-l-55: #{color.adjust( $css-color--scarlet, $whiteness: 55% )};
+$css-bg-color--scarlet-l-60: #{color.adjust( $css-color--scarlet, $whiteness: 60% )};
+$css-bg-color--scarlet-l-65: #{color.adjust( $css-color--scarlet, $whiteness: 65% )};
+$css-bg-color--scarlet-l-70: #{color.adjust( $css-color--scarlet, $whiteness: 70% )};
+$css-bg-color--scarlet-l-75: #{color.adjust( $css-color--scarlet, $whiteness: 75% )};
+$css-bg-color--scarlet-l-80: #{color.adjust( $css-color--scarlet, $whiteness: 80% )};
+$css-bg-color--scarlet-l-85: #{color.adjust( $css-color--scarlet, $whiteness: 85% )};
+$css-bg-color--scarlet-l-90: #{color.adjust( $css-color--scarlet, $whiteness: 90% )};
+$css-bg-color--scarlet-l-95: #{color.adjust( $css-color--scarlet, $whiteness: 95% )};
+$css-bg-color--scarlet-l-100: #{color.adjust( $css-color--scarlet, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--scarlet-d-5: #{color.adjust( $css-color--scarlet, $blackness: 5% )};
+$css-bg-color--scarlet-d-10: #{color.adjust( $css-color--scarlet, $blackness: 10% )};
+$css-bg-color--scarlet-d-15: #{color.adjust( $css-color--scarlet, $blackness: 15% )};
+$css-bg-color--scarlet-d-20: #{color.adjust( $css-color--scarlet, $blackness: 20% )};
+$css-bg-color--scarlet-d-25: #{color.adjust( $css-color--scarlet, $blackness: 25% )};
+$css-bg-color--scarlet-d-30: #{color.adjust( $css-color--scarlet, $blackness: 30% )};
+$css-bg-color--scarlet-d-35: #{color.adjust( $css-color--scarlet, $blackness: 35% )};
+$css-bg-color--scarlet-d-40: #{color.adjust( $css-color--scarlet, $blackness: 40% )};
+$css-bg-color--scarlet-d-45: #{color.adjust( $css-color--scarlet, $blackness: 45% )};
+$css-bg-color--scarlet-d-50: #{color.adjust( $css-color--scarlet, $blackness: 50% )};
+$css-bg-color--scarlet-d-55: #{color.adjust( $css-color--scarlet, $blackness: 55% )};
+$css-bg-color--scarlet-d-60: #{color.adjust( $css-color--scarlet, $blackness: 60% )};
+$css-bg-color--scarlet-d-65: #{color.adjust( $css-color--scarlet, $blackness: 65% )};
+$css-bg-color--scarlet-d-70: #{color.adjust( $css-color--scarlet, $blackness: 70% )};
+$css-bg-color--scarlet-d-75: #{color.adjust( $css-color--scarlet, $blackness: 75% )};
+$css-bg-color--scarlet-d-80: #{color.adjust( $css-color--scarlet, $blackness: 80% )};
+$css-bg-color--scarlet-d-85: #{color.adjust( $css-color--scarlet, $blackness: 85% )};
+$css-bg-color--scarlet-d-90: #{color.adjust( $css-color--scarlet, $blackness: 90% )};
+$css-bg-color--scarlet-d-95: #{color.adjust( $css-color--scarlet, $blackness: 95% )};
+$css-bg-color--scarlet-d-100: #{color.adjust( $css-color--scarlet, $blackness: 100% )};

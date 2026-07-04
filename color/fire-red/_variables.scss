@@ -1,0 +1,95 @@
+///
+/// Fire Red variables
+///
+
+@use 'sass:color';
+
+$css-color--fire-red: #ff3333;
+
+// Lighten color by percentage.
+$css-color--fire-red-l-5: #{color.adjust( $css-color--fire-red, $whiteness: 5% )};
+$css-color--fire-red-l-10: #{color.adjust( $css-color--fire-red, $whiteness: 10% )};
+$css-color--fire-red-l-15: #{color.adjust( $css-color--fire-red, $whiteness: 15% )};
+$css-color--fire-red-l-20: #{color.adjust( $css-color--fire-red, $whiteness: 20% )};
+$css-color--fire-red-l-25: #{color.adjust( $css-color--fire-red, $whiteness: 25% )};
+$css-color--fire-red-l-30: #{color.adjust( $css-color--fire-red, $whiteness: 30% )};
+$css-color--fire-red-l-35: #{color.adjust( $css-color--fire-red, $whiteness: 35% )};
+$css-color--fire-red-l-40: #{color.adjust( $css-color--fire-red, $whiteness: 40% )};
+$css-color--fire-red-l-45: #{color.adjust( $css-color--fire-red, $whiteness: 45% )};
+$css-color--fire-red-l-50: #{color.adjust( $css-color--fire-red, $whiteness: 50% )};
+$css-color--fire-red-l-55: #{color.adjust( $css-color--fire-red, $whiteness: 55% )};
+$css-color--fire-red-l-60: #{color.adjust( $css-color--fire-red, $whiteness: 60% )};
+$css-color--fire-red-l-65: #{color.adjust( $css-color--fire-red, $whiteness: 65% )};
+$css-color--fire-red-l-70: #{color.adjust( $css-color--fire-red, $whiteness: 70% )};
+$css-color--fire-red-l-75: #{color.adjust( $css-color--fire-red, $whiteness: 75% )};
+$css-color--fire-red-l-80: #{color.adjust( $css-color--fire-red, $whiteness: 80% )};
+$css-color--fire-red-l-85: #{color.adjust( $css-color--fire-red, $whiteness: 85% )};
+$css-color--fire-red-l-90: #{color.adjust( $css-color--fire-red, $whiteness: 90% )};
+$css-color--fire-red-l-95: #{color.adjust( $css-color--fire-red, $whiteness: 95% )};
+$css-color--fire-red-l-100: #{color.adjust( $css-color--fire-red, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--fire-red-d-5: #{color.adjust( $css-color--fire-red, $blackness: 5% )};
+$css-color--fire-red-d-10: #{color.adjust( $css-color--fire-red, $blackness: 10% )};
+$css-color--fire-red-d-15: #{color.adjust( $css-color--fire-red, $blackness: 15% )};
+$css-color--fire-red-d-20: #{color.adjust( $css-color--fire-red, $blackness: 20% )};
+$css-color--fire-red-d-25: #{color.adjust( $css-color--fire-red, $blackness: 25% )};
+$css-color--fire-red-d-30: #{color.adjust( $css-color--fire-red, $blackness: 30% )};
+$css-color--fire-red-d-35: #{color.adjust( $css-color--fire-red, $blackness: 35% )};
+$css-color--fire-red-d-40: #{color.adjust( $css-color--fire-red, $blackness: 40% )};
+$css-color--fire-red-d-45: #{color.adjust( $css-color--fire-red, $blackness: 45% )};
+$css-color--fire-red-d-50: #{color.adjust( $css-color--fire-red, $blackness: 50% )};
+$css-color--fire-red-d-55: #{color.adjust( $css-color--fire-red, $blackness: 55% )};
+$css-color--fire-red-d-60: #{color.adjust( $css-color--fire-red, $blackness: 60% )};
+$css-color--fire-red-d-65: #{color.adjust( $css-color--fire-red, $blackness: 65% )};
+$css-color--fire-red-d-70: #{color.adjust( $css-color--fire-red, $blackness: 70% )};
+$css-color--fire-red-d-75: #{color.adjust( $css-color--fire-red, $blackness: 75% )};
+$css-color--fire-red-d-80: #{color.adjust( $css-color--fire-red, $blackness: 80% )};
+$css-color--fire-red-d-85: #{color.adjust( $css-color--fire-red, $blackness: 85% )};
+$css-color--fire-red-d-90: #{color.adjust( $css-color--fire-red, $blackness: 90% )};
+$css-color--fire-red-d-95: #{color.adjust( $css-color--fire-red, $blackness: 95% )};
+$css-color--fire-red-d-100: #{color.adjust( $css-color--fire-red, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--fire-red-l-5: #{color.adjust( $css-color--fire-red, $whiteness: 5% )};
+$css-bg-color--fire-red-l-10: #{color.adjust( $css-color--fire-red, $whiteness: 10% )};
+$css-bg-color--fire-red-l-15: #{color.adjust( $css-color--fire-red, $whiteness: 15% )};
+$css-bg-color--fire-red-l-20: #{color.adjust( $css-color--fire-red, $whiteness: 20% )};
+$css-bg-color--fire-red-l-25: #{color.adjust( $css-color--fire-red, $whiteness: 25% )};
+$css-bg-color--fire-red-l-30: #{color.adjust( $css-color--fire-red, $whiteness: 30% )};
+$css-bg-color--fire-red-l-35: #{color.adjust( $css-color--fire-red, $whiteness: 35% )};
+$css-bg-color--fire-red-l-40: #{color.adjust( $css-color--fire-red, $whiteness: 40% )};
+$css-bg-color--fire-red-l-45: #{color.adjust( $css-color--fire-red, $whiteness: 45% )};
+$css-bg-color--fire-red-l-50: #{color.adjust( $css-color--fire-red, $whiteness: 50% )};
+$css-bg-color--fire-red-l-55: #{color.adjust( $css-color--fire-red, $whiteness: 55% )};
+$css-bg-color--fire-red-l-60: #{color.adjust( $css-color--fire-red, $whiteness: 60% )};
+$css-bg-color--fire-red-l-65: #{color.adjust( $css-color--fire-red, $whiteness: 65% )};
+$css-bg-color--fire-red-l-70: #{color.adjust( $css-color--fire-red, $whiteness: 70% )};
+$css-bg-color--fire-red-l-75: #{color.adjust( $css-color--fire-red, $whiteness: 75% )};
+$css-bg-color--fire-red-l-80: #{color.adjust( $css-color--fire-red, $whiteness: 80% )};
+$css-bg-color--fire-red-l-85: #{color.adjust( $css-color--fire-red, $whiteness: 85% )};
+$css-bg-color--fire-red-l-90: #{color.adjust( $css-color--fire-red, $whiteness: 90% )};
+$css-bg-color--fire-red-l-95: #{color.adjust( $css-color--fire-red, $whiteness: 95% )};
+$css-bg-color--fire-red-l-100: #{color.adjust( $css-color--fire-red, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--fire-red-d-5: #{color.adjust( $css-color--fire-red, $blackness: 5% )};
+$css-bg-color--fire-red-d-10: #{color.adjust( $css-color--fire-red, $blackness: 10% )};
+$css-bg-color--fire-red-d-15: #{color.adjust( $css-color--fire-red, $blackness: 15% )};
+$css-bg-color--fire-red-d-20: #{color.adjust( $css-color--fire-red, $blackness: 20% )};
+$css-bg-color--fire-red-d-25: #{color.adjust( $css-color--fire-red, $blackness: 25% )};
+$css-bg-color--fire-red-d-30: #{color.adjust( $css-color--fire-red, $blackness: 30% )};
+$css-bg-color--fire-red-d-35: #{color.adjust( $css-color--fire-red, $blackness: 35% )};
+$css-bg-color--fire-red-d-40: #{color.adjust( $css-color--fire-red, $blackness: 40% )};
+$css-bg-color--fire-red-d-45: #{color.adjust( $css-color--fire-red, $blackness: 45% )};
+$css-bg-color--fire-red-d-50: #{color.adjust( $css-color--fire-red, $blackness: 50% )};
+$css-bg-color--fire-red-d-55: #{color.adjust( $css-color--fire-red, $blackness: 55% )};
+$css-bg-color--fire-red-d-60: #{color.adjust( $css-color--fire-red, $blackness: 60% )};
+$css-bg-color--fire-red-d-65: #{color.adjust( $css-color--fire-red, $blackness: 65% )};
+$css-bg-color--fire-red-d-70: #{color.adjust( $css-color--fire-red, $blackness: 70% )};
+$css-bg-color--fire-red-d-75: #{color.adjust( $css-color--fire-red, $blackness: 75% )};
+$css-bg-color--fire-red-d-80: #{color.adjust( $css-color--fire-red, $blackness: 80% )};
+$css-bg-color--fire-red-d-85: #{color.adjust( $css-color--fire-red, $blackness: 85% )};
+$css-bg-color--fire-red-d-90: #{color.adjust( $css-color--fire-red, $blackness: 90% )};
+$css-bg-color--fire-red-d-95: #{color.adjust( $css-color--fire-red, $blackness: 95% )};
+$css-bg-color--fire-red-d-100: #{color.adjust( $css-color--fire-red, $blackness: 100% )};

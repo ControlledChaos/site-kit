@@ -1,0 +1,102 @@
+///
+/// Dark Salmon properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--dark-salmon: #{$css-color--dark-salmon};
+
+	// Lighten color by percentage.
+	--css-color--dark-salmon-l-5: #{$css-color--dark-salmon-l-5};
+	--css-color--dark-salmon-l-10: #{$css-color--dark-salmon-l-10};
+	--css-color--dark-salmon-l-15: #{$css-color--dark-salmon-l-15};
+	--css-color--dark-salmon-l-20: #{$css-color--dark-salmon-l-20};
+	--css-color--dark-salmon-l-25: #{$css-color--dark-salmon-l-25};
+	--css-color--dark-salmon-l-30: #{$css-color--dark-salmon-l-30};
+	--css-color--dark-salmon-l-35: #{$css-color--dark-salmon-l-35};
+	--css-color--dark-salmon-l-40: #{$css-color--dark-salmon-l-40};
+	--css-color--dark-salmon-l-45: #{$css-color--dark-salmon-l-45};
+	--css-color--dark-salmon-l-50: #{$css-color--dark-salmon-l-50};
+	--css-color--dark-salmon-l-55: #{$css-color--dark-salmon-l-55};
+	--css-color--dark-salmon-l-60: #{$css-color--dark-salmon-l-60};
+	--css-color--dark-salmon-l-65: #{$css-color--dark-salmon-l-65};
+	--css-color--dark-salmon-l-70: #{$css-color--dark-salmon-l-70};
+	--css-color--dark-salmon-l-75: #{$css-color--dark-salmon-l-75};
+	--css-color--dark-salmon-l-80: #{$css-color--dark-salmon-l-80};
+	--css-color--dark-salmon-l-85: #{$css-color--dark-salmon-l-85};
+	--css-color--dark-salmon-l-90: #{$css-color--dark-salmon-l-90};
+	--css-color--dark-salmon-l-95: #{$css-color--dark-salmon-l-95};
+	--css-color--dark-salmon-l-100: #{$css-color--dark-salmon-l-100};
+
+	// Darken color by percentage.
+	--css-color--dark-salmon-d-5: #{$css-color--dark-salmon-d-5};
+	--css-color--dark-salmon-d-10: #{$css-color--dark-salmon-d-10};
+	--css-color--dark-salmon-d-15: #{$css-color--dark-salmon-d-15};
+	--css-color--dark-salmon-d-20: #{$css-color--dark-salmon-d-20};
+	--css-color--dark-salmon-d-25: #{$css-color--dark-salmon-d-25};
+	--css-color--dark-salmon-d-30: #{$css-color--dark-salmon-d-30};
+	--css-color--dark-salmon-d-35: #{$css-color--dark-salmon-d-35};
+	--css-color--dark-salmon-d-40: #{$css-color--dark-salmon-d-40};
+	--css-color--dark-salmon-d-45: #{$css-color--dark-salmon-d-45};
+	--css-color--dark-salmon-d-50: #{$css-color--dark-salmon-d-50};
+	--css-color--dark-salmon-d-55: #{$css-color--dark-salmon-d-55};
+	--css-color--dark-salmon-d-60: #{$css-color--dark-salmon-d-60};
+	--css-color--dark-salmon-d-65: #{$css-color--dark-salmon-d-65};
+	--css-color--dark-salmon-d-70: #{$css-color--dark-salmon-d-70};
+	--css-color--dark-salmon-d-75: #{$css-color--dark-salmon-d-75};
+	--css-color--dark-salmon-d-80: #{$css-color--dark-salmon-d-80};
+	--css-color--dark-salmon-d-85: #{$css-color--dark-salmon-d-85};
+	--css-color--dark-salmon-d-90: #{$css-color--dark-salmon-d-90};
+	--css-color--dark-salmon-d-95: #{$css-color--dark-salmon-d-95};
+	--css-color--dark-salmon-d-100: #{$css-color--dark-salmon-d-100};
+
+	// Original background color.
+	--css-bg-color--dark-salmon: #{$css-color--dark-salmon};
+
+	// Lighten background color by percentage.
+	--css-bg-color--dark-salmon-l-5: #{$css-color--dark-salmon-l-5};
+	--css-bg-color--dark-salmon-l-10: #{$css-color--dark-salmon-l-10};
+	--css-bg-color--dark-salmon-l-15: #{$css-color--dark-salmon-l-15};
+	--css-bg-color--dark-salmon-l-20: #{$css-color--dark-salmon-l-20};
+	--css-bg-color--dark-salmon-l-25: #{$css-color--dark-salmon-l-25};
+	--css-bg-color--dark-salmon-l-30: #{$css-color--dark-salmon-l-30};
+	--css-bg-color--dark-salmon-l-35: #{$css-color--dark-salmon-l-35};
+	--css-bg-color--dark-salmon-l-40: #{$css-color--dark-salmon-l-40};
+	--css-bg-color--dark-salmon-l-45: #{$css-color--dark-salmon-l-45};
+	--css-bg-color--dark-salmon-l-50: #{$css-color--dark-salmon-l-50};
+	--css-bg-color--dark-salmon-l-55: #{$css-color--dark-salmon-l-55};
+	--css-bg-color--dark-salmon-l-60: #{$css-color--dark-salmon-l-60};
+	--css-bg-color--dark-salmon-l-65: #{$css-color--dark-salmon-l-65};
+	--css-bg-color--dark-salmon-l-70: #{$css-color--dark-salmon-l-70};
+	--css-bg-color--dark-salmon-l-75: #{$css-color--dark-salmon-l-75};
+	--css-bg-color--dark-salmon-l-80: #{$css-color--dark-salmon-l-80};
+	--css-bg-color--dark-salmon-l-85: #{$css-color--dark-salmon-l-85};
+	--css-bg-color--dark-salmon-l-90: #{$css-color--dark-salmon-l-90};
+	--css-bg-color--dark-salmon-l-95: #{$css-color--dark-salmon-l-95};
+	--css-bg-color--dark-salmon-l-100: #{$css-color--dark-salmon-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--dark-salmon-d-5: #{$css-color--dark-salmon-d-5};
+	--css-bg-color--dark-salmon-d-10: #{$css-color--dark-salmon-d-10};
+	--css-bg-color--dark-salmon-d-15: #{$css-color--dark-salmon-d-15};
+	--css-bg-color--dark-salmon-d-20: #{$css-color--dark-salmon-d-20};
+	--css-bg-color--dark-salmon-d-25: #{$css-color--dark-salmon-d-25};
+	--css-bg-color--dark-salmon-d-30: #{$css-color--dark-salmon-d-30};
+	--css-bg-color--dark-salmon-d-35: #{$css-color--dark-salmon-d-35};
+	--css-bg-color--dark-salmon-d-40: #{$css-color--dark-salmon-d-40};
+	--css-bg-color--dark-salmon-d-45: #{$css-color--dark-salmon-d-45};
+	--css-bg-color--dark-salmon-d-50: #{$css-color--dark-salmon-d-50};
+	--css-bg-color--dark-salmon-d-55: #{$css-color--dark-salmon-d-55};
+	--css-bg-color--dark-salmon-d-60: #{$css-color--dark-salmon-d-60};
+	--css-bg-color--dark-salmon-d-65: #{$css-color--dark-salmon-d-65};
+	--css-bg-color--dark-salmon-d-70: #{$css-color--dark-salmon-d-70};
+	--css-bg-color--dark-salmon-d-75: #{$css-color--dark-salmon-d-75};
+	--css-bg-color--dark-salmon-d-80: #{$css-color--dark-salmon-d-80};
+	--css-bg-color--dark-salmon-d-85: #{$css-color--dark-salmon-d-85};
+	--css-bg-color--dark-salmon-d-90: #{$css-color--dark-salmon-d-90};
+	--css-bg-color--dark-salmon-d-95: #{$css-color--dark-salmon-d-95};
+	--css-bg-color--dark-salmon-d-100: #{$css-color--dark-salmon-d-100};
+}

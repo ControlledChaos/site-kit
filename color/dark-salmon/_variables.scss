@@ -1,0 +1,95 @@
+///
+/// Dark Salmon variables
+///
+
+@use 'sass:color';
+
+$css-color--dark-salmon: #cc6666;
+
+// Lighten color by percentage.
+$css-color--dark-salmon-l-5: #{color.adjust( $css-color--dark-salmon, $lightness: 5% )};
+$css-color--dark-salmon-l-10: #{color.adjust( $css-color--dark-salmon, $lightness: 10% )};
+$css-color--dark-salmon-l-15: #{color.adjust( $css-color--dark-salmon, $lightness: 15% )};
+$css-color--dark-salmon-l-20: #{color.adjust( $css-color--dark-salmon, $lightness: 20% )};
+$css-color--dark-salmon-l-25: #{color.adjust( $css-color--dark-salmon, $lightness: 25% )};
+$css-color--dark-salmon-l-30: #{color.adjust( $css-color--dark-salmon, $lightness: 30% )};
+$css-color--dark-salmon-l-35: #{color.adjust( $css-color--dark-salmon, $lightness: 35% )};
+$css-color--dark-salmon-l-40: #{color.adjust( $css-color--dark-salmon, $lightness: 40% )};
+$css-color--dark-salmon-l-45: #{color.adjust( $css-color--dark-salmon, $lightness: 45% )};
+$css-color--dark-salmon-l-50: #{color.adjust( $css-color--dark-salmon, $lightness: 50% )};
+$css-color--dark-salmon-l-55: #{color.adjust( $css-color--dark-salmon, $lightness: 55% )};
+$css-color--dark-salmon-l-60: #{color.adjust( $css-color--dark-salmon, $lightness: 60% )};
+$css-color--dark-salmon-l-65: #{color.adjust( $css-color--dark-salmon, $lightness: 65% )};
+$css-color--dark-salmon-l-70: #{color.adjust( $css-color--dark-salmon, $lightness: 70% )};
+$css-color--dark-salmon-l-75: #{color.adjust( $css-color--dark-salmon, $lightness: 75% )};
+$css-color--dark-salmon-l-80: #{color.adjust( $css-color--dark-salmon, $lightness: 80% )};
+$css-color--dark-salmon-l-85: #{color.adjust( $css-color--dark-salmon, $lightness: 85% )};
+$css-color--dark-salmon-l-90: #{color.adjust( $css-color--dark-salmon, $lightness: 90% )};
+$css-color--dark-salmon-l-95: #{color.adjust( $css-color--dark-salmon, $lightness: 95% )};
+$css-color--dark-salmon-l-100: #{color.adjust( $css-color--dark-salmon, $lightness: 100% )};
+
+// Darken color by percentage.
+$css-color--dark-salmon-d-5: #{color.adjust( $css-color--dark-salmon, $lightness: -5% )};
+$css-color--dark-salmon-d-10: #{color.adjust( $css-color--dark-salmon, $lightness: -10% )};
+$css-color--dark-salmon-d-15: #{color.adjust( $css-color--dark-salmon, $lightness: -15% )};
+$css-color--dark-salmon-d-20: #{color.adjust( $css-color--dark-salmon, $lightness: -20% )};
+$css-color--dark-salmon-d-25: #{color.adjust( $css-color--dark-salmon, $lightness: -25% )};
+$css-color--dark-salmon-d-30: #{color.adjust( $css-color--dark-salmon, $lightness: -30% )};
+$css-color--dark-salmon-d-35: #{color.adjust( $css-color--dark-salmon, $lightness: -35% )};
+$css-color--dark-salmon-d-40: #{color.adjust( $css-color--dark-salmon, $lightness: -40% )};
+$css-color--dark-salmon-d-45: #{color.adjust( $css-color--dark-salmon, $lightness: -45% )};
+$css-color--dark-salmon-d-50: #{color.adjust( $css-color--dark-salmon, $lightness: -50% )};
+$css-color--dark-salmon-d-55: #{color.adjust( $css-color--dark-salmon, $lightness: -55% )};
+$css-color--dark-salmon-d-60: #{color.adjust( $css-color--dark-salmon, $lightness: -60% )};
+$css-color--dark-salmon-d-65: #{color.adjust( $css-color--dark-salmon, $lightness: -65% )};
+$css-color--dark-salmon-d-70: #{color.adjust( $css-color--dark-salmon, $lightness: -70% )};
+$css-color--dark-salmon-d-75: #{color.adjust( $css-color--dark-salmon, $lightness: -75% )};
+$css-color--dark-salmon-d-80: #{color.adjust( $css-color--dark-salmon, $lightness: -80% )};
+$css-color--dark-salmon-d-85: #{color.adjust( $css-color--dark-salmon, $lightness: -85% )};
+$css-color--dark-salmon-d-90: #{color.adjust( $css-color--dark-salmon, $lightness: -90% )};
+$css-color--dark-salmon-d-95: #{color.adjust( $css-color--dark-salmon, $lightness: -95% )};
+$css-color--dark-salmon-d-100: #{color.adjust( $css-color--dark-salmon, $lightness: -100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--dark-salmon-l-5: #{color.adjust( $css-color--dark-salmon, $lightness: 5% )};
+$css-bg-color--dark-salmon-l-10: #{color.adjust( $css-color--dark-salmon, $lightness: 10% )};
+$css-bg-color--dark-salmon-l-15: #{color.adjust( $css-color--dark-salmon, $lightness: 15% )};
+$css-bg-color--dark-salmon-l-20: #{color.adjust( $css-color--dark-salmon, $lightness: 20% )};
+$css-bg-color--dark-salmon-l-25: #{color.adjust( $css-color--dark-salmon, $lightness: 25% )};
+$css-bg-color--dark-salmon-l-30: #{color.adjust( $css-color--dark-salmon, $lightness: 30% )};
+$css-bg-color--dark-salmon-l-35: #{color.adjust( $css-color--dark-salmon, $lightness: 35% )};
+$css-bg-color--dark-salmon-l-40: #{color.adjust( $css-color--dark-salmon, $lightness: 40% )};
+$css-bg-color--dark-salmon-l-45: #{color.adjust( $css-color--dark-salmon, $lightness: 45% )};
+$css-bg-color--dark-salmon-l-50: #{color.adjust( $css-color--dark-salmon, $lightness: 50% )};
+$css-bg-color--dark-salmon-l-55: #{color.adjust( $css-color--dark-salmon, $lightness: 55% )};
+$css-bg-color--dark-salmon-l-60: #{color.adjust( $css-color--dark-salmon, $lightness: 60% )};
+$css-bg-color--dark-salmon-l-65: #{color.adjust( $css-color--dark-salmon, $lightness: 65% )};
+$css-bg-color--dark-salmon-l-70: #{color.adjust( $css-color--dark-salmon, $lightness: 70% )};
+$css-bg-color--dark-salmon-l-75: #{color.adjust( $css-color--dark-salmon, $lightness: 75% )};
+$css-bg-color--dark-salmon-l-80: #{color.adjust( $css-color--dark-salmon, $lightness: 80% )};
+$css-bg-color--dark-salmon-l-85: #{color.adjust( $css-color--dark-salmon, $lightness: 85% )};
+$css-bg-color--dark-salmon-l-90: #{color.adjust( $css-color--dark-salmon, $lightness: 90% )};
+$css-bg-color--dark-salmon-l-95: #{color.adjust( $css-color--dark-salmon, $lightness: 95% )};
+$css-bg-color--dark-salmon-l-100: #{color.adjust( $css-color--dark-salmon, $lightness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--dark-salmon-d-5: #{color.adjust( $css-color--dark-salmon, $lightness: -5% )};
+$css-bg-color--dark-salmon-d-10: #{color.adjust( $css-color--dark-salmon, $lightness: -10% )};
+$css-bg-color--dark-salmon-d-15: #{color.adjust( $css-color--dark-salmon, $lightness: -15% )};
+$css-bg-color--dark-salmon-d-20: #{color.adjust( $css-color--dark-salmon, $lightness: -20% )};
+$css-bg-color--dark-salmon-d-25: #{color.adjust( $css-color--dark-salmon, $lightness: -25% )};
+$css-bg-color--dark-salmon-d-30: #{color.adjust( $css-color--dark-salmon, $lightness: -30% )};
+$css-bg-color--dark-salmon-d-35: #{color.adjust( $css-color--dark-salmon, $lightness: -35% )};
+$css-bg-color--dark-salmon-d-40: #{color.adjust( $css-color--dark-salmon, $lightness: -40% )};
+$css-bg-color--dark-salmon-d-45: #{color.adjust( $css-color--dark-salmon, $lightness: -45% )};
+$css-bg-color--dark-salmon-d-50: #{color.adjust( $css-color--dark-salmon, $lightness: -50% )};
+$css-bg-color--dark-salmon-d-55: #{color.adjust( $css-color--dark-salmon, $lightness: -55% )};
+$css-bg-color--dark-salmon-d-60: #{color.adjust( $css-color--dark-salmon, $lightness: -60% )};
+$css-bg-color--dark-salmon-d-65: #{color.adjust( $css-color--dark-salmon, $lightness: -65% )};
+$css-bg-color--dark-salmon-d-70: #{color.adjust( $css-color--dark-salmon, $lightness: -70% )};
+$css-bg-color--dark-salmon-d-75: #{color.adjust( $css-color--dark-salmon, $lightness: -75% )};
+$css-bg-color--dark-salmon-d-80: #{color.adjust( $css-color--dark-salmon, $lightness: -80% )};
+$css-bg-color--dark-salmon-d-85: #{color.adjust( $css-color--dark-salmon, $lightness: -85% )};
+$css-bg-color--dark-salmon-d-90: #{color.adjust( $css-color--dark-salmon, $lightness: -90% )};
+$css-bg-color--dark-salmon-d-95: #{color.adjust( $css-color--dark-salmon, $lightness: -95% )};
+$css-bg-color--dark-salmon-d-100: #{color.adjust( $css-color--dark-salmon, $lightness: -100% )};

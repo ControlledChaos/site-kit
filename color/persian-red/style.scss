@@ -1,0 +1,264 @@
+///
+/// Persian Red stylesheet
+///
+
+@import '_variables';
+@import '_properties';
+
+// Original color.
+.css-color--persian-red {
+	color: var( --css-color--persian-red, $css-color--persian-red );
+}
+
+// Lighten color by percentage.
+.css-color--persian-red-l-5 {
+	color: var( --css-color--persian-red-l-5, $css-color--persian-red-l-5 );
+}
+.css-color--persian-red-l-10 {
+	color: var( --css-color--persian-red-l-10, $css-color--persian-red-l-10 );
+}
+.css-color--persian-red-l-15 {
+	color: var( --css-color--persian-red-l-15, $css-color--persian-red-l-15 );
+}
+.css-color--persian-red-l-20 {
+	color: var( --css-color--persian-red-l-20, $css-color--persian-red-l-20 );
+}
+.css-color--persian-red-l-25 {
+	color: var( --css-color--persian-red-l-25, $css-color--persian-red-l-25 );
+}
+.css-color--persian-red-l-30 {
+	color: var( --css-color--persian-red-l-30, $css-color--persian-red-l-30 );
+}
+.css-color--persian-red-l-35 {
+	color: var( --css-color--persian-red-l-35, $css-color--persian-red-l-35 );
+}
+.css-color--persian-red-l-40 {
+	color: var( --css-color--persian-red-l-40, $css-color--persian-red-l-40 );
+}
+.css-color--persian-red-l-45 {
+	color: var( --css-color--persian-red-l-45, $css-color--persian-red-l-45 );
+}
+.css-color--persian-red-l-50 {
+	color: var( --css-color--persian-red-l-50, $css-color--persian-red-l-50 );
+}
+.css-color--persian-red-l-55 {
+	color: var( --css-color--persian-red-l-55, $css-color--persian-red-l-55 );
+}
+.css-color--persian-red-l-60 {
+	color: var( --css-color--persian-red-l-60, $css-color--persian-red-l-60 );
+}
+.css-color--persian-red-l-65 {
+	color: var( --css-color--persian-red-l-65, $css-color--persian-red-l-65 );
+}
+.css-color--persian-red-l-70 {
+	color: var( --css-color--persian-red-l-70, $css-color--persian-red-l-70 );
+}
+.css-color--persian-red-l-75 {
+	color: var( --css-color--persian-red-l-75, $css-color--persian-red-l-75 );
+}
+.css-color--persian-red-l-80 {
+	color: var( --css-color--persian-red-l-80, $css-color--persian-red-l-80 );
+}
+.css-color--persian-red-l-85 {
+	color: var( --css-color--persian-red-l-85, $css-color--persian-red-l-85 );
+}
+.css-color--persian-red-l-90 {
+	color: var( --css-color--persian-red-l-90, $css-color--persian-red-l-90 );
+}
+.css-color--persian-red-l-95 {
+	color: var( --css-color--persian-red-l-95, $css-color--persian-red-l-95 );
+}
+.css-color--persian-red-l-100 {
+	color: var( --css-color--persian-red-l-100, $css-color--persian-red-l-100 );
+}
+
+// Darken color by percentage.
+.css-color--persian-red-d-5 {
+	color: var( --css-color--persian-red-d-5, $css-color--persian-red-d-5 );
+}
+.css-color--persian-red-d-10 {
+	color: var( --css-color--persian-red-d-10, $css-color--persian-red-d-10 );
+}
+.css-color--persian-red-d-15 {
+	color: var( --css-color--persian-red-d-15, $css-color--persian-red-d-15 );
+}
+.css-color--persian-red-d-20 {
+	color: var( --css-color--persian-red-d-20, $css-color--persian-red-d-20 );
+}
+.css-color--persian-red-d-25 {
+	color: var( --css-color--persian-red-d-25, $css-color--persian-red-d-25 );
+}
+.css-color--persian-red-d-30 {
+	color: var( --css-color--persian-red-d-30, $css-color--persian-red-d-30 );
+}
+.css-color--persian-red-d-35 {
+	color: var( --css-color--persian-red-d-35, $css-color--persian-red-d-35 );
+}
+.css-color--persian-red-d-40 {
+	color: var( --css-color--persian-red-d-40, $css-color--persian-red-d-40 );
+}
+.css-color--persian-red-d-45 {
+	color: var( --css-color--persian-red-d-45, $css-color--persian-red-d-45 );
+}
+.css-color--persian-red-d-50 {
+	color: var( --css-color--persian-red-d-50, $css-color--persian-red-d-50 );
+}
+.css-color--persian-red-d-55 {
+	color: var( --css-color--persian-red-d-55, $css-color--persian-red-d-55 );
+}
+.css-color--persian-red-d-60 {
+	color: var( --css-color--persian-red-d-60, $css-color--persian-red-d-60 );
+}
+.css-color--persian-red-d-65 {
+	color: var( --css-color--persian-red-d-65, $css-color--persian-red-d-65 );
+}
+.css-color--persian-red-d-70 {
+	color: var( --css-color--persian-red-d-70, $css-color--persian-red-d-70 );
+}
+.css-color--persian-red-d-75 {
+	color: var( --css-color--persian-red-d-75, $css-color--persian-red-d-75 );
+}
+.css-color--persian-red-d-80 {
+	color: var( --css-color--persian-red-d-80, $css-color--persian-red-d-80 );
+}
+.css-color--persian-red-d-85 {
+	color: var( --css-color--persian-red-d-85, $css-color--persian-red-d-85 );
+}
+.css-color--persian-red-d-90 {
+	color: var( --css-color--persian-red-d-90, $css-color--persian-red-d-90 );
+}
+.css-color--persian-red-d-95 {
+	color: var( --css-color--persian-red-d-95, $css-color--persian-red-d-95 );
+}
+.css-color--persian-red-d-100 {
+	color: var( --css-color--persian-red-d-100, $css-color--persian-red-d-100 );
+}
+
+// Original background color.
+.css-bg-color--persian-red {
+	background-color: var( --css-color--persian-red, $css-color--persian-red );
+}
+
+// Lighten background color by percentage.
+.css-bg-color--persian-red-l-5 {
+	background-color: var( --css-bg-color--persian-red-l-5, $css-color--persian-red-l-5 );
+}
+.css-bg-color--persian-red-l-10 {
+	background-color: var( --css-bg-color--persian-red-l-10, $css-color--persian-red-l-10 );
+}
+.css-bg-color--persian-red-l-15 {
+	background-color: var( --css-bg-color--persian-red-l-15, $css-color--persian-red-l-15 );
+}
+.css-bg-color--persian-red-l-20 {
+	background-color: var( --css-bg-color--persian-red-l-20, $css-color--persian-red-l-20 );
+}
+.css-bg-color--persian-red-l-25 {
+	background-color: var( --css-bg-color--persian-red-l-25, $css-color--persian-red-l-25 );
+}
+.css-bg-color--persian-red-l-30 {
+	background-color: var( --css-bg-color--persian-red-l-30, $css-color--persian-red-l-30 );
+}
+.css-bg-color--persian-red-l-35 {
+	background-color: var( --css-bg-color--persian-red-l-35, $css-color--persian-red-l-35 );
+}
+.css-bg-color--persian-red-l-40 {
+	background-color: var( --css-bg-color--persian-red-l-40, $css-color--persian-red-l-40 );
+}
+.css-bg-color--persian-red-l-45 {
+	background-color: var( --css-bg-color--persian-red-l-45, $css-color--persian-red-l-45 );
+}
+.css-bg-color--persian-red-l-50 {
+	background-color: var( --css-bg-color--persian-red-l-50, $css-color--persian-red-l-50 );
+}
+.css-bg-color--persian-red-l-55 {
+	background-color: var( --css-bg-color--persian-red-l-55, $css-color--persian-red-l-55 );
+}
+.css-bg-color--persian-red-l-60 {
+	background-color: var( --css-bg-color--persian-red-l-60, $css-color--persian-red-l-60 );
+}
+.css-bg-color--persian-red-l-65 {
+	background-color: var( --css-bg-color--persian-red-l-65, $css-color--persian-red-l-65 );
+}
+.css-bg-color--persian-red-l-70 {
+	background-color: var( --css-bg-color--persian-red-l-70, $css-color--persian-red-l-70 );
+}
+.css-bg-color--persian-red-l-75 {
+	background-color: var( --css-bg-color--persian-red-l-75, $css-color--persian-red-l-75 );
+}
+.css-bg-color--persian-red-l-80 {
+	background-color: var( --css-bg-color--persian-red-l-80, $css-color--persian-red-l-80 );
+}
+.css-bg-color--persian-red-l-85 {
+	background-color: var( --css-bg-color--persian-red-l-85, $css-color--persian-red-l-85 );
+}
+.css-bg-color--persian-red-l-90 {
+	background-color: var( --css-bg-color--persian-red-l-90, $css-color--persian-red-l-90 );
+}
+.css-bg-color--persian-red-l-95 {
+	background-color: var( --css-bg-color--persian-red-l-95, $css-color--persian-red-l-95 );
+}
+.css-bg-color--persian-red-l-100 {
+	background-color: var( --css-bg-color--persian-red-l-100, $css-color--persian-red-l-100 );
+}
+
+// Darken background color by percentage.
+.css-bg-color--persian-red-d-5 {
+	background-color: var( --css-bg-color--persian-red-d-5, $css-color--persian-red-d-5 );
+}
+.css-bg-color--persian-red-d-10 {
+	background-color: var( --css-bg-color--persian-red-d-10, $css-color--persian-red-d-10 );
+}
+.css-bg-color--persian-red-d-15 {
+	background-color: var( --css-bg-color--persian-red-d-15, $css-color--persian-red-d-15 );
+}
+.css-bg-color--persian-red-d-20 {
+	background-color: var( --css-bg-color--persian-red-d-20, $css-color--persian-red-d-20 );
+}
+.css-bg-color--persian-red-d-25 {
+	background-color: var( --css-bg-color--persian-red-d-25, $css-color--persian-red-d-25 );
+}
+.css-bg-color--persian-red-d-30 {
+	background-color: var( --css-bg-color--persian-red-d-30, $css-color--persian-red-d-30 );
+}
+.css-bg-color--persian-red-d-35 {
+	background-color: var( --css-bg-color--persian-red-d-35, $css-color--persian-red-d-35 );
+}
+.css-bg-color--persian-red-d-40 {
+	background-color: var( --css-bg-color--persian-red-d-40, $css-color--persian-red-d-40 );
+}
+.css-bg-color--persian-red-d-45 {
+	background-color: var( --css-bg-color--persian-red-d-45, $css-color--persian-red-d-45 );
+}
+.css-bg-color--persian-red-d-50 {
+	background-color: var( --css-bg-color--persian-red-d-50, $css-color--persian-red-d-50 );
+}
+.css-bg-color--persian-red-d-55 {
+	background-color: var( --css-bg-color--persian-red-d-55, $css-color--persian-red-d-55 );
+}
+.css-bg-color--persian-red-d-60 {
+	background-color: var( --css-bg-color--persian-red-d-60, $css-color--persian-red-d-60 );
+}
+.css-bg-color--persian-red-d-65 {
+	background-color: var( --css-bg-color--persian-red-d-65, $css-color--persian-red-d-65 );
+}
+.css-bg-color--persian-red-d-70 {
+	background-color: var( --css-bg-color--persian-red-d-70, $css-color--persian-red-d-70 );
+}
+.css-bg-color--persian-red-d-75 {
+	background-color: var( --css-bg-color--persian-red-d-75, $css-color--persian-red-d-75 );
+}
+.css-bg-color--persian-red-d-80 {
+	background-color: var( --css-bg-color--persian-red-d-80, $css-color--persian-red-d-80 );
+}
+.css-bg-color--persian-red-d-85 {
+	background-color: var( --css-bg-color--persian-red-d-85, $css-color--persian-red-d-85 );
+}
+.css-bg-color--persian-red-d-90 {
+	background-color: var( --css-bg-color--persian-red-d-90, $css-color--persian-red-d-90 );
+}
+.css-bg-color--persian-red-d-95 {
+	background-color: var( --css-bg-color--persian-red-d-95, $css-color--persian-red-d-95 );
+}
+.css-bg-color--persian-red-d-100 {
+	background-color: var( --css-bg-color--persian-red-d-100, $css-color--persian-red-d-100 );
+}

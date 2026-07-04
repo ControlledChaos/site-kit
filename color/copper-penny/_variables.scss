@@ -1,0 +1,95 @@
+///
+/// Copper Penny variables
+///
+
+@use 'sass:color';
+
+$css-color--copper-penny: #cc6633;
+
+// Lighten color by percentage.
+$css-color--copper-penny-l-5: #{color.adjust( $css-color--copper-penny, $whiteness: 5% )};
+$css-color--copper-penny-l-10: #{color.adjust( $css-color--copper-penny, $whiteness: 10% )};
+$css-color--copper-penny-l-15: #{color.adjust( $css-color--copper-penny, $whiteness: 15% )};
+$css-color--copper-penny-l-20: #{color.adjust( $css-color--copper-penny, $whiteness: 20% )};
+$css-color--copper-penny-l-25: #{color.adjust( $css-color--copper-penny, $whiteness: 25% )};
+$css-color--copper-penny-l-30: #{color.adjust( $css-color--copper-penny, $whiteness: 30% )};
+$css-color--copper-penny-l-35: #{color.adjust( $css-color--copper-penny, $whiteness: 35% )};
+$css-color--copper-penny-l-40: #{color.adjust( $css-color--copper-penny, $whiteness: 40% )};
+$css-color--copper-penny-l-45: #{color.adjust( $css-color--copper-penny, $whiteness: 45% )};
+$css-color--copper-penny-l-50: #{color.adjust( $css-color--copper-penny, $whiteness: 50% )};
+$css-color--copper-penny-l-55: #{color.adjust( $css-color--copper-penny, $whiteness: 55% )};
+$css-color--copper-penny-l-60: #{color.adjust( $css-color--copper-penny, $whiteness: 60% )};
+$css-color--copper-penny-l-65: #{color.adjust( $css-color--copper-penny, $whiteness: 65% )};
+$css-color--copper-penny-l-70: #{color.adjust( $css-color--copper-penny, $whiteness: 70% )};
+$css-color--copper-penny-l-75: #{color.adjust( $css-color--copper-penny, $whiteness: 75% )};
+$css-color--copper-penny-l-80: #{color.adjust( $css-color--copper-penny, $whiteness: 80% )};
+$css-color--copper-penny-l-85: #{color.adjust( $css-color--copper-penny, $whiteness: 85% )};
+$css-color--copper-penny-l-90: #{color.adjust( $css-color--copper-penny, $whiteness: 90% )};
+$css-color--copper-penny-l-95: #{color.adjust( $css-color--copper-penny, $whiteness: 95% )};
+$css-color--copper-penny-l-100: #{color.adjust( $css-color--copper-penny, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--copper-penny-d-5: #{color.adjust( $css-color--copper-penny, $blackness: 5% )};
+$css-color--copper-penny-d-10: #{color.adjust( $css-color--copper-penny, $blackness: 10% )};
+$css-color--copper-penny-d-15: #{color.adjust( $css-color--copper-penny, $blackness: 15% )};
+$css-color--copper-penny-d-20: #{color.adjust( $css-color--copper-penny, $blackness: 20% )};
+$css-color--copper-penny-d-25: #{color.adjust( $css-color--copper-penny, $blackness: 25% )};
+$css-color--copper-penny-d-30: #{color.adjust( $css-color--copper-penny, $blackness: 30% )};
+$css-color--copper-penny-d-35: #{color.adjust( $css-color--copper-penny, $blackness: 35% )};
+$css-color--copper-penny-d-40: #{color.adjust( $css-color--copper-penny, $blackness: 40% )};
+$css-color--copper-penny-d-45: #{color.adjust( $css-color--copper-penny, $blackness: 45% )};
+$css-color--copper-penny-d-50: #{color.adjust( $css-color--copper-penny, $blackness: 50% )};
+$css-color--copper-penny-d-55: #{color.adjust( $css-color--copper-penny, $blackness: 55% )};
+$css-color--copper-penny-d-60: #{color.adjust( $css-color--copper-penny, $blackness: 60% )};
+$css-color--copper-penny-d-65: #{color.adjust( $css-color--copper-penny, $blackness: 65% )};
+$css-color--copper-penny-d-70: #{color.adjust( $css-color--copper-penny, $blackness: 70% )};
+$css-color--copper-penny-d-75: #{color.adjust( $css-color--copper-penny, $blackness: 75% )};
+$css-color--copper-penny-d-80: #{color.adjust( $css-color--copper-penny, $blackness: 80% )};
+$css-color--copper-penny-d-85: #{color.adjust( $css-color--copper-penny, $blackness: 85% )};
+$css-color--copper-penny-d-90: #{color.adjust( $css-color--copper-penny, $blackness: 90% )};
+$css-color--copper-penny-d-95: #{color.adjust( $css-color--copper-penny, $blackness: 95% )};
+$css-color--copper-penny-d-100: #{color.adjust( $css-color--copper-penny, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--copper-penny-l-5: #{color.adjust( $css-color--copper-penny, $whiteness: 5% )};
+$css-bg-color--copper-penny-l-10: #{color.adjust( $css-color--copper-penny, $whiteness: 10% )};
+$css-bg-color--copper-penny-l-15: #{color.adjust( $css-color--copper-penny, $whiteness: 15% )};
+$css-bg-color--copper-penny-l-20: #{color.adjust( $css-color--copper-penny, $whiteness: 20% )};
+$css-bg-color--copper-penny-l-25: #{color.adjust( $css-color--copper-penny, $whiteness: 25% )};
+$css-bg-color--copper-penny-l-30: #{color.adjust( $css-color--copper-penny, $whiteness: 30% )};
+$css-bg-color--copper-penny-l-35: #{color.adjust( $css-color--copper-penny, $whiteness: 35% )};
+$css-bg-color--copper-penny-l-40: #{color.adjust( $css-color--copper-penny, $whiteness: 40% )};
+$css-bg-color--copper-penny-l-45: #{color.adjust( $css-color--copper-penny, $whiteness: 45% )};
+$css-bg-color--copper-penny-l-50: #{color.adjust( $css-color--copper-penny, $whiteness: 50% )};
+$css-bg-color--copper-penny-l-55: #{color.adjust( $css-color--copper-penny, $whiteness: 55% )};
+$css-bg-color--copper-penny-l-60: #{color.adjust( $css-color--copper-penny, $whiteness: 60% )};
+$css-bg-color--copper-penny-l-65: #{color.adjust( $css-color--copper-penny, $whiteness: 65% )};
+$css-bg-color--copper-penny-l-70: #{color.adjust( $css-color--copper-penny, $whiteness: 70% )};
+$css-bg-color--copper-penny-l-75: #{color.adjust( $css-color--copper-penny, $whiteness: 75% )};
+$css-bg-color--copper-penny-l-80: #{color.adjust( $css-color--copper-penny, $whiteness: 80% )};
+$css-bg-color--copper-penny-l-85: #{color.adjust( $css-color--copper-penny, $whiteness: 85% )};
+$css-bg-color--copper-penny-l-90: #{color.adjust( $css-color--copper-penny, $whiteness: 90% )};
+$css-bg-color--copper-penny-l-95: #{color.adjust( $css-color--copper-penny, $whiteness: 95% )};
+$css-bg-color--copper-penny-l-100: #{color.adjust( $css-color--copper-penny, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--copper-penny-d-5: #{color.adjust( $css-color--copper-penny, $blackness: 5% )};
+$css-bg-color--copper-penny-d-10: #{color.adjust( $css-color--copper-penny, $blackness: 10% )};
+$css-bg-color--copper-penny-d-15: #{color.adjust( $css-color--copper-penny, $blackness: 15% )};
+$css-bg-color--copper-penny-d-20: #{color.adjust( $css-color--copper-penny, $blackness: 20% )};
+$css-bg-color--copper-penny-d-25: #{color.adjust( $css-color--copper-penny, $blackness: 25% )};
+$css-bg-color--copper-penny-d-30: #{color.adjust( $css-color--copper-penny, $blackness: 30% )};
+$css-bg-color--copper-penny-d-35: #{color.adjust( $css-color--copper-penny, $blackness: 35% )};
+$css-bg-color--copper-penny-d-40: #{color.adjust( $css-color--copper-penny, $blackness: 40% )};
+$css-bg-color--copper-penny-d-45: #{color.adjust( $css-color--copper-penny, $blackness: 45% )};
+$css-bg-color--copper-penny-d-50: #{color.adjust( $css-color--copper-penny, $blackness: 50% )};
+$css-bg-color--copper-penny-d-55: #{color.adjust( $css-color--copper-penny, $blackness: 55% )};
+$css-bg-color--copper-penny-d-60: #{color.adjust( $css-color--copper-penny, $blackness: 60% )};
+$css-bg-color--copper-penny-d-65: #{color.adjust( $css-color--copper-penny, $blackness: 65% )};
+$css-bg-color--copper-penny-d-70: #{color.adjust( $css-color--copper-penny, $blackness: 70% )};
+$css-bg-color--copper-penny-d-75: #{color.adjust( $css-color--copper-penny, $blackness: 75% )};
+$css-bg-color--copper-penny-d-80: #{color.adjust( $css-color--copper-penny, $blackness: 80% )};
+$css-bg-color--copper-penny-d-85: #{color.adjust( $css-color--copper-penny, $blackness: 85% )};
+$css-bg-color--copper-penny-d-90: #{color.adjust( $css-color--copper-penny, $blackness: 90% )};
+$css-bg-color--copper-penny-d-95: #{color.adjust( $css-color--copper-penny, $blackness: 95% )};
+$css-bg-color--copper-penny-d-100: #{color.adjust( $css-color--copper-penny, $blackness: 100% )};

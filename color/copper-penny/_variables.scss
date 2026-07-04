@@ -4,11 +4,7 @@
 
 @use 'sass:color';
 
-<<<<<<< HEAD
 $css-color--copper-penny: #cc6633;
-=======
-$css-color--copper-penny: #ff0000;
->>>>>>> 4b465cb9f092301bdaa8c475817bbd58454cbdba
 
 // Lighten color by percentage.
 $css-color--copper-penny-l-5: #{color.adjust( $css-color--copper-penny, $whiteness: 5% )};

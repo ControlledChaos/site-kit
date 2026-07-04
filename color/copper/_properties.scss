@@ -1,0 +1,102 @@
+///
+/// Copper properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--copper: #{$css-color--copper};
+
+	// Lighten color by percentage.
+	--css-color--copper-l-5: #{$css-color--copper-l-5};
+	--css-color--copper-l-10: #{$css-color--copper-l-10};
+	--css-color--copper-l-15: #{$css-color--copper-l-15};
+	--css-color--copper-l-20: #{$css-color--copper-l-20};
+	--css-color--copper-l-25: #{$css-color--copper-l-25};
+	--css-color--copper-l-30: #{$css-color--copper-l-30};
+	--css-color--copper-l-35: #{$css-color--copper-l-35};
+	--css-color--copper-l-40: #{$css-color--copper-l-40};
+	--css-color--copper-l-45: #{$css-color--copper-l-45};
+	--css-color--copper-l-50: #{$css-color--copper-l-50};
+	--css-color--copper-l-55: #{$css-color--copper-l-55};
+	--css-color--copper-l-60: #{$css-color--copper-l-60};
+	--css-color--copper-l-65: #{$css-color--copper-l-65};
+	--css-color--copper-l-70: #{$css-color--copper-l-70};
+	--css-color--copper-l-75: #{$css-color--copper-l-75};
+	--css-color--copper-l-80: #{$css-color--copper-l-80};
+	--css-color--copper-l-85: #{$css-color--copper-l-85};
+	--css-color--copper-l-90: #{$css-color--copper-l-90};
+	--css-color--copper-l-95: #{$css-color--copper-l-95};
+	--css-color--copper-l-100: #{$css-color--copper-l-100};
+
+	// Darken color by percentage.
+	--css-color--copper-d-5: #{$css-color--copper-d-5};
+	--css-color--copper-d-10: #{$css-color--copper-d-10};
+	--css-color--copper-d-15: #{$css-color--copper-d-15};
+	--css-color--copper-d-20: #{$css-color--copper-d-20};
+	--css-color--copper-d-25: #{$css-color--copper-d-25};
+	--css-color--copper-d-30: #{$css-color--copper-d-30};
+	--css-color--copper-d-35: #{$css-color--copper-d-35};
+	--css-color--copper-d-40: #{$css-color--copper-d-40};
+	--css-color--copper-d-45: #{$css-color--copper-d-45};
+	--css-color--copper-d-50: #{$css-color--copper-d-50};
+	--css-color--copper-d-55: #{$css-color--copper-d-55};
+	--css-color--copper-d-60: #{$css-color--copper-d-60};
+	--css-color--copper-d-65: #{$css-color--copper-d-65};
+	--css-color--copper-d-70: #{$css-color--copper-d-70};
+	--css-color--copper-d-75: #{$css-color--copper-d-75};
+	--css-color--copper-d-80: #{$css-color--copper-d-80};
+	--css-color--copper-d-85: #{$css-color--copper-d-85};
+	--css-color--copper-d-90: #{$css-color--copper-d-90};
+	--css-color--copper-d-95: #{$css-color--copper-d-95};
+	--css-color--copper-d-100: #{$css-color--copper-d-100};
+
+	// Original background color.
+	--css-bg-color--copper: #{$css-color--copper};
+
+	// Lighten background color by percentage.
+	--css-bg-color--copper-l-5: #{$css-color--copper-l-5};
+	--css-bg-color--copper-l-10: #{$css-color--copper-l-10};
+	--css-bg-color--copper-l-15: #{$css-color--copper-l-15};
+	--css-bg-color--copper-l-20: #{$css-color--copper-l-20};
+	--css-bg-color--copper-l-25: #{$css-color--copper-l-25};
+	--css-bg-color--copper-l-30: #{$css-color--copper-l-30};
+	--css-bg-color--copper-l-35: #{$css-color--copper-l-35};
+	--css-bg-color--copper-l-40: #{$css-color--copper-l-40};
+	--css-bg-color--copper-l-45: #{$css-color--copper-l-45};
+	--css-bg-color--copper-l-50: #{$css-color--copper-l-50};
+	--css-bg-color--copper-l-55: #{$css-color--copper-l-55};
+	--css-bg-color--copper-l-60: #{$css-color--copper-l-60};
+	--css-bg-color--copper-l-65: #{$css-color--copper-l-65};
+	--css-bg-color--copper-l-70: #{$css-color--copper-l-70};
+	--css-bg-color--copper-l-75: #{$css-color--copper-l-75};
+	--css-bg-color--copper-l-80: #{$css-color--copper-l-80};
+	--css-bg-color--copper-l-85: #{$css-color--copper-l-85};
+	--css-bg-color--copper-l-90: #{$css-color--copper-l-90};
+	--css-bg-color--copper-l-95: #{$css-color--copper-l-95};
+	--css-bg-color--copper-l-100: #{$css-color--copper-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--copper-d-5: #{$css-color--copper-d-5};
+	--css-bg-color--copper-d-10: #{$css-color--copper-d-10};
+	--css-bg-color--copper-d-15: #{$css-color--copper-d-15};
+	--css-bg-color--copper-d-20: #{$css-color--copper-d-20};
+	--css-bg-color--copper-d-25: #{$css-color--copper-d-25};
+	--css-bg-color--copper-d-30: #{$css-color--copper-d-30};
+	--css-bg-color--copper-d-35: #{$css-color--copper-d-35};
+	--css-bg-color--copper-d-40: #{$css-color--copper-d-40};
+	--css-bg-color--copper-d-45: #{$css-color--copper-d-45};
+	--css-bg-color--copper-d-50: #{$css-color--copper-d-50};
+	--css-bg-color--copper-d-55: #{$css-color--copper-d-55};
+	--css-bg-color--copper-d-60: #{$css-color--copper-d-60};
+	--css-bg-color--copper-d-65: #{$css-color--copper-d-65};
+	--css-bg-color--copper-d-70: #{$css-color--copper-d-70};
+	--css-bg-color--copper-d-75: #{$css-color--copper-d-75};
+	--css-bg-color--copper-d-80: #{$css-color--copper-d-80};
+	--css-bg-color--copper-d-85: #{$css-color--copper-d-85};
+	--css-bg-color--copper-d-90: #{$css-color--copper-d-90};
+	--css-bg-color--copper-d-95: #{$css-color--copper-d-95};
+	--css-bg-color--copper-d-100: #{$css-color--copper-d-100};
+}

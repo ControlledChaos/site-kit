@@ -1,0 +1,95 @@
+///
+/// Copper variables
+///
+
+@use 'sass:color';
+
+$css-color--copper: #993333;
+
+// Lighten color by percentage.
+$css-color--copper-l-5: #{color.adjust( $css-color--copper, $whiteness: 5% )};
+$css-color--copper-l-10: #{color.adjust( $css-color--copper, $whiteness: 10% )};
+$css-color--copper-l-15: #{color.adjust( $css-color--copper, $whiteness: 15% )};
+$css-color--copper-l-20: #{color.adjust( $css-color--copper, $whiteness: 20% )};
+$css-color--copper-l-25: #{color.adjust( $css-color--copper, $whiteness: 25% )};
+$css-color--copper-l-30: #{color.adjust( $css-color--copper, $whiteness: 30% )};
+$css-color--copper-l-35: #{color.adjust( $css-color--copper, $whiteness: 35% )};
+$css-color--copper-l-40: #{color.adjust( $css-color--copper, $whiteness: 40% )};
+$css-color--copper-l-45: #{color.adjust( $css-color--copper, $whiteness: 45% )};
+$css-color--copper-l-50: #{color.adjust( $css-color--copper, $whiteness: 50% )};
+$css-color--copper-l-55: #{color.adjust( $css-color--copper, $whiteness: 55% )};
+$css-color--copper-l-60: #{color.adjust( $css-color--copper, $whiteness: 60% )};
+$css-color--copper-l-65: #{color.adjust( $css-color--copper, $whiteness: 65% )};
+$css-color--copper-l-70: #{color.adjust( $css-color--copper, $whiteness: 70% )};
+$css-color--copper-l-75: #{color.adjust( $css-color--copper, $whiteness: 75% )};
+$css-color--copper-l-80: #{color.adjust( $css-color--copper, $whiteness: 80% )};
+$css-color--copper-l-85: #{color.adjust( $css-color--copper, $whiteness: 85% )};
+$css-color--copper-l-90: #{color.adjust( $css-color--copper, $whiteness: 90% )};
+$css-color--copper-l-95: #{color.adjust( $css-color--copper, $whiteness: 95% )};
+$css-color--copper-l-100: #{color.adjust( $css-color--copper, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--copper-d-5: #{color.adjust( $css-color--copper, $blackness: 5% )};
+$css-color--copper-d-10: #{color.adjust( $css-color--copper, $blackness: 10% )};
+$css-color--copper-d-15: #{color.adjust( $css-color--copper, $blackness: 15% )};
+$css-color--copper-d-20: #{color.adjust( $css-color--copper, $blackness: 20% )};
+$css-color--copper-d-25: #{color.adjust( $css-color--copper, $blackness: 25% )};
+$css-color--copper-d-30: #{color.adjust( $css-color--copper, $blackness: 30% )};
+$css-color--copper-d-35: #{color.adjust( $css-color--copper, $blackness: 35% )};
+$css-color--copper-d-40: #{color.adjust( $css-color--copper, $blackness: 40% )};
+$css-color--copper-d-45: #{color.adjust( $css-color--copper, $blackness: 45% )};
+$css-color--copper-d-50: #{color.adjust( $css-color--copper, $blackness: 50% )};
+$css-color--copper-d-55: #{color.adjust( $css-color--copper, $blackness: 55% )};
+$css-color--copper-d-60: #{color.adjust( $css-color--copper, $blackness: 60% )};
+$css-color--copper-d-65: #{color.adjust( $css-color--copper, $blackness: 65% )};
+$css-color--copper-d-70: #{color.adjust( $css-color--copper, $blackness: 70% )};
+$css-color--copper-d-75: #{color.adjust( $css-color--copper, $blackness: 75% )};
+$css-color--copper-d-80: #{color.adjust( $css-color--copper, $blackness: 80% )};
+$css-color--copper-d-85: #{color.adjust( $css-color--copper, $blackness: 85% )};
+$css-color--copper-d-90: #{color.adjust( $css-color--copper, $blackness: 90% )};
+$css-color--copper-d-95: #{color.adjust( $css-color--copper, $blackness: 95% )};
+$css-color--copper-d-100: #{color.adjust( $css-color--copper, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--copper-l-5: #{color.adjust( $css-color--copper, $whiteness: 5% )};
+$css-bg-color--copper-l-10: #{color.adjust( $css-color--copper, $whiteness: 10% )};
+$css-bg-color--copper-l-15: #{color.adjust( $css-color--copper, $whiteness: 15% )};
+$css-bg-color--copper-l-20: #{color.adjust( $css-color--copper, $whiteness: 20% )};
+$css-bg-color--copper-l-25: #{color.adjust( $css-color--copper, $whiteness: 25% )};
+$css-bg-color--copper-l-30: #{color.adjust( $css-color--copper, $whiteness: 30% )};
+$css-bg-color--copper-l-35: #{color.adjust( $css-color--copper, $whiteness: 35% )};
+$css-bg-color--copper-l-40: #{color.adjust( $css-color--copper, $whiteness: 40% )};
+$css-bg-color--copper-l-45: #{color.adjust( $css-color--copper, $whiteness: 45% )};
+$css-bg-color--copper-l-50: #{color.adjust( $css-color--copper, $whiteness: 50% )};
+$css-bg-color--copper-l-55: #{color.adjust( $css-color--copper, $whiteness: 55% )};
+$css-bg-color--copper-l-60: #{color.adjust( $css-color--copper, $whiteness: 60% )};
+$css-bg-color--copper-l-65: #{color.adjust( $css-color--copper, $whiteness: 65% )};
+$css-bg-color--copper-l-70: #{color.adjust( $css-color--copper, $whiteness: 70% )};
+$css-bg-color--copper-l-75: #{color.adjust( $css-color--copper, $whiteness: 75% )};
+$css-bg-color--copper-l-80: #{color.adjust( $css-color--copper, $whiteness: 80% )};
+$css-bg-color--copper-l-85: #{color.adjust( $css-color--copper, $whiteness: 85% )};
+$css-bg-color--copper-l-90: #{color.adjust( $css-color--copper, $whiteness: 90% )};
+$css-bg-color--copper-l-95: #{color.adjust( $css-color--copper, $whiteness: 95% )};
+$css-bg-color--copper-l-100: #{color.adjust( $css-color--copper, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--copper-d-5: #{color.adjust( $css-color--copper, $blackness: 5% )};
+$css-bg-color--copper-d-10: #{color.adjust( $css-color--copper, $blackness: 10% )};
+$css-bg-color--copper-d-15: #{color.adjust( $css-color--copper, $blackness: 15% )};
+$css-bg-color--copper-d-20: #{color.adjust( $css-color--copper, $blackness: 20% )};
+$css-bg-color--copper-d-25: #{color.adjust( $css-color--copper, $blackness: 25% )};
+$css-bg-color--copper-d-30: #{color.adjust( $css-color--copper, $blackness: 30% )};
+$css-bg-color--copper-d-35: #{color.adjust( $css-color--copper, $blackness: 35% )};
+$css-bg-color--copper-d-40: #{color.adjust( $css-color--copper, $blackness: 40% )};
+$css-bg-color--copper-d-45: #{color.adjust( $css-color--copper, $blackness: 45% )};
+$css-bg-color--copper-d-50: #{color.adjust( $css-color--copper, $blackness: 50% )};
+$css-bg-color--copper-d-55: #{color.adjust( $css-color--copper, $blackness: 55% )};
+$css-bg-color--copper-d-60: #{color.adjust( $css-color--copper, $blackness: 60% )};
+$css-bg-color--copper-d-65: #{color.adjust( $css-color--copper, $blackness: 65% )};
+$css-bg-color--copper-d-70: #{color.adjust( $css-color--copper, $blackness: 70% )};
+$css-bg-color--copper-d-75: #{color.adjust( $css-color--copper, $blackness: 75% )};
+$css-bg-color--copper-d-80: #{color.adjust( $css-color--copper, $blackness: 80% )};
+$css-bg-color--copper-d-85: #{color.adjust( $css-color--copper, $blackness: 85% )};
+$css-bg-color--copper-d-90: #{color.adjust( $css-color--copper, $blackness: 90% )};
+$css-bg-color--copper-d-95: #{color.adjust( $css-color--copper, $blackness: 95% )};
+$css-bg-color--copper-d-100: #{color.adjust( $css-color--copper, $blackness: 100% )};

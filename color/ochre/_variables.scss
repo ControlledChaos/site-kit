@@ -1,0 +1,95 @@
+///
+/// Ochre variables
+///
+
+@use 'sass:color';
+
+$css-color--ochre: #cc9933;
+
+// Lighten color by percentage.
+$css-color--ochre-l-5: #{color.adjust( $css-color--ochre, $whiteness: 5% )};
+$css-color--ochre-l-10: #{color.adjust( $css-color--ochre, $whiteness: 10% )};
+$css-color--ochre-l-15: #{color.adjust( $css-color--ochre, $whiteness: 15% )};
+$css-color--ochre-l-20: #{color.adjust( $css-color--ochre, $whiteness: 20% )};
+$css-color--ochre-l-25: #{color.adjust( $css-color--ochre, $whiteness: 25% )};
+$css-color--ochre-l-30: #{color.adjust( $css-color--ochre, $whiteness: 30% )};
+$css-color--ochre-l-35: #{color.adjust( $css-color--ochre, $whiteness: 35% )};
+$css-color--ochre-l-40: #{color.adjust( $css-color--ochre, $whiteness: 40% )};
+$css-color--ochre-l-45: #{color.adjust( $css-color--ochre, $whiteness: 45% )};
+$css-color--ochre-l-50: #{color.adjust( $css-color--ochre, $whiteness: 50% )};
+$css-color--ochre-l-55: #{color.adjust( $css-color--ochre, $whiteness: 55% )};
+$css-color--ochre-l-60: #{color.adjust( $css-color--ochre, $whiteness: 60% )};
+$css-color--ochre-l-65: #{color.adjust( $css-color--ochre, $whiteness: 65% )};
+$css-color--ochre-l-70: #{color.adjust( $css-color--ochre, $whiteness: 70% )};
+$css-color--ochre-l-75: #{color.adjust( $css-color--ochre, $whiteness: 75% )};
+$css-color--ochre-l-80: #{color.adjust( $css-color--ochre, $whiteness: 80% )};
+$css-color--ochre-l-85: #{color.adjust( $css-color--ochre, $whiteness: 85% )};
+$css-color--ochre-l-90: #{color.adjust( $css-color--ochre, $whiteness: 90% )};
+$css-color--ochre-l-95: #{color.adjust( $css-color--ochre, $whiteness: 95% )};
+$css-color--ochre-l-100: #{color.adjust( $css-color--ochre, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--ochre-d-5: #{color.adjust( $css-color--ochre, $blackness: 5% )};
+$css-color--ochre-d-10: #{color.adjust( $css-color--ochre, $blackness: 10% )};
+$css-color--ochre-d-15: #{color.adjust( $css-color--ochre, $blackness: 15% )};
+$css-color--ochre-d-20: #{color.adjust( $css-color--ochre, $blackness: 20% )};
+$css-color--ochre-d-25: #{color.adjust( $css-color--ochre, $blackness: 25% )};
+$css-color--ochre-d-30: #{color.adjust( $css-color--ochre, $blackness: 30% )};
+$css-color--ochre-d-35: #{color.adjust( $css-color--ochre, $blackness: 35% )};
+$css-color--ochre-d-40: #{color.adjust( $css-color--ochre, $blackness: 40% )};
+$css-color--ochre-d-45: #{color.adjust( $css-color--ochre, $blackness: 45% )};
+$css-color--ochre-d-50: #{color.adjust( $css-color--ochre, $blackness: 50% )};
+$css-color--ochre-d-55: #{color.adjust( $css-color--ochre, $blackness: 55% )};
+$css-color--ochre-d-60: #{color.adjust( $css-color--ochre, $blackness: 60% )};
+$css-color--ochre-d-65: #{color.adjust( $css-color--ochre, $blackness: 65% )};
+$css-color--ochre-d-70: #{color.adjust( $css-color--ochre, $blackness: 70% )};
+$css-color--ochre-d-75: #{color.adjust( $css-color--ochre, $blackness: 75% )};
+$css-color--ochre-d-80: #{color.adjust( $css-color--ochre, $blackness: 80% )};
+$css-color--ochre-d-85: #{color.adjust( $css-color--ochre, $blackness: 85% )};
+$css-color--ochre-d-90: #{color.adjust( $css-color--ochre, $blackness: 90% )};
+$css-color--ochre-d-95: #{color.adjust( $css-color--ochre, $blackness: 95% )};
+$css-color--ochre-d-100: #{color.adjust( $css-color--ochre, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--ochre-l-5: #{color.adjust( $css-color--ochre, $whiteness: 5% )};
+$css-bg-color--ochre-l-10: #{color.adjust( $css-color--ochre, $whiteness: 10% )};
+$css-bg-color--ochre-l-15: #{color.adjust( $css-color--ochre, $whiteness: 15% )};
+$css-bg-color--ochre-l-20: #{color.adjust( $css-color--ochre, $whiteness: 20% )};
+$css-bg-color--ochre-l-25: #{color.adjust( $css-color--ochre, $whiteness: 25% )};
+$css-bg-color--ochre-l-30: #{color.adjust( $css-color--ochre, $whiteness: 30% )};
+$css-bg-color--ochre-l-35: #{color.adjust( $css-color--ochre, $whiteness: 35% )};
+$css-bg-color--ochre-l-40: #{color.adjust( $css-color--ochre, $whiteness: 40% )};
+$css-bg-color--ochre-l-45: #{color.adjust( $css-color--ochre, $whiteness: 45% )};
+$css-bg-color--ochre-l-50: #{color.adjust( $css-color--ochre, $whiteness: 50% )};
+$css-bg-color--ochre-l-55: #{color.adjust( $css-color--ochre, $whiteness: 55% )};
+$css-bg-color--ochre-l-60: #{color.adjust( $css-color--ochre, $whiteness: 60% )};
+$css-bg-color--ochre-l-65: #{color.adjust( $css-color--ochre, $whiteness: 65% )};
+$css-bg-color--ochre-l-70: #{color.adjust( $css-color--ochre, $whiteness: 70% )};
+$css-bg-color--ochre-l-75: #{color.adjust( $css-color--ochre, $whiteness: 75% )};
+$css-bg-color--ochre-l-80: #{color.adjust( $css-color--ochre, $whiteness: 80% )};
+$css-bg-color--ochre-l-85: #{color.adjust( $css-color--ochre, $whiteness: 85% )};
+$css-bg-color--ochre-l-90: #{color.adjust( $css-color--ochre, $whiteness: 90% )};
+$css-bg-color--ochre-l-95: #{color.adjust( $css-color--ochre, $whiteness: 95% )};
+$css-bg-color--ochre-l-100: #{color.adjust( $css-color--ochre, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--ochre-d-5: #{color.adjust( $css-color--ochre, $blackness: 5% )};
+$css-bg-color--ochre-d-10: #{color.adjust( $css-color--ochre, $blackness: 10% )};
+$css-bg-color--ochre-d-15: #{color.adjust( $css-color--ochre, $blackness: 15% )};
+$css-bg-color--ochre-d-20: #{color.adjust( $css-color--ochre, $blackness: 20% )};
+$css-bg-color--ochre-d-25: #{color.adjust( $css-color--ochre, $blackness: 25% )};
+$css-bg-color--ochre-d-30: #{color.adjust( $css-color--ochre, $blackness: 30% )};
+$css-bg-color--ochre-d-35: #{color.adjust( $css-color--ochre, $blackness: 35% )};
+$css-bg-color--ochre-d-40: #{color.adjust( $css-color--ochre, $blackness: 40% )};
+$css-bg-color--ochre-d-45: #{color.adjust( $css-color--ochre, $blackness: 45% )};
+$css-bg-color--ochre-d-50: #{color.adjust( $css-color--ochre, $blackness: 50% )};
+$css-bg-color--ochre-d-55: #{color.adjust( $css-color--ochre, $blackness: 55% )};
+$css-bg-color--ochre-d-60: #{color.adjust( $css-color--ochre, $blackness: 60% )};
+$css-bg-color--ochre-d-65: #{color.adjust( $css-color--ochre, $blackness: 65% )};
+$css-bg-color--ochre-d-70: #{color.adjust( $css-color--ochre, $blackness: 70% )};
+$css-bg-color--ochre-d-75: #{color.adjust( $css-color--ochre, $blackness: 75% )};
+$css-bg-color--ochre-d-80: #{color.adjust( $css-color--ochre, $blackness: 80% )};
+$css-bg-color--ochre-d-85: #{color.adjust( $css-color--ochre, $blackness: 85% )};
+$css-bg-color--ochre-d-90: #{color.adjust( $css-color--ochre, $blackness: 90% )};
+$css-bg-color--ochre-d-95: #{color.adjust( $css-color--ochre, $blackness: 95% )};
+$css-bg-color--ochre-d-100: #{color.adjust( $css-color--ochre, $blackness: 100% )};

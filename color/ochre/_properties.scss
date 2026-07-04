@@ -1,0 +1,102 @@
+///
+/// Ochre properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--ochre: #{$css-color--ochre};
+
+	// Lighten color by percentage.
+	--css-color--ochre-l-5: #{$css-color--ochre-l-5};
+	--css-color--ochre-l-10: #{$css-color--ochre-l-10};
+	--css-color--ochre-l-15: #{$css-color--ochre-l-15};
+	--css-color--ochre-l-20: #{$css-color--ochre-l-20};
+	--css-color--ochre-l-25: #{$css-color--ochre-l-25};
+	--css-color--ochre-l-30: #{$css-color--ochre-l-30};
+	--css-color--ochre-l-35: #{$css-color--ochre-l-35};
+	--css-color--ochre-l-40: #{$css-color--ochre-l-40};
+	--css-color--ochre-l-45: #{$css-color--ochre-l-45};
+	--css-color--ochre-l-50: #{$css-color--ochre-l-50};
+	--css-color--ochre-l-55: #{$css-color--ochre-l-55};
+	--css-color--ochre-l-60: #{$css-color--ochre-l-60};
+	--css-color--ochre-l-65: #{$css-color--ochre-l-65};
+	--css-color--ochre-l-70: #{$css-color--ochre-l-70};
+	--css-color--ochre-l-75: #{$css-color--ochre-l-75};
+	--css-color--ochre-l-80: #{$css-color--ochre-l-80};
+	--css-color--ochre-l-85: #{$css-color--ochre-l-85};
+	--css-color--ochre-l-90: #{$css-color--ochre-l-90};
+	--css-color--ochre-l-95: #{$css-color--ochre-l-95};
+	--css-color--ochre-l-100: #{$css-color--ochre-l-100};
+
+	// Darken color by percentage.
+	--css-color--ochre-d-5: #{$css-color--ochre-d-5};
+	--css-color--ochre-d-10: #{$css-color--ochre-d-10};
+	--css-color--ochre-d-15: #{$css-color--ochre-d-15};
+	--css-color--ochre-d-20: #{$css-color--ochre-d-20};
+	--css-color--ochre-d-25: #{$css-color--ochre-d-25};
+	--css-color--ochre-d-30: #{$css-color--ochre-d-30};
+	--css-color--ochre-d-35: #{$css-color--ochre-d-35};
+	--css-color--ochre-d-40: #{$css-color--ochre-d-40};
+	--css-color--ochre-d-45: #{$css-color--ochre-d-45};
+	--css-color--ochre-d-50: #{$css-color--ochre-d-50};
+	--css-color--ochre-d-55: #{$css-color--ochre-d-55};
+	--css-color--ochre-d-60: #{$css-color--ochre-d-60};
+	--css-color--ochre-d-65: #{$css-color--ochre-d-65};
+	--css-color--ochre-d-70: #{$css-color--ochre-d-70};
+	--css-color--ochre-d-75: #{$css-color--ochre-d-75};
+	--css-color--ochre-d-80: #{$css-color--ochre-d-80};
+	--css-color--ochre-d-85: #{$css-color--ochre-d-85};
+	--css-color--ochre-d-90: #{$css-color--ochre-d-90};
+	--css-color--ochre-d-95: #{$css-color--ochre-d-95};
+	--css-color--ochre-d-100: #{$css-color--ochre-d-100};
+
+	// Original background color.
+	--css-bg-color--ochre: #{$css-color--ochre};
+
+	// Lighten background color by percentage.
+	--css-bg-color--ochre-l-5: #{$css-color--ochre-l-5};
+	--css-bg-color--ochre-l-10: #{$css-color--ochre-l-10};
+	--css-bg-color--ochre-l-15: #{$css-color--ochre-l-15};
+	--css-bg-color--ochre-l-20: #{$css-color--ochre-l-20};
+	--css-bg-color--ochre-l-25: #{$css-color--ochre-l-25};
+	--css-bg-color--ochre-l-30: #{$css-color--ochre-l-30};
+	--css-bg-color--ochre-l-35: #{$css-color--ochre-l-35};
+	--css-bg-color--ochre-l-40: #{$css-color--ochre-l-40};
+	--css-bg-color--ochre-l-45: #{$css-color--ochre-l-45};
+	--css-bg-color--ochre-l-50: #{$css-color--ochre-l-50};
+	--css-bg-color--ochre-l-55: #{$css-color--ochre-l-55};
+	--css-bg-color--ochre-l-60: #{$css-color--ochre-l-60};
+	--css-bg-color--ochre-l-65: #{$css-color--ochre-l-65};
+	--css-bg-color--ochre-l-70: #{$css-color--ochre-l-70};
+	--css-bg-color--ochre-l-75: #{$css-color--ochre-l-75};
+	--css-bg-color--ochre-l-80: #{$css-color--ochre-l-80};
+	--css-bg-color--ochre-l-85: #{$css-color--ochre-l-85};
+	--css-bg-color--ochre-l-90: #{$css-color--ochre-l-90};
+	--css-bg-color--ochre-l-95: #{$css-color--ochre-l-95};
+	--css-bg-color--ochre-l-100: #{$css-color--ochre-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--ochre-d-5: #{$css-color--ochre-d-5};
+	--css-bg-color--ochre-d-10: #{$css-color--ochre-d-10};
+	--css-bg-color--ochre-d-15: #{$css-color--ochre-d-15};
+	--css-bg-color--ochre-d-20: #{$css-color--ochre-d-20};
+	--css-bg-color--ochre-d-25: #{$css-color--ochre-d-25};
+	--css-bg-color--ochre-d-30: #{$css-color--ochre-d-30};
+	--css-bg-color--ochre-d-35: #{$css-color--ochre-d-35};
+	--css-bg-color--ochre-d-40: #{$css-color--ochre-d-40};
+	--css-bg-color--ochre-d-45: #{$css-color--ochre-d-45};
+	--css-bg-color--ochre-d-50: #{$css-color--ochre-d-50};
+	--css-bg-color--ochre-d-55: #{$css-color--ochre-d-55};
+	--css-bg-color--ochre-d-60: #{$css-color--ochre-d-60};
+	--css-bg-color--ochre-d-65: #{$css-color--ochre-d-65};
+	--css-bg-color--ochre-d-70: #{$css-color--ochre-d-70};
+	--css-bg-color--ochre-d-75: #{$css-color--ochre-d-75};
+	--css-bg-color--ochre-d-80: #{$css-color--ochre-d-80};
+	--css-bg-color--ochre-d-85: #{$css-color--ochre-d-85};
+	--css-bg-color--ochre-d-90: #{$css-color--ochre-d-90};
+	--css-bg-color--ochre-d-95: #{$css-color--ochre-d-95};
+	--css-bg-color--ochre-d-100: #{$css-color--ochre-d-100};
+}

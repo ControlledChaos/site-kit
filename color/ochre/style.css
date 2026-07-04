@@ -1,0 +1,412 @@
+:root {
+  --css-color--ochre: #cc9933;
+  --css-color--ochre-l-5: rgb(204, 157.25, 63.75);
+  --css-color--ochre-l-10: rgb(204, 161.5, 76.5);
+  --css-color--ochre-l-15: rgb(204, 165.75, 89.25);
+  --css-color--ochre-l-20: #ccaa66;
+  --css-color--ochre-l-25: rgb(204, 174.25, 114.75);
+  --css-color--ochre-l-30: rgb(204, 178.5, 127.5);
+  --css-color--ochre-l-35: rgb(204, 182.75, 140.25);
+  --css-color--ochre-l-40: #ccbb99;
+  --css-color--ochre-l-45: rgb(204, 191.25, 165.75);
+  --css-color--ochre-l-50: rgb(204, 195.5, 178.5);
+  --css-color--ochre-l-55: rgb(204, 199.75, 191.25);
+  --css-color--ochre-l-60: #cccccc;
+  --css-color--ochre-l-65: rgb(206.4285714286, 206.4285714286, 206.4285714286);
+  --css-color--ochre-l-70: rgb(208.6363636364, 208.6363636364, 208.6363636364);
+  --css-color--ochre-l-75: rgb(210.652173913, 210.652173913, 210.652173913);
+  --css-color--ochre-l-80: rgb(212.5, 212.5, 212.5);
+  --css-color--ochre-l-85: rgb(214.2, 214.2, 214.2);
+  --css-color--ochre-l-90: rgb(215.7692307692, 215.7692307692, 215.7692307692);
+  --css-color--ochre-l-95: rgb(217.2222222222, 217.2222222222, 217.2222222222);
+  --css-color--ochre-l-100: rgb(218.5714285714, 218.5714285714, 218.5714285714);
+  --css-color--ochre-d-5: rgb(191.25, 144.5, 51);
+  --css-color--ochre-d-10: rgb(178.5, 136, 51);
+  --css-color--ochre-d-15: rgb(165.75, 127.5, 51);
+  --css-color--ochre-d-20: #997733;
+  --css-color--ochre-d-25: rgb(140.25, 110.5, 51);
+  --css-color--ochre-d-30: rgb(127.5, 102, 51);
+  --css-color--ochre-d-35: rgb(114.75, 93.5, 51);
+  --css-color--ochre-d-40: #665533;
+  --css-color--ochre-d-45: rgb(89.25, 76.5, 51);
+  --css-color--ochre-d-50: rgb(76.5, 68, 51);
+  --css-color--ochre-d-55: rgb(63.75, 59.5, 51);
+  --css-color--ochre-d-60: #333333;
+  --css-color--ochre-d-65: rgb(48.5714285714, 48.5714285714, 48.5714285714);
+  --css-color--ochre-d-70: rgb(46.3636363636, 46.3636363636, 46.3636363636);
+  --css-color--ochre-d-75: rgb(44.347826087, 44.347826087, 44.347826087);
+  --css-color--ochre-d-80: rgb(42.5, 42.5, 42.5);
+  --css-color--ochre-d-85: rgb(40.8, 40.8, 40.8);
+  --css-color--ochre-d-90: rgb(39.2307692308, 39.2307692308, 39.2307692308);
+  --css-color--ochre-d-95: rgb(37.7777777778, 37.7777777778, 37.7777777778);
+  --css-color--ochre-d-100: rgb(36.4285714286, 36.4285714286, 36.4285714286);
+  --css-bg-color--ochre: #cc9933;
+  --css-bg-color--ochre-l-5: rgb(204, 157.25, 63.75);
+  --css-bg-color--ochre-l-10: rgb(204, 161.5, 76.5);
+  --css-bg-color--ochre-l-15: rgb(204, 165.75, 89.25);
+  --css-bg-color--ochre-l-20: #ccaa66;
+  --css-bg-color--ochre-l-25: rgb(204, 174.25, 114.75);
+  --css-bg-color--ochre-l-30: rgb(204, 178.5, 127.5);
+  --css-bg-color--ochre-l-35: rgb(204, 182.75, 140.25);
+  --css-bg-color--ochre-l-40: #ccbb99;
+  --css-bg-color--ochre-l-45: rgb(204, 191.25, 165.75);
+  --css-bg-color--ochre-l-50: rgb(204, 195.5, 178.5);
+  --css-bg-color--ochre-l-55: rgb(204, 199.75, 191.25);
+  --css-bg-color--ochre-l-60: #cccccc;
+  --css-bg-color--ochre-l-65: rgb(206.4285714286, 206.4285714286, 206.4285714286);
+  --css-bg-color--ochre-l-70: rgb(208.6363636364, 208.6363636364, 208.6363636364);
+  --css-bg-color--ochre-l-75: rgb(210.652173913, 210.652173913, 210.652173913);
+  --css-bg-color--ochre-l-80: rgb(212.5, 212.5, 212.5);
+  --css-bg-color--ochre-l-85: rgb(214.2, 214.2, 214.2);
+  --css-bg-color--ochre-l-90: rgb(215.7692307692, 215.7692307692, 215.7692307692);
+  --css-bg-color--ochre-l-95: rgb(217.2222222222, 217.2222222222, 217.2222222222);
+  --css-bg-color--ochre-l-100: rgb(218.5714285714, 218.5714285714, 218.5714285714);
+  --css-bg-color--ochre-d-5: rgb(191.25, 144.5, 51);
+  --css-bg-color--ochre-d-10: rgb(178.5, 136, 51);
+  --css-bg-color--ochre-d-15: rgb(165.75, 127.5, 51);
+  --css-bg-color--ochre-d-20: #997733;
+  --css-bg-color--ochre-d-25: rgb(140.25, 110.5, 51);
+  --css-bg-color--ochre-d-30: rgb(127.5, 102, 51);
+  --css-bg-color--ochre-d-35: rgb(114.75, 93.5, 51);
+  --css-bg-color--ochre-d-40: #665533;
+  --css-bg-color--ochre-d-45: rgb(89.25, 76.5, 51);
+  --css-bg-color--ochre-d-50: rgb(76.5, 68, 51);
+  --css-bg-color--ochre-d-55: rgb(63.75, 59.5, 51);
+  --css-bg-color--ochre-d-60: #333333;
+  --css-bg-color--ochre-d-65: rgb(48.5714285714, 48.5714285714, 48.5714285714);
+  --css-bg-color--ochre-d-70: rgb(46.3636363636, 46.3636363636, 46.3636363636);
+  --css-bg-color--ochre-d-75: rgb(44.347826087, 44.347826087, 44.347826087);
+  --css-bg-color--ochre-d-80: rgb(42.5, 42.5, 42.5);
+  --css-bg-color--ochre-d-85: rgb(40.8, 40.8, 40.8);
+  --css-bg-color--ochre-d-90: rgb(39.2307692308, 39.2307692308, 39.2307692308);
+  --css-bg-color--ochre-d-95: rgb(37.7777777778, 37.7777777778, 37.7777777778);
+  --css-bg-color--ochre-d-100: rgb(36.4285714286, 36.4285714286, 36.4285714286);
+}
+
+.css-color--ochre {
+  color: var(--css-color--ochre, #cc9933);
+}
+
+.css-color--ochre-l-5 {
+  color: var(--css-color--ochre-l-5, rgb(204, 157.25, 63.75));
+}
+
+.css-color--ochre-l-10 {
+  color: var(--css-color--ochre-l-10, rgb(204, 161.5, 76.5));
+}
+
+.css-color--ochre-l-15 {
+  color: var(--css-color--ochre-l-15, rgb(204, 165.75, 89.25));
+}
+
+.css-color--ochre-l-20 {
+  color: var(--css-color--ochre-l-20, #ccaa66);
+}
+
+.css-color--ochre-l-25 {
+  color: var(--css-color--ochre-l-25, rgb(204, 174.25, 114.75));
+}
+
+.css-color--ochre-l-30 {
+  color: var(--css-color--ochre-l-30, rgb(204, 178.5, 127.5));
+}
+
+.css-color--ochre-l-35 {
+  color: var(--css-color--ochre-l-35, rgb(204, 182.75, 140.25));
+}
+
+.css-color--ochre-l-40 {
+  color: var(--css-color--ochre-l-40, #ccbb99);
+}
+
+.css-color--ochre-l-45 {
+  color: var(--css-color--ochre-l-45, rgb(204, 191.25, 165.75));
+}
+
+.css-color--ochre-l-50 {
+  color: var(--css-color--ochre-l-50, rgb(204, 195.5, 178.5));
+}
+
+.css-color--ochre-l-55 {
+  color: var(--css-color--ochre-l-55, rgb(204, 199.75, 191.25));
+}
+
+.css-color--ochre-l-60 {
+  color: var(--css-color--ochre-l-60, #cccccc);
+}
+
+.css-color--ochre-l-65 {
+  color: var(--css-color--ochre-l-65, rgb(206.4285714286, 206.4285714286, 206.4285714286));
+}
+
+.css-color--ochre-l-70 {
+  color: var(--css-color--ochre-l-70, rgb(208.6363636364, 208.6363636364, 208.6363636364));
+}
+
+.css-color--ochre-l-75 {
+  color: var(--css-color--ochre-l-75, rgb(210.652173913, 210.652173913, 210.652173913));
+}
+
+.css-color--ochre-l-80 {
+  color: var(--css-color--ochre-l-80, rgb(212.5, 212.5, 212.5));
+}
+
+.css-color--ochre-l-85 {
+  color: var(--css-color--ochre-l-85, rgb(214.2, 214.2, 214.2));
+}
+
+.css-color--ochre-l-90 {
+  color: var(--css-color--ochre-l-90, rgb(215.7692307692, 215.7692307692, 215.7692307692));
+}
+
+.css-color--ochre-l-95 {
+  color: var(--css-color--ochre-l-95, rgb(217.2222222222, 217.2222222222, 217.2222222222));
+}
+
+.css-color--ochre-l-100 {
+  color: var(--css-color--ochre-l-100, rgb(218.5714285714, 218.5714285714, 218.5714285714));
+}
+
+.css-color--ochre-d-5 {
+  color: var(--css-color--ochre-d-5, rgb(191.25, 144.5, 51));
+}
+
+.css-color--ochre-d-10 {
+  color: var(--css-color--ochre-d-10, rgb(178.5, 136, 51));
+}
+
+.css-color--ochre-d-15 {
+  color: var(--css-color--ochre-d-15, rgb(165.75, 127.5, 51));
+}
+
+.css-color--ochre-d-20 {
+  color: var(--css-color--ochre-d-20, #997733);
+}
+
+.css-color--ochre-d-25 {
+  color: var(--css-color--ochre-d-25, rgb(140.25, 110.5, 51));
+}
+
+.css-color--ochre-d-30 {
+  color: var(--css-color--ochre-d-30, rgb(127.5, 102, 51));
+}
+
+.css-color--ochre-d-35 {
+  color: var(--css-color--ochre-d-35, rgb(114.75, 93.5, 51));
+}
+
+.css-color--ochre-d-40 {
+  color: var(--css-color--ochre-d-40, #665533);
+}
+
+.css-color--ochre-d-45 {
+  color: var(--css-color--ochre-d-45, rgb(89.25, 76.5, 51));
+}
+
+.css-color--ochre-d-50 {
+  color: var(--css-color--ochre-d-50, rgb(76.5, 68, 51));
+}
+
+.css-color--ochre-d-55 {
+  color: var(--css-color--ochre-d-55, rgb(63.75, 59.5, 51));
+}
+
+.css-color--ochre-d-60 {
+  color: var(--css-color--ochre-d-60, #333333);
+}
+
+.css-color--ochre-d-65 {
+  color: var(--css-color--ochre-d-65, rgb(48.5714285714, 48.5714285714, 48.5714285714));
+}
+
+.css-color--ochre-d-70 {
+  color: var(--css-color--ochre-d-70, rgb(46.3636363636, 46.3636363636, 46.3636363636));
+}
+
+.css-color--ochre-d-75 {
+  color: var(--css-color--ochre-d-75, rgb(44.347826087, 44.347826087, 44.347826087));
+}
+
+.css-color--ochre-d-80 {
+  color: var(--css-color--ochre-d-80, rgb(42.5, 42.5, 42.5));
+}
+
+.css-color--ochre-d-85 {
+  color: var(--css-color--ochre-d-85, rgb(40.8, 40.8, 40.8));
+}
+
+.css-color--ochre-d-90 {
+  color: var(--css-color--ochre-d-90, rgb(39.2307692308, 39.2307692308, 39.2307692308));
+}
+
+.css-color--ochre-d-95 {
+  color: var(--css-color--ochre-d-95, rgb(37.7777777778, 37.7777777778, 37.7777777778));
+}
+
+.css-color--ochre-d-100 {
+  color: var(--css-color--ochre-d-100, rgb(36.4285714286, 36.4285714286, 36.4285714286));
+}
+
+.css-bg-color--ochre {
+  background-color: var(--css-color--ochre, #cc9933);
+}
+
+.css-bg-color--ochre-l-5 {
+  background-color: var(--css-bg-color--ochre-l-5, rgb(204, 157.25, 63.75));
+}
+
+.css-bg-color--ochre-l-10 {
+  background-color: var(--css-bg-color--ochre-l-10, rgb(204, 161.5, 76.5));
+}
+
+.css-bg-color--ochre-l-15 {
+  background-color: var(--css-bg-color--ochre-l-15, rgb(204, 165.75, 89.25));
+}
+
+.css-bg-color--ochre-l-20 {
+  background-color: var(--css-bg-color--ochre-l-20, #ccaa66);
+}
+
+.css-bg-color--ochre-l-25 {
+  background-color: var(--css-bg-color--ochre-l-25, rgb(204, 174.25, 114.75));
+}
+
+.css-bg-color--ochre-l-30 {
+  background-color: var(--css-bg-color--ochre-l-30, rgb(204, 178.5, 127.5));
+}
+
+.css-bg-color--ochre-l-35 {
+  background-color: var(--css-bg-color--ochre-l-35, rgb(204, 182.75, 140.25));
+}
+
+.css-bg-color--ochre-l-40 {
+  background-color: var(--css-bg-color--ochre-l-40, #ccbb99);
+}
+
+.css-bg-color--ochre-l-45 {
+  background-color: var(--css-bg-color--ochre-l-45, rgb(204, 191.25, 165.75));
+}
+
+.css-bg-color--ochre-l-50 {
+  background-color: var(--css-bg-color--ochre-l-50, rgb(204, 195.5, 178.5));
+}
+
+.css-bg-color--ochre-l-55 {
+  background-color: var(--css-bg-color--ochre-l-55, rgb(204, 199.75, 191.25));
+}
+
+.css-bg-color--ochre-l-60 {
+  background-color: var(--css-bg-color--ochre-l-60, #cccccc);
+}
+
+.css-bg-color--ochre-l-65 {
+  background-color: var(--css-bg-color--ochre-l-65, rgb(206.4285714286, 206.4285714286, 206.4285714286));
+}
+
+.css-bg-color--ochre-l-70 {
+  background-color: var(--css-bg-color--ochre-l-70, rgb(208.6363636364, 208.6363636364, 208.6363636364));
+}
+
+.css-bg-color--ochre-l-75 {
+  background-color: var(--css-bg-color--ochre-l-75, rgb(210.652173913, 210.652173913, 210.652173913));
+}
+
+.css-bg-color--ochre-l-80 {
+  background-color: var(--css-bg-color--ochre-l-80, rgb(212.5, 212.5, 212.5));
+}
+
+.css-bg-color--ochre-l-85 {
+  background-color: var(--css-bg-color--ochre-l-85, rgb(214.2, 214.2, 214.2));
+}
+
+.css-bg-color--ochre-l-90 {
+  background-color: var(--css-bg-color--ochre-l-90, rgb(215.7692307692, 215.7692307692, 215.7692307692));
+}
+
+.css-bg-color--ochre-l-95 {
+  background-color: var(--css-bg-color--ochre-l-95, rgb(217.2222222222, 217.2222222222, 217.2222222222));
+}
+
+.css-bg-color--ochre-l-100 {
+  background-color: var(--css-bg-color--ochre-l-100, rgb(218.5714285714, 218.5714285714, 218.5714285714));
+}
+
+.css-bg-color--ochre-d-5 {
+  background-color: var(--css-bg-color--ochre-d-5, rgb(191.25, 144.5, 51));
+}
+
+.css-bg-color--ochre-d-10 {
+  background-color: var(--css-bg-color--ochre-d-10, rgb(178.5, 136, 51));
+}
+
+.css-bg-color--ochre-d-15 {
+  background-color: var(--css-bg-color--ochre-d-15, rgb(165.75, 127.5, 51));
+}
+
+.css-bg-color--ochre-d-20 {
+  background-color: var(--css-bg-color--ochre-d-20, #997733);
+}
+
+.css-bg-color--ochre-d-25 {
+  background-color: var(--css-bg-color--ochre-d-25, rgb(140.25, 110.5, 51));
+}
+
+.css-bg-color--ochre-d-30 {
+  background-color: var(--css-bg-color--ochre-d-30, rgb(127.5, 102, 51));
+}
+
+.css-bg-color--ochre-d-35 {
+  background-color: var(--css-bg-color--ochre-d-35, rgb(114.75, 93.5, 51));
+}
+
+.css-bg-color--ochre-d-40 {
+  background-color: var(--css-bg-color--ochre-d-40, #665533);
+}
+
+.css-bg-color--ochre-d-45 {
+  background-color: var(--css-bg-color--ochre-d-45, rgb(89.25, 76.5, 51));
+}
+
+.css-bg-color--ochre-d-50 {
+  background-color: var(--css-bg-color--ochre-d-50, rgb(76.5, 68, 51));
+}
+
+.css-bg-color--ochre-d-55 {
+  background-color: var(--css-bg-color--ochre-d-55, rgb(63.75, 59.5, 51));
+}
+
+.css-bg-color--ochre-d-60 {
+  background-color: var(--css-bg-color--ochre-d-60, #333333);
+}
+
+.css-bg-color--ochre-d-65 {
+  background-color: var(--css-bg-color--ochre-d-65, rgb(48.5714285714, 48.5714285714, 48.5714285714));
+}
+
+.css-bg-color--ochre-d-70 {
+  background-color: var(--css-bg-color--ochre-d-70, rgb(46.3636363636, 46.3636363636, 46.3636363636));
+}
+
+.css-bg-color--ochre-d-75 {
+  background-color: var(--css-bg-color--ochre-d-75, rgb(44.347826087, 44.347826087, 44.347826087));
+}
+
+.css-bg-color--ochre-d-80 {
+  background-color: var(--css-bg-color--ochre-d-80, rgb(42.5, 42.5, 42.5));
+}
+
+.css-bg-color--ochre-d-85 {
+  background-color: var(--css-bg-color--ochre-d-85, rgb(40.8, 40.8, 40.8));
+}
+
+.css-bg-color--ochre-d-90 {
+  background-color: var(--css-bg-color--ochre-d-90, rgb(39.2307692308, 39.2307692308, 39.2307692308));
+}
+
+.css-bg-color--ochre-d-95 {
+  background-color: var(--css-bg-color--ochre-d-95, rgb(37.7777777778, 37.7777777778, 37.7777777778));
+}
+
+.css-bg-color--ochre-d-100 {
+  background-color: var(--css-bg-color--ochre-d-100, rgb(36.4285714286, 36.4285714286, 36.4285714286));
+}

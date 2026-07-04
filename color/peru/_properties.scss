@@ -1,0 +1,102 @@
+///
+/// Peru properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--peru: #{$css-color--peru};
+
+	// Lighten color by percentage.
+	--css-color--peru-l-5: #{$css-color--peru-l-5};
+	--css-color--peru-l-10: #{$css-color--peru-l-10};
+	--css-color--peru-l-15: #{$css-color--peru-l-15};
+	--css-color--peru-l-20: #{$css-color--peru-l-20};
+	--css-color--peru-l-25: #{$css-color--peru-l-25};
+	--css-color--peru-l-30: #{$css-color--peru-l-30};
+	--css-color--peru-l-35: #{$css-color--peru-l-35};
+	--css-color--peru-l-40: #{$css-color--peru-l-40};
+	--css-color--peru-l-45: #{$css-color--peru-l-45};
+	--css-color--peru-l-50: #{$css-color--peru-l-50};
+	--css-color--peru-l-55: #{$css-color--peru-l-55};
+	--css-color--peru-l-60: #{$css-color--peru-l-60};
+	--css-color--peru-l-65: #{$css-color--peru-l-65};
+	--css-color--peru-l-70: #{$css-color--peru-l-70};
+	--css-color--peru-l-75: #{$css-color--peru-l-75};
+	--css-color--peru-l-80: #{$css-color--peru-l-80};
+	--css-color--peru-l-85: #{$css-color--peru-l-85};
+	--css-color--peru-l-90: #{$css-color--peru-l-90};
+	--css-color--peru-l-95: #{$css-color--peru-l-95};
+	--css-color--peru-l-100: #{$css-color--peru-l-100};
+
+	// Darken color by percentage.
+	--css-color--peru-d-5: #{$css-color--peru-d-5};
+	--css-color--peru-d-10: #{$css-color--peru-d-10};
+	--css-color--peru-d-15: #{$css-color--peru-d-15};
+	--css-color--peru-d-20: #{$css-color--peru-d-20};
+	--css-color--peru-d-25: #{$css-color--peru-d-25};
+	--css-color--peru-d-30: #{$css-color--peru-d-30};
+	--css-color--peru-d-35: #{$css-color--peru-d-35};
+	--css-color--peru-d-40: #{$css-color--peru-d-40};
+	--css-color--peru-d-45: #{$css-color--peru-d-45};
+	--css-color--peru-d-50: #{$css-color--peru-d-50};
+	--css-color--peru-d-55: #{$css-color--peru-d-55};
+	--css-color--peru-d-60: #{$css-color--peru-d-60};
+	--css-color--peru-d-65: #{$css-color--peru-d-65};
+	--css-color--peru-d-70: #{$css-color--peru-d-70};
+	--css-color--peru-d-75: #{$css-color--peru-d-75};
+	--css-color--peru-d-80: #{$css-color--peru-d-80};
+	--css-color--peru-d-85: #{$css-color--peru-d-85};
+	--css-color--peru-d-90: #{$css-color--peru-d-90};
+	--css-color--peru-d-95: #{$css-color--peru-d-95};
+	--css-color--peru-d-100: #{$css-color--peru-d-100};
+
+	// Original background color.
+	--css-bg-color--peru: #{$css-color--peru};
+
+	// Lighten background color by percentage.
+	--css-bg-color--peru-l-5: #{$css-color--peru-l-5};
+	--css-bg-color--peru-l-10: #{$css-color--peru-l-10};
+	--css-bg-color--peru-l-15: #{$css-color--peru-l-15};
+	--css-bg-color--peru-l-20: #{$css-color--peru-l-20};
+	--css-bg-color--peru-l-25: #{$css-color--peru-l-25};
+	--css-bg-color--peru-l-30: #{$css-color--peru-l-30};
+	--css-bg-color--peru-l-35: #{$css-color--peru-l-35};
+	--css-bg-color--peru-l-40: #{$css-color--peru-l-40};
+	--css-bg-color--peru-l-45: #{$css-color--peru-l-45};
+	--css-bg-color--peru-l-50: #{$css-color--peru-l-50};
+	--css-bg-color--peru-l-55: #{$css-color--peru-l-55};
+	--css-bg-color--peru-l-60: #{$css-color--peru-l-60};
+	--css-bg-color--peru-l-65: #{$css-color--peru-l-65};
+	--css-bg-color--peru-l-70: #{$css-color--peru-l-70};
+	--css-bg-color--peru-l-75: #{$css-color--peru-l-75};
+	--css-bg-color--peru-l-80: #{$css-color--peru-l-80};
+	--css-bg-color--peru-l-85: #{$css-color--peru-l-85};
+	--css-bg-color--peru-l-90: #{$css-color--peru-l-90};
+	--css-bg-color--peru-l-95: #{$css-color--peru-l-95};
+	--css-bg-color--peru-l-100: #{$css-color--peru-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--peru-d-5: #{$css-color--peru-d-5};
+	--css-bg-color--peru-d-10: #{$css-color--peru-d-10};
+	--css-bg-color--peru-d-15: #{$css-color--peru-d-15};
+	--css-bg-color--peru-d-20: #{$css-color--peru-d-20};
+	--css-bg-color--peru-d-25: #{$css-color--peru-d-25};
+	--css-bg-color--peru-d-30: #{$css-color--peru-d-30};
+	--css-bg-color--peru-d-35: #{$css-color--peru-d-35};
+	--css-bg-color--peru-d-40: #{$css-color--peru-d-40};
+	--css-bg-color--peru-d-45: #{$css-color--peru-d-45};
+	--css-bg-color--peru-d-50: #{$css-color--peru-d-50};
+	--css-bg-color--peru-d-55: #{$css-color--peru-d-55};
+	--css-bg-color--peru-d-60: #{$css-color--peru-d-60};
+	--css-bg-color--peru-d-65: #{$css-color--peru-d-65};
+	--css-bg-color--peru-d-70: #{$css-color--peru-d-70};
+	--css-bg-color--peru-d-75: #{$css-color--peru-d-75};
+	--css-bg-color--peru-d-80: #{$css-color--peru-d-80};
+	--css-bg-color--peru-d-85: #{$css-color--peru-d-85};
+	--css-bg-color--peru-d-90: #{$css-color--peru-d-90};
+	--css-bg-color--peru-d-95: #{$css-color--peru-d-95};
+	--css-bg-color--peru-d-100: #{$css-color--peru-d-100};
+}

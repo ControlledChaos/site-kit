@@ -1,0 +1,95 @@
+///
+/// Lemon Yellow variables
+///
+
+@use 'sass:color';
+
+$css-color--lemon-yellow: #ffff33;
+
+// Lighten color by percentage.
+$css-color--lemon-yellow-l-5: #{color.adjust( $css-color--lemon-yellow, $lightness: 5% )};
+$css-color--lemon-yellow-l-10: #{color.adjust( $css-color--lemon-yellow, $lightness: 10% )};
+$css-color--lemon-yellow-l-15: #{color.adjust( $css-color--lemon-yellow, $lightness: 15% )};
+$css-color--lemon-yellow-l-20: #{color.adjust( $css-color--lemon-yellow, $lightness: 20% )};
+$css-color--lemon-yellow-l-25: #{color.adjust( $css-color--lemon-yellow, $lightness: 25% )};
+$css-color--lemon-yellow-l-30: #{color.adjust( $css-color--lemon-yellow, $lightness: 30% )};
+$css-color--lemon-yellow-l-35: #{color.adjust( $css-color--lemon-yellow, $lightness: 35% )};
+$css-color--lemon-yellow-l-40: #{color.adjust( $css-color--lemon-yellow, $lightness: 40% )};
+$css-color--lemon-yellow-l-45: #{color.adjust( $css-color--lemon-yellow, $lightness: 45% )};
+$css-color--lemon-yellow-l-50: #{color.adjust( $css-color--lemon-yellow, $lightness: 50% )};
+$css-color--lemon-yellow-l-55: #{color.adjust( $css-color--lemon-yellow, $lightness: 55% )};
+$css-color--lemon-yellow-l-60: #{color.adjust( $css-color--lemon-yellow, $lightness: 60% )};
+$css-color--lemon-yellow-l-65: #{color.adjust( $css-color--lemon-yellow, $lightness: 65% )};
+$css-color--lemon-yellow-l-70: #{color.adjust( $css-color--lemon-yellow, $lightness: 70% )};
+$css-color--lemon-yellow-l-75: #{color.adjust( $css-color--lemon-yellow, $lightness: 75% )};
+$css-color--lemon-yellow-l-80: #{color.adjust( $css-color--lemon-yellow, $lightness: 80% )};
+$css-color--lemon-yellow-l-85: #{color.adjust( $css-color--lemon-yellow, $lightness: 85% )};
+$css-color--lemon-yellow-l-90: #{color.adjust( $css-color--lemon-yellow, $lightness: 90% )};
+$css-color--lemon-yellow-l-95: #{color.adjust( $css-color--lemon-yellow, $lightness: 95% )};
+$css-color--lemon-yellow-l-100: #{color.adjust( $css-color--lemon-yellow, $lightness: 100% )};
+
+// Darken color by percentage.
+$css-color--lemon-yellow-d-5: #{color.adjust( $css-color--lemon-yellow, $lightness: -5% )};
+$css-color--lemon-yellow-d-10: #{color.adjust( $css-color--lemon-yellow, $lightness: -10% )};
+$css-color--lemon-yellow-d-15: #{color.adjust( $css-color--lemon-yellow, $lightness: -15% )};
+$css-color--lemon-yellow-d-20: #{color.adjust( $css-color--lemon-yellow, $lightness: -20% )};
+$css-color--lemon-yellow-d-25: #{color.adjust( $css-color--lemon-yellow, $lightness: -25% )};
+$css-color--lemon-yellow-d-30: #{color.adjust( $css-color--lemon-yellow, $lightness: -30% )};
+$css-color--lemon-yellow-d-35: #{color.adjust( $css-color--lemon-yellow, $lightness: -35% )};
+$css-color--lemon-yellow-d-40: #{color.adjust( $css-color--lemon-yellow, $lightness: -40% )};
+$css-color--lemon-yellow-d-45: #{color.adjust( $css-color--lemon-yellow, $lightness: -45% )};
+$css-color--lemon-yellow-d-50: #{color.adjust( $css-color--lemon-yellow, $lightness: -50% )};
+$css-color--lemon-yellow-d-55: #{color.adjust( $css-color--lemon-yellow, $lightness: -55% )};
+$css-color--lemon-yellow-d-60: #{color.adjust( $css-color--lemon-yellow, $lightness: -60% )};
+$css-color--lemon-yellow-d-65: #{color.adjust( $css-color--lemon-yellow, $lightness: -65% )};
+$css-color--lemon-yellow-d-70: #{color.adjust( $css-color--lemon-yellow, $lightness: -70% )};
+$css-color--lemon-yellow-d-75: #{color.adjust( $css-color--lemon-yellow, $lightness: -75% )};
+$css-color--lemon-yellow-d-80: #{color.adjust( $css-color--lemon-yellow, $lightness: -80% )};
+$css-color--lemon-yellow-d-85: #{color.adjust( $css-color--lemon-yellow, $lightness: -85% )};
+$css-color--lemon-yellow-d-90: #{color.adjust( $css-color--lemon-yellow, $lightness: -90% )};
+$css-color--lemon-yellow-d-95: #{color.adjust( $css-color--lemon-yellow, $lightness: -95% )};
+$css-color--lemon-yellow-d-100: #{color.adjust( $css-color--lemon-yellow, $lightness: -100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--lemon-yellow-l-5: #{color.adjust( $css-color--lemon-yellow, $lightness: 5% )};
+$css-bg-color--lemon-yellow-l-10: #{color.adjust( $css-color--lemon-yellow, $lightness: 10% )};
+$css-bg-color--lemon-yellow-l-15: #{color.adjust( $css-color--lemon-yellow, $lightness: 15% )};
+$css-bg-color--lemon-yellow-l-20: #{color.adjust( $css-color--lemon-yellow, $lightness: 20% )};
+$css-bg-color--lemon-yellow-l-25: #{color.adjust( $css-color--lemon-yellow, $lightness: 25% )};
+$css-bg-color--lemon-yellow-l-30: #{color.adjust( $css-color--lemon-yellow, $lightness: 30% )};
+$css-bg-color--lemon-yellow-l-35: #{color.adjust( $css-color--lemon-yellow, $lightness: 35% )};
+$css-bg-color--lemon-yellow-l-40: #{color.adjust( $css-color--lemon-yellow, $lightness: 40% )};
+$css-bg-color--lemon-yellow-l-45: #{color.adjust( $css-color--lemon-yellow, $lightness: 45% )};
+$css-bg-color--lemon-yellow-l-50: #{color.adjust( $css-color--lemon-yellow, $lightness: 50% )};
+$css-bg-color--lemon-yellow-l-55: #{color.adjust( $css-color--lemon-yellow, $lightness: 55% )};
+$css-bg-color--lemon-yellow-l-60: #{color.adjust( $css-color--lemon-yellow, $lightness: 60% )};
+$css-bg-color--lemon-yellow-l-65: #{color.adjust( $css-color--lemon-yellow, $lightness: 65% )};
+$css-bg-color--lemon-yellow-l-70: #{color.adjust( $css-color--lemon-yellow, $lightness: 70% )};
+$css-bg-color--lemon-yellow-l-75: #{color.adjust( $css-color--lemon-yellow, $lightness: 75% )};
+$css-bg-color--lemon-yellow-l-80: #{color.adjust( $css-color--lemon-yellow, $lightness: 80% )};
+$css-bg-color--lemon-yellow-l-85: #{color.adjust( $css-color--lemon-yellow, $lightness: 85% )};
+$css-bg-color--lemon-yellow-l-90: #{color.adjust( $css-color--lemon-yellow, $lightness: 90% )};
+$css-bg-color--lemon-yellow-l-95: #{color.adjust( $css-color--lemon-yellow, $lightness: 95% )};
+$css-bg-color--lemon-yellow-l-100: #{color.adjust( $css-color--lemon-yellow, $lightness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--lemon-yellow-d-5: #{color.adjust( $css-color--lemon-yellow, $lightness: -5% )};
+$css-bg-color--lemon-yellow-d-10: #{color.adjust( $css-color--lemon-yellow, $lightness: -10% )};
+$css-bg-color--lemon-yellow-d-15: #{color.adjust( $css-color--lemon-yellow, $lightness: -15% )};
+$css-bg-color--lemon-yellow-d-20: #{color.adjust( $css-color--lemon-yellow, $lightness: -20% )};
+$css-bg-color--lemon-yellow-d-25: #{color.adjust( $css-color--lemon-yellow, $lightness: -25% )};
+$css-bg-color--lemon-yellow-d-30: #{color.adjust( $css-color--lemon-yellow, $lightness: -30% )};
+$css-bg-color--lemon-yellow-d-35: #{color.adjust( $css-color--lemon-yellow, $lightness: -35% )};
+$css-bg-color--lemon-yellow-d-40: #{color.adjust( $css-color--lemon-yellow, $lightness: -40% )};
+$css-bg-color--lemon-yellow-d-45: #{color.adjust( $css-color--lemon-yellow, $lightness: -45% )};
+$css-bg-color--lemon-yellow-d-50: #{color.adjust( $css-color--lemon-yellow, $lightness: -50% )};
+$css-bg-color--lemon-yellow-d-55: #{color.adjust( $css-color--lemon-yellow, $lightness: -55% )};
+$css-bg-color--lemon-yellow-d-60: #{color.adjust( $css-color--lemon-yellow, $lightness: -60% )};
+$css-bg-color--lemon-yellow-d-65: #{color.adjust( $css-color--lemon-yellow, $lightness: -65% )};
+$css-bg-color--lemon-yellow-d-70: #{color.adjust( $css-color--lemon-yellow, $lightness: -70% )};
+$css-bg-color--lemon-yellow-d-75: #{color.adjust( $css-color--lemon-yellow, $lightness: -75% )};
+$css-bg-color--lemon-yellow-d-80: #{color.adjust( $css-color--lemon-yellow, $lightness: -80% )};
+$css-bg-color--lemon-yellow-d-85: #{color.adjust( $css-color--lemon-yellow, $lightness: -85% )};
+$css-bg-color--lemon-yellow-d-90: #{color.adjust( $css-color--lemon-yellow, $lightness: -90% )};
+$css-bg-color--lemon-yellow-d-95: #{color.adjust( $css-color--lemon-yellow, $lightness: -95% )};
+$css-bg-color--lemon-yellow-d-100: #{color.adjust( $css-color--lemon-yellow, $lightness: -100% )};

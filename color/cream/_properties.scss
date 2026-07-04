@@ -1,0 +1,102 @@
+///
+/// Cream properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--cream: #{$css-color--cream};
+
+	// Lighten color by percentage.
+	--css-color--cream-l-5: #{$css-color--cream-l-5};
+	--css-color--cream-l-10: #{$css-color--cream-l-10};
+	--css-color--cream-l-15: #{$css-color--cream-l-15};
+	--css-color--cream-l-20: #{$css-color--cream-l-20};
+	--css-color--cream-l-25: #{$css-color--cream-l-25};
+	--css-color--cream-l-30: #{$css-color--cream-l-30};
+	--css-color--cream-l-35: #{$css-color--cream-l-35};
+	--css-color--cream-l-40: #{$css-color--cream-l-40};
+	--css-color--cream-l-45: #{$css-color--cream-l-45};
+	--css-color--cream-l-50: #{$css-color--cream-l-50};
+	--css-color--cream-l-55: #{$css-color--cream-l-55};
+	--css-color--cream-l-60: #{$css-color--cream-l-60};
+	--css-color--cream-l-65: #{$css-color--cream-l-65};
+	--css-color--cream-l-70: #{$css-color--cream-l-70};
+	--css-color--cream-l-75: #{$css-color--cream-l-75};
+	--css-color--cream-l-80: #{$css-color--cream-l-80};
+	--css-color--cream-l-85: #{$css-color--cream-l-85};
+	--css-color--cream-l-90: #{$css-color--cream-l-90};
+	--css-color--cream-l-95: #{$css-color--cream-l-95};
+	--css-color--cream-l-100: #{$css-color--cream-l-100};
+
+	// Darken color by percentage.
+	--css-color--cream-d-5: #{$css-color--cream-d-5};
+	--css-color--cream-d-10: #{$css-color--cream-d-10};
+	--css-color--cream-d-15: #{$css-color--cream-d-15};
+	--css-color--cream-d-20: #{$css-color--cream-d-20};
+	--css-color--cream-d-25: #{$css-color--cream-d-25};
+	--css-color--cream-d-30: #{$css-color--cream-d-30};
+	--css-color--cream-d-35: #{$css-color--cream-d-35};
+	--css-color--cream-d-40: #{$css-color--cream-d-40};
+	--css-color--cream-d-45: #{$css-color--cream-d-45};
+	--css-color--cream-d-50: #{$css-color--cream-d-50};
+	--css-color--cream-d-55: #{$css-color--cream-d-55};
+	--css-color--cream-d-60: #{$css-color--cream-d-60};
+	--css-color--cream-d-65: #{$css-color--cream-d-65};
+	--css-color--cream-d-70: #{$css-color--cream-d-70};
+	--css-color--cream-d-75: #{$css-color--cream-d-75};
+	--css-color--cream-d-80: #{$css-color--cream-d-80};
+	--css-color--cream-d-85: #{$css-color--cream-d-85};
+	--css-color--cream-d-90: #{$css-color--cream-d-90};
+	--css-color--cream-d-95: #{$css-color--cream-d-95};
+	--css-color--cream-d-100: #{$css-color--cream-d-100};
+
+	// Original background color.
+	--css-bg-color--cream: #{$css-color--cream};
+
+	// Lighten background color by percentage.
+	--css-bg-color--cream-l-5: #{$css-color--cream-l-5};
+	--css-bg-color--cream-l-10: #{$css-color--cream-l-10};
+	--css-bg-color--cream-l-15: #{$css-color--cream-l-15};
+	--css-bg-color--cream-l-20: #{$css-color--cream-l-20};
+	--css-bg-color--cream-l-25: #{$css-color--cream-l-25};
+	--css-bg-color--cream-l-30: #{$css-color--cream-l-30};
+	--css-bg-color--cream-l-35: #{$css-color--cream-l-35};
+	--css-bg-color--cream-l-40: #{$css-color--cream-l-40};
+	--css-bg-color--cream-l-45: #{$css-color--cream-l-45};
+	--css-bg-color--cream-l-50: #{$css-color--cream-l-50};
+	--css-bg-color--cream-l-55: #{$css-color--cream-l-55};
+	--css-bg-color--cream-l-60: #{$css-color--cream-l-60};
+	--css-bg-color--cream-l-65: #{$css-color--cream-l-65};
+	--css-bg-color--cream-l-70: #{$css-color--cream-l-70};
+	--css-bg-color--cream-l-75: #{$css-color--cream-l-75};
+	--css-bg-color--cream-l-80: #{$css-color--cream-l-80};
+	--css-bg-color--cream-l-85: #{$css-color--cream-l-85};
+	--css-bg-color--cream-l-90: #{$css-color--cream-l-90};
+	--css-bg-color--cream-l-95: #{$css-color--cream-l-95};
+	--css-bg-color--cream-l-100: #{$css-color--cream-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--cream-d-5: #{$css-color--cream-d-5};
+	--css-bg-color--cream-d-10: #{$css-color--cream-d-10};
+	--css-bg-color--cream-d-15: #{$css-color--cream-d-15};
+	--css-bg-color--cream-d-20: #{$css-color--cream-d-20};
+	--css-bg-color--cream-d-25: #{$css-color--cream-d-25};
+	--css-bg-color--cream-d-30: #{$css-color--cream-d-30};
+	--css-bg-color--cream-d-35: #{$css-color--cream-d-35};
+	--css-bg-color--cream-d-40: #{$css-color--cream-d-40};
+	--css-bg-color--cream-d-45: #{$css-color--cream-d-45};
+	--css-bg-color--cream-d-50: #{$css-color--cream-d-50};
+	--css-bg-color--cream-d-55: #{$css-color--cream-d-55};
+	--css-bg-color--cream-d-60: #{$css-color--cream-d-60};
+	--css-bg-color--cream-d-65: #{$css-color--cream-d-65};
+	--css-bg-color--cream-d-70: #{$css-color--cream-d-70};
+	--css-bg-color--cream-d-75: #{$css-color--cream-d-75};
+	--css-bg-color--cream-d-80: #{$css-color--cream-d-80};
+	--css-bg-color--cream-d-85: #{$css-color--cream-d-85};
+	--css-bg-color--cream-d-90: #{$css-color--cream-d-90};
+	--css-bg-color--cream-d-95: #{$css-color--cream-d-95};
+	--css-bg-color--cream-d-100: #{$css-color--cream-d-100};
+}

@@ -4,7 +4,7 @@
 
 @use 'sass:color';
 
-$css-color--alloy-orange: #ff0000;
+$css-color--alloy-orange: #cc6600;
 
 // Lighten color by percentage.
 $css-color--alloy-orange-l-5: #{color.adjust( $css-color--alloy-orange, $whiteness: 5% )};

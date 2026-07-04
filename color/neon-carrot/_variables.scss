@@ -1,0 +1,95 @@
+///
+/// Neon Carrot variables
+///
+
+@use 'sass:color';
+
+$css-color--neon-carrot: #ff9933;
+
+// Lighten color by percentage.
+$css-color--neon-carrot-l-5: #{color.adjust( $css-color--neon-carrot, $whiteness: 5% )};
+$css-color--neon-carrot-l-10: #{color.adjust( $css-color--neon-carrot, $whiteness: 10% )};
+$css-color--neon-carrot-l-15: #{color.adjust( $css-color--neon-carrot, $whiteness: 15% )};
+$css-color--neon-carrot-l-20: #{color.adjust( $css-color--neon-carrot, $whiteness: 20% )};
+$css-color--neon-carrot-l-25: #{color.adjust( $css-color--neon-carrot, $whiteness: 25% )};
+$css-color--neon-carrot-l-30: #{color.adjust( $css-color--neon-carrot, $whiteness: 30% )};
+$css-color--neon-carrot-l-35: #{color.adjust( $css-color--neon-carrot, $whiteness: 35% )};
+$css-color--neon-carrot-l-40: #{color.adjust( $css-color--neon-carrot, $whiteness: 40% )};
+$css-color--neon-carrot-l-45: #{color.adjust( $css-color--neon-carrot, $whiteness: 45% )};
+$css-color--neon-carrot-l-50: #{color.adjust( $css-color--neon-carrot, $whiteness: 50% )};
+$css-color--neon-carrot-l-55: #{color.adjust( $css-color--neon-carrot, $whiteness: 55% )};
+$css-color--neon-carrot-l-60: #{color.adjust( $css-color--neon-carrot, $whiteness: 60% )};
+$css-color--neon-carrot-l-65: #{color.adjust( $css-color--neon-carrot, $whiteness: 65% )};
+$css-color--neon-carrot-l-70: #{color.adjust( $css-color--neon-carrot, $whiteness: 70% )};
+$css-color--neon-carrot-l-75: #{color.adjust( $css-color--neon-carrot, $whiteness: 75% )};
+$css-color--neon-carrot-l-80: #{color.adjust( $css-color--neon-carrot, $whiteness: 80% )};
+$css-color--neon-carrot-l-85: #{color.adjust( $css-color--neon-carrot, $whiteness: 85% )};
+$css-color--neon-carrot-l-90: #{color.adjust( $css-color--neon-carrot, $whiteness: 90% )};
+$css-color--neon-carrot-l-95: #{color.adjust( $css-color--neon-carrot, $whiteness: 95% )};
+$css-color--neon-carrot-l-100: #{color.adjust( $css-color--neon-carrot, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--neon-carrot-d-5: #{color.adjust( $css-color--neon-carrot, $blackness: 5% )};
+$css-color--neon-carrot-d-10: #{color.adjust( $css-color--neon-carrot, $blackness: 10% )};
+$css-color--neon-carrot-d-15: #{color.adjust( $css-color--neon-carrot, $blackness: 15% )};
+$css-color--neon-carrot-d-20: #{color.adjust( $css-color--neon-carrot, $blackness: 20% )};
+$css-color--neon-carrot-d-25: #{color.adjust( $css-color--neon-carrot, $blackness: 25% )};
+$css-color--neon-carrot-d-30: #{color.adjust( $css-color--neon-carrot, $blackness: 30% )};
+$css-color--neon-carrot-d-35: #{color.adjust( $css-color--neon-carrot, $blackness: 35% )};
+$css-color--neon-carrot-d-40: #{color.adjust( $css-color--neon-carrot, $blackness: 40% )};
+$css-color--neon-carrot-d-45: #{color.adjust( $css-color--neon-carrot, $blackness: 45% )};
+$css-color--neon-carrot-d-50: #{color.adjust( $css-color--neon-carrot, $blackness: 50% )};
+$css-color--neon-carrot-d-55: #{color.adjust( $css-color--neon-carrot, $blackness: 55% )};
+$css-color--neon-carrot-d-60: #{color.adjust( $css-color--neon-carrot, $blackness: 60% )};
+$css-color--neon-carrot-d-65: #{color.adjust( $css-color--neon-carrot, $blackness: 65% )};
+$css-color--neon-carrot-d-70: #{color.adjust( $css-color--neon-carrot, $blackness: 70% )};
+$css-color--neon-carrot-d-75: #{color.adjust( $css-color--neon-carrot, $blackness: 75% )};
+$css-color--neon-carrot-d-80: #{color.adjust( $css-color--neon-carrot, $blackness: 80% )};
+$css-color--neon-carrot-d-85: #{color.adjust( $css-color--neon-carrot, $blackness: 85% )};
+$css-color--neon-carrot-d-90: #{color.adjust( $css-color--neon-carrot, $blackness: 90% )};
+$css-color--neon-carrot-d-95: #{color.adjust( $css-color--neon-carrot, $blackness: 95% )};
+$css-color--neon-carrot-d-100: #{color.adjust( $css-color--neon-carrot, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--neon-carrot-l-5: #{color.adjust( $css-color--neon-carrot, $whiteness: 5% )};
+$css-bg-color--neon-carrot-l-10: #{color.adjust( $css-color--neon-carrot, $whiteness: 10% )};
+$css-bg-color--neon-carrot-l-15: #{color.adjust( $css-color--neon-carrot, $whiteness: 15% )};
+$css-bg-color--neon-carrot-l-20: #{color.adjust( $css-color--neon-carrot, $whiteness: 20% )};
+$css-bg-color--neon-carrot-l-25: #{color.adjust( $css-color--neon-carrot, $whiteness: 25% )};
+$css-bg-color--neon-carrot-l-30: #{color.adjust( $css-color--neon-carrot, $whiteness: 30% )};
+$css-bg-color--neon-carrot-l-35: #{color.adjust( $css-color--neon-carrot, $whiteness: 35% )};
+$css-bg-color--neon-carrot-l-40: #{color.adjust( $css-color--neon-carrot, $whiteness: 40% )};
+$css-bg-color--neon-carrot-l-45: #{color.adjust( $css-color--neon-carrot, $whiteness: 45% )};
+$css-bg-color--neon-carrot-l-50: #{color.adjust( $css-color--neon-carrot, $whiteness: 50% )};
+$css-bg-color--neon-carrot-l-55: #{color.adjust( $css-color--neon-carrot, $whiteness: 55% )};
+$css-bg-color--neon-carrot-l-60: #{color.adjust( $css-color--neon-carrot, $whiteness: 60% )};
+$css-bg-color--neon-carrot-l-65: #{color.adjust( $css-color--neon-carrot, $whiteness: 65% )};
+$css-bg-color--neon-carrot-l-70: #{color.adjust( $css-color--neon-carrot, $whiteness: 70% )};
+$css-bg-color--neon-carrot-l-75: #{color.adjust( $css-color--neon-carrot, $whiteness: 75% )};
+$css-bg-color--neon-carrot-l-80: #{color.adjust( $css-color--neon-carrot, $whiteness: 80% )};
+$css-bg-color--neon-carrot-l-85: #{color.adjust( $css-color--neon-carrot, $whiteness: 85% )};
+$css-bg-color--neon-carrot-l-90: #{color.adjust( $css-color--neon-carrot, $whiteness: 90% )};
+$css-bg-color--neon-carrot-l-95: #{color.adjust( $css-color--neon-carrot, $whiteness: 95% )};
+$css-bg-color--neon-carrot-l-100: #{color.adjust( $css-color--neon-carrot, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--neon-carrot-d-5: #{color.adjust( $css-color--neon-carrot, $blackness: 5% )};
+$css-bg-color--neon-carrot-d-10: #{color.adjust( $css-color--neon-carrot, $blackness: 10% )};
+$css-bg-color--neon-carrot-d-15: #{color.adjust( $css-color--neon-carrot, $blackness: 15% )};
+$css-bg-color--neon-carrot-d-20: #{color.adjust( $css-color--neon-carrot, $blackness: 20% )};
+$css-bg-color--neon-carrot-d-25: #{color.adjust( $css-color--neon-carrot, $blackness: 25% )};
+$css-bg-color--neon-carrot-d-30: #{color.adjust( $css-color--neon-carrot, $blackness: 30% )};
+$css-bg-color--neon-carrot-d-35: #{color.adjust( $css-color--neon-carrot, $blackness: 35% )};
+$css-bg-color--neon-carrot-d-40: #{color.adjust( $css-color--neon-carrot, $blackness: 40% )};
+$css-bg-color--neon-carrot-d-45: #{color.adjust( $css-color--neon-carrot, $blackness: 45% )};
+$css-bg-color--neon-carrot-d-50: #{color.adjust( $css-color--neon-carrot, $blackness: 50% )};
+$css-bg-color--neon-carrot-d-55: #{color.adjust( $css-color--neon-carrot, $blackness: 55% )};
+$css-bg-color--neon-carrot-d-60: #{color.adjust( $css-color--neon-carrot, $blackness: 60% )};
+$css-bg-color--neon-carrot-d-65: #{color.adjust( $css-color--neon-carrot, $blackness: 65% )};
+$css-bg-color--neon-carrot-d-70: #{color.adjust( $css-color--neon-carrot, $blackness: 70% )};
+$css-bg-color--neon-carrot-d-75: #{color.adjust( $css-color--neon-carrot, $blackness: 75% )};
+$css-bg-color--neon-carrot-d-80: #{color.adjust( $css-color--neon-carrot, $blackness: 80% )};
+$css-bg-color--neon-carrot-d-85: #{color.adjust( $css-color--neon-carrot, $blackness: 85% )};
+$css-bg-color--neon-carrot-d-90: #{color.adjust( $css-color--neon-carrot, $blackness: 90% )};
+$css-bg-color--neon-carrot-d-95: #{color.adjust( $css-color--neon-carrot, $blackness: 95% )};
+$css-bg-color--neon-carrot-d-100: #{color.adjust( $css-color--neon-carrot, $blackness: 100% )};

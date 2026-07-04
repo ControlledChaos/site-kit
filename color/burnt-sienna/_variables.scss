@@ -1,0 +1,95 @@
+///
+/// Burnt Sienna variables
+///
+
+@use 'sass:color';
+
+$css-color--burnt-sienna: #993300;
+
+// Lighten color by percentage.
+$css-color--burnt-sienna-l-5: #{color.adjust( $css-color--burnt-sienna, $whiteness: 5% )};
+$css-color--burnt-sienna-l-10: #{color.adjust( $css-color--burnt-sienna, $whiteness: 10% )};
+$css-color--burnt-sienna-l-15: #{color.adjust( $css-color--burnt-sienna, $whiteness: 15% )};
+$css-color--burnt-sienna-l-20: #{color.adjust( $css-color--burnt-sienna, $whiteness: 20% )};
+$css-color--burnt-sienna-l-25: #{color.adjust( $css-color--burnt-sienna, $whiteness: 25% )};
+$css-color--burnt-sienna-l-30: #{color.adjust( $css-color--burnt-sienna, $whiteness: 30% )};
+$css-color--burnt-sienna-l-35: #{color.adjust( $css-color--burnt-sienna, $whiteness: 35% )};
+$css-color--burnt-sienna-l-40: #{color.adjust( $css-color--burnt-sienna, $whiteness: 40% )};
+$css-color--burnt-sienna-l-45: #{color.adjust( $css-color--burnt-sienna, $whiteness: 45% )};
+$css-color--burnt-sienna-l-50: #{color.adjust( $css-color--burnt-sienna, $whiteness: 50% )};
+$css-color--burnt-sienna-l-55: #{color.adjust( $css-color--burnt-sienna, $whiteness: 55% )};
+$css-color--burnt-sienna-l-60: #{color.adjust( $css-color--burnt-sienna, $whiteness: 60% )};
+$css-color--burnt-sienna-l-65: #{color.adjust( $css-color--burnt-sienna, $whiteness: 65% )};
+$css-color--burnt-sienna-l-70: #{color.adjust( $css-color--burnt-sienna, $whiteness: 70% )};
+$css-color--burnt-sienna-l-75: #{color.adjust( $css-color--burnt-sienna, $whiteness: 75% )};
+$css-color--burnt-sienna-l-80: #{color.adjust( $css-color--burnt-sienna, $whiteness: 80% )};
+$css-color--burnt-sienna-l-85: #{color.adjust( $css-color--burnt-sienna, $whiteness: 85% )};
+$css-color--burnt-sienna-l-90: #{color.adjust( $css-color--burnt-sienna, $whiteness: 90% )};
+$css-color--burnt-sienna-l-95: #{color.adjust( $css-color--burnt-sienna, $whiteness: 95% )};
+$css-color--burnt-sienna-l-100: #{color.adjust( $css-color--burnt-sienna, $whiteness: 100% )};
+
+// Darken color by percentage.
+$css-color--burnt-sienna-d-5: #{color.adjust( $css-color--burnt-sienna, $blackness: 5% )};
+$css-color--burnt-sienna-d-10: #{color.adjust( $css-color--burnt-sienna, $blackness: 10% )};
+$css-color--burnt-sienna-d-15: #{color.adjust( $css-color--burnt-sienna, $blackness: 15% )};
+$css-color--burnt-sienna-d-20: #{color.adjust( $css-color--burnt-sienna, $blackness: 20% )};
+$css-color--burnt-sienna-d-25: #{color.adjust( $css-color--burnt-sienna, $blackness: 25% )};
+$css-color--burnt-sienna-d-30: #{color.adjust( $css-color--burnt-sienna, $blackness: 30% )};
+$css-color--burnt-sienna-d-35: #{color.adjust( $css-color--burnt-sienna, $blackness: 35% )};
+$css-color--burnt-sienna-d-40: #{color.adjust( $css-color--burnt-sienna, $blackness: 40% )};
+$css-color--burnt-sienna-d-45: #{color.adjust( $css-color--burnt-sienna, $blackness: 45% )};
+$css-color--burnt-sienna-d-50: #{color.adjust( $css-color--burnt-sienna, $blackness: 50% )};
+$css-color--burnt-sienna-d-55: #{color.adjust( $css-color--burnt-sienna, $blackness: 55% )};
+$css-color--burnt-sienna-d-60: #{color.adjust( $css-color--burnt-sienna, $blackness: 60% )};
+$css-color--burnt-sienna-d-65: #{color.adjust( $css-color--burnt-sienna, $blackness: 65% )};
+$css-color--burnt-sienna-d-70: #{color.adjust( $css-color--burnt-sienna, $blackness: 70% )};
+$css-color--burnt-sienna-d-75: #{color.adjust( $css-color--burnt-sienna, $blackness: 75% )};
+$css-color--burnt-sienna-d-80: #{color.adjust( $css-color--burnt-sienna, $blackness: 80% )};
+$css-color--burnt-sienna-d-85: #{color.adjust( $css-color--burnt-sienna, $blackness: 85% )};
+$css-color--burnt-sienna-d-90: #{color.adjust( $css-color--burnt-sienna, $blackness: 90% )};
+$css-color--burnt-sienna-d-95: #{color.adjust( $css-color--burnt-sienna, $blackness: 95% )};
+$css-color--burnt-sienna-d-100: #{color.adjust( $css-color--burnt-sienna, $blackness: 100% )};
+
+// Lighten background color by percentage.
+$css-bg-color--burnt-sienna-l-5: #{color.adjust( $css-color--burnt-sienna, $whiteness: 5% )};
+$css-bg-color--burnt-sienna-l-10: #{color.adjust( $css-color--burnt-sienna, $whiteness: 10% )};
+$css-bg-color--burnt-sienna-l-15: #{color.adjust( $css-color--burnt-sienna, $whiteness: 15% )};
+$css-bg-color--burnt-sienna-l-20: #{color.adjust( $css-color--burnt-sienna, $whiteness: 20% )};
+$css-bg-color--burnt-sienna-l-25: #{color.adjust( $css-color--burnt-sienna, $whiteness: 25% )};
+$css-bg-color--burnt-sienna-l-30: #{color.adjust( $css-color--burnt-sienna, $whiteness: 30% )};
+$css-bg-color--burnt-sienna-l-35: #{color.adjust( $css-color--burnt-sienna, $whiteness: 35% )};
+$css-bg-color--burnt-sienna-l-40: #{color.adjust( $css-color--burnt-sienna, $whiteness: 40% )};
+$css-bg-color--burnt-sienna-l-45: #{color.adjust( $css-color--burnt-sienna, $whiteness: 45% )};
+$css-bg-color--burnt-sienna-l-50: #{color.adjust( $css-color--burnt-sienna, $whiteness: 50% )};
+$css-bg-color--burnt-sienna-l-55: #{color.adjust( $css-color--burnt-sienna, $whiteness: 55% )};
+$css-bg-color--burnt-sienna-l-60: #{color.adjust( $css-color--burnt-sienna, $whiteness: 60% )};
+$css-bg-color--burnt-sienna-l-65: #{color.adjust( $css-color--burnt-sienna, $whiteness: 65% )};
+$css-bg-color--burnt-sienna-l-70: #{color.adjust( $css-color--burnt-sienna, $whiteness: 70% )};
+$css-bg-color--burnt-sienna-l-75: #{color.adjust( $css-color--burnt-sienna, $whiteness: 75% )};
+$css-bg-color--burnt-sienna-l-80: #{color.adjust( $css-color--burnt-sienna, $whiteness: 80% )};
+$css-bg-color--burnt-sienna-l-85: #{color.adjust( $css-color--burnt-sienna, $whiteness: 85% )};
+$css-bg-color--burnt-sienna-l-90: #{color.adjust( $css-color--burnt-sienna, $whiteness: 90% )};
+$css-bg-color--burnt-sienna-l-95: #{color.adjust( $css-color--burnt-sienna, $whiteness: 95% )};
+$css-bg-color--burnt-sienna-l-100: #{color.adjust( $css-color--burnt-sienna, $whiteness: 100% )};
+
+// Darken background color by percentage.
+$css-bg-color--burnt-sienna-d-5: #{color.adjust( $css-color--burnt-sienna, $blackness: 5% )};
+$css-bg-color--burnt-sienna-d-10: #{color.adjust( $css-color--burnt-sienna, $blackness: 10% )};
+$css-bg-color--burnt-sienna-d-15: #{color.adjust( $css-color--burnt-sienna, $blackness: 15% )};
+$css-bg-color--burnt-sienna-d-20: #{color.adjust( $css-color--burnt-sienna, $blackness: 20% )};
+$css-bg-color--burnt-sienna-d-25: #{color.adjust( $css-color--burnt-sienna, $blackness: 25% )};
+$css-bg-color--burnt-sienna-d-30: #{color.adjust( $css-color--burnt-sienna, $blackness: 30% )};
+$css-bg-color--burnt-sienna-d-35: #{color.adjust( $css-color--burnt-sienna, $blackness: 35% )};
+$css-bg-color--burnt-sienna-d-40: #{color.adjust( $css-color--burnt-sienna, $blackness: 40% )};
+$css-bg-color--burnt-sienna-d-45: #{color.adjust( $css-color--burnt-sienna, $blackness: 45% )};
+$css-bg-color--burnt-sienna-d-50: #{color.adjust( $css-color--burnt-sienna, $blackness: 50% )};
+$css-bg-color--burnt-sienna-d-55: #{color.adjust( $css-color--burnt-sienna, $blackness: 55% )};
+$css-bg-color--burnt-sienna-d-60: #{color.adjust( $css-color--burnt-sienna, $blackness: 60% )};
+$css-bg-color--burnt-sienna-d-65: #{color.adjust( $css-color--burnt-sienna, $blackness: 65% )};
+$css-bg-color--burnt-sienna-d-70: #{color.adjust( $css-color--burnt-sienna, $blackness: 70% )};
+$css-bg-color--burnt-sienna-d-75: #{color.adjust( $css-color--burnt-sienna, $blackness: 75% )};
+$css-bg-color--burnt-sienna-d-80: #{color.adjust( $css-color--burnt-sienna, $blackness: 80% )};
+$css-bg-color--burnt-sienna-d-85: #{color.adjust( $css-color--burnt-sienna, $blackness: 85% )};
+$css-bg-color--burnt-sienna-d-90: #{color.adjust( $css-color--burnt-sienna, $blackness: 90% )};
+$css-bg-color--burnt-sienna-d-95: #{color.adjust( $css-color--burnt-sienna, $blackness: 95% )};
+$css-bg-color--burnt-sienna-d-100: #{color.adjust( $css-color--burnt-sienna, $blackness: 100% )};

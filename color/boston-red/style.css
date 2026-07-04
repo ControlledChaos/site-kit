@@ -1,0 +1,412 @@
+:root {
+  --css-color--boston-red: #cc0000;
+  --css-color--boston-red-l-5: rgb(204, 12.75, 12.75);
+  --css-color--boston-red-l-10: rgb(204, 25.5, 25.5);
+  --css-color--boston-red-l-15: rgb(204, 38.25, 38.25);
+  --css-color--boston-red-l-20: #cc3333;
+  --css-color--boston-red-l-25: rgb(204, 63.75, 63.75);
+  --css-color--boston-red-l-30: rgb(204, 76.5, 76.5);
+  --css-color--boston-red-l-35: rgb(204, 89.25, 89.25);
+  --css-color--boston-red-l-40: #cc6666;
+  --css-color--boston-red-l-45: rgb(204, 114.75, 114.75);
+  --css-color--boston-red-l-50: rgb(204, 127.5, 127.5);
+  --css-color--boston-red-l-55: rgb(204, 140.25, 140.25);
+  --css-color--boston-red-l-60: #cc9999;
+  --css-color--boston-red-l-65: rgb(204, 165.75, 165.75);
+  --css-color--boston-red-l-70: rgb(204, 178.5, 178.5);
+  --css-color--boston-red-l-75: rgb(204, 191.25, 191.25);
+  --css-color--boston-red-l-80: #cccccc;
+  --css-color--boston-red-l-85: rgb(206.4285714286, 206.4285714286, 206.4285714286);
+  --css-color--boston-red-l-90: rgb(208.6363636364, 208.6363636364, 208.6363636364);
+  --css-color--boston-red-l-95: rgb(210.652173913, 210.652173913, 210.652173913);
+  --css-color--boston-red-l-100: rgb(212.5, 212.5, 212.5);
+  --css-color--boston-red-d-5: rgb(191.25, 0, 0);
+  --css-color--boston-red-d-10: rgb(178.5, 0, 0);
+  --css-color--boston-red-d-15: rgb(165.75, 0, 0);
+  --css-color--boston-red-d-20: #990000;
+  --css-color--boston-red-d-25: rgb(140.25, 0, 0);
+  --css-color--boston-red-d-30: rgb(127.5, 0, 0);
+  --css-color--boston-red-d-35: rgb(114.75, 0, 0);
+  --css-color--boston-red-d-40: #660000;
+  --css-color--boston-red-d-45: rgb(89.25, 0, 0);
+  --css-color--boston-red-d-50: rgb(76.5, 0, 0);
+  --css-color--boston-red-d-55: rgb(63.75, 0, 0);
+  --css-color--boston-red-d-60: #330000;
+  --css-color--boston-red-d-65: rgb(38.25, 0, 0);
+  --css-color--boston-red-d-70: rgb(25.5, 0, 0);
+  --css-color--boston-red-d-75: rgb(12.75, 0, 0);
+  --css-color--boston-red-d-80: black;
+  --css-color--boston-red-d-85: black;
+  --css-color--boston-red-d-90: black;
+  --css-color--boston-red-d-95: black;
+  --css-color--boston-red-d-100: black;
+  --css-bg-color--boston-red: #cc0000;
+  --css-bg-color--boston-red-l-5: rgb(204, 12.75, 12.75);
+  --css-bg-color--boston-red-l-10: rgb(204, 25.5, 25.5);
+  --css-bg-color--boston-red-l-15: rgb(204, 38.25, 38.25);
+  --css-bg-color--boston-red-l-20: #cc3333;
+  --css-bg-color--boston-red-l-25: rgb(204, 63.75, 63.75);
+  --css-bg-color--boston-red-l-30: rgb(204, 76.5, 76.5);
+  --css-bg-color--boston-red-l-35: rgb(204, 89.25, 89.25);
+  --css-bg-color--boston-red-l-40: #cc6666;
+  --css-bg-color--boston-red-l-45: rgb(204, 114.75, 114.75);
+  --css-bg-color--boston-red-l-50: rgb(204, 127.5, 127.5);
+  --css-bg-color--boston-red-l-55: rgb(204, 140.25, 140.25);
+  --css-bg-color--boston-red-l-60: #cc9999;
+  --css-bg-color--boston-red-l-65: rgb(204, 165.75, 165.75);
+  --css-bg-color--boston-red-l-70: rgb(204, 178.5, 178.5);
+  --css-bg-color--boston-red-l-75: rgb(204, 191.25, 191.25);
+  --css-bg-color--boston-red-l-80: #cccccc;
+  --css-bg-color--boston-red-l-85: rgb(206.4285714286, 206.4285714286, 206.4285714286);
+  --css-bg-color--boston-red-l-90: rgb(208.6363636364, 208.6363636364, 208.6363636364);
+  --css-bg-color--boston-red-l-95: rgb(210.652173913, 210.652173913, 210.652173913);
+  --css-bg-color--boston-red-l-100: rgb(212.5, 212.5, 212.5);
+  --css-bg-color--boston-red-d-5: rgb(191.25, 0, 0);
+  --css-bg-color--boston-red-d-10: rgb(178.5, 0, 0);
+  --css-bg-color--boston-red-d-15: rgb(165.75, 0, 0);
+  --css-bg-color--boston-red-d-20: #990000;
+  --css-bg-color--boston-red-d-25: rgb(140.25, 0, 0);
+  --css-bg-color--boston-red-d-30: rgb(127.5, 0, 0);
+  --css-bg-color--boston-red-d-35: rgb(114.75, 0, 0);
+  --css-bg-color--boston-red-d-40: #660000;
+  --css-bg-color--boston-red-d-45: rgb(89.25, 0, 0);
+  --css-bg-color--boston-red-d-50: rgb(76.5, 0, 0);
+  --css-bg-color--boston-red-d-55: rgb(63.75, 0, 0);
+  --css-bg-color--boston-red-d-60: #330000;
+  --css-bg-color--boston-red-d-65: rgb(38.25, 0, 0);
+  --css-bg-color--boston-red-d-70: rgb(25.5, 0, 0);
+  --css-bg-color--boston-red-d-75: rgb(12.75, 0, 0);
+  --css-bg-color--boston-red-d-80: black;
+  --css-bg-color--boston-red-d-85: black;
+  --css-bg-color--boston-red-d-90: black;
+  --css-bg-color--boston-red-d-95: black;
+  --css-bg-color--boston-red-d-100: black;
+}
+
+.css-color--boston-red {
+  color: var(--css-color--boston-red, #cc0000);
+}
+
+.css-color--boston-red-l-5 {
+  color: var(--css-color--boston-red-l-5, rgb(204, 12.75, 12.75));
+}
+
+.css-color--boston-red-l-10 {
+  color: var(--css-color--boston-red-l-10, rgb(204, 25.5, 25.5));
+}
+
+.css-color--boston-red-l-15 {
+  color: var(--css-color--boston-red-l-15, rgb(204, 38.25, 38.25));
+}
+
+.css-color--boston-red-l-20 {
+  color: var(--css-color--boston-red-l-20, #cc3333);
+}
+
+.css-color--boston-red-l-25 {
+  color: var(--css-color--boston-red-l-25, rgb(204, 63.75, 63.75));
+}
+
+.css-color--boston-red-l-30 {
+  color: var(--css-color--boston-red-l-30, rgb(204, 76.5, 76.5));
+}
+
+.css-color--boston-red-l-35 {
+  color: var(--css-color--boston-red-l-35, rgb(204, 89.25, 89.25));
+}
+
+.css-color--boston-red-l-40 {
+  color: var(--css-color--boston-red-l-40, #cc6666);
+}
+
+.css-color--boston-red-l-45 {
+  color: var(--css-color--boston-red-l-45, rgb(204, 114.75, 114.75));
+}
+
+.css-color--boston-red-l-50 {
+  color: var(--css-color--boston-red-l-50, rgb(204, 127.5, 127.5));
+}
+
+.css-color--boston-red-l-55 {
+  color: var(--css-color--boston-red-l-55, rgb(204, 140.25, 140.25));
+}
+
+.css-color--boston-red-l-60 {
+  color: var(--css-color--boston-red-l-60, #cc9999);
+}
+
+.css-color--boston-red-l-65 {
+  color: var(--css-color--boston-red-l-65, rgb(204, 165.75, 165.75));
+}
+
+.css-color--boston-red-l-70 {
+  color: var(--css-color--boston-red-l-70, rgb(204, 178.5, 178.5));
+}
+
+.css-color--boston-red-l-75 {
+  color: var(--css-color--boston-red-l-75, rgb(204, 191.25, 191.25));
+}
+
+.css-color--boston-red-l-80 {
+  color: var(--css-color--boston-red-l-80, #cccccc);
+}
+
+.css-color--boston-red-l-85 {
+  color: var(--css-color--boston-red-l-85, rgb(206.4285714286, 206.4285714286, 206.4285714286));
+}
+
+.css-color--boston-red-l-90 {
+  color: var(--css-color--boston-red-l-90, rgb(208.6363636364, 208.6363636364, 208.6363636364));
+}
+
+.css-color--boston-red-l-95 {
+  color: var(--css-color--boston-red-l-95, rgb(210.652173913, 210.652173913, 210.652173913));
+}
+
+.css-color--boston-red-l-100 {
+  color: var(--css-color--boston-red-l-100, rgb(212.5, 212.5, 212.5));
+}
+
+.css-color--boston-red-d-5 {
+  color: var(--css-color--boston-red-d-5, rgb(191.25, 0, 0));
+}
+
+.css-color--boston-red-d-10 {
+  color: var(--css-color--boston-red-d-10, rgb(178.5, 0, 0));
+}
+
+.css-color--boston-red-d-15 {
+  color: var(--css-color--boston-red-d-15, rgb(165.75, 0, 0));
+}
+
+.css-color--boston-red-d-20 {
+  color: var(--css-color--boston-red-d-20, #990000);
+}
+
+.css-color--boston-red-d-25 {
+  color: var(--css-color--boston-red-d-25, rgb(140.25, 0, 0));
+}
+
+.css-color--boston-red-d-30 {
+  color: var(--css-color--boston-red-d-30, rgb(127.5, 0, 0));
+}
+
+.css-color--boston-red-d-35 {
+  color: var(--css-color--boston-red-d-35, rgb(114.75, 0, 0));
+}
+
+.css-color--boston-red-d-40 {
+  color: var(--css-color--boston-red-d-40, #660000);
+}
+
+.css-color--boston-red-d-45 {
+  color: var(--css-color--boston-red-d-45, rgb(89.25, 0, 0));
+}
+
+.css-color--boston-red-d-50 {
+  color: var(--css-color--boston-red-d-50, rgb(76.5, 0, 0));
+}
+
+.css-color--boston-red-d-55 {
+  color: var(--css-color--boston-red-d-55, rgb(63.75, 0, 0));
+}
+
+.css-color--boston-red-d-60 {
+  color: var(--css-color--boston-red-d-60, #330000);
+}
+
+.css-color--boston-red-d-65 {
+  color: var(--css-color--boston-red-d-65, rgb(38.25, 0, 0));
+}
+
+.css-color--boston-red-d-70 {
+  color: var(--css-color--boston-red-d-70, rgb(25.5, 0, 0));
+}
+
+.css-color--boston-red-d-75 {
+  color: var(--css-color--boston-red-d-75, rgb(12.75, 0, 0));
+}
+
+.css-color--boston-red-d-80 {
+  color: var(--css-color--boston-red-d-80, black);
+}
+
+.css-color--boston-red-d-85 {
+  color: var(--css-color--boston-red-d-85, black);
+}
+
+.css-color--boston-red-d-90 {
+  color: var(--css-color--boston-red-d-90, black);
+}
+
+.css-color--boston-red-d-95 {
+  color: var(--css-color--boston-red-d-95, black);
+}
+
+.css-color--boston-red-d-100 {
+  color: var(--css-color--boston-red-d-100, black);
+}
+
+.css-bg-color--boston-red {
+  background-color: var(--css-color--boston-red, #cc0000);
+}
+
+.css-bg-color--boston-red-l-5 {
+  background-color: var(--css-bg-color--boston-red-l-5, rgb(204, 12.75, 12.75));
+}
+
+.css-bg-color--boston-red-l-10 {
+  background-color: var(--css-bg-color--boston-red-l-10, rgb(204, 25.5, 25.5));
+}
+
+.css-bg-color--boston-red-l-15 {
+  background-color: var(--css-bg-color--boston-red-l-15, rgb(204, 38.25, 38.25));
+}
+
+.css-bg-color--boston-red-l-20 {
+  background-color: var(--css-bg-color--boston-red-l-20, #cc3333);
+}
+
+.css-bg-color--boston-red-l-25 {
+  background-color: var(--css-bg-color--boston-red-l-25, rgb(204, 63.75, 63.75));
+}
+
+.css-bg-color--boston-red-l-30 {
+  background-color: var(--css-bg-color--boston-red-l-30, rgb(204, 76.5, 76.5));
+}
+
+.css-bg-color--boston-red-l-35 {
+  background-color: var(--css-bg-color--boston-red-l-35, rgb(204, 89.25, 89.25));
+}
+
+.css-bg-color--boston-red-l-40 {
+  background-color: var(--css-bg-color--boston-red-l-40, #cc6666);
+}
+
+.css-bg-color--boston-red-l-45 {
+  background-color: var(--css-bg-color--boston-red-l-45, rgb(204, 114.75, 114.75));
+}
+
+.css-bg-color--boston-red-l-50 {
+  background-color: var(--css-bg-color--boston-red-l-50, rgb(204, 127.5, 127.5));
+}
+
+.css-bg-color--boston-red-l-55 {
+  background-color: var(--css-bg-color--boston-red-l-55, rgb(204, 140.25, 140.25));
+}
+
+.css-bg-color--boston-red-l-60 {
+  background-color: var(--css-bg-color--boston-red-l-60, #cc9999);
+}
+
+.css-bg-color--boston-red-l-65 {
+  background-color: var(--css-bg-color--boston-red-l-65, rgb(204, 165.75, 165.75));
+}
+
+.css-bg-color--boston-red-l-70 {
+  background-color: var(--css-bg-color--boston-red-l-70, rgb(204, 178.5, 178.5));
+}
+
+.css-bg-color--boston-red-l-75 {
+  background-color: var(--css-bg-color--boston-red-l-75, rgb(204, 191.25, 191.25));
+}
+
+.css-bg-color--boston-red-l-80 {
+  background-color: var(--css-bg-color--boston-red-l-80, #cccccc);
+}
+
+.css-bg-color--boston-red-l-85 {
+  background-color: var(--css-bg-color--boston-red-l-85, rgb(206.4285714286, 206.4285714286, 206.4285714286));
+}
+
+.css-bg-color--boston-red-l-90 {
+  background-color: var(--css-bg-color--boston-red-l-90, rgb(208.6363636364, 208.6363636364, 208.6363636364));
+}
+
+.css-bg-color--boston-red-l-95 {
+  background-color: var(--css-bg-color--boston-red-l-95, rgb(210.652173913, 210.652173913, 210.652173913));
+}
+
+.css-bg-color--boston-red-l-100 {
+  background-color: var(--css-bg-color--boston-red-l-100, rgb(212.5, 212.5, 212.5));
+}
+
+.css-bg-color--boston-red-d-5 {
+  background-color: var(--css-bg-color--boston-red-d-5, rgb(191.25, 0, 0));
+}
+
+.css-bg-color--boston-red-d-10 {
+  background-color: var(--css-bg-color--boston-red-d-10, rgb(178.5, 0, 0));
+}
+
+.css-bg-color--boston-red-d-15 {
+  background-color: var(--css-bg-color--boston-red-d-15, rgb(165.75, 0, 0));
+}
+
+.css-bg-color--boston-red-d-20 {
+  background-color: var(--css-bg-color--boston-red-d-20, #990000);
+}
+
+.css-bg-color--boston-red-d-25 {
+  background-color: var(--css-bg-color--boston-red-d-25, rgb(140.25, 0, 0));
+}
+
+.css-bg-color--boston-red-d-30 {
+  background-color: var(--css-bg-color--boston-red-d-30, rgb(127.5, 0, 0));
+}
+
+.css-bg-color--boston-red-d-35 {
+  background-color: var(--css-bg-color--boston-red-d-35, rgb(114.75, 0, 0));
+}
+
+.css-bg-color--boston-red-d-40 {
+  background-color: var(--css-bg-color--boston-red-d-40, #660000);
+}
+
+.css-bg-color--boston-red-d-45 {
+  background-color: var(--css-bg-color--boston-red-d-45, rgb(89.25, 0, 0));
+}
+
+.css-bg-color--boston-red-d-50 {
+  background-color: var(--css-bg-color--boston-red-d-50, rgb(76.5, 0, 0));
+}
+
+.css-bg-color--boston-red-d-55 {
+  background-color: var(--css-bg-color--boston-red-d-55, rgb(63.75, 0, 0));
+}
+
+.css-bg-color--boston-red-d-60 {
+  background-color: var(--css-bg-color--boston-red-d-60, #330000);
+}
+
+.css-bg-color--boston-red-d-65 {
+  background-color: var(--css-bg-color--boston-red-d-65, rgb(38.25, 0, 0));
+}
+
+.css-bg-color--boston-red-d-70 {
+  background-color: var(--css-bg-color--boston-red-d-70, rgb(25.5, 0, 0));
+}
+
+.css-bg-color--boston-red-d-75 {
+  background-color: var(--css-bg-color--boston-red-d-75, rgb(12.75, 0, 0));
+}
+
+.css-bg-color--boston-red-d-80 {
+  background-color: var(--css-bg-color--boston-red-d-80, black);
+}
+
+.css-bg-color--boston-red-d-85 {
+  background-color: var(--css-bg-color--boston-red-d-85, black);
+}
+
+.css-bg-color--boston-red-d-90 {
+  background-color: var(--css-bg-color--boston-red-d-90, black);
+}
+
+.css-bg-color--boston-red-d-95 {
+  background-color: var(--css-bg-color--boston-red-d-95, black);
+}
+
+.css-bg-color--boston-red-d-100 {
+  background-color: var(--css-bg-color--boston-red-d-100, black);
+}

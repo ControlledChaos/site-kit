@@ -1,0 +1,102 @@
+///
+/// Atomic Tangerine properties
+///
+
+@import '_variables';
+
+:root {
+
+	// Original color.
+	--css-color--atomic-tangerine: #{$css-color--atomic-tangerine};
+
+	// Lighten color by percentage.
+	--css-color--atomic-tangerine-l-5: #{$css-color--atomic-tangerine-l-5};
+	--css-color--atomic-tangerine-l-10: #{$css-color--atomic-tangerine-l-10};
+	--css-color--atomic-tangerine-l-15: #{$css-color--atomic-tangerine-l-15};
+	--css-color--atomic-tangerine-l-20: #{$css-color--atomic-tangerine-l-20};
+	--css-color--atomic-tangerine-l-25: #{$css-color--atomic-tangerine-l-25};
+	--css-color--atomic-tangerine-l-30: #{$css-color--atomic-tangerine-l-30};
+	--css-color--atomic-tangerine-l-35: #{$css-color--atomic-tangerine-l-35};
+	--css-color--atomic-tangerine-l-40: #{$css-color--atomic-tangerine-l-40};
+	--css-color--atomic-tangerine-l-45: #{$css-color--atomic-tangerine-l-45};
+	--css-color--atomic-tangerine-l-50: #{$css-color--atomic-tangerine-l-50};
+	--css-color--atomic-tangerine-l-55: #{$css-color--atomic-tangerine-l-55};
+	--css-color--atomic-tangerine-l-60: #{$css-color--atomic-tangerine-l-60};
+	--css-color--atomic-tangerine-l-65: #{$css-color--atomic-tangerine-l-65};
+	--css-color--atomic-tangerine-l-70: #{$css-color--atomic-tangerine-l-70};
+	--css-color--atomic-tangerine-l-75: #{$css-color--atomic-tangerine-l-75};
+	--css-color--atomic-tangerine-l-80: #{$css-color--atomic-tangerine-l-80};
+	--css-color--atomic-tangerine-l-85: #{$css-color--atomic-tangerine-l-85};
+	--css-color--atomic-tangerine-l-90: #{$css-color--atomic-tangerine-l-90};
+	--css-color--atomic-tangerine-l-95: #{$css-color--atomic-tangerine-l-95};
+	--css-color--atomic-tangerine-l-100: #{$css-color--atomic-tangerine-l-100};
+
+	// Darken color by percentage.
+	--css-color--atomic-tangerine-d-5: #{$css-color--atomic-tangerine-d-5};
+	--css-color--atomic-tangerine-d-10: #{$css-color--atomic-tangerine-d-10};
+	--css-color--atomic-tangerine-d-15: #{$css-color--atomic-tangerine-d-15};
+	--css-color--atomic-tangerine-d-20: #{$css-color--atomic-tangerine-d-20};
+	--css-color--atomic-tangerine-d-25: #{$css-color--atomic-tangerine-d-25};
+	--css-color--atomic-tangerine-d-30: #{$css-color--atomic-tangerine-d-30};
+	--css-color--atomic-tangerine-d-35: #{$css-color--atomic-tangerine-d-35};
+	--css-color--atomic-tangerine-d-40: #{$css-color--atomic-tangerine-d-40};
+	--css-color--atomic-tangerine-d-45: #{$css-color--atomic-tangerine-d-45};
+	--css-color--atomic-tangerine-d-50: #{$css-color--atomic-tangerine-d-50};
+	--css-color--atomic-tangerine-d-55: #{$css-color--atomic-tangerine-d-55};
+	--css-color--atomic-tangerine-d-60: #{$css-color--atomic-tangerine-d-60};
+	--css-color--atomic-tangerine-d-65: #{$css-color--atomic-tangerine-d-65};
+	--css-color--atomic-tangerine-d-70: #{$css-color--atomic-tangerine-d-70};
+	--css-color--atomic-tangerine-d-75: #{$css-color--atomic-tangerine-d-75};
+	--css-color--atomic-tangerine-d-80: #{$css-color--atomic-tangerine-d-80};
+	--css-color--atomic-tangerine-d-85: #{$css-color--atomic-tangerine-d-85};
+	--css-color--atomic-tangerine-d-90: #{$css-color--atomic-tangerine-d-90};
+	--css-color--atomic-tangerine-d-95: #{$css-color--atomic-tangerine-d-95};
+	--css-color--atomic-tangerine-d-100: #{$css-color--atomic-tangerine-d-100};
+
+	// Original background color.
+	--css-bg-color--atomic-tangerine: #{$css-color--atomic-tangerine};
+
+	// Lighten background color by percentage.
+	--css-bg-color--atomic-tangerine-l-5: #{$css-color--atomic-tangerine-l-5};
+	--css-bg-color--atomic-tangerine-l-10: #{$css-color--atomic-tangerine-l-10};
+	--css-bg-color--atomic-tangerine-l-15: #{$css-color--atomic-tangerine-l-15};
+	--css-bg-color--atomic-tangerine-l-20: #{$css-color--atomic-tangerine-l-20};
+	--css-bg-color--atomic-tangerine-l-25: #{$css-color--atomic-tangerine-l-25};
+	--css-bg-color--atomic-tangerine-l-30: #{$css-color--atomic-tangerine-l-30};
+	--css-bg-color--atomic-tangerine-l-35: #{$css-color--atomic-tangerine-l-35};
+	--css-bg-color--atomic-tangerine-l-40: #{$css-color--atomic-tangerine-l-40};
+	--css-bg-color--atomic-tangerine-l-45: #{$css-color--atomic-tangerine-l-45};
+	--css-bg-color--atomic-tangerine-l-50: #{$css-color--atomic-tangerine-l-50};
+	--css-bg-color--atomic-tangerine-l-55: #{$css-color--atomic-tangerine-l-55};
+	--css-bg-color--atomic-tangerine-l-60: #{$css-color--atomic-tangerine-l-60};
+	--css-bg-color--atomic-tangerine-l-65: #{$css-color--atomic-tangerine-l-65};
+	--css-bg-color--atomic-tangerine-l-70: #{$css-color--atomic-tangerine-l-70};
+	--css-bg-color--atomic-tangerine-l-75: #{$css-color--atomic-tangerine-l-75};
+	--css-bg-color--atomic-tangerine-l-80: #{$css-color--atomic-tangerine-l-80};
+	--css-bg-color--atomic-tangerine-l-85: #{$css-color--atomic-tangerine-l-85};
+	--css-bg-color--atomic-tangerine-l-90: #{$css-color--atomic-tangerine-l-90};
+	--css-bg-color--atomic-tangerine-l-95: #{$css-color--atomic-tangerine-l-95};
+	--css-bg-color--atomic-tangerine-l-100: #{$css-color--atomic-tangerine-l-100};
+
+	// Darken background color by percentage.
+	--css-bg-color--atomic-tangerine-d-5: #{$css-color--atomic-tangerine-d-5};
+	--css-bg-color--atomic-tangerine-d-10: #{$css-color--atomic-tangerine-d-10};
+	--css-bg-color--atomic-tangerine-d-15: #{$css-color--atomic-tangerine-d-15};
+	--css-bg-color--atomic-tangerine-d-20: #{$css-color--atomic-tangerine-d-20};
+	--css-bg-color--atomic-tangerine-d-25: #{$css-color--atomic-tangerine-d-25};
+	--css-bg-color--atomic-tangerine-d-30: #{$css-color--atomic-tangerine-d-30};
+	--css-bg-color--atomic-tangerine-d-35: #{$css-color--atomic-tangerine-d-35};
+	--css-bg-color--atomic-tangerine-d-40: #{$css-color--atomic-tangerine-d-40};
+	--css-bg-color--atomic-tangerine-d-45: #{$css-color--atomic-tangerine-d-45};
+	--css-bg-color--atomic-tangerine-d-50: #{$css-color--atomic-tangerine-d-50};
+	--css-bg-color--atomic-tangerine-d-55: #{$css-color--atomic-tangerine-d-55};
+	--css-bg-color--atomic-tangerine-d-60: #{$css-color--atomic-tangerine-d-60};
+	--css-bg-color--atomic-tangerine-d-65: #{$css-color--atomic-tangerine-d-65};
+	--css-bg-color--atomic-tangerine-d-70: #{$css-color--atomic-tangerine-d-70};
+	--css-bg-color--atomic-tangerine-d-75: #{$css-color--atomic-tangerine-d-75};
+	--css-bg-color--atomic-tangerine-d-80: #{$css-color--atomic-tangerine-d-80};
+	--css-bg-color--atomic-tangerine-d-85: #{$css-color--atomic-tangerine-d-85};
+	--css-bg-color--atomic-tangerine-d-90: #{$css-color--atomic-tangerine-d-90};
+	--css-bg-color--atomic-tangerine-d-95: #{$css-color--atomic-tangerine-d-95};
+	--css-bg-color--atomic-tangerine-d-100: #{$css-color--atomic-tangerine-d-100};
+}

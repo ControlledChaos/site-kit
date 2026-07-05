@@ -1,5 +1,3 @@
-# --css-variables
+# Site Kit
 
-Library of generic CSS variables.
-
-This project is under construction.
+A library of generic CSS and icons to jump start website development.

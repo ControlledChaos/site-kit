@@ -2,7 +2,7 @@
 /// Elements stylesheet
 ///
 
-@import '_mixins';
+@use 'mixins';
 
 .flex-block-row-start-wrap-g1 {
 	@include flex-block-row-start-wrap-g1;

@@ -2,8 +2,8 @@
 /// Grayscale stylesheet
 ///
 
-@import '_variables';
-@import '_properties';
+@use 'variables' as *;
+@use 'properties' as *;
 
 // Classes by named color.
 .css-color--white {

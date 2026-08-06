@@ -2,8 +2,8 @@
 /// Rosy Brown stylesheet
 ///
 
-@import '_variables';
-@import '_properties';
+@use 'variables' as *;
+@use 'properties' as *;
 
 // Original color.
 .css-color--rosy-brown {

@@ -1,412 +1,412 @@
 :root {
-  --css-color--blue: #0000ff;
-  --css-color--blue-l-5: rgb(25.5, 25.5, 255);
-  --css-color--blue-l-10: #3333ff;
-  --css-color--blue-l-15: rgb(76.5, 76.5, 255);
-  --css-color--blue-l-20: #6666ff;
-  --css-color--blue-l-25: rgb(127.5, 127.5, 255);
-  --css-color--blue-l-30: #9999ff;
-  --css-color--blue-l-35: rgb(178.5, 178.5, 255);
-  --css-color--blue-l-40: #ccccff;
-  --css-color--blue-l-45: rgb(229.5, 229.5, 255);
-  --css-color--blue-l-50: white;
-  --css-color--blue-l-55: hsl(240, 100%, 105%);
-  --css-color--blue-l-60: hsl(240, 100%, 110%);
-  --css-color--blue-l-65: hsl(240, 100%, 115%);
-  --css-color--blue-l-70: hsl(240, 100%, 120%);
-  --css-color--blue-l-75: hsl(240, 100%, 125%);
-  --css-color--blue-l-80: hsl(240, 100%, 130%);
-  --css-color--blue-l-85: hsl(240, 100%, 135%);
-  --css-color--blue-l-90: hsl(240, 100%, 140%);
-  --css-color--blue-l-95: hsl(240, 100%, 145%);
-  --css-color--blue-l-100: hsl(240, 100%, 150%);
-  --css-color--blue-d-5: rgb(0, 0, 229.5);
-  --css-color--blue-d-10: #0000cc;
-  --css-color--blue-d-15: rgb(0, 0, 178.5);
-  --css-color--blue-d-20: #000099;
-  --css-color--blue-d-25: rgb(0, 0, 127.5);
-  --css-color--blue-d-30: #000066;
-  --css-color--blue-d-35: rgb(0, 0, 76.5);
-  --css-color--blue-d-40: #000033;
-  --css-color--blue-d-45: rgb(0, 0, 25.5);
-  --css-color--blue-d-50: black;
-  --css-color--blue-d-55: hsl(240, 100%, -5%);
-  --css-color--blue-d-60: hsl(240, 100%, -10%);
-  --css-color--blue-d-65: hsl(240, 100%, -15%);
-  --css-color--blue-d-70: hsl(240, 100%, -20%);
-  --css-color--blue-d-75: hsl(240, 100%, -25%);
-  --css-color--blue-d-80: hsl(240, 100%, -30%);
-  --css-color--blue-d-85: hsl(240, 100%, -35%);
-  --css-color--blue-d-90: hsl(240, 100%, -40%);
-  --css-color--blue-d-95: hsl(240, 100%, -45%);
-  --css-color--blue-d-100: hsl(240, 100%, -50%);
-  --css-bg-color--blue: #0000ff;
-  --css-bg-color--blue-l-5: rgb(25.5, 25.5, 255);
-  --css-bg-color--blue-l-10: #3333ff;
-  --css-bg-color--blue-l-15: rgb(76.5, 76.5, 255);
-  --css-bg-color--blue-l-20: #6666ff;
-  --css-bg-color--blue-l-25: rgb(127.5, 127.5, 255);
-  --css-bg-color--blue-l-30: #9999ff;
-  --css-bg-color--blue-l-35: rgb(178.5, 178.5, 255);
-  --css-bg-color--blue-l-40: #ccccff;
-  --css-bg-color--blue-l-45: rgb(229.5, 229.5, 255);
-  --css-bg-color--blue-l-50: white;
-  --css-bg-color--blue-l-55: hsl(240, 100%, 105%);
-  --css-bg-color--blue-l-60: hsl(240, 100%, 110%);
-  --css-bg-color--blue-l-65: hsl(240, 100%, 115%);
-  --css-bg-color--blue-l-70: hsl(240, 100%, 120%);
-  --css-bg-color--blue-l-75: hsl(240, 100%, 125%);
-  --css-bg-color--blue-l-80: hsl(240, 100%, 130%);
-  --css-bg-color--blue-l-85: hsl(240, 100%, 135%);
-  --css-bg-color--blue-l-90: hsl(240, 100%, 140%);
-  --css-bg-color--blue-l-95: hsl(240, 100%, 145%);
-  --css-bg-color--blue-l-100: hsl(240, 100%, 150%);
-  --css-bg-color--blue-d-5: rgb(0, 0, 229.5);
-  --css-bg-color--blue-d-10: #0000cc;
-  --css-bg-color--blue-d-15: rgb(0, 0, 178.5);
-  --css-bg-color--blue-d-20: #000099;
-  --css-bg-color--blue-d-25: rgb(0, 0, 127.5);
-  --css-bg-color--blue-d-30: #000066;
-  --css-bg-color--blue-d-35: rgb(0, 0, 76.5);
-  --css-bg-color--blue-d-40: #000033;
-  --css-bg-color--blue-d-45: rgb(0, 0, 25.5);
-  --css-bg-color--blue-d-50: black;
-  --css-bg-color--blue-d-55: hsl(240, 100%, -5%);
-  --css-bg-color--blue-d-60: hsl(240, 100%, -10%);
-  --css-bg-color--blue-d-65: hsl(240, 100%, -15%);
-  --css-bg-color--blue-d-70: hsl(240, 100%, -20%);
-  --css-bg-color--blue-d-75: hsl(240, 100%, -25%);
-  --css-bg-color--blue-d-80: hsl(240, 100%, -30%);
-  --css-bg-color--blue-d-85: hsl(240, 100%, -35%);
-  --css-bg-color--blue-d-90: hsl(240, 100%, -40%);
-  --css-bg-color--blue-d-95: hsl(240, 100%, -45%);
-  --css-bg-color--blue-d-100: hsl(240, 100%, -50%);
+  --css-color--dark-khaki: #cccc66;
+  --css-color--dark-khaki-l-5: rgb(210.375, 210.375, 121.125);
+  --css-color--dark-khaki-l-10: rgb(216.75, 216.75, 140.25);
+  --css-color--dark-khaki-l-15: rgb(223.125, 223.125, 159.375);
+  --css-color--dark-khaki-l-20: rgb(229.5, 229.5, 178.5);
+  --css-color--dark-khaki-l-25: rgb(235.875, 235.875, 197.625);
+  --css-color--dark-khaki-l-30: rgb(242.25, 242.25, 216.75);
+  --css-color--dark-khaki-l-35: rgb(248.625, 248.625, 235.875);
+  --css-color--dark-khaki-l-40: white;
+  --css-color--dark-khaki-l-45: hsl(60, 50%, 105%);
+  --css-color--dark-khaki-l-50: hsl(60, 50%, 110%);
+  --css-color--dark-khaki-l-55: hsl(60, 50%, 115%);
+  --css-color--dark-khaki-l-60: hsl(60, 50%, 120%);
+  --css-color--dark-khaki-l-65: hsl(60, 50%, 125%);
+  --css-color--dark-khaki-l-70: hsl(60, 50%, 130%);
+  --css-color--dark-khaki-l-75: hsl(60, 50%, 135%);
+  --css-color--dark-khaki-l-80: hsl(60, 50%, 140%);
+  --css-color--dark-khaki-l-85: hsl(60, 50%, 145%);
+  --css-color--dark-khaki-l-90: hsl(60, 50%, 150%);
+  --css-color--dark-khaki-l-95: hsl(60, 50%, 155%);
+  --css-color--dark-khaki-l-100: hsl(60, 50%, 160%);
+  --css-color--dark-khaki-d-5: rgb(197.625, 197.625, 82.875);
+  --css-color--dark-khaki-d-10: rgb(191.25, 191.25, 63.75);
+  --css-color--dark-khaki-d-15: rgb(172.125, 172.125, 57.375);
+  --css-color--dark-khaki-d-20: #999933;
+  --css-color--dark-khaki-d-25: rgb(133.875, 133.875, 44.625);
+  --css-color--dark-khaki-d-30: rgb(114.75, 114.75, 38.25);
+  --css-color--dark-khaki-d-35: rgb(95.625, 95.625, 31.875);
+  --css-color--dark-khaki-d-40: rgb(76.5, 76.5, 25.5);
+  --css-color--dark-khaki-d-45: rgb(57.375, 57.375, 19.125);
+  --css-color--dark-khaki-d-50: rgb(38.25, 38.25, 12.75);
+  --css-color--dark-khaki-d-55: rgb(19.125, 19.125, 6.375);
+  --css-color--dark-khaki-d-60: black;
+  --css-color--dark-khaki-d-65: hsl(60, 50%, -5%);
+  --css-color--dark-khaki-d-70: hsl(60, 50%, -10%);
+  --css-color--dark-khaki-d-75: hsl(60, 50%, -15%);
+  --css-color--dark-khaki-d-80: hsl(60, 50%, -20%);
+  --css-color--dark-khaki-d-85: hsl(60, 50%, -25%);
+  --css-color--dark-khaki-d-90: hsl(60, 50%, -30%);
+  --css-color--dark-khaki-d-95: hsl(60, 50%, -35%);
+  --css-color--dark-khaki-d-100: hsl(60, 50%, -40%);
+  --css-bg-color--dark-khaki: #cccc66;
+  --css-bg-color--dark-khaki-l-5: rgb(210.375, 210.375, 121.125);
+  --css-bg-color--dark-khaki-l-10: rgb(216.75, 216.75, 140.25);
+  --css-bg-color--dark-khaki-l-15: rgb(223.125, 223.125, 159.375);
+  --css-bg-color--dark-khaki-l-20: rgb(229.5, 229.5, 178.5);
+  --css-bg-color--dark-khaki-l-25: rgb(235.875, 235.875, 197.625);
+  --css-bg-color--dark-khaki-l-30: rgb(242.25, 242.25, 216.75);
+  --css-bg-color--dark-khaki-l-35: rgb(248.625, 248.625, 235.875);
+  --css-bg-color--dark-khaki-l-40: white;
+  --css-bg-color--dark-khaki-l-45: hsl(60, 50%, 105%);
+  --css-bg-color--dark-khaki-l-50: hsl(60, 50%, 110%);
+  --css-bg-color--dark-khaki-l-55: hsl(60, 50%, 115%);
+  --css-bg-color--dark-khaki-l-60: hsl(60, 50%, 120%);
+  --css-bg-color--dark-khaki-l-65: hsl(60, 50%, 125%);
+  --css-bg-color--dark-khaki-l-70: hsl(60, 50%, 130%);
+  --css-bg-color--dark-khaki-l-75: hsl(60, 50%, 135%);
+  --css-bg-color--dark-khaki-l-80: hsl(60, 50%, 140%);
+  --css-bg-color--dark-khaki-l-85: hsl(60, 50%, 145%);
+  --css-bg-color--dark-khaki-l-90: hsl(60, 50%, 150%);
+  --css-bg-color--dark-khaki-l-95: hsl(60, 50%, 155%);
+  --css-bg-color--dark-khaki-l-100: hsl(60, 50%, 160%);
+  --css-bg-color--dark-khaki-d-5: rgb(197.625, 197.625, 82.875);
+  --css-bg-color--dark-khaki-d-10: rgb(191.25, 191.25, 63.75);
+  --css-bg-color--dark-khaki-d-15: rgb(172.125, 172.125, 57.375);
+  --css-bg-color--dark-khaki-d-20: #999933;
+  --css-bg-color--dark-khaki-d-25: rgb(133.875, 133.875, 44.625);
+  --css-bg-color--dark-khaki-d-30: rgb(114.75, 114.75, 38.25);
+  --css-bg-color--dark-khaki-d-35: rgb(95.625, 95.625, 31.875);
+  --css-bg-color--dark-khaki-d-40: rgb(76.5, 76.5, 25.5);
+  --css-bg-color--dark-khaki-d-45: rgb(57.375, 57.375, 19.125);
+  --css-bg-color--dark-khaki-d-50: rgb(38.25, 38.25, 12.75);
+  --css-bg-color--dark-khaki-d-55: rgb(19.125, 19.125, 6.375);
+  --css-bg-color--dark-khaki-d-60: black;
+  --css-bg-color--dark-khaki-d-65: hsl(60, 50%, -5%);
+  --css-bg-color--dark-khaki-d-70: hsl(60, 50%, -10%);
+  --css-bg-color--dark-khaki-d-75: hsl(60, 50%, -15%);
+  --css-bg-color--dark-khaki-d-80: hsl(60, 50%, -20%);
+  --css-bg-color--dark-khaki-d-85: hsl(60, 50%, -25%);
+  --css-bg-color--dark-khaki-d-90: hsl(60, 50%, -30%);
+  --css-bg-color--dark-khaki-d-95: hsl(60, 50%, -35%);
+  --css-bg-color--dark-khaki-d-100: hsl(60, 50%, -40%);
 }
 
-.css-color--blue {
-  color: var(--css-color--blue, #0000ff);
+.css-color--dark-khaki {
+  color: var(--css-color--dark-khaki, #cccc66);
 }
 
-.css-color--blue-l-5 {
-  color: var(--css-color--blue-l-5, rgb(25.5, 25.5, 255));
+.css-color--dark-khaki-l-5 {
+  color: var(--css-color--dark-khaki-l-5, rgb(210.375, 210.375, 121.125));
 }
 
-.css-color--blue-l-10 {
-  color: var(--css-color--blue-l-10, #3333ff);
+.css-color--dark-khaki-l-10 {
+  color: var(--css-color--dark-khaki-l-10, rgb(216.75, 216.75, 140.25));
 }
 
-.css-color--blue-l-15 {
-  color: var(--css-color--blue-l-15, rgb(76.5, 76.5, 255));
+.css-color--dark-khaki-l-15 {
+  color: var(--css-color--dark-khaki-l-15, rgb(223.125, 223.125, 159.375));
 }
 
-.css-color--blue-l-20 {
-  color: var(--css-color--blue-l-20, #6666ff);
+.css-color--dark-khaki-l-20 {
+  color: var(--css-color--dark-khaki-l-20, rgb(229.5, 229.5, 178.5));
 }
 
-.css-color--blue-l-25 {
-  color: var(--css-color--blue-l-25, rgb(127.5, 127.5, 255));
+.css-color--dark-khaki-l-25 {
+  color: var(--css-color--dark-khaki-l-25, rgb(235.875, 235.875, 197.625));
 }
 
-.css-color--blue-l-30 {
-  color: var(--css-color--blue-l-30, #9999ff);
+.css-color--dark-khaki-l-30 {
+  color: var(--css-color--dark-khaki-l-30, rgb(242.25, 242.25, 216.75));
 }
 
-.css-color--blue-l-35 {
-  color: var(--css-color--blue-l-35, rgb(178.5, 178.5, 255));
+.css-color--dark-khaki-l-35 {
+  color: var(--css-color--dark-khaki-l-35, rgb(248.625, 248.625, 235.875));
 }
 
-.css-color--blue-l-40 {
-  color: var(--css-color--blue-l-40, #ccccff);
+.css-color--dark-khaki-l-40 {
+  color: var(--css-color--dark-khaki-l-40, white);
 }
 
-.css-color--blue-l-45 {
-  color: var(--css-color--blue-l-45, rgb(229.5, 229.5, 255));
+.css-color--dark-khaki-l-45 {
+  color: var(--css-color--dark-khaki-l-45, hsl(60, 50%, 105%));
 }
 
-.css-color--blue-l-50 {
-  color: var(--css-color--blue-l-50, white);
+.css-color--dark-khaki-l-50 {
+  color: var(--css-color--dark-khaki-l-50, hsl(60, 50%, 110%));
 }
 
-.css-color--blue-l-55 {
-  color: var(--css-color--blue-l-55, hsl(240, 100%, 105%));
+.css-color--dark-khaki-l-55 {
+  color: var(--css-color--dark-khaki-l-55, hsl(60, 50%, 115%));
 }
 
-.css-color--blue-l-60 {
-  color: var(--css-color--blue-l-60, hsl(240, 100%, 110%));
+.css-color--dark-khaki-l-60 {
+  color: var(--css-color--dark-khaki-l-60, hsl(60, 50%, 120%));
 }
 
-.css-color--blue-l-65 {
-  color: var(--css-color--blue-l-65, hsl(240, 100%, 115%));
+.css-color--dark-khaki-l-65 {
+  color: var(--css-color--dark-khaki-l-65, hsl(60, 50%, 125%));
 }
 
-.css-color--blue-l-70 {
-  color: var(--css-color--blue-l-70, hsl(240, 100%, 120%));
+.css-color--dark-khaki-l-70 {
+  color: var(--css-color--dark-khaki-l-70, hsl(60, 50%, 130%));
 }
 
-.css-color--blue-l-75 {
-  color: var(--css-color--blue-l-75, hsl(240, 100%, 125%));
+.css-color--dark-khaki-l-75 {
+  color: var(--css-color--dark-khaki-l-75, hsl(60, 50%, 135%));
 }
 
-.css-color--blue-l-80 {
-  color: var(--css-color--blue-l-80, hsl(240, 100%, 130%));
+.css-color--dark-khaki-l-80 {
+  color: var(--css-color--dark-khaki-l-80, hsl(60, 50%, 140%));
 }
 
-.css-color--blue-l-85 {
-  color: var(--css-color--blue-l-85, hsl(240, 100%, 135%));
+.css-color--dark-khaki-l-85 {
+  color: var(--css-color--dark-khaki-l-85, hsl(60, 50%, 145%));
 }
 
-.css-color--blue-l-90 {
-  color: var(--css-color--blue-l-90, hsl(240, 100%, 140%));
+.css-color--dark-khaki-l-90 {
+  color: var(--css-color--dark-khaki-l-90, hsl(60, 50%, 150%));
 }
 
-.css-color--blue-l-95 {
-  color: var(--css-color--blue-l-95, hsl(240, 100%, 145%));
+.css-color--dark-khaki-l-95 {
+  color: var(--css-color--dark-khaki-l-95, hsl(60, 50%, 155%));
 }
 
-.css-color--blue-l-100 {
-  color: var(--css-color--blue-l-100, hsl(240, 100%, 150%));
+.css-color--dark-khaki-l-100 {
+  color: var(--css-color--dark-khaki-l-100, hsl(60, 50%, 160%));
 }
 
-.css-color--blue-d-5 {
-  color: var(--css-color--blue-d-5, rgb(0, 0, 229.5));
+.css-color--dark-khaki-d-5 {
+  color: var(--css-color--dark-khaki-d-5, rgb(197.625, 197.625, 82.875));
 }
 
-.css-color--blue-d-10 {
-  color: var(--css-color--blue-d-10, #0000cc);
+.css-color--dark-khaki-d-10 {
+  color: var(--css-color--dark-khaki-d-10, rgb(191.25, 191.25, 63.75));
 }
 
-.css-color--blue-d-15 {
-  color: var(--css-color--blue-d-15, rgb(0, 0, 178.5));
+.css-color--dark-khaki-d-15 {
+  color: var(--css-color--dark-khaki-d-15, rgb(172.125, 172.125, 57.375));
 }
 
-.css-color--blue-d-20 {
-  color: var(--css-color--blue-d-20, #000099);
+.css-color--dark-khaki-d-20 {
+  color: var(--css-color--dark-khaki-d-20, #999933);
 }
 
-.css-color--blue-d-25 {
-  color: var(--css-color--blue-d-25, rgb(0, 0, 127.5));
+.css-color--dark-khaki-d-25 {
+  color: var(--css-color--dark-khaki-d-25, rgb(133.875, 133.875, 44.625));
 }
 
-.css-color--blue-d-30 {
-  color: var(--css-color--blue-d-30, #000066);
+.css-color--dark-khaki-d-30 {
+  color: var(--css-color--dark-khaki-d-30, rgb(114.75, 114.75, 38.25));
 }
 
-.css-color--blue-d-35 {
-  color: var(--css-color--blue-d-35, rgb(0, 0, 76.5));
+.css-color--dark-khaki-d-35 {
+  color: var(--css-color--dark-khaki-d-35, rgb(95.625, 95.625, 31.875));
 }
 
-.css-color--blue-d-40 {
-  color: var(--css-color--blue-d-40, #000033);
+.css-color--dark-khaki-d-40 {
+  color: var(--css-color--dark-khaki-d-40, rgb(76.5, 76.5, 25.5));
 }
 
-.css-color--blue-d-45 {
-  color: var(--css-color--blue-d-45, rgb(0, 0, 25.5));
+.css-color--dark-khaki-d-45 {
+  color: var(--css-color--dark-khaki-d-45, rgb(57.375, 57.375, 19.125));
 }
 
-.css-color--blue-d-50 {
-  color: var(--css-color--blue-d-50, black);
+.css-color--dark-khaki-d-50 {
+  color: var(--css-color--dark-khaki-d-50, rgb(38.25, 38.25, 12.75));
 }
 
-.css-color--blue-d-55 {
-  color: var(--css-color--blue-d-55, hsl(240, 100%, -5%));
+.css-color--dark-khaki-d-55 {
+  color: var(--css-color--dark-khaki-d-55, rgb(19.125, 19.125, 6.375));
 }
 
-.css-color--blue-d-60 {
-  color: var(--css-color--blue-d-60, hsl(240, 100%, -10%));
+.css-color--dark-khaki-d-60 {
+  color: var(--css-color--dark-khaki-d-60, black);
 }
 
-.css-color--blue-d-65 {
-  color: var(--css-color--blue-d-65, hsl(240, 100%, -15%));
+.css-color--dark-khaki-d-65 {
+  color: var(--css-color--dark-khaki-d-65, hsl(60, 50%, -5%));
 }
 
-.css-color--blue-d-70 {
-  color: var(--css-color--blue-d-70, hsl(240, 100%, -20%));
+.css-color--dark-khaki-d-70 {
+  color: var(--css-color--dark-khaki-d-70, hsl(60, 50%, -10%));
 }
 
-.css-color--blue-d-75 {
-  color: var(--css-color--blue-d-75, hsl(240, 100%, -25%));
+.css-color--dark-khaki-d-75 {
+  color: var(--css-color--dark-khaki-d-75, hsl(60, 50%, -15%));
 }
 
-.css-color--blue-d-80 {
-  color: var(--css-color--blue-d-80, hsl(240, 100%, -30%));
+.css-color--dark-khaki-d-80 {
+  color: var(--css-color--dark-khaki-d-80, hsl(60, 50%, -20%));
 }
 
-.css-color--blue-d-85 {
-  color: var(--css-color--blue-d-85, hsl(240, 100%, -35%));
+.css-color--dark-khaki-d-85 {
+  color: var(--css-color--dark-khaki-d-85, hsl(60, 50%, -25%));
 }
 
-.css-color--blue-d-90 {
-  color: var(--css-color--blue-d-90, hsl(240, 100%, -40%));
+.css-color--dark-khaki-d-90 {
+  color: var(--css-color--dark-khaki-d-90, hsl(60, 50%, -30%));
 }
 
-.css-color--blue-d-95 {
-  color: var(--css-color--blue-d-95, hsl(240, 100%, -45%));
+.css-color--dark-khaki-d-95 {
+  color: var(--css-color--dark-khaki-d-95, hsl(60, 50%, -35%));
 }
 
-.css-color--blue-d-100 {
-  color: var(--css-color--blue-d-100, hsl(240, 100%, -50%));
+.css-color--dark-khaki-d-100 {
+  color: var(--css-color--dark-khaki-d-100, hsl(60, 50%, -40%));
 }
 
-.css-bg-color--blue {
-  background-color: var(--css-color--blue, #0000ff);
+.css-bg-color--dark-khaki {
+  background-color: var(--css-color--dark-khaki, #cccc66);
 }
 
-.css-bg-color--blue-l-5 {
-  background-color: var(--css-bg-color--blue-l-5, rgb(25.5, 25.5, 255));
+.css-bg-color--dark-khaki-l-5 {
+  background-color: var(--css-bg-color--dark-khaki-l-5, rgb(210.375, 210.375, 121.125));
 }
 
-.css-bg-color--blue-l-10 {
-  background-color: var(--css-bg-color--blue-l-10, #3333ff);
+.css-bg-color--dark-khaki-l-10 {
+  background-color: var(--css-bg-color--dark-khaki-l-10, rgb(216.75, 216.75, 140.25));
 }
 
-.css-bg-color--blue-l-15 {
-  background-color: var(--css-bg-color--blue-l-15, rgb(76.5, 76.5, 255));
+.css-bg-color--dark-khaki-l-15 {
+  background-color: var(--css-bg-color--dark-khaki-l-15, rgb(223.125, 223.125, 159.375));
 }
 
-.css-bg-color--blue-l-20 {
-  background-color: var(--css-bg-color--blue-l-20, #6666ff);
+.css-bg-color--dark-khaki-l-20 {
+  background-color: var(--css-bg-color--dark-khaki-l-20, rgb(229.5, 229.5, 178.5));
 }
 
-.css-bg-color--blue-l-25 {
-  background-color: var(--css-bg-color--blue-l-25, rgb(127.5, 127.5, 255));
+.css-bg-color--dark-khaki-l-25 {
+  background-color: var(--css-bg-color--dark-khaki-l-25, rgb(235.875, 235.875, 197.625));
 }
 
-.css-bg-color--blue-l-30 {
-  background-color: var(--css-bg-color--blue-l-30, #9999ff);
+.css-bg-color--dark-khaki-l-30 {
+  background-color: var(--css-bg-color--dark-khaki-l-30, rgb(242.25, 242.25, 216.75));
 }
 
-.css-bg-color--blue-l-35 {
-  background-color: var(--css-bg-color--blue-l-35, rgb(178.5, 178.5, 255));
+.css-bg-color--dark-khaki-l-35 {
+  background-color: var(--css-bg-color--dark-khaki-l-35, rgb(248.625, 248.625, 235.875));
 }
 
-.css-bg-color--blue-l-40 {
-  background-color: var(--css-bg-color--blue-l-40, #ccccff);
+.css-bg-color--dark-khaki-l-40 {
+  background-color: var(--css-bg-color--dark-khaki-l-40, white);
 }
 
-.css-bg-color--blue-l-45 {
-  background-color: var(--css-bg-color--blue-l-45, rgb(229.5, 229.5, 255));
+.css-bg-color--dark-khaki-l-45 {
+  background-color: var(--css-bg-color--dark-khaki-l-45, hsl(60, 50%, 105%));
 }
 
-.css-bg-color--blue-l-50 {
-  background-color: var(--css-bg-color--blue-l-50, white);
+.css-bg-color--dark-khaki-l-50 {
+  background-color: var(--css-bg-color--dark-khaki-l-50, hsl(60, 50%, 110%));
 }
 
-.css-bg-color--blue-l-55 {
-  background-color: var(--css-bg-color--blue-l-55, hsl(240, 100%, 105%));
+.css-bg-color--dark-khaki-l-55 {
+  background-color: var(--css-bg-color--dark-khaki-l-55, hsl(60, 50%, 115%));
 }
 
-.css-bg-color--blue-l-60 {
-  background-color: var(--css-bg-color--blue-l-60, hsl(240, 100%, 110%));
+.css-bg-color--dark-khaki-l-60 {
+  background-color: var(--css-bg-color--dark-khaki-l-60, hsl(60, 50%, 120%));
 }
 
-.css-bg-color--blue-l-65 {
-  background-color: var(--css-bg-color--blue-l-65, hsl(240, 100%, 115%));
+.css-bg-color--dark-khaki-l-65 {
+  background-color: var(--css-bg-color--dark-khaki-l-65, hsl(60, 50%, 125%));
 }
 
-.css-bg-color--blue-l-70 {
-  background-color: var(--css-bg-color--blue-l-70, hsl(240, 100%, 120%));
+.css-bg-color--dark-khaki-l-70 {
+  background-color: var(--css-bg-color--dark-khaki-l-70, hsl(60, 50%, 130%));
 }
 
-.css-bg-color--blue-l-75 {
-  background-color: var(--css-bg-color--blue-l-75, hsl(240, 100%, 125%));
+.css-bg-color--dark-khaki-l-75 {
+  background-color: var(--css-bg-color--dark-khaki-l-75, hsl(60, 50%, 135%));
 }
 
-.css-bg-color--blue-l-80 {
-  background-color: var(--css-bg-color--blue-l-80, hsl(240, 100%, 130%));
+.css-bg-color--dark-khaki-l-80 {
+  background-color: var(--css-bg-color--dark-khaki-l-80, hsl(60, 50%, 140%));
 }
 
-.css-bg-color--blue-l-85 {
-  background-color: var(--css-bg-color--blue-l-85, hsl(240, 100%, 135%));
+.css-bg-color--dark-khaki-l-85 {
+  background-color: var(--css-bg-color--dark-khaki-l-85, hsl(60, 50%, 145%));
 }
 
-.css-bg-color--blue-l-90 {
-  background-color: var(--css-bg-color--blue-l-90, hsl(240, 100%, 140%));
+.css-bg-color--dark-khaki-l-90 {
+  background-color: var(--css-bg-color--dark-khaki-l-90, hsl(60, 50%, 150%));
 }
 
-.css-bg-color--blue-l-95 {
-  background-color: var(--css-bg-color--blue-l-95, hsl(240, 100%, 145%));
+.css-bg-color--dark-khaki-l-95 {
+  background-color: var(--css-bg-color--dark-khaki-l-95, hsl(60, 50%, 155%));
 }
 
-.css-bg-color--blue-l-100 {
-  background-color: var(--css-bg-color--blue-l-100, hsl(240, 100%, 150%));
+.css-bg-color--dark-khaki-l-100 {
+  background-color: var(--css-bg-color--dark-khaki-l-100, hsl(60, 50%, 160%));
 }
 
-.css-bg-color--blue-d-5 {
-  background-color: var(--css-bg-color--blue-d-5, rgb(0, 0, 229.5));
+.css-bg-color--dark-khaki-d-5 {
+  background-color: var(--css-bg-color--dark-khaki-d-5, rgb(197.625, 197.625, 82.875));
 }
 
-.css-bg-color--blue-d-10 {
-  background-color: var(--css-bg-color--blue-d-10, #0000cc);
+.css-bg-color--dark-khaki-d-10 {
+  background-color: var(--css-bg-color--dark-khaki-d-10, rgb(191.25, 191.25, 63.75));
 }
 
-.css-bg-color--blue-d-15 {
-  background-color: var(--css-bg-color--blue-d-15, rgb(0, 0, 178.5));
+.css-bg-color--dark-khaki-d-15 {
+  background-color: var(--css-bg-color--dark-khaki-d-15, rgb(172.125, 172.125, 57.375));
 }
 
-.css-bg-color--blue-d-20 {
-  background-color: var(--css-bg-color--blue-d-20, #000099);
+.css-bg-color--dark-khaki-d-20 {
+  background-color: var(--css-bg-color--dark-khaki-d-20, #999933);
 }
 
-.css-bg-color--blue-d-25 {
-  background-color: var(--css-bg-color--blue-d-25, rgb(0, 0, 127.5));
+.css-bg-color--dark-khaki-d-25 {
+  background-color: var(--css-bg-color--dark-khaki-d-25, rgb(133.875, 133.875, 44.625));
 }
 
-.css-bg-color--blue-d-30 {
-  background-color: var(--css-bg-color--blue-d-30, #000066);
+.css-bg-color--dark-khaki-d-30 {
+  background-color: var(--css-bg-color--dark-khaki-d-30, rgb(114.75, 114.75, 38.25));
 }
 
-.css-bg-color--blue-d-35 {
-  background-color: var(--css-bg-color--blue-d-35, rgb(0, 0, 76.5));
+.css-bg-color--dark-khaki-d-35 {
+  background-color: var(--css-bg-color--dark-khaki-d-35, rgb(95.625, 95.625, 31.875));
 }
 
-.css-bg-color--blue-d-40 {
-  background-color: var(--css-bg-color--blue-d-40, #000033);
+.css-bg-color--dark-khaki-d-40 {
+  background-color: var(--css-bg-color--dark-khaki-d-40, rgb(76.5, 76.5, 25.5));
 }
 
-.css-bg-color--blue-d-45 {
-  background-color: var(--css-bg-color--blue-d-45, rgb(0, 0, 25.5));
+.css-bg-color--dark-khaki-d-45 {
+  background-color: var(--css-bg-color--dark-khaki-d-45, rgb(57.375, 57.375, 19.125));
 }
 
-.css-bg-color--blue-d-50 {
-  background-color: var(--css-bg-color--blue-d-50, black);
+.css-bg-color--dark-khaki-d-50 {
+  background-color: var(--css-bg-color--dark-khaki-d-50, rgb(38.25, 38.25, 12.75));
 }
 
-.css-bg-color--blue-d-55 {
-  background-color: var(--css-bg-color--blue-d-55, hsl(240, 100%, -5%));
+.css-bg-color--dark-khaki-d-55 {
+  background-color: var(--css-bg-color--dark-khaki-d-55, rgb(19.125, 19.125, 6.375));
 }
 
-.css-bg-color--blue-d-60 {
-  background-color: var(--css-bg-color--blue-d-60, hsl(240, 100%, -10%));
+.css-bg-color--dark-khaki-d-60 {
+  background-color: var(--css-bg-color--dark-khaki-d-60, black);
 }
 
-.css-bg-color--blue-d-65 {
-  background-color: var(--css-bg-color--blue-d-65, hsl(240, 100%, -15%));
+.css-bg-color--dark-khaki-d-65 {
+  background-color: var(--css-bg-color--dark-khaki-d-65, hsl(60, 50%, -5%));
 }
 
-.css-bg-color--blue-d-70 {
-  background-color: var(--css-bg-color--blue-d-70, hsl(240, 100%, -20%));
+.css-bg-color--dark-khaki-d-70 {
+  background-color: var(--css-bg-color--dark-khaki-d-70, hsl(60, 50%, -10%));
 }
 
-.css-bg-color--blue-d-75 {
-  background-color: var(--css-bg-color--blue-d-75, hsl(240, 100%, -25%));
+.css-bg-color--dark-khaki-d-75 {
+  background-color: var(--css-bg-color--dark-khaki-d-75, hsl(60, 50%, -15%));
 }
 
-.css-bg-color--blue-d-80 {
-  background-color: var(--css-bg-color--blue-d-80, hsl(240, 100%, -30%));
+.css-bg-color--dark-khaki-d-80 {
+  background-color: var(--css-bg-color--dark-khaki-d-80, hsl(60, 50%, -20%));
 }
 
-.css-bg-color--blue-d-85 {
-  background-color: var(--css-bg-color--blue-d-85, hsl(240, 100%, -35%));
+.css-bg-color--dark-khaki-d-85 {
+  background-color: var(--css-bg-color--dark-khaki-d-85, hsl(60, 50%, -25%));
 }
 
-.css-bg-color--blue-d-90 {
-  background-color: var(--css-bg-color--blue-d-90, hsl(240, 100%, -40%));
+.css-bg-color--dark-khaki-d-90 {
+  background-color: var(--css-bg-color--dark-khaki-d-90, hsl(60, 50%, -30%));
 }
 
-.css-bg-color--blue-d-95 {
-  background-color: var(--css-bg-color--blue-d-95, hsl(240, 100%, -45%));
+.css-bg-color--dark-khaki-d-95 {
+  background-color: var(--css-bg-color--dark-khaki-d-95, hsl(60, 50%, -35%));
 }
 
-.css-bg-color--blue-d-100 {
-  background-color: var(--css-bg-color--blue-d-100, hsl(240, 100%, -50%));
+.css-bg-color--dark-khaki-d-100 {
+  background-color: var(--css-bg-color--dark-khaki-d-100, hsl(60, 50%, -40%));
 }

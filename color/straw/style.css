@@ -1,412 +1,412 @@
 :root {
-  --css-color--yellow: #ffff00;
-  --css-color--yellow-l-5: rgb(255, 255, 12.75);
-  --css-color--yellow-l-10: rgb(255, 255, 25.5);
-  --css-color--yellow-l-15: rgb(255, 255, 38.25);
-  --css-color--yellow-l-20: #ffff33;
-  --css-color--yellow-l-25: rgb(255, 255, 63.75);
-  --css-color--yellow-l-30: rgb(255, 255, 76.5);
-  --css-color--yellow-l-35: rgb(255, 255, 89.25);
-  --css-color--yellow-l-40: #ffff66;
-  --css-color--yellow-l-45: rgb(255, 255, 114.75);
-  --css-color--yellow-l-50: rgb(255, 255, 127.5);
-  --css-color--yellow-l-55: rgb(255, 255, 140.25);
-  --css-color--yellow-l-60: #ffff99;
-  --css-color--yellow-l-65: rgb(255, 255, 165.75);
-  --css-color--yellow-l-70: rgb(255, 255, 178.5);
-  --css-color--yellow-l-75: rgb(255, 255, 191.25);
-  --css-color--yellow-l-80: #ffffcc;
-  --css-color--yellow-l-85: rgb(255, 255, 216.75);
-  --css-color--yellow-l-90: rgb(255, 255, 229.5);
-  --css-color--yellow-l-95: rgb(255, 255, 242.25);
-  --css-color--yellow-l-100: white;
-  --css-color--yellow-d-5: rgb(242.25, 242.25, 0);
-  --css-color--yellow-d-10: rgb(229.5, 229.5, 0);
-  --css-color--yellow-d-15: rgb(216.75, 216.75, 0);
-  --css-color--yellow-d-20: #cccc00;
-  --css-color--yellow-d-25: rgb(191.25, 191.25, 0);
-  --css-color--yellow-d-30: rgb(178.5, 178.5, 0);
-  --css-color--yellow-d-35: rgb(165.75, 165.75, 0);
-  --css-color--yellow-d-40: #999900;
-  --css-color--yellow-d-45: rgb(140.25, 140.25, 0);
-  --css-color--yellow-d-50: rgb(127.5, 127.5, 0);
-  --css-color--yellow-d-55: rgb(114.75, 114.75, 0);
-  --css-color--yellow-d-60: #666600;
-  --css-color--yellow-d-65: rgb(89.25, 89.25, 0);
-  --css-color--yellow-d-70: rgb(76.5, 76.5, 0);
-  --css-color--yellow-d-75: rgb(63.75, 63.75, 0);
-  --css-color--yellow-d-80: #333300;
-  --css-color--yellow-d-85: rgb(38.25, 38.25, 0);
-  --css-color--yellow-d-90: rgb(25.5, 25.5, 0);
-  --css-color--yellow-d-95: rgb(12.75, 12.75, 0);
-  --css-color--yellow-d-100: black;
-  --css-bg-color--yellow: #ffff00;
-  --css-bg-color--yellow-l-5: rgb(255, 255, 12.75);
-  --css-bg-color--yellow-l-10: rgb(255, 255, 25.5);
-  --css-bg-color--yellow-l-15: rgb(255, 255, 38.25);
-  --css-bg-color--yellow-l-20: #ffff33;
-  --css-bg-color--yellow-l-25: rgb(255, 255, 63.75);
-  --css-bg-color--yellow-l-30: rgb(255, 255, 76.5);
-  --css-bg-color--yellow-l-35: rgb(255, 255, 89.25);
-  --css-bg-color--yellow-l-40: #ffff66;
-  --css-bg-color--yellow-l-45: rgb(255, 255, 114.75);
-  --css-bg-color--yellow-l-50: rgb(255, 255, 127.5);
-  --css-bg-color--yellow-l-55: rgb(255, 255, 140.25);
-  --css-bg-color--yellow-l-60: #ffff99;
-  --css-bg-color--yellow-l-65: rgb(255, 255, 165.75);
-  --css-bg-color--yellow-l-70: rgb(255, 255, 178.5);
-  --css-bg-color--yellow-l-75: rgb(255, 255, 191.25);
-  --css-bg-color--yellow-l-80: #ffffcc;
-  --css-bg-color--yellow-l-85: rgb(255, 255, 216.75);
-  --css-bg-color--yellow-l-90: rgb(255, 255, 229.5);
-  --css-bg-color--yellow-l-95: rgb(255, 255, 242.25);
-  --css-bg-color--yellow-l-100: white;
-  --css-bg-color--yellow-d-5: rgb(242.25, 242.25, 0);
-  --css-bg-color--yellow-d-10: rgb(229.5, 229.5, 0);
-  --css-bg-color--yellow-d-15: rgb(216.75, 216.75, 0);
-  --css-bg-color--yellow-d-20: #cccc00;
-  --css-bg-color--yellow-d-25: rgb(191.25, 191.25, 0);
-  --css-bg-color--yellow-d-30: rgb(178.5, 178.5, 0);
-  --css-bg-color--yellow-d-35: rgb(165.75, 165.75, 0);
-  --css-bg-color--yellow-d-40: #999900;
-  --css-bg-color--yellow-d-45: rgb(140.25, 140.25, 0);
-  --css-bg-color--yellow-d-50: rgb(127.5, 127.5, 0);
-  --css-bg-color--yellow-d-55: rgb(114.75, 114.75, 0);
-  --css-bg-color--yellow-d-60: #666600;
-  --css-bg-color--yellow-d-65: rgb(89.25, 89.25, 0);
-  --css-bg-color--yellow-d-70: rgb(76.5, 76.5, 0);
-  --css-bg-color--yellow-d-75: rgb(63.75, 63.75, 0);
-  --css-bg-color--yellow-d-80: #333300;
-  --css-bg-color--yellow-d-85: rgb(38.25, 38.25, 0);
-  --css-bg-color--yellow-d-90: rgb(25.5, 25.5, 0);
-  --css-bg-color--yellow-d-95: rgb(12.75, 12.75, 0);
-  --css-bg-color--yellow-d-100: black;
+  --css-color--straw: #cccc33;
+  --css-color--straw-l-5: rgb(204, 204, 63.75);
+  --css-color--straw-l-10: rgb(204, 204, 76.5);
+  --css-color--straw-l-15: rgb(204, 204, 89.25);
+  --css-color--straw-l-20: #cccc66;
+  --css-color--straw-l-25: rgb(204, 204, 114.75);
+  --css-color--straw-l-30: rgb(204, 204, 127.5);
+  --css-color--straw-l-35: rgb(204, 204, 140.25);
+  --css-color--straw-l-40: #cccc99;
+  --css-color--straw-l-45: rgb(204, 204, 165.75);
+  --css-color--straw-l-50: rgb(204, 204, 178.5);
+  --css-color--straw-l-55: rgb(204, 204, 191.25);
+  --css-color--straw-l-60: #cccccc;
+  --css-color--straw-l-65: rgb(206.4285714286, 206.4285714286, 206.4285714286);
+  --css-color--straw-l-70: rgb(208.6363636364, 208.6363636364, 208.6363636364);
+  --css-color--straw-l-75: rgb(210.652173913, 210.652173913, 210.652173913);
+  --css-color--straw-l-80: rgb(212.5, 212.5, 212.5);
+  --css-color--straw-l-85: rgb(214.2, 214.2, 214.2);
+  --css-color--straw-l-90: rgb(215.7692307692, 215.7692307692, 215.7692307692);
+  --css-color--straw-l-95: rgb(217.2222222222, 217.2222222222, 217.2222222222);
+  --css-color--straw-l-100: rgb(218.5714285714, 218.5714285714, 218.5714285714);
+  --css-color--straw-d-5: rgb(191.25, 191.25, 51);
+  --css-color--straw-d-10: rgb(178.5, 178.5, 51);
+  --css-color--straw-d-15: rgb(165.75, 165.75, 51);
+  --css-color--straw-d-20: #999933;
+  --css-color--straw-d-25: rgb(140.25, 140.25, 51);
+  --css-color--straw-d-30: rgb(127.5, 127.5, 51);
+  --css-color--straw-d-35: rgb(114.75, 114.75, 51);
+  --css-color--straw-d-40: #666633;
+  --css-color--straw-d-45: rgb(89.25, 89.25, 51);
+  --css-color--straw-d-50: rgb(76.5, 76.5, 51);
+  --css-color--straw-d-55: rgb(63.75, 63.75, 51);
+  --css-color--straw-d-60: #333333;
+  --css-color--straw-d-65: rgb(48.5714285714, 48.5714285714, 48.5714285714);
+  --css-color--straw-d-70: rgb(46.3636363636, 46.3636363636, 46.3636363636);
+  --css-color--straw-d-75: rgb(44.347826087, 44.347826087, 44.347826087);
+  --css-color--straw-d-80: rgb(42.5, 42.5, 42.5);
+  --css-color--straw-d-85: rgb(40.8, 40.8, 40.8);
+  --css-color--straw-d-90: rgb(39.2307692308, 39.2307692308, 39.2307692308);
+  --css-color--straw-d-95: rgb(37.7777777778, 37.7777777778, 37.7777777778);
+  --css-color--straw-d-100: rgb(36.4285714286, 36.4285714286, 36.4285714286);
+  --css-bg-color--straw: #cccc33;
+  --css-bg-color--straw-l-5: rgb(204, 204, 63.75);
+  --css-bg-color--straw-l-10: rgb(204, 204, 76.5);
+  --css-bg-color--straw-l-15: rgb(204, 204, 89.25);
+  --css-bg-color--straw-l-20: #cccc66;
+  --css-bg-color--straw-l-25: rgb(204, 204, 114.75);
+  --css-bg-color--straw-l-30: rgb(204, 204, 127.5);
+  --css-bg-color--straw-l-35: rgb(204, 204, 140.25);
+  --css-bg-color--straw-l-40: #cccc99;
+  --css-bg-color--straw-l-45: rgb(204, 204, 165.75);
+  --css-bg-color--straw-l-50: rgb(204, 204, 178.5);
+  --css-bg-color--straw-l-55: rgb(204, 204, 191.25);
+  --css-bg-color--straw-l-60: #cccccc;
+  --css-bg-color--straw-l-65: rgb(206.4285714286, 206.4285714286, 206.4285714286);
+  --css-bg-color--straw-l-70: rgb(208.6363636364, 208.6363636364, 208.6363636364);
+  --css-bg-color--straw-l-75: rgb(210.652173913, 210.652173913, 210.652173913);
+  --css-bg-color--straw-l-80: rgb(212.5, 212.5, 212.5);
+  --css-bg-color--straw-l-85: rgb(214.2, 214.2, 214.2);
+  --css-bg-color--straw-l-90: rgb(215.7692307692, 215.7692307692, 215.7692307692);
+  --css-bg-color--straw-l-95: rgb(217.2222222222, 217.2222222222, 217.2222222222);
+  --css-bg-color--straw-l-100: rgb(218.5714285714, 218.5714285714, 218.5714285714);
+  --css-bg-color--straw-d-5: rgb(191.25, 191.25, 51);
+  --css-bg-color--straw-d-10: rgb(178.5, 178.5, 51);
+  --css-bg-color--straw-d-15: rgb(165.75, 165.75, 51);
+  --css-bg-color--straw-d-20: #999933;
+  --css-bg-color--straw-d-25: rgb(140.25, 140.25, 51);
+  --css-bg-color--straw-d-30: rgb(127.5, 127.5, 51);
+  --css-bg-color--straw-d-35: rgb(114.75, 114.75, 51);
+  --css-bg-color--straw-d-40: #666633;
+  --css-bg-color--straw-d-45: rgb(89.25, 89.25, 51);
+  --css-bg-color--straw-d-50: rgb(76.5, 76.5, 51);
+  --css-bg-color--straw-d-55: rgb(63.75, 63.75, 51);
+  --css-bg-color--straw-d-60: #333333;
+  --css-bg-color--straw-d-65: rgb(48.5714285714, 48.5714285714, 48.5714285714);
+  --css-bg-color--straw-d-70: rgb(46.3636363636, 46.3636363636, 46.3636363636);
+  --css-bg-color--straw-d-75: rgb(44.347826087, 44.347826087, 44.347826087);
+  --css-bg-color--straw-d-80: rgb(42.5, 42.5, 42.5);
+  --css-bg-color--straw-d-85: rgb(40.8, 40.8, 40.8);
+  --css-bg-color--straw-d-90: rgb(39.2307692308, 39.2307692308, 39.2307692308);
+  --css-bg-color--straw-d-95: rgb(37.7777777778, 37.7777777778, 37.7777777778);
+  --css-bg-color--straw-d-100: rgb(36.4285714286, 36.4285714286, 36.4285714286);
 }
 
-.css-color--yellow {
-  color: var(--css-color--yellow, #ffff00);
+.css-color--straw {
+  color: var(--css-color--straw, #cccc33);
 }
 
-.css-color--yellow-l-5 {
-  color: var(--css-color--yellow-l-5, rgb(255, 255, 12.75));
+.css-color--straw-l-5 {
+  color: var(--css-color--straw-l-5, rgb(204, 204, 63.75));
 }
 
-.css-color--yellow-l-10 {
-  color: var(--css-color--yellow-l-10, rgb(255, 255, 25.5));
+.css-color--straw-l-10 {
+  color: var(--css-color--straw-l-10, rgb(204, 204, 76.5));
 }
 
-.css-color--yellow-l-15 {
-  color: var(--css-color--yellow-l-15, rgb(255, 255, 38.25));
+.css-color--straw-l-15 {
+  color: var(--css-color--straw-l-15, rgb(204, 204, 89.25));
 }
 
-.css-color--yellow-l-20 {
-  color: var(--css-color--yellow-l-20, #ffff33);
+.css-color--straw-l-20 {
+  color: var(--css-color--straw-l-20, #cccc66);
 }
 
-.css-color--yellow-l-25 {
-  color: var(--css-color--yellow-l-25, rgb(255, 255, 63.75));
+.css-color--straw-l-25 {
+  color: var(--css-color--straw-l-25, rgb(204, 204, 114.75));
 }
 
-.css-color--yellow-l-30 {
-  color: var(--css-color--yellow-l-30, rgb(255, 255, 76.5));
+.css-color--straw-l-30 {
+  color: var(--css-color--straw-l-30, rgb(204, 204, 127.5));
 }
 
-.css-color--yellow-l-35 {
-  color: var(--css-color--yellow-l-35, rgb(255, 255, 89.25));
+.css-color--straw-l-35 {
+  color: var(--css-color--straw-l-35, rgb(204, 204, 140.25));
 }
 
-.css-color--yellow-l-40 {
-  color: var(--css-color--yellow-l-40, #ffff66);
+.css-color--straw-l-40 {
+  color: var(--css-color--straw-l-40, #cccc99);
 }
 
-.css-color--yellow-l-45 {
-  color: var(--css-color--yellow-l-45, rgb(255, 255, 114.75));
+.css-color--straw-l-45 {
+  color: var(--css-color--straw-l-45, rgb(204, 204, 165.75));
 }
 
-.css-color--yellow-l-50 {
-  color: var(--css-color--yellow-l-50, rgb(255, 255, 127.5));
+.css-color--straw-l-50 {
+  color: var(--css-color--straw-l-50, rgb(204, 204, 178.5));
 }
 
-.css-color--yellow-l-55 {
-  color: var(--css-color--yellow-l-55, rgb(255, 255, 140.25));
+.css-color--straw-l-55 {
+  color: var(--css-color--straw-l-55, rgb(204, 204, 191.25));
 }
 
-.css-color--yellow-l-60 {
-  color: var(--css-color--yellow-l-60, #ffff99);
+.css-color--straw-l-60 {
+  color: var(--css-color--straw-l-60, #cccccc);
 }
 
-.css-color--yellow-l-65 {
-  color: var(--css-color--yellow-l-65, rgb(255, 255, 165.75));
+.css-color--straw-l-65 {
+  color: var(--css-color--straw-l-65, rgb(206.4285714286, 206.4285714286, 206.4285714286));
 }
 
-.css-color--yellow-l-70 {
-  color: var(--css-color--yellow-l-70, rgb(255, 255, 178.5));
+.css-color--straw-l-70 {
+  color: var(--css-color--straw-l-70, rgb(208.6363636364, 208.6363636364, 208.6363636364));
 }
 
-.css-color--yellow-l-75 {
-  color: var(--css-color--yellow-l-75, rgb(255, 255, 191.25));
+.css-color--straw-l-75 {
+  color: var(--css-color--straw-l-75, rgb(210.652173913, 210.652173913, 210.652173913));
 }
 
-.css-color--yellow-l-80 {
-  color: var(--css-color--yellow-l-80, #ffffcc);
+.css-color--straw-l-80 {
+  color: var(--css-color--straw-l-80, rgb(212.5, 212.5, 212.5));
 }
 
-.css-color--yellow-l-85 {
-  color: var(--css-color--yellow-l-85, rgb(255, 255, 216.75));
+.css-color--straw-l-85 {
+  color: var(--css-color--straw-l-85, rgb(214.2, 214.2, 214.2));
 }
 
-.css-color--yellow-l-90 {
-  color: var(--css-color--yellow-l-90, rgb(255, 255, 229.5));
+.css-color--straw-l-90 {
+  color: var(--css-color--straw-l-90, rgb(215.7692307692, 215.7692307692, 215.7692307692));
 }
 
-.css-color--yellow-l-95 {
-  color: var(--css-color--yellow-l-95, rgb(255, 255, 242.25));
+.css-color--straw-l-95 {
+  color: var(--css-color--straw-l-95, rgb(217.2222222222, 217.2222222222, 217.2222222222));
 }
 
-.css-color--yellow-l-100 {
-  color: var(--css-color--yellow-l-100, white);
+.css-color--straw-l-100 {
+  color: var(--css-color--straw-l-100, rgb(218.5714285714, 218.5714285714, 218.5714285714));
 }
 
-.css-color--yellow-d-5 {
-  color: var(--css-color--yellow-d-5, rgb(242.25, 242.25, 0));
+.css-color--straw-d-5 {
+  color: var(--css-color--straw-d-5, rgb(191.25, 191.25, 51));
 }
 
-.css-color--yellow-d-10 {
-  color: var(--css-color--yellow-d-10, rgb(229.5, 229.5, 0));
+.css-color--straw-d-10 {
+  color: var(--css-color--straw-d-10, rgb(178.5, 178.5, 51));
 }
 
-.css-color--yellow-d-15 {
-  color: var(--css-color--yellow-d-15, rgb(216.75, 216.75, 0));
+.css-color--straw-d-15 {
+  color: var(--css-color--straw-d-15, rgb(165.75, 165.75, 51));
 }
 
-.css-color--yellow-d-20 {
-  color: var(--css-color--yellow-d-20, #cccc00);
+.css-color--straw-d-20 {
+  color: var(--css-color--straw-d-20, #999933);
 }
 
-.css-color--yellow-d-25 {
-  color: var(--css-color--yellow-d-25, rgb(191.25, 191.25, 0));
+.css-color--straw-d-25 {
+  color: var(--css-color--straw-d-25, rgb(140.25, 140.25, 51));
 }
 
-.css-color--yellow-d-30 {
-  color: var(--css-color--yellow-d-30, rgb(178.5, 178.5, 0));
+.css-color--straw-d-30 {
+  color: var(--css-color--straw-d-30, rgb(127.5, 127.5, 51));
 }
 
-.css-color--yellow-d-35 {
-  color: var(--css-color--yellow-d-35, rgb(165.75, 165.75, 0));
+.css-color--straw-d-35 {
+  color: var(--css-color--straw-d-35, rgb(114.75, 114.75, 51));
 }
 
-.css-color--yellow-d-40 {
-  color: var(--css-color--yellow-d-40, #999900);
+.css-color--straw-d-40 {
+  color: var(--css-color--straw-d-40, #666633);
 }
 
-.css-color--yellow-d-45 {
-  color: var(--css-color--yellow-d-45, rgb(140.25, 140.25, 0));
+.css-color--straw-d-45 {
+  color: var(--css-color--straw-d-45, rgb(89.25, 89.25, 51));
 }
 
-.css-color--yellow-d-50 {
-  color: var(--css-color--yellow-d-50, rgb(127.5, 127.5, 0));
+.css-color--straw-d-50 {
+  color: var(--css-color--straw-d-50, rgb(76.5, 76.5, 51));
 }
 
-.css-color--yellow-d-55 {
-  color: var(--css-color--yellow-d-55, rgb(114.75, 114.75, 0));
+.css-color--straw-d-55 {
+  color: var(--css-color--straw-d-55, rgb(63.75, 63.75, 51));
 }
 
-.css-color--yellow-d-60 {
-  color: var(--css-color--yellow-d-60, #666600);
+.css-color--straw-d-60 {
+  color: var(--css-color--straw-d-60, #333333);
 }
 
-.css-color--yellow-d-65 {
-  color: var(--css-color--yellow-d-65, rgb(89.25, 89.25, 0));
+.css-color--straw-d-65 {
+  color: var(--css-color--straw-d-65, rgb(48.5714285714, 48.5714285714, 48.5714285714));
 }
 
-.css-color--yellow-d-70 {
-  color: var(--css-color--yellow-d-70, rgb(76.5, 76.5, 0));
+.css-color--straw-d-70 {
+  color: var(--css-color--straw-d-70, rgb(46.3636363636, 46.3636363636, 46.3636363636));
 }
 
-.css-color--yellow-d-75 {
-  color: var(--css-color--yellow-d-75, rgb(63.75, 63.75, 0));
+.css-color--straw-d-75 {
+  color: var(--css-color--straw-d-75, rgb(44.347826087, 44.347826087, 44.347826087));
 }
 
-.css-color--yellow-d-80 {
-  color: var(--css-color--yellow-d-80, #333300);
+.css-color--straw-d-80 {
+  color: var(--css-color--straw-d-80, rgb(42.5, 42.5, 42.5));
 }
 
-.css-color--yellow-d-85 {
-  color: var(--css-color--yellow-d-85, rgb(38.25, 38.25, 0));
+.css-color--straw-d-85 {
+  color: var(--css-color--straw-d-85, rgb(40.8, 40.8, 40.8));
 }
 
-.css-color--yellow-d-90 {
-  color: var(--css-color--yellow-d-90, rgb(25.5, 25.5, 0));
+.css-color--straw-d-90 {
+  color: var(--css-color--straw-d-90, rgb(39.2307692308, 39.2307692308, 39.2307692308));
 }
 
-.css-color--yellow-d-95 {
-  color: var(--css-color--yellow-d-95, rgb(12.75, 12.75, 0));
+.css-color--straw-d-95 {
+  color: var(--css-color--straw-d-95, rgb(37.7777777778, 37.7777777778, 37.7777777778));
 }
 
-.css-color--yellow-d-100 {
-  color: var(--css-color--yellow-d-100, black);
+.css-color--straw-d-100 {
+  color: var(--css-color--straw-d-100, rgb(36.4285714286, 36.4285714286, 36.4285714286));
 }
 
-.css-bg-color--yellow {
-  background-color: var(--css-color--yellow, #ffff00);
+.css-bg-color--straw {
+  background-color: var(--css-color--straw, #cccc33);
 }
 
-.css-bg-color--yellow-l-5 {
-  background-color: var(--css-bg-color--yellow-l-5, rgb(255, 255, 12.75));
+.css-bg-color--straw-l-5 {
+  background-color: var(--css-bg-color--straw-l-5, rgb(204, 204, 63.75));
 }
 
-.css-bg-color--yellow-l-10 {
-  background-color: var(--css-bg-color--yellow-l-10, rgb(255, 255, 25.5));
+.css-bg-color--straw-l-10 {
+  background-color: var(--css-bg-color--straw-l-10, rgb(204, 204, 76.5));
 }
 
-.css-bg-color--yellow-l-15 {
-  background-color: var(--css-bg-color--yellow-l-15, rgb(255, 255, 38.25));
+.css-bg-color--straw-l-15 {
+  background-color: var(--css-bg-color--straw-l-15, rgb(204, 204, 89.25));
 }
 
-.css-bg-color--yellow-l-20 {
-  background-color: var(--css-bg-color--yellow-l-20, #ffff33);
+.css-bg-color--straw-l-20 {
+  background-color: var(--css-bg-color--straw-l-20, #cccc66);
 }
 
-.css-bg-color--yellow-l-25 {
-  background-color: var(--css-bg-color--yellow-l-25, rgb(255, 255, 63.75));
+.css-bg-color--straw-l-25 {
+  background-color: var(--css-bg-color--straw-l-25, rgb(204, 204, 114.75));
 }
 
-.css-bg-color--yellow-l-30 {
-  background-color: var(--css-bg-color--yellow-l-30, rgb(255, 255, 76.5));
+.css-bg-color--straw-l-30 {
+  background-color: var(--css-bg-color--straw-l-30, rgb(204, 204, 127.5));
 }
 
-.css-bg-color--yellow-l-35 {
-  background-color: var(--css-bg-color--yellow-l-35, rgb(255, 255, 89.25));
+.css-bg-color--straw-l-35 {
+  background-color: var(--css-bg-color--straw-l-35, rgb(204, 204, 140.25));
 }
 
-.css-bg-color--yellow-l-40 {
-  background-color: var(--css-bg-color--yellow-l-40, #ffff66);
+.css-bg-color--straw-l-40 {
+  background-color: var(--css-bg-color--straw-l-40, #cccc99);
 }
 
-.css-bg-color--yellow-l-45 {
-  background-color: var(--css-bg-color--yellow-l-45, rgb(255, 255, 114.75));
+.css-bg-color--straw-l-45 {
+  background-color: var(--css-bg-color--straw-l-45, rgb(204, 204, 165.75));
 }
 
-.css-bg-color--yellow-l-50 {
-  background-color: var(--css-bg-color--yellow-l-50, rgb(255, 255, 127.5));
+.css-bg-color--straw-l-50 {
+  background-color: var(--css-bg-color--straw-l-50, rgb(204, 204, 178.5));
 }
 
-.css-bg-color--yellow-l-55 {
-  background-color: var(--css-bg-color--yellow-l-55, rgb(255, 255, 140.25));
+.css-bg-color--straw-l-55 {
+  background-color: var(--css-bg-color--straw-l-55, rgb(204, 204, 191.25));
 }
 
-.css-bg-color--yellow-l-60 {
-  background-color: var(--css-bg-color--yellow-l-60, #ffff99);
+.css-bg-color--straw-l-60 {
+  background-color: var(--css-bg-color--straw-l-60, #cccccc);
 }
 
-.css-bg-color--yellow-l-65 {
-  background-color: var(--css-bg-color--yellow-l-65, rgb(255, 255, 165.75));
+.css-bg-color--straw-l-65 {
+  background-color: var(--css-bg-color--straw-l-65, rgb(206.4285714286, 206.4285714286, 206.4285714286));
 }
 
-.css-bg-color--yellow-l-70 {
-  background-color: var(--css-bg-color--yellow-l-70, rgb(255, 255, 178.5));
+.css-bg-color--straw-l-70 {
+  background-color: var(--css-bg-color--straw-l-70, rgb(208.6363636364, 208.6363636364, 208.6363636364));
 }
 
-.css-bg-color--yellow-l-75 {
-  background-color: var(--css-bg-color--yellow-l-75, rgb(255, 255, 191.25));
+.css-bg-color--straw-l-75 {
+  background-color: var(--css-bg-color--straw-l-75, rgb(210.652173913, 210.652173913, 210.652173913));
 }
 
-.css-bg-color--yellow-l-80 {
-  background-color: var(--css-bg-color--yellow-l-80, #ffffcc);
+.css-bg-color--straw-l-80 {
+  background-color: var(--css-bg-color--straw-l-80, rgb(212.5, 212.5, 212.5));
 }
 
-.css-bg-color--yellow-l-85 {
-  background-color: var(--css-bg-color--yellow-l-85, rgb(255, 255, 216.75));
+.css-bg-color--straw-l-85 {
+  background-color: var(--css-bg-color--straw-l-85, rgb(214.2, 214.2, 214.2));
 }
 
-.css-bg-color--yellow-l-90 {
-  background-color: var(--css-bg-color--yellow-l-90, rgb(255, 255, 229.5));
+.css-bg-color--straw-l-90 {
+  background-color: var(--css-bg-color--straw-l-90, rgb(215.7692307692, 215.7692307692, 215.7692307692));
 }
 
-.css-bg-color--yellow-l-95 {
-  background-color: var(--css-bg-color--yellow-l-95, rgb(255, 255, 242.25));
+.css-bg-color--straw-l-95 {
+  background-color: var(--css-bg-color--straw-l-95, rgb(217.2222222222, 217.2222222222, 217.2222222222));
 }
 
-.css-bg-color--yellow-l-100 {
-  background-color: var(--css-bg-color--yellow-l-100, white);
+.css-bg-color--straw-l-100 {
+  background-color: var(--css-bg-color--straw-l-100, rgb(218.5714285714, 218.5714285714, 218.5714285714));
 }
 
-.css-bg-color--yellow-d-5 {
-  background-color: var(--css-bg-color--yellow-d-5, rgb(242.25, 242.25, 0));
+.css-bg-color--straw-d-5 {
+  background-color: var(--css-bg-color--straw-d-5, rgb(191.25, 191.25, 51));
 }
 
-.css-bg-color--yellow-d-10 {
-  background-color: var(--css-bg-color--yellow-d-10, rgb(229.5, 229.5, 0));
+.css-bg-color--straw-d-10 {
+  background-color: var(--css-bg-color--straw-d-10, rgb(178.5, 178.5, 51));
 }
 
-.css-bg-color--yellow-d-15 {
-  background-color: var(--css-bg-color--yellow-d-15, rgb(216.75, 216.75, 0));
+.css-bg-color--straw-d-15 {
+  background-color: var(--css-bg-color--straw-d-15, rgb(165.75, 165.75, 51));
 }
 
-.css-bg-color--yellow-d-20 {
-  background-color: var(--css-bg-color--yellow-d-20, #cccc00);
+.css-bg-color--straw-d-20 {
+  background-color: var(--css-bg-color--straw-d-20, #999933);
 }
 
-.css-bg-color--yellow-d-25 {
-  background-color: var(--css-bg-color--yellow-d-25, rgb(191.25, 191.25, 0));
+.css-bg-color--straw-d-25 {
+  background-color: var(--css-bg-color--straw-d-25, rgb(140.25, 140.25, 51));
 }
 
-.css-bg-color--yellow-d-30 {
-  background-color: var(--css-bg-color--yellow-d-30, rgb(178.5, 178.5, 0));
+.css-bg-color--straw-d-30 {
+  background-color: var(--css-bg-color--straw-d-30, rgb(127.5, 127.5, 51));
 }
 
-.css-bg-color--yellow-d-35 {
-  background-color: var(--css-bg-color--yellow-d-35, rgb(165.75, 165.75, 0));
+.css-bg-color--straw-d-35 {
+  background-color: var(--css-bg-color--straw-d-35, rgb(114.75, 114.75, 51));
 }
 
-.css-bg-color--yellow-d-40 {
-  background-color: var(--css-bg-color--yellow-d-40, #999900);
+.css-bg-color--straw-d-40 {
+  background-color: var(--css-bg-color--straw-d-40, #666633);
 }
 
-.css-bg-color--yellow-d-45 {
-  background-color: var(--css-bg-color--yellow-d-45, rgb(140.25, 140.25, 0));
+.css-bg-color--straw-d-45 {
+  background-color: var(--css-bg-color--straw-d-45, rgb(89.25, 89.25, 51));
 }
 
-.css-bg-color--yellow-d-50 {
-  background-color: var(--css-bg-color--yellow-d-50, rgb(127.5, 127.5, 0));
+.css-bg-color--straw-d-50 {
+  background-color: var(--css-bg-color--straw-d-50, rgb(76.5, 76.5, 51));
 }
 
-.css-bg-color--yellow-d-55 {
-  background-color: var(--css-bg-color--yellow-d-55, rgb(114.75, 114.75, 0));
+.css-bg-color--straw-d-55 {
+  background-color: var(--css-bg-color--straw-d-55, rgb(63.75, 63.75, 51));
 }
 
-.css-bg-color--yellow-d-60 {
-  background-color: var(--css-bg-color--yellow-d-60, #666600);
+.css-bg-color--straw-d-60 {
+  background-color: var(--css-bg-color--straw-d-60, #333333);
 }
 
-.css-bg-color--yellow-d-65 {
-  background-color: var(--css-bg-color--yellow-d-65, rgb(89.25, 89.25, 0));
+.css-bg-color--straw-d-65 {
+  background-color: var(--css-bg-color--straw-d-65, rgb(48.5714285714, 48.5714285714, 48.5714285714));
 }
 
-.css-bg-color--yellow-d-70 {
-  background-color: var(--css-bg-color--yellow-d-70, rgb(76.5, 76.5, 0));
+.css-bg-color--straw-d-70 {
+  background-color: var(--css-bg-color--straw-d-70, rgb(46.3636363636, 46.3636363636, 46.3636363636));
 }
 
-.css-bg-color--yellow-d-75 {
-  background-color: var(--css-bg-color--yellow-d-75, rgb(63.75, 63.75, 0));
+.css-bg-color--straw-d-75 {
+  background-color: var(--css-bg-color--straw-d-75, rgb(44.347826087, 44.347826087, 44.347826087));
 }
 
-.css-bg-color--yellow-d-80 {
-  background-color: var(--css-bg-color--yellow-d-80, #333300);
+.css-bg-color--straw-d-80 {
+  background-color: var(--css-bg-color--straw-d-80, rgb(42.5, 42.5, 42.5));
 }
 
-.css-bg-color--yellow-d-85 {
-  background-color: var(--css-bg-color--yellow-d-85, rgb(38.25, 38.25, 0));
+.css-bg-color--straw-d-85 {
+  background-color: var(--css-bg-color--straw-d-85, rgb(40.8, 40.8, 40.8));
 }
 
-.css-bg-color--yellow-d-90 {
-  background-color: var(--css-bg-color--yellow-d-90, rgb(25.5, 25.5, 0));
+.css-bg-color--straw-d-90 {
+  background-color: var(--css-bg-color--straw-d-90, rgb(39.2307692308, 39.2307692308, 39.2307692308));
 }
 
-.css-bg-color--yellow-d-95 {
-  background-color: var(--css-bg-color--yellow-d-95, rgb(12.75, 12.75, 0));
+.css-bg-color--straw-d-95 {
+  background-color: var(--css-bg-color--straw-d-95, rgb(37.7777777778, 37.7777777778, 37.7777777778));
 }
 
-.css-bg-color--yellow-d-100 {
-  background-color: var(--css-bg-color--yellow-d-100, black);
+.css-bg-color--straw-d-100 {
+  background-color: var(--css-bg-color--straw-d-100, rgb(36.4285714286, 36.4285714286, 36.4285714286));
 }

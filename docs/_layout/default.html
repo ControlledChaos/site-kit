@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="{{ site.language }}" dir="ltr">
+<head>
+
+	<!-- Site meta tags. -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="generator" content="Jekyll {{ jekyll.version }}" />
+	<meta name="language" content="{{ site.language }}" />
+
+	<!-- Page identity. -->
+	<title>{{ site.title }}</title>
+	<link rel="shortcut icon" href='{{ "assets/img/" | append: site.favicon | relative_url }}' type="image/x-icon" />
+	<link href="{{ site.url }}{{ page.url }}" rel="canonical" />
+
+	<!-- jQuery from CDN. -->
+	<script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-4.0.2.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+
+	<!-- Theme CSS. -->
+	<link rel="stylesheet" href="{{ '/assets/css/style.min.css' | relative_url }}" />
+
+</head>
+<body>
+	<header class="site-header">
+		{%- if page.url == "/" -%}
+		<h1 class="site-title">{{ site.title }}</h1>
+		{%- else -%}
+		<p class="site-title">
+			<a href="{{ site.github.url }}">{{ site.title }}</a>
+		</p>
+		{%- endif -%}
+		<p class="site-description">{{ site.description }}</p>
+	</header>
+	<div class="page">
+		<main class="page-main">
+			{{ content }}
+		</main>
+		<aside class="page-sidebar">
+			<!-- @todo Add sidebar content. -->
+		</aside>
+	</div>
+	<footer class="site-footer">
+		<p class="footer-link"><a href="{{ site.footer.url }}" target="_blank" rel="noopener noreferrer">{{ site.footer.link }}</a></p>
+	</footer>
+
+<!-- Theme scripts. -->
+<script src="{{ '/assets/js/theme.min.js' | relative_url }}"></script>
+
+</body>
+</html>

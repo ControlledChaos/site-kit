@@ -1,0 +1,29 @@
+
+# Website settings
+is_user_page: false
+is_project_page: true
+remote_theme: theme-sitekit
+title: "Site Kit"
+description: "A collection of CSS/SCSS, SVG icons, fonts, and jQuery plugins to jump start website development."
+favicon: "favicon.png"
+site_icon: "site-icon.png"
+site_image: "site-image.jpg"
+site_thumb: "site-thumb.jpg"
+timezone: "America/Los_Angeles"
+markdown: kramdown
+permalink: pretty
+
+# Site footer
+footer:
+  - link: "Site Kit repository"
+  - url: "https://github.com/ControlledChaos/site-kit"
+
+# Additional functionality
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-gist
+  - jekyll-toc
+  - jemoji

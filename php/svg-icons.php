@@ -21,6 +21,21 @@ function icons_path( $path = 'svg' ) {
 }
 
 /**
+ * Icons path for ClassicPress/WordPress
+ *
+ * @since  1.0.0
+ * @param  string $path Path to (including) icons directory.
+ * @return string
+ */
+function icons_path( $path = 'svg' ) {
+
+	if ( ! function_exists( 'apply_filters' ) ) {
+		return $path;
+	}
+	return apply_filters( 'svg_icons_path', $path );
+}
+
+/**
  * SVG icon
  *
  * Returns the path and filename.

@@ -17,6 +17,10 @@ namespace SVG_Icons;
  * @return string
  */
 function icons_path( $path = 'svg' ) {
+
+	if ( cms_icons_path() ) {
+		return cms_icons_path( $path );
+	}
 	return $path;
 }
 
@@ -27,12 +31,12 @@ function icons_path( $path = 'svg' ) {
  * @param  string $path Path to (including) icons directory.
  * @return string
  */
-function icons_path( $path = 'svg' ) {
+function cms_icons_path( $path = 'svg' ) {
 
-	if ( ! function_exists( 'apply_filters' ) ) {
-		return $path;
+	if ( function_exists( 'apply_filters' ) ) {
+		return apply_filters( 'svg_icons_path', $path );
 	}
-	return apply_filters( 'svg_icons_path', $path );
+	return false;
 }
 
 /**

@@ -10,6 +10,17 @@
 namespace SVG_Icons;
 
 /**
+ * Icons path
+ *
+ * @since  1.0.0
+ * @param  string $path Path to (including) icons directory.
+ * @return string
+ */
+function icons_path( $path = 'svg' ) {
+	return $path;
+}
+
+/**
  * Get SVG icon
  *
  * Returns the path and filename.
@@ -17,23 +28,35 @@ namespace SVG_Icons;
  * @example `theme/assets/svg/slab-regular/arrow-right.svg`
  *
  * @since  1.0.0
- * @param  string $path Path to (including) icons directory.
- * @param  string $style Icon style directory (e.g. `slab-regular`).
- * @param  string $name Filename of the SVG icon, no extension.
- * @return mixed  Returns $path/$to/$svg/$icon.svg or false.
+ * @param  array $params
+ *               'path'  => Path to (including) icons directory.
+ *               'style' => Icon style directory (e.g. `slab-regular`).
+ *               'name'  => Filename of the SVG icon, no extension.
+ * @param  boolean Whether to return the path/file or the SVG code.
+ * @return mixed Returns $path/$to/$svg/$icon.svg or false.
  */
-function get_icon( $path = '', $style = '', $name = '' ) {
+function get_icon( $params = [ 'path' => false, 'style' => '', 'name' => '' ], $print = false ) {
+
+	// Maybe use default path.
+	if ( ! $params['path'] ) {
+		$path = icons_path();
+	} else {
+		$path = $params['path'];
+	}
 
 	// Concatenate file path parts.
 	$file = sprintf(
 		'%1s/%2s/%3s.svg',
 		$path,
-		$style,
-		$name
+		$params['style'],
+		$params['name']
 	);
 
-	// Return path/file.svg or false.
+	// Return how you like it.
 	if ( is_file( $file ) ) {
+		if ( $print ) {
+			return file_get_contents( $file );
+		}
 		return $file;
 	}
 	return false;

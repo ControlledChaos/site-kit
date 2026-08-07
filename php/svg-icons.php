@@ -21,7 +21,7 @@ function icons_path( $path = 'svg' ) {
 }
 
 /**
- * Get SVG icon
+ * SVG icon
  *
  * Returns the path and filename.
  *
@@ -35,7 +35,7 @@ function icons_path( $path = 'svg' ) {
  * @param  boolean Whether to return the path/file or the SVG code.
  * @return mixed Returns $path/$to/$svg/$icon.svg or false.
  */
-function get_icon( $params = [ 'path' => false, 'style' => '', 'name' => '' ], $print = false ) {
+function icon( $params = [ 'path' => false, 'style' => '', 'name' => '' ], $print = false ) {
 
 	// Maybe use default path.
 	if ( ! $params['path'] ) {

@@ -234,6 +234,6 @@ caption {
   }
 }
 body {
-  background-color: #ffffff;
-  color: #333333;
+  background-color: var(--skt-body--bg-color, #ffffff);
+  color: var(--skt-body--text-color, #333333);
 }

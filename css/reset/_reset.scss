@@ -78,7 +78,8 @@ q, cite { font-style: italic; }
 
 audio:not([controls]) { display: none; height: 0; }
 
-svg { fill: currentColor; :not(:root) { overflow: hidden; } }
+svg { fill: currentColor; :not(:host,
+:root) { overflow: hidden; } }
 
 [hidden] { display: none !important; }
 

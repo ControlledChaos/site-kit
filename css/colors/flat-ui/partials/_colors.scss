@@ -5,6 +5,7 @@
 @use 'sass:color';
 @use '../modules/colors';
 
+:host,
 :root {
 	--skc--flat-ui--turquoise: #{colors.$turquoise};
 	--skc--flat-ui--green-sea: #{colors.$green_sea};

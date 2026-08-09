@@ -2,53 +2,73 @@
 /// Flat UI color palette
 ///
 
-@use 'partials/colors';
+@use 'partials/vars';
 
 // Palette classes.
 .flat-ui {
 
-	// Turquoise.
 	&.turquoise {
 		color: var( --skc--flat-ui--turquoise );
 	}
 	&.turquoise-bg {
 		background-color: var( --skc--flat-ui--turquoise );
 	}
-	&.turquoise-br {
+	&.turquoise-border {
 		border-color: var( --skc--flat-ui--turquoise );
 	}
+	&.turquoise-fill {
+		fill: var( --skc--flat-ui--turquoise );
+	}
+	&.turquoise-stroke {
+		stroke: var( --skc--flat-ui--turquoise );
+	}
 
-	// Green Sea.
 	&.green-sea {
 		color: var( --skc--flat-ui--green-sea );
 	}
 	&.green-sea-bg {
 		background-color: var( --skc--flat-ui--green-sea );
 	}
-	&.green-sea-br {
+	&.green-sea-border {
 		border-color: var( --skc--flat-ui--green-sea );
 	}
+	&.green-sea-fill {
+		fill: var( --skc--flat-ui--green-sea );
+	}
+	&.green-sea-stroke {
+		stroke: var( --skc--flat-ui--green-sea );
+	}
 
-	// Emerald.
 	&.emerald {
 		color: var( --skc--flat-ui--emerald );
 	}
 	&.emerald-bg {
 		background-color: var( --skc--flat-ui--emerald );
 	}
-	&.emerald-br {
+	&.emerald-border {
 		border-color: var( --skc--flat-ui--emerald );
 	}
+	&.emerald-fill {
+		fill: var( --skc--flat-ui--emerald );
+	}
+	&.emerald-stroke {
+		stroke: var( --skc--flat-ui--emerald );
+	}
 
-	// Nephritis.
 	&.nephritis {
 		color: var( --skc--flat-ui--nephritis );
 	}
 	&.nephritis-bg {
 		background-color: var( --skc--flat-ui--nephritis );
 	}
-	&.nephritis-br {
+	&.nephritis-border {
 		border-color: var( --skc--flat-ui--nephritis );
+	}
+	&.nephritis-fill {
+		fill: var( --skc--flat-ui--nephritis );
+	}
+	&.nephritis-stroke {
+		stroke: var( --skc--flat-ui--nephritis );
 	}
 
 	// Peter River.
@@ -58,8 +78,14 @@
 	&.peter-river-bg {
 		background-color: var( --skc--flat-ui--peter-river );
 	}
-	&.peter-river-br {
+	&.peter-river-border {
 		border-color: var( --skc--flat-ui--peter-river );
+	}
+	&.peter-river-fill {
+		fill: var( --skc--flat-ui--peter-river );
+	}
+	&.peter-river-stroke {
+		stroke: var( --skc--flat-ui--peter-river );
 	}
 
 	// Belize Hole.
@@ -69,8 +95,14 @@
 	&.belize-hole-bg {
 		background-color: var( --skc--flat-ui--belize-hole );
 	}
-	&.belize-hole-br {
+	&.belize-hole-border {
 		border-color: var( --skc--flat-ui--belize-hole );
+	}
+	&.belize-hole-fill {
+		fill: var( --skc--flat-ui--belize-hole );
+	}
+	&.belize-hole-stroke {
+		stroke: var( --skc--flat-ui--belize-hole );
 	}
 
 	// Amethyst.
@@ -80,8 +112,14 @@
 	&.amethyst-bg {
 		background-color: var( --skc--flat-ui--amethyst );
 	}
-	&.amethyst-br {
+	&.amethyst-border {
 		border-color: var( --skc--flat-ui--amethyst );
+	}
+	&.amethyst-fill {
+		fill: var( --skc--flat-ui--amethyst );
+	}
+	&.amethyst-stroke {
+		stroke: var( --skc--flat-ui--amethyst );
 	}
 
 	// Wisteria.
@@ -91,8 +129,14 @@
 	&.wisteria-bg {
 		background-color: var( --skc--flat-ui--wisteria );
 	}
-	&.wisteria-br {
+	&.wisteria-border {
 		border-color: var( --skc--flat-ui--wisteria );
+	}
+	&.wisteria-fill {
+		fill: var( --skc--flat-ui--wisteria );
+	}
+	&.wisteria-stroke {
+		stroke: var( --skc--flat-ui--wisteria );
 	}
 
 	// Wet Asphalt.
@@ -102,8 +146,14 @@
 	&.wet-asphalt-bg {
 		background-color: var( --skc--flat-ui--wet-asphalt );
 	}
-	&.wet-asphalt-br {
+	&.wet-asphalt-border {
 		border-color: var( --skc--flat-ui--wet-asphalt );
+	}
+	&.wet-asphalt-fill {
+		fill: var( --skc--flat-ui--wet-asphalt );
+	}
+	&.wet-asphalt-stroke {
+		stroke: var( --skc--flat-ui--wet-asphalt );
 	}
 
 	// Midnight Blue.
@@ -113,8 +163,14 @@
 	&.midnight-blue-bg {
 		background-color: var( --skc--flat-ui--midnight-blue );
 	}
-	&.midnight-blue-br {
+	&.midnight-blue-border {
 		border-color: var( --skc--flat-ui--midnight-blue );
+	}
+	&.midnight-blue-fill {
+		fill: var( --skc--flat-ui--midnight-blue );
+	}
+	&.midnight-blue-stroke {
+		stroke: var( --skc--flat-ui--midnight-blue );
 	}
 
 	// Sunflower.
@@ -124,8 +180,14 @@
 	&.sunflower-bg {
 		background-color: var( --skc--flat-ui--sunflower );
 	}
-	&.sunflower-br {
+	&.sunflower-border {
 		border-color: var( --skc--flat-ui--sunflower );
+	}
+	&.sunflower-fill {
+		fill: var( --skc--flat-ui--sunflower );
+	}
+	&.sunflower-stroke {
+		stroke: var( --skc--flat-ui--sunflower );
 	}
 
 	// Orange.
@@ -135,8 +197,14 @@
 	&.orange-bg {
 		background-color: var( --skc--flat-ui--orange );
 	}
-	&.orange-br {
+	&.orange-border {
 		border-color: var( --skc--flat-ui--orange );
+	}
+	&.orange-fill {
+		fill: var( --skc--flat-ui--orange );
+	}
+	&.orange-stroke {
+		stroke: var( --skc--flat-ui--orange );
 	}
 
 	// Carrot.
@@ -146,8 +214,14 @@
 	&.carrot-bg {
 		background-color: var( --skc--flat-ui--carrot );
 	}
-	&.carrot-br {
+	&.carrot-border {
 		border-color: var( --skc--flat-ui--carrot );
+	}
+	&.carrot-fill {
+		fill: var( --skc--flat-ui--carrot );
+	}
+	&.carrot-stroke {
+		stroke: var( --skc--flat-ui--carrot );
 	}
 
 	// Pumpkin.
@@ -157,8 +231,14 @@
 	&.pumpkin-bg {
 		background-color: var( --skc--flat-ui--pumpkin );
 	}
-	&.pumpkin-br {
+	&.pumpkin-border {
 		border-color: var( --skc--flat-ui--pumpkin );
+	}
+	&.pumpkin-fill {
+		fill: var( --skc--flat-ui--pumpkin );
+	}
+	&.pumpkin-stroke {
+		stroke: var( --skc--flat-ui--pumpkin );
 	}
 
 	// Alizarin.
@@ -168,8 +248,14 @@
 	&.alizarin-bg {
 		background-color: var( --skc--flat-ui--alizarin );
 	}
-	&.alizarin-br {
+	&.alizarin-border {
 		border-color: var( --skc--flat-ui--alizarin );
+	}
+	&.alizarin-fill {
+		fill: var( --skc--flat-ui--alizarin );
+	}
+	&.alizarin-stroke {
+		stroke: var( --skc--flat-ui--alizarin );
 	}
 
 	// Pomegranate.
@@ -179,8 +265,14 @@
 	&.pomegranate-bg {
 		background-color: var( --skc--flat-ui--pomegranate );
 	}
-	&.pomegranate-br {
+	&.pomegranate-border {
 		border-color: var( --skc--flat-ui--pomegranate );
+	}
+	&.pomegranate-fill {
+		fill: var( --skc--flat-ui--pomegranate );
+	}
+	&.pomegranate-stroke {
+		stroke: var( --skc--flat-ui--pomegranate );
 	}
 
 	// Clouds.
@@ -190,8 +282,14 @@
 	&.clouds-bg {
 		background-color: var( --skc--flat-ui--clouds );
 	}
-	&.clouds-br {
+	&.clouds-border {
 		border-color: var( --skc--flat-ui--clouds );
+	}
+	&.clouds-fill {
+		fill: var( --skc--flat-ui--clouds );
+	}
+	&.clouds-stroke {
+		stroke: var( --skc--flat-ui--clouds );
 	}
 
 	// Silver.
@@ -201,8 +299,14 @@
 	&.silver-bg {
 		background-color: var( --skc--flat-ui--silver );
 	}
-	&.silver-br {
+	&.silver-border {
 		border-color: var( --skc--flat-ui--silver );
+	}
+	&.silver-fill {
+		fill: var( --skc--flat-ui--silver );
+	}
+	&.silver-stroke {
+		stroke: var( --skc--flat-ui--silver );
 	}
 
 	// Concrete.
@@ -212,8 +316,14 @@
 	&.concrete-bg {
 		background-color: var( --skc--flat-ui--concrete );
 	}
-	&.concrete-br {
+	&.concrete-border {
 		border-color: var( --skc--flat-ui--concrete );
+	}
+	&.concrete-fill {
+		fill: var( --skc--flat-ui--concrete );
+	}
+	&.concrete-stroke {
+		stroke: var( --skc--flat-ui--concrete );
 	}
 
 	// Asbestos.
@@ -223,7 +333,13 @@
 	&.asbestos-bg {
 		background-color: var( --skc--flat-ui--asbestos );
 	}
-	&.asbestos-br {
+	&.asbestos-border {
 		border-color: var( --skc--flat-ui--asbestos );
+	}
+	&.asbestos-fill {
+		fill: var( --skc--flat-ui--asbestos );
+	}
+	&.asbestos-stroke {
+		stroke: var( --skc--flat-ui--asbestos );
 	}
 }

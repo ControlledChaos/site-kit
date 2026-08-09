@@ -2,4 +2,30 @@
 /// Tailwind color palette
 ///
 
-@use 'partials/colors';
+@use 'partials/vars';
+@use 'partials/red';
+@use 'partials/orange';
+@use 'partials/amber';
+@use 'partials/yellow';
+@use 'partials/lime';
+@use 'partials/green';
+@use 'partials/emerald';
+@use 'partials/teal';
+@use 'partials/cyan';
+@use 'partials/sky';
+@use 'partials/blue';
+@use 'partials/indigo';
+@use 'partials/violet';
+@use 'partials/purple';
+@use 'partials/fuchsia';
+@use 'partials/pink';
+@use 'partials/rose';
+@use 'partials/slate';
+@use 'partials/gray';
+@use 'partials/zinc';
+@use 'partials/neutral';
+@use 'partials/stone';
+@use 'partials/taupe';
+@use 'partials/mauve';
+@use 'partials/mist';
+@use 'partials/olive';

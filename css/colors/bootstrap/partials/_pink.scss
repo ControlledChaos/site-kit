@@ -1,0 +1,564 @@
+///
+/// Color: pink
+///
+
+.bootstrap {
+
+	&.pink {
+		color: var( --skc--bootstrap--pink );
+	}
+	&.pink-bg {
+		background-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-accent {
+		accent-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-caret {
+		caret-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-border {
+		border-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-outline {
+		outline-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-rule {
+		rule-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-fill {
+		fill: var( --skc--bootstrap--pink );
+	}
+	&.pink-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink );
+		        text-fill-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-stroke {
+		stroke: var( --skc--bootstrap--pink );
+	}
+	&.pink-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink );
+		        text-stroke-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-flood {
+		flood-color: var( --skc--bootstrap--pink );
+	}
+	&.pink-stop {
+		stop-color: var( --skc--bootstrap--pink );
+	}
+
+	// --------------------------------------------
+
+	&.pink-100 {
+		color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-bg {
+		background-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-accent {
+		accent-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-caret {
+		caret-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-border {
+		border-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-outline {
+		outline-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-rule {
+		rule-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-fill {
+		fill: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-100 );
+		        text-fill-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-stroke {
+		stroke: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-100 );
+		        text-stroke-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-flood {
+		flood-color: var( --skc--bootstrap--pink-100 );
+	}
+	&.pink-100-stop {
+		stop-color: var( --skc--bootstrap--pink-100 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-200 {
+		color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-bg {
+		background-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-accent {
+		accent-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-caret {
+		caret-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-border {
+		border-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-outline {
+		outline-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-rule {
+		rule-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-fill {
+		fill: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-200 );
+		        text-fill-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-stroke {
+		stroke: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-200 );
+		        text-stroke-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-flood {
+		flood-color: var( --skc--bootstrap--pink-200 );
+	}
+	&.pink-200-stop {
+		stop-color: var( --skc--bootstrap--pink-200 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-300 {
+		color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-bg {
+		background-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-accent {
+		accent-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-caret {
+		caret-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-border {
+		border-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-outline {
+		outline-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-rule {
+		rule-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-fill {
+		fill: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-300 );
+		        text-fill-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-stroke {
+		stroke: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-300 );
+		        text-stroke-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-flood {
+		flood-color: var( --skc--bootstrap--pink-300 );
+	}
+	&.pink-300-stop {
+		stop-color: var( --skc--bootstrap--pink-300 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-400 {
+		color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-bg {
+		background-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-accent {
+		accent-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-caret {
+		caret-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-border {
+		border-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-outline {
+		outline-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-rule {
+		rule-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-fill {
+		fill: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-400 );
+		        text-fill-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-stroke {
+		stroke: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-400 );
+		        text-stroke-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-flood {
+		flood-color: var( --skc--bootstrap--pink-400 );
+	}
+	&.pink-400-stop {
+		stop-color: var( --skc--bootstrap--pink-400 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-500 {
+		color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-bg {
+		background-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-accent {
+		accent-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-caret {
+		caret-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-border {
+		border-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-outline {
+		outline-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-rule {
+		rule-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-fill {
+		fill: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-500 );
+		        text-fill-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-stroke {
+		stroke: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-500 );
+		        text-stroke-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-flood {
+		flood-color: var( --skc--bootstrap--pink-500 );
+	}
+	&.pink-500-stop {
+		stop-color: var( --skc--bootstrap--pink-500 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-600 {
+		color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-bg {
+		background-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-accent {
+		accent-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-caret {
+		caret-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-border {
+		border-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-outline {
+		outline-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-rule {
+		rule-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-fill {
+		fill: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-600 );
+		        text-fill-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-stroke {
+		stroke: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-600 );
+		        text-stroke-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-flood {
+		flood-color: var( --skc--bootstrap--pink-600 );
+	}
+	&.pink-600-stop {
+		stop-color: var( --skc--bootstrap--pink-600 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-700 {
+		color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-bg {
+		background-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-accent {
+		accent-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-caret {
+		caret-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-border {
+		border-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-outline {
+		outline-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-rule {
+		rule-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-fill {
+		fill: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-700 );
+		        text-fill-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-stroke {
+		stroke: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-700 );
+		        text-stroke-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-flood {
+		flood-color: var( --skc--bootstrap--pink-700 );
+	}
+	&.pink-700-stop {
+		stop-color: var( --skc--bootstrap--pink-700 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-800 {
+		color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-bg {
+		background-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-accent {
+		accent-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-caret {
+		caret-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-border {
+		border-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-outline {
+		outline-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-rule {
+		rule-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-fill {
+		fill: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-800 );
+		        text-fill-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-stroke {
+		stroke: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-800 );
+		        text-stroke-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-flood {
+		flood-color: var( --skc--bootstrap--pink-800 );
+	}
+	&.pink-800-stop {
+		stop-color: var( --skc--bootstrap--pink-800 );
+	}
+
+	// --------------------------------------------
+
+	&.pink-900 {
+		color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-bg {
+		background-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-decoration {
+		text-decoration-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-emphasis {
+		text-emphasis-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-accent {
+		accent-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-caret {
+		caret-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-border {
+		border-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-outline {
+		outline-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-rule {
+		rule-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-column-rule {
+		column-rule-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-row-rule {
+		row-rule-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-fill {
+		fill: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-text-fill {
+		-webkit-text-fill-color: var( --skc--bootstrap--pink-900 );
+		        text-fill-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-stroke {
+		stroke: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-text-stroke {
+		-webkit-text-stroke-color: var( --skc--bootstrap--pink-900 );
+		        text-stroke-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-flood {
+		flood-color: var( --skc--bootstrap--pink-900 );
+	}
+	&.pink-900-stop {
+		stop-color: var( --skc--bootstrap--pink-900 );
+	}
+}

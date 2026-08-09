@@ -1,0 +1,126 @@
+///
+/// SCSS variables
+///
+
+@use 'functions' as f;
+
+$gray_100: #f8f9fa;
+$gray_200: #e9ecef;
+$gray_300: #dee2e6;
+$gray_400: #ced4da;
+$gray_500: #adb5bd;
+$gray_600: #6c757d;
+$gray_700: #495057;
+$gray_800: #343a40;
+$gray_900: #212529;
+
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+$blue_100: f.tint( $blue, 80% );
+$blue_200: f.tint( $blue, 60% );
+$blue_300: f.tint( $blue, 40% );
+$blue_400: f.tint( $blue, 20% );
+$blue_500: $blue;
+$blue_600: f.shade( $blue, 20% );
+$blue_700: f.shade( $blue, 40% );
+$blue_800: f.shade( $blue, 60% );
+$blue_900: f.shade( $blue, 80% );
+
+$indigo_100: f.tint( $indigo, 80% );
+$indigo_200: f.tint( $indigo, 60% );
+$indigo_300: f.tint( $indigo, 40% );
+$indigo_400: f.tint( $indigo, 20% );
+$indigo_500: $indigo;
+$indigo_600: f.shade( $indigo, 20% );
+$indigo_700: f.shade( $indigo, 40% );
+$indigo_800: f.shade( $indigo, 60% );
+$indigo_900: f.shade( $indigo, 80% );
+
+$purple_100: f.tint( $purple, 80% );
+$purple_200: f.tint( $purple, 60% );
+$purple_300: f.tint( $purple, 40% );
+$purple_400: f.tint( $purple, 20% );
+$purple_500: $purple;
+$purple_600: f.shade( $purple, 20% );
+$purple_700: f.shade( $purple, 40% );
+$purple_800: f.shade( $purple, 60% );
+$purple_900: f.shade( $purple, 80% );
+
+$pink_100: f.tint( $pink, 80% );
+$pink_200: f.tint( $pink, 60% );
+$pink_300: f.tint( $pink, 40% );
+$pink_400: f.tint( $pink, 20% );
+$pink_500: $pink;
+$pink_600: f.shade( $pink, 20% );
+$pink_700: f.shade( $pink, 40% );
+$pink_800: f.shade( $pink, 60% );
+$pink_900: f.shade( $pink, 80% );
+
+$red_100: f.tint( $red, 80% );
+$red_200: f.tint( $red, 60% );
+$red_300: f.tint( $red, 40% );
+$red_400: f.tint( $red, 20% );
+$red_500: $red;
+$red_600: f.shade( $red, 20% );
+$red_700: f.shade( $red, 40% );
+$red_800: f.shade( $red, 60% );
+$red_900: f.shade( $red, 80% );
+
+$orange_100: f.tint( $orange, 80% );
+$orange_200: f.tint( $orange, 60% );
+$orange_300: f.tint( $orange, 40% );
+$orange_400: f.tint( $orange, 20% );
+$orange_500: $orange;
+$orange_600: f.shade( $orange, 20% );
+$orange_700: f.shade( $orange, 40% );
+$orange_800: f.shade( $orange, 60% );
+$orange_900: f.shade( $orange, 80% );
+
+$yellow_100: f.tint( $yellow, 80% );
+$yellow_200: f.tint( $yellow, 60% );
+$yellow_300: f.tint( $yellow, 40% );
+$yellow_400: f.tint( $yellow, 20% );
+$yellow_500: $yellow;
+$yellow_600: f.shade( $yellow, 20% );
+$yellow_700: f.shade( $yellow, 40% );
+$yellow_800: f.shade( $yellow, 60% );
+$yellow_900: f.shade( $yellow, 80% );
+
+$green_100: f.tint( $green, 80% );
+$green_200: f.tint( $green, 60% );
+$green_300: f.tint( $green, 40% );
+$green_400: f.tint( $green, 20% );
+$green_500: $green;
+$green_600: f.shade( $green, 20% );
+$green_700: f.shade( $green, 40% );
+$green_800: f.shade( $green, 60% );
+$green_900: f.shade( $green, 80% );
+
+$teal_100: f.tint( $teal, 80% );
+$teal_200: f.tint( $teal, 60% );
+$teal_300: f.tint( $teal, 40% );
+$teal_400: f.tint( $teal, 20% );
+$teal_500: $teal;
+$teal_600: f.shade( $teal, 20% );
+$teal_700: f.shade( $teal, 40% );
+$teal_800: f.shade( $teal, 60% );
+$teal_900: f.shade( $teal, 80% );
+
+$cyan_100: f.tint( $cyan, 80% );
+$cyan_200: f.tint( $cyan, 60% );
+$cyan_300: f.tint( $cyan, 40% );
+$cyan_400: f.tint( $cyan, 20% );
+$cyan_500: $cyan;
+$cyan_600: f.shade( $cyan, 20% );
+$cyan_700: f.shade( $cyan, 40% );
+$cyan_800: f.shade( $cyan, 60% );
+$cyan_900: f.shade( $cyan, 80% );

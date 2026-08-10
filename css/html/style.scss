@@ -2,29 +2,4 @@
 /// Elements stylesheet
 ///
 
-@use 'mixins';
 
-.flex-block-row-start-wrap-g1 {
-	@include mixins.flex-block-row-start-wrap-g1;
-}
-.flex-block-row-center-wrap-g1 {
-	@include mixins.flex-block-row-start-wrap-g1;
-}
-.flex-block-row-end-wrap-g1 {
-	@include mixins.flex-block-row-start-wrap-g1;
-}
-
-ul {
-	&.flex-block-row-start-wrap-g1 {
-		list-style: none;
-		@include mixins.flex-block-row-start-wrap-g1;
-	}
-	&.flex-block-row-center-wrap-g1 {
-		list-style: none;
-		@include mixins.flex-block-row-start-wrap-g1;
-	}
-	&.flex-block-row-end-wrap-g1 {
-		list-style: none;
-		@include mixins.flex-block-row-start-wrap-g1;
-	}
-}

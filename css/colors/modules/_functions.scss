@@ -4,6 +4,10 @@
 
 @use 'sass:color';
 
+@function rgb( $hex ) {
+	@return "rgb( #{color.channel( $hex, 'red' )}, #{color.channel( $hex, 'green' )}, #{color.channel( $hex, 'blue' )} )";
+}
+
 @function tint( $color, $percentage ) {
 	@return color.mix( white, $color, $percentage );
 }

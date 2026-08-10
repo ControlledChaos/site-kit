@@ -2,128 +2,29 @@
 /// CSS variables
 ///
 
-@use '../modules/colors';
+// Modules in the primary colors directory.
+@use '../../modules/functions' as f;
+
+// Modules in the palette directory.
+@use '../modules/colors' as c;
 
 :host,
 :root {
 
-	--skc--bootstrap--gray-100: #{colors.$gray_100};
-	--skc--bootstrap--gray-200: #{colors.$gray_200};
-	--skc--bootstrap--gray-300: #{colors.$gray_300};
-	--skc--bootstrap--gray-400: #{colors.$gray_400};
-	--skc--bootstrap--gray-500: #{colors.$gray_500};
-	--skc--bootstrap--gray-600: #{colors.$gray_600};
-	--skc--bootstrap--gray-700: #{colors.$gray_700};
-	--skc--bootstrap--gray-800: #{colors.$gray_800};
-	--skc--bootstrap--gray-900: #{colors.$gray_900};
+	@each $name, $color in c.$gray {
+		--skc--#{c.$palette}--#{$name}: #{f.rgb( $color )};
+	}
 
-	--skc--bootstrap--blue:     #{colors.$blue};
-	--skc--bootstrap--blue-100: #{colors.$blue_100};
-	--skc--bootstrap--blue-200: #{colors.$blue_200};
-	--skc--bootstrap--blue-300: #{colors.$blue_300};
-	--skc--bootstrap--blue-400: #{colors.$blue_400};
-	--skc--bootstrap--blue-500: #{colors.$blue_500};
-	--skc--bootstrap--blue-600: #{colors.$blue_600};
-	--skc--bootstrap--blue-700: #{colors.$blue_700};
-	--skc--bootstrap--blue-800: #{colors.$blue_800};
-	--skc--bootstrap--blue-900: #{colors.$blue_900};
-
-	--skc--bootstrap--indigo:     #{colors.$indigo};
-	--skc--bootstrap--indigo-100: #{colors.$indigo_100};
-	--skc--bootstrap--indigo-200: #{colors.$indigo_200};
-	--skc--bootstrap--indigo-300: #{colors.$indigo_300};
-	--skc--bootstrap--indigo-400: #{colors.$indigo_400};
-	--skc--bootstrap--indigo-500: #{colors.$indigo_500};
-	--skc--bootstrap--indigo-600: #{colors.$indigo_600};
-	--skc--bootstrap--indigo-700: #{colors.$indigo_700};
-	--skc--bootstrap--indigo-800: #{colors.$indigo_800};
-	--skc--bootstrap--indigo-900: #{colors.$indigo_900};
-
-	--skc--bootstrap--purple:     #{colors.$purple};
-	--skc--bootstrap--purple-100: #{colors.$purple_100};
-	--skc--bootstrap--purple-200: #{colors.$purple_200};
-	--skc--bootstrap--purple-300: #{colors.$purple_300};
-	--skc--bootstrap--purple-400: #{colors.$purple_400};
-	--skc--bootstrap--purple-500: #{colors.$purple_500};
-	--skc--bootstrap--purple-600: #{colors.$purple_600};
-	--skc--bootstrap--purple-700: #{colors.$purple_700};
-	--skc--bootstrap--purple-800: #{colors.$purple_800};
-	--skc--bootstrap--purple-900: #{colors.$purple_900};
-
-	--skc--bootstrap--pink:     #{colors.$pink};
-	--skc--bootstrap--pink-100: #{colors.$pink_100};
-	--skc--bootstrap--pink-200: #{colors.$pink_200};
-	--skc--bootstrap--pink-300: #{colors.$pink_300};
-	--skc--bootstrap--pink-400: #{colors.$pink_400};
-	--skc--bootstrap--pink-500: #{colors.$pink_500};
-	--skc--bootstrap--pink-600: #{colors.$pink_600};
-	--skc--bootstrap--pink-700: #{colors.$pink_700};
-	--skc--bootstrap--pink-800: #{colors.$pink_800};
-	--skc--bootstrap--pink-900: #{colors.$pink_900};
-
-	--skc--bootstrap--red:     #{colors.$red};
-	--skc--bootstrap--red-100: #{colors.$red_100};
-	--skc--bootstrap--red-200: #{colors.$red_200};
-	--skc--bootstrap--red-300: #{colors.$red_300};
-	--skc--bootstrap--red-400: #{colors.$red_400};
-	--skc--bootstrap--red-500: #{colors.$red_500};
-	--skc--bootstrap--red-600: #{colors.$red_600};
-	--skc--bootstrap--red-700: #{colors.$red_700};
-	--skc--bootstrap--red-800: #{colors.$red_800};
-	--skc--bootstrap--red-900: #{colors.$red_900};
-
-	--skc--bootstrap--orange:     #{colors.$orange};
-	--skc--bootstrap--orange-100: #{colors.$orange_100};
-	--skc--bootstrap--orange-200: #{colors.$orange_200};
-	--skc--bootstrap--orange-300: #{colors.$orange_300};
-	--skc--bootstrap--orange-400: #{colors.$orange_400};
-	--skc--bootstrap--orange-500: #{colors.$orange_500};
-	--skc--bootstrap--orange-600: #{colors.$orange_600};
-	--skc--bootstrap--orange-700: #{colors.$orange_700};
-	--skc--bootstrap--orange-800: #{colors.$orange_800};
-	--skc--bootstrap--orange-900: #{colors.$orange_900};
-
-	--skc--bootstrap--yellow:     #{colors.$yellow};
-	--skc--bootstrap--yellow-100: #{colors.$yellow_100};
-	--skc--bootstrap--yellow-200: #{colors.$yellow_200};
-	--skc--bootstrap--yellow-300: #{colors.$yellow_300};
-	--skc--bootstrap--yellow-400: #{colors.$yellow_400};
-	--skc--bootstrap--yellow-500: #{colors.$yellow_500};
-	--skc--bootstrap--yellow-600: #{colors.$yellow_600};
-	--skc--bootstrap--yellow-700: #{colors.$yellow_700};
-	--skc--bootstrap--yellow-800: #{colors.$yellow_800};
-	--skc--bootstrap--yellow-900: #{colors.$yellow_900};
-
-	--skc--bootstrap--green:     #{colors.$green};
-	--skc--bootstrap--green-100: #{colors.$green_100};
-	--skc--bootstrap--green-200: #{colors.$green_200};
-	--skc--bootstrap--green-300: #{colors.$green_300};
-	--skc--bootstrap--green-400: #{colors.$green_400};
-	--skc--bootstrap--green-500: #{colors.$green_500};
-	--skc--bootstrap--green-600: #{colors.$green_600};
-	--skc--bootstrap--green-700: #{colors.$green_700};
-	--skc--bootstrap--green-800: #{colors.$green_800};
-	--skc--bootstrap--green-900: #{colors.$green_900};
-
-	--skc--bootstrap--teal:     #{colors.$teal};
-	--skc--bootstrap--teal-100: #{colors.$teal_100};
-	--skc--bootstrap--teal-200: #{colors.$teal_200};
-	--skc--bootstrap--teal-300: #{colors.$teal_300};
-	--skc--bootstrap--teal-400: #{colors.$teal_400};
-	--skc--bootstrap--teal-500: #{colors.$teal_500};
-	--skc--bootstrap--teal-600: #{colors.$teal_600};
-	--skc--bootstrap--teal-700: #{colors.$teal_700};
-	--skc--bootstrap--teal-800: #{colors.$teal_800};
-	--skc--bootstrap--teal-900: #{colors.$teal_900};
-
-	--skc--bootstrap--cyan:     #{colors.$cyan};
-	--skc--bootstrap--cyan-100: #{colors.$cyan_100};
-	--skc--bootstrap--cyan-200: #{colors.$cyan_200};
-	--skc--bootstrap--cyan-300: #{colors.$cyan_300};
-	--skc--bootstrap--cyan-400: #{colors.$cyan_400};
-	--skc--bootstrap--cyan-500: #{colors.$cyan_500};
-	--skc--bootstrap--cyan-600: #{colors.$cyan_600};
-	--skc--bootstrap--cyan-700: #{colors.$cyan_700};
-	--skc--bootstrap--cyan-800: #{colors.$cyan_800};
-	--skc--bootstrap--cyan-900: #{colors.$cyan_900};
+	@each $name, $color in c.$colors {
+		--skc--#{c.$palette}--#{$name}: #{f.rgb( $color )};
+		--skc--#{c.$palette}--#{$name}-100: #{f.tint( $color, 80% )};
+		--skc--#{c.$palette}--#{$name}-200: #{f.tint( $color, 60% )};
+		--skc--#{c.$palette}--#{$name}-300: #{f.tint( $color, 40% )};
+		--skc--#{c.$palette}--#{$name}-400: #{f.tint( $color, 20% )};
+		--skc--#{c.$palette}--#{$name}-500: #{f.rgb( $color )};
+		--skc--#{c.$palette}--#{$name}-600: #{f.shade( $color, 20% )};
+		--skc--#{c.$palette}--#{$name}-700: #{f.shade( $color, 40% )};
+		--skc--#{c.$palette}--#{$name}-800: #{f.shade( $color, 60% )};
+		--skc--#{c.$palette}--#{$name}-900: #{f.shade( $color, 80% )};
+	}
 }

@@ -7,24 +7,7 @@
 
 :host,
 :root {
-	--skc--flat-ui--turquoise: #{colors.$turquoise};
-	--skc--flat-ui--green-sea: #{colors.$green_sea};
-	--skc--flat-ui--emerald: #{colors.$emerald};
-	--skc--flat-ui--nephritis: #{colors.$nephritis};
-	--skc--flat-ui--peter-river: #{colors.$peter_river};
-	--skc--flat-ui--belize-hole: #{colors.$belize_hole};
-	--skc--flat-ui--amethyst: #{colors.$amethyst};
-	--skc--flat-ui--wisteria: #{colors.$wisteria};
-	--skc--flat-ui--wet-asphalt: #{colors.$wet_asphalt};
-	--skc--flat-ui--midnight-blue: #{colors.$midnight_blue};
-	--skc--flat-ui--sunflower: #{colors.$sunflower};
-	--skc--flat-ui--orange: #{colors.$orange};
-	--skc--flat-ui--carrot: #{colors.$carrot};
-	--skc--flat-ui--pumpkin: #{colors.$pumpkin};
-	--skc--flat-ui--alizarin: #{colors.$alizarin};
-	--skc--flat-ui--pomegranate: #{colors.$pomegranate};
-	--skc--flat-ui--clouds: #{colors.$clouds};
-	--skc--flat-ui--silver: #{colors.$silver};
-	--skc--flat-ui--concrete: #{colors.$concrete};
-	--skc--flat-ui--asbestos: #{colors.$asbestos};
+	@each $name, $color in colors.$array {
+		--skc--flat-ui--#{$name}: #{$color};
+	}
 }

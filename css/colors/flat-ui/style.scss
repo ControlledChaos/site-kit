@@ -2,344 +2,65 @@
 /// Flat UI color palette
 ///
 
+@use 'modules/colors';
 @use 'partials/vars';
 
 // Palette classes.
-.flat-ui {
+.#{colors.$palette} {
+	@each $name, $color in colors.$array {
 
-	&.turquoise {
-		color: var( --skc--flat-ui--turquoise );
-	}
-	&.turquoise-bg {
-		background-color: var( --skc--flat-ui--turquoise );
-	}
-	&.turquoise-border {
-		border-color: var( --skc--flat-ui--turquoise );
-	}
-	&.turquoise-fill {
-		fill: var( --skc--flat-ui--turquoise );
-	}
-	&.turquoise-stroke {
-		stroke: var( --skc--flat-ui--turquoise );
-	}
-
-	&.green-sea {
-		color: var( --skc--flat-ui--green-sea );
-	}
-	&.green-sea-bg {
-		background-color: var( --skc--flat-ui--green-sea );
-	}
-	&.green-sea-border {
-		border-color: var( --skc--flat-ui--green-sea );
-	}
-	&.green-sea-fill {
-		fill: var( --skc--flat-ui--green-sea );
-	}
-	&.green-sea-stroke {
-		stroke: var( --skc--flat-ui--green-sea );
-	}
-
-	&.emerald {
-		color: var( --skc--flat-ui--emerald );
-	}
-	&.emerald-bg {
-		background-color: var( --skc--flat-ui--emerald );
-	}
-	&.emerald-border {
-		border-color: var( --skc--flat-ui--emerald );
-	}
-	&.emerald-fill {
-		fill: var( --skc--flat-ui--emerald );
-	}
-	&.emerald-stroke {
-		stroke: var( --skc--flat-ui--emerald );
-	}
-
-	&.nephritis {
-		color: var( --skc--flat-ui--nephritis );
-	}
-	&.nephritis-bg {
-		background-color: var( --skc--flat-ui--nephritis );
-	}
-	&.nephritis-border {
-		border-color: var( --skc--flat-ui--nephritis );
-	}
-	&.nephritis-fill {
-		fill: var( --skc--flat-ui--nephritis );
-	}
-	&.nephritis-stroke {
-		stroke: var( --skc--flat-ui--nephritis );
-	}
-
-	// Peter River.
-	&.peter-river {
-		color: var( --skc--flat-ui--peter-river );
-	}
-	&.peter-river-bg {
-		background-color: var( --skc--flat-ui--peter-river );
-	}
-	&.peter-river-border {
-		border-color: var( --skc--flat-ui--peter-river );
-	}
-	&.peter-river-fill {
-		fill: var( --skc--flat-ui--peter-river );
-	}
-	&.peter-river-stroke {
-		stroke: var( --skc--flat-ui--peter-river );
-	}
-
-	// Belize Hole.
-	&.belize-hole {
-		color: var( --skc--flat-ui--belize-hole );
-	}
-	&.belize-hole-bg {
-		background-color: var( --skc--flat-ui--belize-hole );
-	}
-	&.belize-hole-border {
-		border-color: var( --skc--flat-ui--belize-hole );
-	}
-	&.belize-hole-fill {
-		fill: var( --skc--flat-ui--belize-hole );
-	}
-	&.belize-hole-stroke {
-		stroke: var( --skc--flat-ui--belize-hole );
-	}
-
-	// Amethyst.
-	&.amethyst {
-		color: var( --skc--flat-ui--amethyst );
-	}
-	&.amethyst-bg {
-		background-color: var( --skc--flat-ui--amethyst );
-	}
-	&.amethyst-border {
-		border-color: var( --skc--flat-ui--amethyst );
-	}
-	&.amethyst-fill {
-		fill: var( --skc--flat-ui--amethyst );
-	}
-	&.amethyst-stroke {
-		stroke: var( --skc--flat-ui--amethyst );
-	}
-
-	// Wisteria.
-	&.wisteria {
-		color: var( --skc--flat-ui--wisteria );
-	}
-	&.wisteria-bg {
-		background-color: var( --skc--flat-ui--wisteria );
-	}
-	&.wisteria-border {
-		border-color: var( --skc--flat-ui--wisteria );
-	}
-	&.wisteria-fill {
-		fill: var( --skc--flat-ui--wisteria );
-	}
-	&.wisteria-stroke {
-		stroke: var( --skc--flat-ui--wisteria );
-	}
-
-	// Wet Asphalt.
-	&.wet-asphalt {
-		color: var( --skc--flat-ui--wet-asphalt );
-	}
-	&.wet-asphalt-bg {
-		background-color: var( --skc--flat-ui--wet-asphalt );
-	}
-	&.wet-asphalt-border {
-		border-color: var( --skc--flat-ui--wet-asphalt );
-	}
-	&.wet-asphalt-fill {
-		fill: var( --skc--flat-ui--wet-asphalt );
-	}
-	&.wet-asphalt-stroke {
-		stroke: var( --skc--flat-ui--wet-asphalt );
-	}
-
-	// Midnight Blue.
-	&.midnight-blue {
-		color: var( --skc--flat-ui--midnight-blue );
-	}
-	&.midnight-blue-bg {
-		background-color: var( --skc--flat-ui--midnight-blue );
-	}
-	&.midnight-blue-border {
-		border-color: var( --skc--flat-ui--midnight-blue );
-	}
-	&.midnight-blue-fill {
-		fill: var( --skc--flat-ui--midnight-blue );
-	}
-	&.midnight-blue-stroke {
-		stroke: var( --skc--flat-ui--midnight-blue );
-	}
-
-	// Sunflower.
-	&.sunflower {
-		color: var( --skc--flat-ui--sunflower );
-	}
-	&.sunflower-bg {
-		background-color: var( --skc--flat-ui--sunflower );
-	}
-	&.sunflower-border {
-		border-color: var( --skc--flat-ui--sunflower );
-	}
-	&.sunflower-fill {
-		fill: var( --skc--flat-ui--sunflower );
-	}
-	&.sunflower-stroke {
-		stroke: var( --skc--flat-ui--sunflower );
-	}
-
-	// Orange.
-	&.orange {
-		color: var( --skc--flat-ui--orange );
-	}
-	&.orange-bg {
-		background-color: var( --skc--flat-ui--orange );
-	}
-	&.orange-border {
-		border-color: var( --skc--flat-ui--orange );
-	}
-	&.orange-fill {
-		fill: var( --skc--flat-ui--orange );
-	}
-	&.orange-stroke {
-		stroke: var( --skc--flat-ui--orange );
-	}
-
-	// Carrot.
-	&.carrot {
-		color: var( --skc--flat-ui--carrot );
-	}
-	&.carrot-bg {
-		background-color: var( --skc--flat-ui--carrot );
-	}
-	&.carrot-border {
-		border-color: var( --skc--flat-ui--carrot );
-	}
-	&.carrot-fill {
-		fill: var( --skc--flat-ui--carrot );
-	}
-	&.carrot-stroke {
-		stroke: var( --skc--flat-ui--carrot );
-	}
-
-	// Pumpkin.
-	&.pumpkin {
-		color: var( --skc--flat-ui--pumpkin );
-	}
-	&.pumpkin-bg {
-		background-color: var( --skc--flat-ui--pumpkin );
-	}
-	&.pumpkin-border {
-		border-color: var( --skc--flat-ui--pumpkin );
-	}
-	&.pumpkin-fill {
-		fill: var( --skc--flat-ui--pumpkin );
-	}
-	&.pumpkin-stroke {
-		stroke: var( --skc--flat-ui--pumpkin );
-	}
-
-	// Alizarin.
-	&.alizarin {
-		color: var( --skc--flat-ui--alizarin );
-	}
-	&.alizarin-bg {
-		background-color: var( --skc--flat-ui--alizarin );
-	}
-	&.alizarin-border {
-		border-color: var( --skc--flat-ui--alizarin );
-	}
-	&.alizarin-fill {
-		fill: var( --skc--flat-ui--alizarin );
-	}
-	&.alizarin-stroke {
-		stroke: var( --skc--flat-ui--alizarin );
-	}
-
-	// Pomegranate.
-	&.pomegranate {
-		color: var( --skc--flat-ui--pomegranate );
-	}
-	&.pomegranate-bg {
-		background-color: var( --skc--flat-ui--pomegranate );
-	}
-	&.pomegranate-border {
-		border-color: var( --skc--flat-ui--pomegranate );
-	}
-	&.pomegranate-fill {
-		fill: var( --skc--flat-ui--pomegranate );
-	}
-	&.pomegranate-stroke {
-		stroke: var( --skc--flat-ui--pomegranate );
-	}
-
-	// Clouds.
-	&.clouds {
-		color: var( --skc--flat-ui--clouds );
-	}
-	&.clouds-bg {
-		background-color: var( --skc--flat-ui--clouds );
-	}
-	&.clouds-border {
-		border-color: var( --skc--flat-ui--clouds );
-	}
-	&.clouds-fill {
-		fill: var( --skc--flat-ui--clouds );
-	}
-	&.clouds-stroke {
-		stroke: var( --skc--flat-ui--clouds );
-	}
-
-	// Silver.
-	&.silver {
-		color: var( --skc--flat-ui--silver );
-	}
-	&.silver-bg {
-		background-color: var( --skc--flat-ui--silver );
-	}
-	&.silver-border {
-		border-color: var( --skc--flat-ui--silver );
-	}
-	&.silver-fill {
-		fill: var( --skc--flat-ui--silver );
-	}
-	&.silver-stroke {
-		stroke: var( --skc--flat-ui--silver );
-	}
-
-	// Concrete.
-	&.concrete {
-		color: var( --skc--flat-ui--concrete );
-	}
-	&.concrete-bg {
-		background-color: var( --skc--flat-ui--concrete );
-	}
-	&.concrete-border {
-		border-color: var( --skc--flat-ui--concrete );
-	}
-	&.concrete-fill {
-		fill: var( --skc--flat-ui--concrete );
-	}
-	&.concrete-stroke {
-		stroke: var( --skc--flat-ui--concrete );
-	}
-
-	// Asbestos.
-	&.asbestos {
-		color: var( --skc--flat-ui--asbestos );
-	}
-	&.asbestos-bg {
-		background-color: var( --skc--flat-ui--asbestos );
-	}
-	&.asbestos-border {
-		border-color: var( --skc--flat-ui--asbestos );
-	}
-	&.asbestos-fill {
-		fill: var( --skc--flat-ui--asbestos );
-	}
-	&.asbestos-stroke {
-		stroke: var( --skc--flat-ui--asbestos );
+		&.#{$name} {
+			color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-bg {
+			background-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-decoration {
+			text-decoration-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-emphasis {
+			text-emphasis-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-accent {
+			accent-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-caret {
+			caret-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-border {
+			border-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-outline {
+			outline-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-rule {
+			rule-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-column-rule {
+			column-rule-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-row-rule {
+			row-rule-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-fill {
+			fill: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{colors.$palette}--#{$name} );
+					text-fill-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-stroke {
+			stroke: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{colors.$palette}--#{$name} );
+					text-stroke-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-flood {
+			flood-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
+		&.#{$name}-stop {
+			stop-color: var( --skc--#{colors.$palette}--#{$name} );
+		}
 	}
 }

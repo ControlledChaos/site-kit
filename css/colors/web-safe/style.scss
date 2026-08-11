@@ -1,6 +1,9 @@
 ///
 /// Web-Safe colors
 ///
+/// @todo Break `$shades_map` loop into
+///       individual color map loops.
+///
 
 // Modules in the primary colors directory.
 @use '../modules/functions' as f;
@@ -23,5 +26,65 @@
 		--skc--#{c.$palette}--#{$name}-700: #{f.darken( $color, 40% )};
 		--skc--#{c.$palette}--#{$name}-800: #{f.darken( $color, 60% )};
 		--skc--#{c.$palette}--#{$name}-900: #{f.darken( $color, 80% )};
+	}
+}
+
+// CSS classes.
+.css-names {
+
+	@each $name, $color in c.$shades_map {
+		&.#{$name} {
+			color: #{$name};
+		}
+		&.#{$name}-bg {
+			background-color: #{$name};
+		}
+		&.#{$name}-decoration {
+			text-decoration-color: #{$name};
+		}
+		&.#{$name}-emphasis {
+			text-emphasis-color: #{$name};
+		}
+		&.#{$name}-accent {
+			accent-color: #{$name};
+		}
+		&.#{$name}-caret {
+			caret-color: #{$name};
+		}
+		&.#{$name}-border {
+			border-color: #{$name};
+		}
+		&.#{$name}-outline {
+			outline-color: #{$name};
+		}
+		&.#{$name}-rule {
+			rule-color: #{$name};
+		}
+		&.#{$name}-column-rule {
+			column-rule-color: #{$name};
+		}
+		&.#{$name}-row-rule {
+			row-rule-color: #{$name};
+		}
+		&.#{$name}-fill {
+			fill: #{$name};
+		}
+		&.#{$name}-text-fill {
+			-webkit-text-fill-color: #{$name};
+					text-fill-color: #{$name};
+		}
+		&.#{$name}-stroke {
+			stroke: #{$name};
+		}
+		&.#{$name}-text-stroke {
+			-webkit-text-stroke-color: #{$name};
+					text-stroke-color: #{$name};
+		}
+		&.#{$name}-flood {
+			flood-color: #{$name};
+		}
+		&.#{$name}-stop {
+			stop-color: #{$name};
+		}
 	}
 }

@@ -8,6 +8,6 @@
 :host,
 :root {
 	@each $name, $color in colors.$array {
-		--skc--flat-ui--#{$name}: #{$color};
+		--skc--#{colors.$palette}--#{$name}: #{$color};
 	}
 }

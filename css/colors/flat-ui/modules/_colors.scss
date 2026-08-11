@@ -2,27 +2,491 @@
 /// SCSS variables.
 ///
 
+// Modules in the primary colors directory.
+@use '../../modules/functions' as f;
+
 $palette: 'flat-ui';
 
-$array: (
-	'turquoise' : '#1abc9c',
-	'green-sea' : '#16a085',
-	'emerald' : '#2ecc71',
-	'nephritis' : '#27ae60',
-	'peter-river' : '#3498db',
-	'belize-hole' : '#2980b9',
-	'amethyst' : '#9b59b6',
-	'wisteria' : '#8e44ad',
-	'wet-asphalt' : '#34495e',
-	'midnight-blue' : '#2c3e50',
-	'sunflower' : '#f1c40f',
-	'orange' : '#f39c12',
-	'carrot' : '#e67e22',
-	'pumpkin' : '#d35400',
-	'alizarin' : '#e74c3c',
-	'pomegranate' : '#c0392b',
-	'clouds' : '#ecf0f1',
-	'silver' : '#bdc3c7',
-	'concrete' : '#95a5a6',
-	'asbestos' : '#7f8c8d'
-);
+$turquoise: #1abc9c !default;
+$green-sea: #16a085 !default;
+$emerald: #2ecc71 !default;
+$nephritis: #27ae60 !default;
+$peter-river: #3498db !default;
+$belize-hole: #2980b9 !default;
+$amethyst: #9b59b6 !default;
+$wisteria: #8e44ad !default;
+$wet-asphalt: #34495e !default;
+$midnight-blue: #2c3e50 !default;
+$sunflower: #f1c40f !default;
+$orange: #f39c12 !default;
+$carrot: #e67e22 !default;
+$pumpkin: #d35400 !default;
+$alizarin: #e74c3c !default;
+$pomegranate: #c0392b !default;
+$clouds: #ecf0f1 !default;
+$silver: #bdc3c7 !default;
+$concrete: #95a5a6 !default;
+$asbestos: #7f8c8d !default;
+
+$color_map: (
+	'turquoise'     : $turquoise,
+	'green-sea'     : $green-sea,
+	'emerald'       : $emerald,
+	'nephritis'     : $nephritis,
+	'peter-river'   : $peter-river,
+	'belize-hole'   : $belize-hole,
+	'amethyst'      : $amethyst,
+	'wisteria'      : $wisteria,
+	'wet-asphalt'   : $wet-asphalt,
+	'midnight-blue' : $midnight-blue,
+	'sunflower'     : $sunflower,
+	'orange'        : $orange,
+	'carrot'        : $carrot,
+	'pumpkin'       : $pumpkin,
+	'alizarin'      : $alizarin,
+	'pomegranate'   : $pomegranate,
+	'clouds'        : $clouds,
+	'silver'        : $silver,
+	'concrete'      : $concrete,
+	'asbestos'      : $asbestos
+) !default;
+
+$turquoise-100: f.tint( $turquoise, 80% ) !default;
+$turquoise-200: f.tint( $turquoise, 60% ) !default;
+$turquoise-300: f.tint( $turquoise, 40% ) !default;
+$turquoise-400: f.tint( $turquoise, 20% ) !default;
+$turquoise-500: $turquoise !default;
+$turquoise-600: f.shade( $turquoise, 20% ) !default;
+$turquoise-700: f.shade( $turquoise, 40% ) !default;
+$turquoise-800: f.shade( $turquoise, 60% ) !default;
+$turquoise-900: f.shade( $turquoise, 80% ) !default;
+
+$turquoise_map: (
+	'turquoise-100' : $turquoise-100,
+	'turquoise-200' : $turquoise-200,
+	'turquoise-300' : $turquoise-300,
+	'turquoise-400' : $turquoise-400,
+	'turquoise-500' : $turquoise-500,
+	'turquoise-600' : $turquoise-600,
+	'turquoise-700' : $turquoise-700,
+	'turquoise-800' : $turquoise-800,
+	'turquoise-900' : $turquoise-900
+) !default;
+
+$green-sea-100: f.tint( $green-sea, 80% ) !default;
+$green-sea-200: f.tint( $green-sea, 60% ) !default;
+$green-sea-300: f.tint( $green-sea, 40% ) !default;
+$green-sea-400: f.tint( $green-sea, 20% ) !default;
+$green-sea-500: $green-sea !default;
+$green-sea-600: f.shade( $green-sea, 20% ) !default;
+$green-sea-700: f.shade( $green-sea, 40% ) !default;
+$green-sea-800: f.shade( $green-sea, 60% ) !default;
+$green-sea-900: f.shade( $green-sea, 80% ) !default;
+
+$green-sea_map: (
+	'green-sea-100' : $green-sea-100,
+	'green-sea-200' : $green-sea-200,
+	'green-sea-300' : $green-sea-300,
+	'green-sea-400' : $green-sea-400,
+	'green-sea-500' : $green-sea-500,
+	'green-sea-600' : $green-sea-600,
+	'green-sea-700' : $green-sea-700,
+	'green-sea-800' : $green-sea-800,
+	'green-sea-900' : $green-sea-900
+) !default;
+
+$emerald-100: f.tint( $emerald, 80% ) !default;
+$emerald-200: f.tint( $emerald, 60% ) !default;
+$emerald-300: f.tint( $emerald, 40% ) !default;
+$emerald-400: f.tint( $emerald, 20% ) !default;
+$emerald-500: $emerald !default;
+$emerald-600: f.shade( $emerald, 20% ) !default;
+$emerald-700: f.shade( $emerald, 40% ) !default;
+$emerald-800: f.shade( $emerald, 60% ) !default;
+$emerald-900: f.shade( $emerald, 80% ) !default;
+
+$emerald_map: (
+	'emerald-100' : $emerald-100,
+	'emerald-200' : $emerald-200,
+	'emerald-300' : $emerald-300,
+	'emerald-400' : $emerald-400,
+	'emerald-500' : $emerald-500,
+	'emerald-600' : $emerald-600,
+	'emerald-700' : $emerald-700,
+	'emerald-800' : $emerald-800,
+	'emerald-900' : $emerald-900
+) !default;
+
+$nephritis-100: f.tint( $nephritis, 80% ) !default;
+$nephritis-200: f.tint( $nephritis, 60% ) !default;
+$nephritis-300: f.tint( $nephritis, 40% ) !default;
+$nephritis-400: f.tint( $nephritis, 20% ) !default;
+$nephritis-500: $nephritis !default;
+$nephritis-600: f.shade( $nephritis, 20% ) !default;
+$nephritis-700: f.shade( $nephritis, 40% ) !default;
+$nephritis-800: f.shade( $nephritis, 60% ) !default;
+$nephritis-900: f.shade( $nephritis, 80% ) !default;
+
+$nephritis_map: (
+	'nephritis-100' : $nephritis-100,
+	'nephritis-200' : $nephritis-200,
+	'nephritis-300' : $nephritis-300,
+	'nephritis-400' : $nephritis-400,
+	'nephritis-500' : $nephritis-500,
+	'nephritis-600' : $nephritis-600,
+	'nephritis-700' : $nephritis-700,
+	'nephritis-800' : $nephritis-800,
+	'nephritis-900' : $nephritis-900
+) !default;
+
+$peter-river-100: f.tint( $peter-river, 80% ) !default;
+$peter-river-200: f.tint( $peter-river, 60% ) !default;
+$peter-river-300: f.tint( $peter-river, 40% ) !default;
+$peter-river-400: f.tint( $peter-river, 20% ) !default;
+$peter-river-500: $peter-river !default;
+$peter-river-600: f.shade( $peter-river, 20% ) !default;
+$peter-river-700: f.shade( $peter-river, 40% ) !default;
+$peter-river-800: f.shade( $peter-river, 60% ) !default;
+$peter-river-900: f.shade( $peter-river, 80% ) !default;
+
+$peter-river_map: (
+	'peter-river-100' : $peter-river-100,
+	'peter-river-200' : $peter-river-200,
+	'peter-river-300' : $peter-river-300,
+	'peter-river-400' : $peter-river-400,
+	'peter-river-500' : $peter-river-500,
+	'peter-river-600' : $peter-river-600,
+	'peter-river-700' : $peter-river-700,
+	'peter-river-800' : $peter-river-800,
+	'peter-river-900' : $peter-river-900
+) !default;
+
+$belize-hole-100: f.tint( $belize-hole, 80% ) !default;
+$belize-hole-200: f.tint( $belize-hole, 60% ) !default;
+$belize-hole-300: f.tint( $belize-hole, 40% ) !default;
+$belize-hole-400: f.tint( $belize-hole, 20% ) !default;
+$belize-hole-500: $belize-hole !default;
+$belize-hole-600: f.shade( $belize-hole, 20% ) !default;
+$belize-hole-700: f.shade( $belize-hole, 40% ) !default;
+$belize-hole-800: f.shade( $belize-hole, 60% ) !default;
+$belize-hole-900: f.shade( $belize-hole, 80% ) !default;
+
+$belize-hole_map: (
+	'belize-hole-100' : $belize-hole-100,
+	'belize-hole-200' : $belize-hole-200,
+	'belize-hole-300' : $belize-hole-300,
+	'belize-hole-400' : $belize-hole-400,
+	'belize-hole-500' : $belize-hole-500,
+	'belize-hole-600' : $belize-hole-600,
+	'belize-hole-700' : $belize-hole-700,
+	'belize-hole-800' : $belize-hole-800,
+	'belize-hole-900' : $belize-hole-900
+) !default;
+
+$amethyst-100: f.tint( $amethyst, 80% ) !default;
+$amethyst-200: f.tint( $amethyst, 60% ) !default;
+$amethyst-300: f.tint( $amethyst, 40% ) !default;
+$amethyst-400: f.tint( $amethyst, 20% ) !default;
+$amethyst-500: $amethyst !default;
+$amethyst-600: f.shade( $amethyst, 20% ) !default;
+$amethyst-700: f.shade( $amethyst, 40% ) !default;
+$amethyst-800: f.shade( $amethyst, 60% ) !default;
+$amethyst-900: f.shade( $amethyst, 80% ) !default;
+
+$amethyst_map: (
+	'amethyst-100' : $amethyst-100,
+	'amethyst-200' : $amethyst-200,
+	'amethyst-300' : $amethyst-300,
+	'amethyst-400' : $amethyst-400,
+	'amethyst-500' : $amethyst-500,
+	'amethyst-600' : $amethyst-600,
+	'amethyst-700' : $amethyst-700,
+	'amethyst-800' : $amethyst-800,
+	'amethyst-900' : $amethyst-900
+) !default;
+
+$wisteria-100: f.tint( $wisteria, 80% ) !default;
+$wisteria-200: f.tint( $wisteria, 60% ) !default;
+$wisteria-300: f.tint( $wisteria, 40% ) !default;
+$wisteria-400: f.tint( $wisteria, 20% ) !default;
+$wisteria-500: $wisteria !default;
+$wisteria-600: f.shade( $wisteria, 20% ) !default;
+$wisteria-700: f.shade( $wisteria, 40% ) !default;
+$wisteria-800: f.shade( $wisteria, 60% ) !default;
+$wisteria-900: f.shade( $wisteria, 80% ) !default;
+
+$wisteria_map: (
+	'wisteria-100' : $wisteria-100,
+	'wisteria-200' : $wisteria-200,
+	'wisteria-300' : $wisteria-300,
+	'wisteria-400' : $wisteria-400,
+	'wisteria-500' : $wisteria-500,
+	'wisteria-600' : $wisteria-600,
+	'wisteria-700' : $wisteria-700,
+	'wisteria-800' : $wisteria-800,
+	'wisteria-900' : $wisteria-900
+) !default;
+
+$wet-asphalt-100: f.tint( $wet-asphalt, 80% ) !default;
+$wet-asphalt-200: f.tint( $wet-asphalt, 60% ) !default;
+$wet-asphalt-300: f.tint( $wet-asphalt, 40% ) !default;
+$wet-asphalt-400: f.tint( $wet-asphalt, 20% ) !default;
+$wet-asphalt-500: $wet-asphalt !default;
+$wet-asphalt-600: f.shade( $wet-asphalt, 20% ) !default;
+$wet-asphalt-700: f.shade( $wet-asphalt, 40% ) !default;
+$wet-asphalt-800: f.shade( $wet-asphalt, 60% ) !default;
+$wet-asphalt-900: f.shade( $wet-asphalt, 80% ) !default;
+
+$wet-asphalt_map: (
+	'wet-asphalt-100' : $wet-asphalt-100,
+	'wet-asphalt-200' : $wet-asphalt-200,
+	'wet-asphalt-300' : $wet-asphalt-300,
+	'wet-asphalt-400' : $wet-asphalt-400,
+	'wet-asphalt-500' : $wet-asphalt-500,
+	'wet-asphalt-600' : $wet-asphalt-600,
+	'wet-asphalt-700' : $wet-asphalt-700,
+	'wet-asphalt-800' : $wet-asphalt-800,
+	'wet-asphalt-900' : $wet-asphalt-900
+) !default;
+
+$midnight-blue-100: f.tint( $midnight-blue, 80% ) !default;
+$midnight-blue-200: f.tint( $midnight-blue, 60% ) !default;
+$midnight-blue-300: f.tint( $midnight-blue, 40% ) !default;
+$midnight-blue-400: f.tint( $midnight-blue, 20% ) !default;
+$midnight-blue-500: $midnight-blue !default;
+$midnight-blue-600: f.shade( $midnight-blue, 20% ) !default;
+$midnight-blue-700: f.shade( $midnight-blue, 40% ) !default;
+$midnight-blue-800: f.shade( $midnight-blue, 60% ) !default;
+$midnight-blue-900: f.shade( $midnight-blue, 80% ) !default;
+
+$midnight-blue_map: (
+	'midnight-blue-100' : $midnight-blue-100,
+	'midnight-blue-200' : $midnight-blue-200,
+	'midnight-blue-300' : $midnight-blue-300,
+	'midnight-blue-400' : $midnight-blue-400,
+	'midnight-blue-500' : $midnight-blue-500,
+	'midnight-blue-600' : $midnight-blue-600,
+	'midnight-blue-700' : $midnight-blue-700,
+	'midnight-blue-800' : $midnight-blue-800,
+	'midnight-blue-900' : $midnight-blue-900
+) !default;
+
+$sunflower-100: f.tint( $sunflower, 80% ) !default;
+$sunflower-200: f.tint( $sunflower, 60% ) !default;
+$sunflower-300: f.tint( $sunflower, 40% ) !default;
+$sunflower-400: f.tint( $sunflower, 20% ) !default;
+$sunflower-500: $sunflower !default;
+$sunflower-600: f.shade( $sunflower, 20% ) !default;
+$sunflower-700: f.shade( $sunflower, 40% ) !default;
+$sunflower-800: f.shade( $sunflower, 60% ) !default;
+$sunflower-900: f.shade( $sunflower, 80% ) !default;
+
+$sunflower_map: (
+	'sunflower-100' : $sunflower-100,
+	'sunflower-200' : $sunflower-200,
+	'sunflower-300' : $sunflower-300,
+	'sunflower-400' : $sunflower-400,
+	'sunflower-500' : $sunflower-500,
+	'sunflower-600' : $sunflower-600,
+	'sunflower-700' : $sunflower-700,
+	'sunflower-800' : $sunflower-800,
+	'sunflower-900' : $sunflower-900
+) !default;
+
+$orange-100: f.tint( $orange, 80% ) !default;
+$orange-200: f.tint( $orange, 60% ) !default;
+$orange-300: f.tint( $orange, 40% ) !default;
+$orange-400: f.tint( $orange, 20% ) !default;
+$orange-500: $orange !default;
+$orange-600: f.shade( $orange, 20% ) !default;
+$orange-700: f.shade( $orange, 40% ) !default;
+$orange-800: f.shade( $orange, 60% ) !default;
+$orange-900: f.shade( $orange, 80% ) !default;
+
+$orange_map: (
+	'orange-100' : $orange-100,
+	'orange-200' : $orange-200,
+	'orange-300' : $orange-300,
+	'orange-400' : $orange-400,
+	'orange-500' : $orange-500,
+	'orange-600' : $orange-600,
+	'orange-700' : $orange-700,
+	'orange-800' : $orange-800,
+	'orange-900' : $orange-900
+) !default;
+
+$carrot-100: f.tint( $carrot, 80% ) !default;
+$carrot-200: f.tint( $carrot, 60% ) !default;
+$carrot-300: f.tint( $carrot, 40% ) !default;
+$carrot-400: f.tint( $carrot, 20% ) !default;
+$carrot-500: $carrot !default;
+$carrot-600: f.shade( $carrot, 20% ) !default;
+$carrot-700: f.shade( $carrot, 40% ) !default;
+$carrot-800: f.shade( $carrot, 60% ) !default;
+$carrot-900: f.shade( $carrot, 80% ) !default;
+
+$carrot_map: (
+	'carrot-100' : $carrot-100,
+	'carrot-200' : $carrot-200,
+	'carrot-300' : $carrot-300,
+	'carrot-400' : $carrot-400,
+	'carrot-500' : $carrot-500,
+	'carrot-600' : $carrot-600,
+	'carrot-700' : $carrot-700,
+	'carrot-800' : $carrot-800,
+	'carrot-900' : $carrot-900
+) !default;
+
+$pumpkin-100: f.tint( $pumpkin, 80% ) !default;
+$pumpkin-200: f.tint( $pumpkin, 60% ) !default;
+$pumpkin-300: f.tint( $pumpkin, 40% ) !default;
+$pumpkin-400: f.tint( $pumpkin, 20% ) !default;
+$pumpkin-500: $pumpkin !default;
+$pumpkin-600: f.shade( $pumpkin, 20% ) !default;
+$pumpkin-700: f.shade( $pumpkin, 40% ) !default;
+$pumpkin-800: f.shade( $pumpkin, 60% ) !default;
+$pumpkin-900: f.shade( $pumpkin, 80% ) !default;
+
+$pumpkin_map: (
+	'pumpkin-100' : $pumpkin-100,
+	'pumpkin-200' : $pumpkin-200,
+	'pumpkin-300' : $pumpkin-300,
+	'pumpkin-400' : $pumpkin-400,
+	'pumpkin-500' : $pumpkin-500,
+	'pumpkin-600' : $pumpkin-600,
+	'pumpkin-700' : $pumpkin-700,
+	'pumpkin-800' : $pumpkin-800,
+	'pumpkin-900' : $pumpkin-900
+) !default;
+
+$alizarin-100: f.tint( $alizarin, 80% ) !default;
+$alizarin-200: f.tint( $alizarin, 60% ) !default;
+$alizarin-300: f.tint( $alizarin, 40% ) !default;
+$alizarin-400: f.tint( $alizarin, 20% ) !default;
+$alizarin-500: $alizarin !default;
+$alizarin-600: f.shade( $alizarin, 20% ) !default;
+$alizarin-700: f.shade( $alizarin, 40% ) !default;
+$alizarin-800: f.shade( $alizarin, 60% ) !default;
+$alizarin-900: f.shade( $alizarin, 80% ) !default;
+
+$alizarin_map: (
+	'alizarin-100' : $alizarin-100,
+	'alizarin-200' : $alizarin-200,
+	'alizarin-300' : $alizarin-300,
+	'alizarin-400' : $alizarin-400,
+	'alizarin-500' : $alizarin-500,
+	'alizarin-600' : $alizarin-600,
+	'alizarin-700' : $alizarin-700,
+	'alizarin-800' : $alizarin-800,
+	'alizarin-900' : $alizarin-900
+) !default;
+
+$pomegranate-100: f.tint( $pomegranate, 80% ) !default;
+$pomegranate-200: f.tint( $pomegranate, 60% ) !default;
+$pomegranate-300: f.tint( $pomegranate, 40% ) !default;
+$pomegranate-400: f.tint( $pomegranate, 20% ) !default;
+$pomegranate-500: $pomegranate !default;
+$pomegranate-600: f.shade( $pomegranate, 20% ) !default;
+$pomegranate-700: f.shade( $pomegranate, 40% ) !default;
+$pomegranate-800: f.shade( $pomegranate, 60% ) !default;
+$pomegranate-900: f.shade( $pomegranate, 80% ) !default;
+
+$pomegranate_map: (
+	'pomegranate-100' : $pomegranate-100,
+	'pomegranate-200' : $pomegranate-200,
+	'pomegranate-300' : $pomegranate-300,
+	'pomegranate-400' : $pomegranate-400,
+	'pomegranate-500' : $pomegranate-500,
+	'pomegranate-600' : $pomegranate-600,
+	'pomegranate-700' : $pomegranate-700,
+	'pomegranate-800' : $pomegranate-800,
+	'pomegranate-900' : $pomegranate-900
+) !default;
+
+$clouds-100: f.tint( $clouds, 80% ) !default;
+$clouds-200: f.tint( $clouds, 60% ) !default;
+$clouds-300: f.tint( $clouds, 40% ) !default;
+$clouds-400: f.tint( $clouds, 20% ) !default;
+$clouds-500: $clouds !default;
+$clouds-600: f.shade( $clouds, 20% ) !default;
+$clouds-700: f.shade( $clouds, 40% ) !default;
+$clouds-800: f.shade( $clouds, 60% ) !default;
+$clouds-900: f.shade( $clouds, 80% ) !default;
+
+$clouds_map: (
+	'clouds-100' : $clouds-100,
+	'clouds-200' : $clouds-200,
+	'clouds-300' : $clouds-300,
+	'clouds-400' : $clouds-400,
+	'clouds-500' : $clouds-500,
+	'clouds-600' : $clouds-600,
+	'clouds-700' : $clouds-700,
+	'clouds-800' : $clouds-800,
+	'clouds-900' : $clouds-900
+) !default;
+
+$silver-100: f.tint( $silver, 80% ) !default;
+$silver-200: f.tint( $silver, 60% ) !default;
+$silver-300: f.tint( $silver, 40% ) !default;
+$silver-400: f.tint( $silver, 20% ) !default;
+$silver-500: $silver !default;
+$silver-600: f.shade( $silver, 20% ) !default;
+$silver-700: f.shade( $silver, 40% ) !default;
+$silver-800: f.shade( $silver, 60% ) !default;
+$silver-900: f.shade( $silver, 80% ) !default;
+
+$silver_map: (
+	'silver-100' : $silver-100,
+	'silver-200' : $silver-200,
+	'silver-300' : $silver-300,
+	'silver-400' : $silver-400,
+	'silver-500' : $silver-500,
+	'silver-600' : $silver-600,
+	'silver-700' : $silver-700,
+	'silver-800' : $silver-800,
+	'silver-900' : $silver-900
+) !default;
+
+$concrete-100: f.tint( $concrete, 80% ) !default;
+$concrete-200: f.tint( $concrete, 60% ) !default;
+$concrete-300: f.tint( $concrete, 40% ) !default;
+$concrete-400: f.tint( $concrete, 20% ) !default;
+$concrete-500: $concrete !default;
+$concrete-600: f.shade( $concrete, 20% ) !default;
+$concrete-700: f.shade( $concrete, 40% ) !default;
+$concrete-800: f.shade( $concrete, 60% ) !default;
+$concrete-900: f.shade( $concrete, 80% ) !default;
+
+$concrete_map: (
+	'concrete-100' : $concrete-100,
+	'concrete-200' : $concrete-200,
+	'concrete-300' : $concrete-300,
+	'concrete-400' : $concrete-400,
+	'concrete-500' : $concrete-500,
+	'concrete-600' : $concrete-600,
+	'concrete-700' : $concrete-700,
+	'concrete-800' : $concrete-800,
+	'concrete-900' : $concrete-900
+) !default;
+
+$asbestos-100: f.tint( $asbestos, 80% ) !default;
+$asbestos-200: f.tint( $asbestos, 60% ) !default;
+$asbestos-300: f.tint( $asbestos, 40% ) !default;
+$asbestos-400: f.tint( $asbestos, 20% ) !default;
+$asbestos-500: $asbestos !default;
+$asbestos-600: f.shade( $asbestos, 20% ) !default;
+$asbestos-700: f.shade( $asbestos, 40% ) !default;
+$asbestos-800: f.shade( $asbestos, 60% ) !default;
+$asbestos-900: f.shade( $asbestos, 80% ) !default;
+
+$asbestos_map: (
+	'asbestos-100' : $asbestos-100,
+	'asbestos-200' : $asbestos-200,
+	'asbestos-300' : $asbestos-300,
+	'asbestos-400' : $asbestos-400,
+	'asbestos-500' : $asbestos-500,
+	'asbestos-600' : $asbestos-600,
+	'asbestos-700' : $asbestos-700,
+	'asbestos-800' : $asbestos-800,
+	'asbestos-900' : $asbestos-900
+) !default;

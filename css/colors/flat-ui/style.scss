@@ -2,65 +2,1149 @@
 /// Flat UI color palette
 ///
 
-@use 'modules/colors';
-@use 'partials/vars';
+// Modules in the primary colors directory.
+@use '../modules/functions' as f;
 
-// Palette classes.
-.#{colors.$palette} {
-	@each $name, $color in colors.$array {
+// Modules in the palette directory.
+@use 'modules/colors' as c;
 
-		&.#{$name} {
-			color: var( --skc--#{colors.$palette}--#{$name} );
+// CSS properties.
+:host,
+:root {
+	@each $name, $color in c.$color_map {
+		--skc--#{c.$palette}--#{$name}:     #{f.rgb( $color )};
+		--skc--#{c.$palette}--#{$name}-100: #{f.tint( $color, 80% )};
+		--skc--#{c.$palette}--#{$name}-200: #{f.tint( $color, 60% )};
+		--skc--#{c.$palette}--#{$name}-300: #{f.tint( $color, 40% )};
+		--skc--#{c.$palette}--#{$name}-400: #{f.tint( $color, 20% )};
+		--skc--#{c.$palette}--#{$name}-500: #{f.rgb( $color )};
+		--skc--#{c.$palette}--#{$name}-600: #{f.shade( $color, 20% )};
+		--skc--#{c.$palette}--#{$name}-700: #{f.shade( $color, 40% )};
+		--skc--#{c.$palette}--#{$name}-800: #{f.shade( $color, 60% )};
+		--skc--#{c.$palette}--#{$name}-900: #{f.shade( $color, 80% )};
+	}
+}
+
+// CSS classes.
+.#{c.$palette} {
+
+	@each $turquoise, $value in c.$turquoise_map {
+		&.#{$turquoise} {
+			color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-bg {
-			background-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-decoration {
-			text-decoration-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-emphasis {
-			text-emphasis-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-accent {
-			accent-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-caret {
-			caret-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-border {
-			border-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-border {
+			border-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-outline {
-			outline-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-rule {
-			rule-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-column-rule {
-			column-rule-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-row-rule {
-			row-rule-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-fill {
-			fill: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-fill {
+			fill: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-text-fill {
-			-webkit-text-fill-color: var( --skc--#{colors.$palette}--#{$name} );
-					text-fill-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$turquoise} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-stroke {
-			stroke: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-text-stroke {
-			-webkit-text-stroke-color: var( --skc--#{colors.$palette}--#{$name} );
-					text-stroke-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$turquoise} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-flood {
-			flood-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$turquoise} );
 		}
-		&.#{$name}-stop {
-			stop-color: var( --skc--#{colors.$palette}--#{$name} );
+		&.#{$turquoise}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$turquoise} );
+		}
+	}
+
+	@each $green-sea, $value in c.$green-sea_map {
+		&.#{$green-sea} {
+			color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-border {
+			border-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-fill {
+			fill: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$green-sea} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$green-sea} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+		&.#{$green-sea}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$green-sea} );
+		}
+	}
+
+	@each $emerald, $value in c.$emerald_map {
+		&.#{$emerald} {
+			color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-border {
+			border-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-fill {
+			fill: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$emerald} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$emerald} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+		&.#{$emerald}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$emerald} );
+		}
+	}
+
+	@each $nephritis, $value in c.$nephritis_map {
+		&.#{$nephritis} {
+			color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-border {
+			border-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-fill {
+			fill: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$nephritis} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$nephritis} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+		&.#{$nephritis}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$nephritis} );
+		}
+	}
+
+	@each $peter-river, $value in c.$peter-river_map {
+		&.#{$peter-river} {
+			color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-border {
+			border-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-fill {
+			fill: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$peter-river} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$peter-river} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+		&.#{$peter-river}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$peter-river} );
+		}
+	}
+
+	@each $belize-hole, $value in c.$belize-hole_map {
+		&.#{$belize-hole} {
+			color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-border {
+			border-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-fill {
+			fill: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+		&.#{$belize-hole}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$belize-hole} );
+		}
+	}
+
+	@each $amethyst, $value in c.$amethyst_map {
+		&.#{$amethyst} {
+			color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-border {
+			border-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-fill {
+			fill: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$amethyst} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$amethyst} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+		&.#{$amethyst}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$amethyst} );
+		}
+	}
+
+	@each $wisteria, $value in c.$wisteria_map {
+		&.#{$wisteria} {
+			color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-border {
+			border-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-fill {
+			fill: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$wisteria} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$wisteria} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+		&.#{$wisteria}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$wisteria} );
+		}
+	}
+
+	@each $wet-asphalt, $value in c.$wet-asphalt_map {
+		&.#{$wet-asphalt} {
+			color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-border {
+			border-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-fill {
+			fill: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+		&.#{$wet-asphalt}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$wet-asphalt} );
+		}
+	}
+
+	@each $midnight-blue, $value in c.$midnight-blue_map {
+		&.#{$midnight-blue} {
+			color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-border {
+			border-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-fill {
+			fill: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+		&.#{$midnight-blue}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$midnight-blue} );
+		}
+	}
+
+	@each $sunflower, $value in c.$sunflower_map {
+		&.#{$sunflower} {
+			color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-border {
+			border-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-fill {
+			fill: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$sunflower} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$sunflower} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+		&.#{$sunflower}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$sunflower} );
+		}
+	}
+
+	@each $orange, $value in c.$orange_map {
+		&.#{$orange} {
+			color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-border {
+			border-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-fill {
+			fill: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$orange} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$orange} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+		&.#{$orange}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$orange} );
+		}
+	}
+
+	@each $carrot, $value in c.$carrot_map {
+		&.#{$carrot} {
+			color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-border {
+			border-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-fill {
+			fill: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$carrot} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$carrot} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+		&.#{$carrot}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$carrot} );
+		}
+	}
+
+	@each $pumpkin, $value in c.$pumpkin_map {
+		&.#{$pumpkin} {
+			color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-border {
+			border-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-fill {
+			fill: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+		&.#{$pumpkin}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$pumpkin} );
+		}
+	}
+
+	@each $alizarin, $value in c.$alizarin_map {
+		&.#{$alizarin} {
+			color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-border {
+			border-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-fill {
+			fill: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$alizarin} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$alizarin} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+		&.#{$alizarin}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$alizarin} );
+		}
+	}
+
+	@each $pomegranate, $value in c.$pomegranate_map {
+		&.#{$pomegranate} {
+			color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-border {
+			border-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-fill {
+			fill: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+		&.#{$pomegranate}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$pomegranate} );
+		}
+	}
+
+	@each $clouds, $value in c.$clouds_map {
+		&.#{$clouds} {
+			color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-border {
+			border-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-fill {
+			fill: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$clouds} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$clouds} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+		&.#{$clouds}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$clouds} );
+		}
+	}
+
+	@each $silver, $value in c.$silver_map {
+		&.#{$silver} {
+			color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-border {
+			border-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-fill {
+			fill: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$silver} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$silver} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+		&.#{$silver}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$silver} );
+		}
+	}
+
+	@each $concrete, $value in c.$concrete_map {
+		&.#{$concrete} {
+			color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-border {
+			border-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-fill {
+			fill: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$concrete} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$concrete} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+		&.#{$concrete}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$concrete} );
+		}
+	}
+
+	@each $asbestos, $value in c.$asbestos_map {
+		&.#{$asbestos} {
+			color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-bg {
+			background-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-decoration {
+			text-decoration-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-emphasis {
+			text-emphasis-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-accent {
+			accent-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-caret {
+			caret-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-border {
+			border-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-outline {
+			outline-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-rule {
+			rule-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-column-rule {
+			column-rule-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-row-rule {
+			row-rule-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-fill {
+			fill: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-text-fill {
+			-webkit-text-fill-color: var( --skc--#{c.$palette}--#{$asbestos} );
+					text-fill-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-stroke {
+			stroke: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-text-stroke {
+			-webkit-text-stroke-color: var( --skc--#{c.$palette}--#{$asbestos} );
+					text-stroke-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-flood {
+			flood-color: var( --skc--#{c.$palette}--#{$asbestos} );
+		}
+		&.#{$asbestos}-stop {
+			stop-color: var( --skc--#{c.$palette}--#{$asbestos} );
 		}
 	}
 }

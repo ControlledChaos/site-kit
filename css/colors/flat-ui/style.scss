@@ -13,15 +13,15 @@
 :root {
 	@each $name, $color in c.$color_map {
 		--skc--#{c.$palette}--#{$name}:     #{$color};
-		--skc--#{c.$palette}--#{$name}-100: #{f.tint( $color, 80% )};
-		--skc--#{c.$palette}--#{$name}-200: #{f.tint( $color, 60% )};
-		--skc--#{c.$palette}--#{$name}-300: #{f.tint( $color, 40% )};
-		--skc--#{c.$palette}--#{$name}-400: #{f.tint( $color, 20% )};
+		--skc--#{c.$palette}--#{$name}-100: #{f.lighten( $color, 80% )};
+		--skc--#{c.$palette}--#{$name}-200: #{f.lighten( $color, 60% )};
+		--skc--#{c.$palette}--#{$name}-300: #{f.lighten( $color, 40% )};
+		--skc--#{c.$palette}--#{$name}-400: #{f.lighten( $color, 20% )};
 		--skc--#{c.$palette}--#{$name}-500: #{$color};
-		--skc--#{c.$palette}--#{$name}-600: #{f.shade( $color, 20% )};
-		--skc--#{c.$palette}--#{$name}-700: #{f.shade( $color, 40% )};
-		--skc--#{c.$palette}--#{$name}-800: #{f.shade( $color, 60% )};
-		--skc--#{c.$palette}--#{$name}-900: #{f.shade( $color, 80% )};
+		--skc--#{c.$palette}--#{$name}-600: #{f.darken( $color, 20% )};
+		--skc--#{c.$palette}--#{$name}-700: #{f.darken( $color, 40% )};
+		--skc--#{c.$palette}--#{$name}-800: #{f.darken( $color, 60% )};
+		--skc--#{c.$palette}--#{$name}-900: #{f.darken( $color, 80% )};
 	}
 }
 

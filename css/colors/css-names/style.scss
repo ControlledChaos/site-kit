@@ -1,0 +1,88 @@
+///
+/// Official CSS named colors
+///
+
+// Modules in the primary colors directory.
+@use '../modules/functions' as f;
+
+// Modules in the palette directory.
+@use 'modules/colors' as c;
+
+///
+/// CSS properties
+///
+/// Variables are not necessary for built-in names because the
+/// names are shorter and easier. However, variables with hex &
+/// rgb values are included for no particular reason.
+///
+:host,
+:root {
+
+	@each $name, $color in c.$hex_map {
+		--skc--css-names-hex--#{$name}: #{$color};
+	}
+
+	@each $name, $color in c.$hex_map {
+		--skc--css-names-rgb--#{$name}: #{f.rgb( $color )};
+	}
+}
+
+// CSS classes.
+.css-names {
+
+	@each $name, $color in c.$names_map {
+		&.#{$name} {
+			color: #{$name};
+		}
+		&.#{$name}-bg {
+			background-color: #{$name};
+		}
+		&.#{$name}-decoration {
+			text-decoration-color: #{$name};
+		}
+		&.#{$name}-emphasis {
+			text-emphasis-color: #{$name};
+		}
+		&.#{$name}-accent {
+			accent-color: #{$name};
+		}
+		&.#{$name}-caret {
+			caret-color: #{$name};
+		}
+		&.#{$name}-border {
+			border-color: #{$name};
+		}
+		&.#{$name}-outline {
+			outline-color: #{$name};
+		}
+		&.#{$name}-rule {
+			rule-color: #{$name};
+		}
+		&.#{$name}-column-rule {
+			column-rule-color: #{$name};
+		}
+		&.#{$name}-row-rule {
+			row-rule-color: #{$name};
+		}
+		&.#{$name}-fill {
+			fill: #{$name};
+		}
+		&.#{$name}-text-fill {
+			-webkit-text-fill-color: #{$name};
+					text-fill-color: #{$name};
+		}
+		&.#{$name}-stroke {
+			stroke: #{$name};
+		}
+		&.#{$name}-text-stroke {
+			-webkit-text-stroke-color: #{$name};
+					text-stroke-color: #{$name};
+		}
+		&.#{$name}-flood {
+			flood-color: #{$name};
+		}
+		&.#{$name}-stop {
+			stop-color: #{$name};
+		}
+	}
+}

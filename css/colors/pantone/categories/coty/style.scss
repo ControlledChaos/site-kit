@@ -1,0 +1,15 @@
+///
+/// Pantone colors of the year
+///
+/// Beginning in the year 2000
+///
+
+@use 'modules/colors' as c;
+
+// CSS properties.
+:host,
+:root {
+	@each $name, $color in c.$coty_map {
+		--skc--#{c.$palette}--#{$name}: #{$color};
+	}
+}

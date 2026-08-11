@@ -1,0 +1,68 @@
+///
+/// Pantone colors of the year
+///
+
+$palette: 'pantone';
+
+// In ascending annual order from 2000.
+$cerulean-blue: '#9bb7d4';
+$fuchsia-rose: '#c74375';
+$true-red: '#bf1932';
+$aqua-sky: '#7bc4e2';
+$tigerlily: '#e2583e';
+$blue-turquoise: '#53b0ae';
+$sand-dollar: '#decdbe';
+$chili-pepper: '#9b1b30';
+$blue-iris: '#5a5b9f';
+$mimosa: '#efc050';
+$turquoise: '#45b5aa';
+$honeysuckle: '#d94f70';
+$tangerine-tango: '#dd4132';
+$emerald: '#009473';
+$radiant-orchid: '#b163a3';
+$marsala: '#964f4c';
+$rose-quartz: '#f7cac9';
+$serenity: '#92a8d1';
+$greenery: '#88b04b';
+$ultra-violet: '#5f4b8b';
+$living-coral: '#ff6f61';
+$classic-blue: '#0f4c81';
+$illuminating: '#f5df4d';
+$ultimate-gray: '#939597';
+$veri-peri: '#6667ab';
+$viva-magenta: '#bb2649';
+$peach-fuzz: '#ffbe98';
+$mocha-mousse: '#a47764';
+$cloud-dancer: '#f0eee9';
+
+$coty_map: (
+	'2000--cerulean-blue' : $cerulean-blue,
+	'2001--fuchsia-rose' : $fuchsia-rose,
+	'2002--true-red' : $true-red,
+	'2003--aqua-sky' : $aqua-sky,
+	'2004--tigerlily' : $tigerlily,
+	'2005--blue-turquoise' : $blue-turquoise,
+	'2006--sand-dollar' : $sand-dollar,
+	'2007--chili-pepper' : $chili-pepper,
+	'2008--blue-iris' : $blue-iris,
+	'2009--mimosa' : $mimosa,
+	'2010--turquoise' : $turquoise,
+	'2011--honeysuckle' : $honeysuckle,
+	'2012--tangerine-tango' : $tangerine-tango,
+	'2013--emerald' : $emerald,
+	'2014--radiant-orchid' : $radiant-orchid,
+	'2015--marsala' : $marsala,
+	'2016--rose-quartz' : $rose-quartz,
+	'2016--serenity' : $serenity,
+	'2017--greenery' : $greenery,
+	'2018--ultra-violet' : $ultra-violet,
+	'2019--living-coral' : $living-coral,
+	'2020--classic-blue' : $classic-blue,
+	'2021--illuminating' : $illuminating,
+	'2021--ultimate-gray' : $ultimate-gray,
+	'2022--veri-peri' : $veri-peri,
+	'2023--viva-magenta' : $viva-magenta,
+	'2024--peach-fuzz' : $peach-fuzz,
+	'2025--mocha-mousse' : $mocha-mousse,
+	'2026--cloud-dancer' : $cloud-dancer
+);

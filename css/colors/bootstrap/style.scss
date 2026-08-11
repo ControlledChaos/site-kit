@@ -12,11 +12,11 @@
 :host,
 :root {
 
-	@each $name, $color in c.$gray {
+	@each $name, $color in c.$gray_map {
 		--skc--#{c.$palette}--#{$name}: #{f.rgb( $color )};
 	}
 
-	@each $name, $color in c.$colors {
+	@each $name, $color in c.$color_map {
 		--skc--#{c.$palette}--#{$name}:     #{f.rgb( $color )};
 		--skc--#{c.$palette}--#{$name}-100: #{f.tint( $color, 80% )};
 		--skc--#{c.$palette}--#{$name}-200: #{f.tint( $color, 60% )};
@@ -33,7 +33,7 @@
 // CSS classes.
 .#{c.$palette} {
 
-	@each $gray, $value in c.$gray {
+	@each $gray, $value in c.$gray_map {
 		&.#{$gray} {
 			color: var( --skc--#{c.$palette}--#{$gray} );
 		}
@@ -89,7 +89,7 @@
 		}
 	}
 
-	@each $blue, $value in c.$blues {
+	@each $blue, $value in c.$blue_map {
 		&.#{$blue} {
 			color: var( --skc--#{c.$palette}--#{$blue} );
 		}
@@ -145,7 +145,7 @@
 		}
 	}
 
-	@each $indigo, $value in c.$indigos {
+	@each $indigo, $value in c.$indigo_map {
 		&.#{$indigo} {
 			color: var( --skc--#{c.$palette}--#{$indigo} );
 		}
@@ -201,7 +201,7 @@
 		}
 	}
 
-	@each $purple, $value in c.$purples {
+	@each $purple, $value in c.$purple_map {
 		&.#{$purple} {
 			color: var( --skc--#{c.$palette}--#{$purple} );
 		}
@@ -257,7 +257,7 @@
 		}
 	}
 
-	@each $pink, $value in c.$pinks {
+	@each $pink, $value in c.$pink_map {
 		&.#{$pink} {
 			color: var( --skc--#{c.$palette}--#{$pink} );
 		}
@@ -313,7 +313,7 @@
 		}
 	}
 
-	@each $red, $value in c.$reds {
+	@each $red, $value in c.$red_map {
 		&.#{$red} {
 			color: var( --skc--#{c.$palette}--#{$red} );
 		}
@@ -369,7 +369,7 @@
 		}
 	}
 
-	@each $orange, $value in c.$oranges {
+	@each $orange, $value in c.$orange_map {
 		&.#{$orange} {
 			color: var( --skc--#{c.$palette}--#{$orange} );
 		}
@@ -425,7 +425,7 @@
 		}
 	}
 
-	@each $yellow, $value in c.$yellows {
+	@each $yellow, $value in c.$yellow_map {
 		&.#{$yellow} {
 			color: var( --skc--#{c.$palette}--#{$yellow} );
 		}
@@ -481,7 +481,7 @@
 		}
 	}
 
-	@each $green, $value in c.$greens {
+	@each $green, $value in c.$green_map {
 		&.#{$green} {
 			color: var( --skc--#{c.$palette}--#{$green} );
 		}
@@ -537,7 +537,7 @@
 		}
 	}
 
-	@each $teal, $value in c.$teals {
+	@each $teal, $value in c.$teal_map {
 		&.#{$teal} {
 			color: var( --skc--#{c.$palette}--#{$teal} );
 		}
@@ -593,7 +593,7 @@
 		}
 	}
 
-	@each $cyan, $value in c.$cyans {
+	@each $cyan, $value in c.$cyan_map {
 		&.#{$cyan} {
 			color: var( --skc--#{c.$palette}--#{$cyan} );
 		}

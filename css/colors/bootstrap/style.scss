@@ -13,16 +13,16 @@
 :root {
 
 	@each $name, $color in c.$gray_map {
-		--skc--#{c.$palette}--#{$name}: #{f.rgb( $color )};
+		--skc--#{c.$palette}--#{$name}: #{$color};
 	}
 
 	@each $name, $color in c.$color_map {
-		--skc--#{c.$palette}--#{$name}:     #{f.rgb( $color )};
+		--skc--#{c.$palette}--#{$name}:     #{$color};
 		--skc--#{c.$palette}--#{$name}-100: #{f.tint( $color, 80% )};
 		--skc--#{c.$palette}--#{$name}-200: #{f.tint( $color, 60% )};
 		--skc--#{c.$palette}--#{$name}-300: #{f.tint( $color, 40% )};
 		--skc--#{c.$palette}--#{$name}-400: #{f.tint( $color, 20% )};
-		--skc--#{c.$palette}--#{$name}-500: #{f.rgb( $color )};
+		--skc--#{c.$palette}--#{$name}-500: #{$color};
 		--skc--#{c.$palette}--#{$name}-600: #{f.shade( $color, 20% )};
 		--skc--#{c.$palette}--#{$name}-700: #{f.shade( $color, 40% )};
 		--skc--#{c.$palette}--#{$name}-800: #{f.shade( $color, 60% )};
